@@ -1,24 +1,28 @@
 # ==========================================================================
-# backeend.com.br — redirecionamento para o domínio novo (beend.tech)
+# backeend.com.br — redirecionar para beend.tech (mantendo o login)
 #
-# Use este arquivo no servidor do backeend.com.br DEPOIS de publicar o site
-# em beend.tech. Ele manda tudo (com caminho preservado) para beend.tech,
-# exceto as áreas de sistema que continuam no domínio antigo, se houver.
+# Use este arquivo na hospedagem do backeend.com.br DEPOIS de publicar o
+# site em beend.tech. Ele:
+#   - mantém /cliente, /app/, /totem/ e /totempro/ funcionando aqui
+#   - manda TODO o resto (com o caminho) para https://beend.tech
 #
-# Se você ainda NÃO vai migrar, não use este arquivo.
+# ⚠️ As exceções usam a barra final ("/totem/") de propósito.
+# Com "^/totem" (sem barra) o redirecionamento também pegaria
+# /totem-de-pesquisa-de-satisfacao.html — uma página do site,
+# que passaria a dar 404 no servidor antigo.
 # ==========================================================================
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # Exceções: não redirecionar estas áreas (ajuste se não existirem)
+  # --- Exceções: não redirecionar estas áreas ---
   RewriteCond %{REQUEST_URI} ^/cliente [NC,OR]
-  RewriteCond %{REQUEST_URI} ^/app [NC,OR]
-  RewriteCond %{REQUEST_URI} ^/totem [NC,OR]
-  RewriteCond %{REQUEST_URI} ^/totempro [NC]
+  RewriteCond %{REQUEST_URI} ^/app/ [NC,OR]
+  RewriteCond %{REQUEST_URI} ^/totem/ [NC,OR]
+  RewriteCond %{REQUEST_URI} ^/totempro/ [NC]
   RewriteRule ^ - [L]
 
-  # Todo o resto vai para beend.tech, preservando o caminho
+  # --- Todo o resto vai para beend.tech, preservando o caminho ---
   RewriteRule ^ https://beend.tech%{REQUEST_URI} [L,R=301]
 </IfModule>
 
