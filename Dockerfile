@@ -14,6 +14,10 @@ WORKDIR /app
 
 COPY . .
 
+# domínio canônico (defina no Coolify em Build Variables se for usar outro)
+ARG SITE_URL=https://www.backeend.com.br
+ENV SITE_URL=$SITE_URL
+
 # gera as páginas e depois monta a pasta de produção
 RUN node build.mjs && node tools/make-producao.mjs
 

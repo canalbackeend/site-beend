@@ -227,3 +227,28 @@ O site foi gerado com `SITE.url = "https://beend.tech"`. Para publicar:
 4. Envie o novo sitemap no Search Console (propriedade `beend.tech`) e marque o `backeend.com.br` como mudança de endereço.
 
 **Se ainda não for migrar**, troque `SITE.url` para `https://www.backeend.com.br`, rode `npm run build` e use o `.htaccess` original. O site funciona igual nos dois domínios.
+
+---
+
+## 10. Deploy no Coolify (VPS)
+
+O projeto já vem com o kit:
+
+| Arquivo | Função |
+|---|---|
+| `Dockerfile` | build em 2 estágios: gera o site e serve com nginx |
+| `deploy/nginx.conf` | equivale ao `.htaccess` (404, cache, segurança, 301) |
+| `.dockerignore` | não envia `producao/` nem `node_modules` |
+| `.gitignore` | não versiona saídas de build |
+
+**Configuração no Coolify:**
+
+1. Source: repositório `canalbackeend/site-beend`, branch `main`
+2. **Build Pack:** `Dockerfile`
+3. **Port:** `80`
+4. **Build Variable (opcional):** `SITE_URL=https://beend.tech` — troca o domínio canônico, o sitemap e o `llms.txt` sem alterar código
+5. Domain: o domínio desejado
+
+Sem `SITE_URL`, o site assume `https://www.backeend.com.br`.
+
+> **Não force HTTPS no nginx** se o Cloudflare estiver na frente: ele entrega HTTP interno e isso cria *loop* de redirecionamento. O HTTPS fica com o Cloudflare ou com o Traefik do Coolify.
