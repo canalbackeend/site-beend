@@ -2,22 +2,18 @@
 # backeend.com.br — redirecionar o SITE para beend.tech
 # mantendo TODAS as áreas e serviços funcionando aqui.
 #
-# Use na hospedagem do backeend.com.br DEPOIS de publicar o site em beend.tech.
+# ► SUBIR ESTE ARQUIVO COM O NOME EXATO:  .htaccess
+#   (na raiz do backeend.com.br — o mesmo lugar do index.html)
+#
+# ► Antes, renomeie o .htaccess atual para  .htaccess.bak
 #
 # Regra: só o SITE (home, páginas .html, blog, assets e arquivos de SEO) vai
-# para beend.tech. Todo o resto — aplicações, loja, e-mails, painéis — fica.
-#
-# As áreas abaixo foram descobertas testando o servidor:
-#   /cliente    Administrativo - Totem PRO   (login dos clientes)
-#   /totem      Login - Backeend
-#   /totempro   App Totem
-#   /beta       Administrativo - Totem PRO
-#   /api        API
-#   /loja       Loja Online
-#   /webmail    Webmail
-#   /cpanel     cPanel
-#   /app /web /img /css /js /medias /assets  (diretórios)
+# para beend.tech. Aplicações, loja, e-mails e painéis continuam aqui.
 # ==========================================================================
+
+# ---- essenciais para as aplicações (sem isto, /cliente dá 403) ----
+Options -Indexes
+DirectoryIndex index.html index.php index.htm login.php
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
