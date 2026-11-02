@@ -1,28 +1,41 @@
 # ==========================================================================
-# backeend.com.br — redirecionar para beend.tech (mantendo o login)
+# backeend.com.br — redirecionar o SITE para beend.tech
+# mantendo TODAS as áreas e serviços funcionando aqui.
 #
-# Use este arquivo na hospedagem do backeend.com.br DEPOIS de publicar o
-# site em beend.tech. Ele:
-#   - mantém /cliente, /app/, /totem/ e /totempro/ funcionando aqui
-#   - manda TODO o resto (com o caminho) para https://beend.tech
+# Use na hospedagem do backeend.com.br DEPOIS de publicar o site em beend.tech.
 #
-# ⚠️ As exceções usam a barra final ("/totem/") de propósito.
-# Com "^/totem" (sem barra) o redirecionamento também pegaria
-# /totem-de-pesquisa-de-satisfacao.html — uma página do site,
-# que passaria a dar 404 no servidor antigo.
+# Regra: só o SITE (home, páginas .html, blog, assets e arquivos de SEO) vai
+# para beend.tech. Todo o resto — aplicações, loja, e-mails, painéis — fica.
+#
+# As áreas abaixo foram descobertas testando o servidor:
+#   /cliente    Administrativo - Totem PRO   (login dos clientes)
+#   /totem      Login - Backeend
+#   /totempro   App Totem
+#   /beta       Administrativo - Totem PRO
+#   /api        API
+#   /loja       Loja Online
+#   /webmail    Webmail
+#   /cpanel     cPanel
+#   /app /web /img /css /js /medias /assets  (diretórios)
 # ==========================================================================
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # --- Exceções: não redirecionar estas áreas ---
-  RewriteCond %{REQUEST_URI} ^/cliente [NC,OR]
-  RewriteCond %{REQUEST_URI} ^/app/ [NC,OR]
-  RewriteCond %{REQUEST_URI} ^/totem/ [NC,OR]
-  RewriteCond %{REQUEST_URI} ^/totempro/ [NC]
+  # ------------------------------------------------------------------------
+  # 1. ÁREAS QUE FICAM AQUI (não redirecionar)
+  #    O padrão "(/|$)" garante que "/totem" e "/totem/..." ficam,
+  #    mas "/totem-de-pesquisa-de-satisfacao.html" NÃO é capturado —
+  #    essa é uma página do site e precisa ir para o beend.tech.
+  # ------------------------------------------------------------------------
+  RewriteCond %{REQUEST_URI} ^/(cliente|totem|totempro|beta|app|web|api|webmail|cpanel|loja|img|css|js|medias|assets)(/|$) [NC]
   RewriteRule ^ - [L]
 
-  # --- Todo o resto vai para beend.tech, preservando o caminho ---
+  # ------------------------------------------------------------------------
+  # 2. TODO O RESTO É O SITE → vai para beend.tech (preservando o caminho)
+  #    Inclui: / , /*.html , /blog/ , /robots.txt , /sitemap.xml ,
+  #            /llms.txt , /404.html , /google*.html
+  # ------------------------------------------------------------------------
   RewriteRule ^ https://beend.tech%{REQUEST_URI} [L,R=301]
 </IfModule>
 
