@@ -1,0 +1,25 @@
+# ==========================================================================
+# backeend.com.br — redirecionamento para o domínio novo (beend.tech)
+#
+# Use este arquivo no servidor do backeend.com.br DEPOIS de publicar o site
+# em beend.tech. Ele manda tudo (com caminho preservado) para beend.tech,
+# exceto as áreas de sistema que continuam no domínio antigo, se houver.
+#
+# Se você ainda NÃO vai migrar, não use este arquivo.
+# ==========================================================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Exceções: não redirecionar estas áreas (ajuste se não existirem)
+  RewriteCond %{REQUEST_URI} ^/cliente [NC,OR]
+  RewriteCond %{REQUEST_URI} ^/app [NC,OR]
+  RewriteCond %{REQUEST_URI} ^/totem [NC,OR]
+  RewriteCond %{REQUEST_URI} ^/totempro [NC]
+  RewriteRule ^ - [L]
+
+  # Todo o resto vai para beend.tech, preservando o caminho
+  RewriteRule ^ https://beend.tech%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+ErrorDocument 404 https://beend.tech/404.html

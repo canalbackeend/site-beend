@@ -1,0 +1,9 @@
+node_modules
+producao
+dist
+.git
+.gitignore
+*.log
+.DS_Store
+_m.html
+_t.html

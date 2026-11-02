@@ -1,0 +1,15 @@
+# Redirecionamentos para Netlify / Cloudflare Pages
+
+# Domínio antigo -> domínio novo (preserva o caminho)
+https://www.backeend.com.br/*  https://beend.tech/:splat  301!
+https://backeend.com.br/*      https://beend.tech/:splat  301!
+
+# Links antigos do template
+/index.php              /
+/index.html             /
+/services-details.html  /totem-de-pesquisa-de-satisfacao.html
+/service-details.html   /totem-de-pesquisa-de-satisfacao.html
+/portfolio-details.html /segmentos.html
+
+# 404
+/*  /404.html  404

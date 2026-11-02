@@ -1,0 +1,13 @@
+{
+  "name": "backeend-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site estático da Backeend — totens e plataforma de pesquisa de satisfação",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node tools/check.mjs",
+    "serve": "python3 -m http.server 8099",
+    "producao": "node tools/make-producao.mjs"
+  }
+}

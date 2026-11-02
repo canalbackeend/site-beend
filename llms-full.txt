@@ -1,0 +1,2791 @@
+# beend.tech — conteúdo completo
+
+# Totem de pesquisa de satisfação para ouvir o cliente na hora certa
+URL: https://www.backeend.com.br/
+
+Página inicial: totens e plataforma beend.tech para pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, análise de sentimento com IA, em aquisição ou locação.
+
+Por que importa
+
+ A opinião do cliente perde valor quando chega tarde
+
+ Pesquisa por e-mail chega horas depois. No totem, a avaliação acontece enquanto a experiência ainda está fresca — e vira dado para o gestor agir.
+
+ 
+
+ 
+ Resposta no momento da verdade
+ O cliente avalia logo após o atendimento, sem esperar e-mail, sem instalar aplicativo e sem criar conta.
+
+ Mais volume de respostas
+ Duas carinhas ou uma nota de 0 a 10 levam segundos. A barreira baixa e a amostra cresce.
+
+ Decisão com dado, não com impressão
+ O painel consolida NPS, CSAT e CES por período, unidade e campanha para orientar treinamento e melhoria.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Solução completa
+
+ Totem, aplicativo e painel no mesmo pacote
+
+ A beend.tech cuida do equipamento, do software de coleta e da leitura dos dados. Você escolhe o modelo, personaliza a tela com a sua marca e acompanha tudo online.
+
+ 
+
+ 
+ 
+ 
+ Painel do sistema beend.tech, com NPS, filtros por período e terminal, e exportação de relatórios. 
+ 
+ 
+ O que está incluído
+
+ 
+ Totem ou tablet: locação (comodato) ou venda, com personalização visual.
+
+ Aplicativo de coleta: pesquisas NPS, CSAT, CES, SMILE e QUIZ, com modo offline.
+
+ Painel administrativo: resultados em tempo real, filtros e exportação de dados.
+
+ Multicanal: a mesma campanha pode rodar no totem, por QR Code e por WhatsApp.
+
+ Suporte humanizado: atendimento em horário comercial para implantação e operação.
+
+ 
+ Entenda o que é um totem de pesquisa de satisfação → 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Recursos do sistema
+
+ O que a plataforma beend.tech faz
+
+ Recursos reais do sistema, do totem ao relatório — inclusive o que quase nenhum concorrente entrega: análise de sentimento com IA e fluxo de campanha em node.
+
+ 
+
+ 
+ Campanhas NPS, CSAT, SMILE e QUIZ
+ Quatro modelos de pesquisa, combináveis na mesma operação.
+
+ Feedback em tempo real
+ A resposta aparece no painel assim que o cliente conclui.
+
+ Análise de sentimento com IA
+ Os comentários abertos são classificados automaticamente por sentimento.
+
+ Rotas em node
+ Monte o fluxo da campanha em um editor visual: cada resposta leva a uma próxima pergunta ou ao fim.
+
+ Relatório diário por e-mail
+ Resumo enviado automaticamente no horário configurado.
+
+ Terminais online e offline
+ Coleta sem internet, com sincronização automática quando a conexão volta.
+
+ Vários terminais
+ Gestão geral ou individual, com acesso separado para cada terminal.
+
+ Gráfico de evolução
+ Acompanhe a satisfação ao longo do tempo e compare períodos.
+
+ Exportação PDF, Excel e CSV
+ Relatórios por data e horário, prontos para levar à reunião.
+
+ 
+
+ 
+ 
+ Editor de campanha em node: cada resposta pode levar a uma nova pergunta. 
+ 
+ 
+
+ 
+ 
+ 
+ Como funciona
+
+ Da instalação ao primeiro relatório
+
+ 
+ 
+
+ 
+ 
+ Definimos o modelo e o canal
+
+ Totem de mesa, totem de piso ou seu próprio tablet. A coleta pode ser no totem, por QR Code ou por WhatsApp, conforme o fluxo do seu atendimento.
+
+ 
+
+ 
+ Personalizamos a pesquisa
+
+ Logo, cores, perguntas e escala. Você escolhe entre NPS (0 a 10), CSAT, CES, carinhas ou um quiz com perguntas e respostas.
+
+ 
+
+ 
+ O cliente responde na hora
+
+ Sem cadastro e sem aplicativo. As respostas ficam no dispositivo quando a internet cai e sincronizam quando a conexão volta.
+
+ 
+
+ 
+ Você acompanha e age
+
+ O painel mostra as métricas por período, campanha e unidade. Com o dado na mão, dá para corrigir o atendimento e acompanhar a evolução.
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ Métricas
+
+ NPS, CSAT e CES — cada um responde a uma pergunta
+
+ Não existe uma métrica melhor que a outra: existe a métrica certa para cada decisão. A plataforma calcula as três e permite combinar campanhas.
+
+ 
+
+ 
+ 
+ NPS — recomendação
+
+ “De 0 a 10, quanto você recomendaria nossa empresa a um amigo?” Mede lealdade e relação de longo prazo.
+
+ Como calcular 
+ 
+ 
+ CSAT — satisfação
+
+ “Qual seu grau de satisfação com o atendimento?” Mede a experiência imediata em uma escala de 1 a 5.
+
+ Como calcular 
+ 
+ 
+ CES — esforço
+
+ “Foi fácil resolver o que você precisava?” Mede o esforço do cliente e aponta atritos no processo.
+
+ Como calcular 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Modelos
+
+ Totem de mesa ou de piso?
+
+ A escolha depende do fluxo e do espaço. Os dois modelos rodam o mesmo aplicativo e o mesmo painel.
+
+ 
+
+ 
+ 
+ 
+ Totem de mesa
+
+ Compacto, para balcões, caixas, consultórios e recepções. Ideal para pontos de atendimento individuais.
+
+ Ver totem de mesa 
+ 
+ 
+ 
+ Totem de piso
+
+ Maior visibilidade em lojas, shoppings, restaurantes e recepções de alto fluxo. Chama a atenção de quem passa.
+
+ Ver totem de piso 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Canais
+
+ O cliente responde onde for mais fácil
+
+ 
+ 
+
+ 
+ 
+ Totem touch
+
+ Coleta presencial, no ponto de atendimento, com a identidade visual da empresa.
+
+ Saiba mais 
+ 
+ 
+ QR Code
+
+ Um scan abre a pesquisa no celular do cliente. Funciona em recibos, mesas, embalagens e cartazes.
+
+ Saiba mais 
+ 
+ 
+ WhatsApp
+
+ Disparo de pesquisa pelo canal em que o cliente já está. Alta taxa de abertura e resposta.
+
+ Saiba mais 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Segmentos
+
+ Onde o totem de pesquisa faz diferença
+
+ A mesma plataforma se adapta ao fluxo de farmácias, clínicas, restaurantes, lojas, academias, concessionárias e eventos.
+
+ 
+
+ 
+ Farmácias
+
+ Clínicas e consultórios
+
+ Restaurantes e cafeterias
+
+ Varejo e lojas
+
+ Academias
+
+ Concessionárias
+
+ Shoppings
+
+ Eventos e feiras
+
+ Órgãos públicos
+
+ 
+ Ver aplicações por segmento → 
+
+ 
+
+ 
+ 
+ 
+ Investimento
+
+ A partir de R$ 69,90 por mês, com teste grátis
+
+ O preço do sistema é público: quatro planos, a partir de R$ 69,90/mês, e 7 dias de teste sem cartão de crédito. O totem é contratado separadamente.
+
+ 
+
+ 
+ 
+ Sistema
+
+ A partir de R$ 69,90/mês
+
+ Básico, Profissional, Premium e Master. No plano anual, você paga dez mensalidades. Teste grátis por 7 dias, sem cartão. 
+
+ Ver os planos → · Testar grátis → 
+
+ 
+
+ 
+ Aquisição do totem
+
+ Totem PRO INFINITY
+
+ Você adquire o equipamento e ele passa a ser patrimônio da empresa. Se já tem um tablet Android 5.1+, pode usá-lo sem custo de hardware.
+
+ Ver venda de totens → 
+
+ 
+
+ 
+ Locação
+
+ Comodato mensal
+
+ Investimento inicial menor: você paga pelo uso do totem junto com a plataforma. Indicado para testes, redes com várias unidades e eventos.
+
+ Locação de totens →
+
+
+## Perguntas frequentes
+
+## O que é um totem de pesquisa de satisfação?
+É um terminal com tela touch instalado no ponto de atendimento para o cliente avaliar a experiência em poucos toques. As respostas alimentam um painel que calcula indicadores como NPS, CSAT e CES.
+
+## Quanto custa um totem de pesquisa de satisfação?
+O sistema começa em R$ 69,90 por mês , com quatro planos (Básico, Profissional, Premium e Master). O totem é contratado separadamente, por aquisição ou locação. O plano anual equivale a dez mensalidades.
+
+## O totem funciona sem internet?
+Sim. O aplicativo armazena as respostas no dispositivo e sincroniza com o painel quando a conexão é restabelecida. Para relatórios em tempo real, recomendamos uma conexão estável.
+
+## Posso usar meu próprio tablet?
+Sim. O sistema é compatível com dispositivos Android 5.1 ou superior, incluindo tablets e boxes próprios, o que reduz o investimento em hardware.
+
+## A beend.tech vende ou aluga os totens?
+As duas opções estão disponíveis. Na locação (comodato), o cliente paga uma mensalidade pelo uso do equipamento. Na compra, o totem passa a ser patrimônio da empresa.
+
+## Quais métricas a plataforma calcula?
+NPS (Net Promoter Score), CSAT (Customer Satisfaction Score), CES (Customer Effort Score), além de pesquisas com escala de carinhas (SMILE) e quiz com perguntas e respostas.
+
+## Tem teste grátis?
+Sim. São 7 dias de teste com o sistema completo, sem cartão de crédito, usando o seu próprio tablet Android 5.1 ou superior. Ao final, você decide se continua.
+
+
+---
+
+# Totem de pesquisa de satisfação: o que é, como funciona e quanto custa
+URL: https://www.backeend.com.br/totem-de-pesquisa-de-satisfacao.html
+
+Guia sobre totem de pesquisa de satisfação: definição, funcionamento, métricas (NPS, CSAT, CES), tipos (mesa, piso, tablet), instalação, modo offline e preço.
+
+Um totem de pesquisa de satisfação é um terminal com tela touch instalado no ponto de atendimento. O cliente responde a uma pesquisa curta — de duas carinhas a uma nota de 0 a 10 — e a resposta vai para um painel que calcula indicadores como NPS, CSAT e CES.
+
+ O totem pode ser alugado (comodato) ou adquirido, e a plataforma de gestão é contratada à parte — equipamento e software com valor sob consulta. A coleta também pode ser feita por QR Code, WhatsApp ou pelo tablet da própria empresa.
+
+ 
+
+ 
+ Neste guia
+
+ 
+ O que é um totem de pesquisa de satisfação 
+
+ Como funciona, passo a passo 
+
+ O que dá para medir 
+
+ Tipos de totem: mesa, piso ou tablet 
+
+ Onde instalar 
+
+ Funciona sem internet? 
+
+ Quanto custa 
+
+ Como escolher 
+
+ Perguntas frequentes 
+
+ 
+ 
+
+ 
+ O que é um totem de pesquisa de satisfação
+
+ O totem de pesquisa de satisfação — também chamado de totem de avaliação de atendimento ou opiniômetro digital — é um equipamento colocado onde o cliente termina a experiência: na saída do caixa, no balcão da farmácia, na recepção da clínica ou na mesa do restaurante.
+
+ A função é reduzir ao mínimo o esforço de responder. Em vez de um formulário longo enviado por e-mail, o cliente toca em uma carinha, escolhe uma nota ou responde a duas ou três perguntas. O dado chega ao gestor no mesmo dia, e não na semana seguinte.
+
+ Um totem completo tem três partes:
+
+ 
+ Hardware: tela touch, estrutura, fonte e conectividade.
+
+ Aplicativo de coleta: a pesquisa que aparece na tela, com a identidade visual da empresa.
+
+ Plataforma de gestão: o painel onde as respostas viram indicadores, gráficos e relatórios.
+
+ 
+ É essa terceira parte que separa um totem de pesquisa de um totem puramente publicitário. Sem o painel, o equipamento coleta dados que ninguém consegue analisar.
+
+ Como funciona, passo a passo
+
+ 
+ Escolha do modelo e do ponto: totem de mesa para balcões e consultórios, totem de piso para locais de alto fluxo, ou o próprio tablet da empresa.
+
+ Configuração da pesquisa: definição do tipo (NPS, CSAT, CES, carinhas ou quiz), das perguntas e da escala.
+
+ Personalização visual: logo, cores e mensagem de convite na tela e na estrutura do totem.
+
+ Coleta: o cliente responde sem cadastro e sem instalar aplicativo. Se a internet cair, as respostas ficam armazenadas no dispositivo.
+
+ Sincronização e análise: as respostas sobem para a plataforma e aparecem no painel, por período, campanha e unidade.
+
+ Ação: o gestor usa o resultado para treinar a equipe, corrigir o processo e comparar a evolução ao longo do tempo.
+
+ 
+
+ O que dá para medir
+
+ A plataforma da beend.tech trabalha com as principais métricas de experiência do cliente. Cada uma responde a uma pergunta diferente:
+
+ 
+ 
+ Métricas disponíveis no totem de pesquisa 
+ 
+ Métrica O que mede Pergunta típica Cálculo 
+
+ 
+ 
+ NPS Lealdade e disposição de recomendar “De 0 a 10, quanto você recomendaria nossa empresa?” % promotores (9–10) − % detratores (0–6) 
+
+ CSAT Satisfação com uma experiência específica “Qual seu grau de satisfação com o atendimento?” % de respostas 4 e 5 em uma escala de 1 a 5 
+
+ CES Esforço para resolver o que precisava “Foi fácil resolver o que você precisava?” Média da escala de esforço 
+
+ SMILE Percepção imediata, sem texto “Como foi seu atendimento hoje?” Distribuição entre as carinhas 
+
+ QUIZ Respostas específicas sobre produtos e processos Perguntas de múltipla escolha Distribuição por alternativa 
+
+ 
+ 
+ 
+
+ Para entender quando usar cada uma, veja o guia de pesquisa de satisfação com NPS, CSAT e CES .
+
+ Tipos de totem: mesa, piso ou tablet
+
+ Totem de mesa
+
+ Compacto, fica sobre o balcão ou a recepção. É indicado para atendimentos individuais, como consultórios, clínicas, farmácias, cafés e pequenas lojas. O cliente responde enquanto ainda está na frente do atendente.
+
+ Ver detalhes do totem de mesa → 
+
+ Totem de piso
+
+ Fica apoiado no chão e tem maior presença visual. Funciona melhor em locais de circulação intensa: shoppings, supermercados, restaurantes, concessionárias e recepções de grande porte.
+
+ Ver detalhes do totem de piso → 
+
+ Tablet próprio
+
+ Quem já tem tablets Android pode usá-los como terminal de pesquisa, com o aplicativo em modo quiosque. É a opção de menor investimento em hardware, desde que o dispositivo tenha Android 5.1 ou superior.
+
+ Onde instalar o totem
+
+ O melhor ponto é aquele em que o cliente já para naturalmente depois do atendimento. Alguns exemplos:
+
+ 
+ Farmácias: ao lado do caixa, depois do pagamento.
+
+ Clínicas e consultórios: na recepção, na saída do consultório.
+
+ Restaurantes e cafeterias: próximo ao caixa ou na saída.
+
+ Varejo: no balcão de pagamento ou na entrega do produto.
+
+ Academias: na recepção e na saída do vestiário.
+
+ Shoppings e eventos: em áreas de circulação, com convite visual claro.
+
+ 
+ Colocar o totem escondido ou de costas para o fluxo reduz a taxa de resposta. Um convite visível, com uma pergunta curta, faz mais diferença do que a quantidade de perguntas.
+
+ Funciona sem internet?
+
+ Sim. O aplicativo armazena as respostas no próprio dispositivo e sincroniza com a plataforma quando a conexão volta. Isso evita perda de dados em locais com Wi-Fi instável ou em eventos.
+
+ A recomendação é manter uma conexão estável quando o objetivo é acompanhar os resultados em tempo real. Para operação offline, o totem continua coletando normalmente e envia o que ficou pendente na primeira oportunidade.
+
+ Quanto custa um totem de pesquisa de satisfação
+
+ O custo tem dois componentes: o software e o equipamento.
+
+ 
+ Software: a plataforma de coleta e gestão é cobrada à parte do equipamento. O valor depende do número de terminais e dos canais usados (totem, QR Code e WhatsApp) e é informado em proposta.
+
+ Equipamento: pode ser alugado em regime de comodato ou comprado. O preço varia conforme o modelo (mesa ou piso), o tamanho da tela, a personalização e a quantidade.
+
+ 
+ Para comparar os dois modelos comerciais, veja locação de totens e venda de totens . Os valores de hardware são informados em proposta, porque dependem da configuração.
+
+ Como escolher um totem de pesquisa
+
+ Antes de decidir, vale responder a sete perguntas:
+
+ 
+ Onde o totem vai ficar? Balcão pede modelo de mesa; grande circulação pede piso.
+
+ Quantos pontos de coleta? O número de terminais muda o plano e o investimento.
+
+ Qual métrica importa? NPS para relação de longo prazo, CSAT para a experiência imediata, CES para atritos de processo.
+
+ Precisa de offline? Se a internet é instável, confirme o armazenamento local e a sincronização automática.
+
+ Quem vai analisar os dados? O painel precisa ser simples para quem vai usar no dia a dia.
+
+ Há personalização? A identidade visual aumenta o engajamento e a percepção de marca.
+
+ Qual o suporte? Implantação, treinamento e atendimento em horário comercial evitam que o totem vire mobília.
+
+ 
+
+ 
+ Erro comum: comprar o equipamento e tratar o software como detalhe. O totem é a ponta visível; o valor está na capacidade de transformar respostas em decisão. Avalie o painel e o suporte antes de comparar apenas o preço do hardware.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Veja como aplicar no seu tipo de negócio
+
+ 
+ 
+
+ 
+ Por segmento
+ Farmácias, clínicas, restaurantes, varejo, academias e eventos.
+ Ver segmentos 
+ Planos e preços
+ O que está incluso, o que muda o valor e como pedir proposta.
+ Ver planos 
+ Guia de métricas
+ NPS, CSAT e CES com fórmulas, exemplos e perguntas prontas.
+ Ler o guia
+
+
+## Perguntas frequentes
+
+## Qual a diferença entre totem de pesquisa e totem de autoatendimento?
+O totem de autoatendimento permite que o cliente faça pedidos, pagamentos ou emissão de senhas. O totem de pesquisa é dedicado a coletar a opinião do cliente sobre a experiência. Um mesmo equipamento pode ter as duas funções, mas o objetivo e o software são diferentes.
+
+## Quantas perguntas deve ter a pesquisa no totem?
+O ideal é de uma a três perguntas. No totem, o cliente está em pé e de saída: uma pergunta de nota ou carinha seguida de um comentário opcional costuma ter a melhor taxa de resposta.
+
+## O totem de pesquisa precisa de internet?
+Para coletar, não. O aplicativo funciona offline e armazena as respostas no dispositivo. Para acompanhar os resultados em tempo real, é necessária uma conexão para sincronizar os dados.
+
+## Posso personalizar o totem com a minha marca?
+Sim. A estrutura e a tela podem receber a identidade visual da empresa, incluindo logo, cores e mensagem de convite. A personalização é definida junto com o modelo na proposta.
+
+## O totem substitui a pesquisa por e-mail ou WhatsApp?
+Não precisa substituir: os canais se complementam. O totem captura a experiência presencial; o WhatsApp e o QR Code alcançam o cliente depois. A plataforma consolida tudo no mesmo painel.
+
+## Quanto tempo leva para implantar?
+Depende do modelo escolhido, da personalização e da quantidade de terminais. O prazo é informado na proposta, junto com o cronograma de entrega e configuração.
+
+
+---
+
+# Pesquisa de satisfação: guia com NPS, CSAT e CES
+URL: https://www.backeend.com.br/pesquisa-de-satisfacao.html
+
+Guia de pesquisa de satisfação com definições e fórmulas de NPS, CSAT e CES, comparativo, 12 exemplos de perguntas e boas práticas.
+
+Pesquisa de satisfação é o processo de medir a percepção do cliente sobre uma experiência, produto ou serviço. As três métricas mais usadas são NPS (disposição de recomendar), CSAT (satisfação imediata) e CES (esforço para resolver um problema).
+
+ A escolha depende da pergunta que a empresa quer responder. O ideal é combinar uma métrica principal com um comentário aberto e coletar no momento mais próximo possível da experiência.
+
+ 
+
+ 
+ Neste guia
+
+ 
+ O que é pesquisa de satisfação 
+
+ NPS: recomendação 
+
+ CSAT: satisfação 
+
+ CES: esforço 
+
+ Qual métrica usar 
+
+ 12 exemplos de perguntas 
+
+ Boas práticas 
+
+ Erros comuns 
+
+ Perguntas frequentes 
+
+ 
+ 
+
+ 
+ O que é pesquisa de satisfação
+
+ Pesquisa de satisfação é a coleta estruturada da opinião do cliente sobre a experiência que ele acabou de ter. Ela pode acontecer no ponto de atendimento, por WhatsApp, por e-mail ou por QR Code.
+
+ O objetivo não é acumular notas, e sim responder a três perguntas de gestão: o cliente está satisfeito? Ele voltaria e recomendaria? O que precisa ser corrigido?
+
+ Uma pesquisa útil tem quatro características:
+
+ 
+ Curta: uma a três perguntas, respondidas em menos de um minuto.
+
+ Próxima da experiência: aplicada logo depois do atendimento, não dias depois.
+
+ Comparável: mesma escala e mesma pergunta ao longo do tempo.
+
+ Acionável: o resultado chega a quem pode tomar decisão.
+
+ 
+
+ NPS: Net Promoter Score
+
+ O NPS mede a disposição do cliente de recomendar a empresa. É a métrica de lealdade mais usada no mundo e funciona bem para acompanhar a relação de longo prazo.
+
+ Pergunta: “De 0 a 10, qual a chance de você recomendar nossa empresa a um amigo ou colega?”
+
+ As respostas são classificadas em três grupos:
+
+ 
+ Promotores (9–10): clientes leais, que recomendam e impulsionam o crescimento.
+
+ Neutros (7–8): satisfeitos, mas sem entusiasmo; podem migrar para um concorrente.
+
+ Detratores (0–6): insatisfeitos, que podem prejudicar a reputação.
+
+ 
+ Fórmula: NPS = % de promotores − % de detratores. O resultado vai de −100 a +100.
+
+ 
+ 
+ Faixas de referência para interpretar o NPS 
+ Faixa Leitura O que fazer 
+ 
+ 
+ 75 a 100 Zona de excelência Manter o padrão e usar os promotores como fonte de prova social. 
+
+ 50 a 74 Muito bom Identificar o que separa os neutros dos promotores. 
+
+ 0 a 49 Razoável Priorizar os detratores e entender os motivos recorrentes. 
+
+ Abaixo de 0 Crítico Tratar como alerta: há mais detratores do que promotores. 
+
+ 
+ 
+ 
+
+ As faixas são referências de mercado, não regras absolutas. O mais importante é comparar o NPS com ele mesmo ao longo do tempo e entre unidades comparáveis.
+
+ CSAT: Customer Satisfaction Score
+
+ O CSAT mede a satisfação com uma experiência específica: o atendimento de hoje, a compra, a entrega, o suporte. É a métrica certa quando a pergunta é “como foi desta vez?”.
+
+ Pergunta: “Qual seu grau de satisfação com o atendimento que você recebeu hoje?”
+
+ O formato mais comum é uma escala de 1 a 5, em que 5 é “muito satisfeito”. Também é possível usar uma escala de carinhas, mais rápida e acessível para o público em geral.
+
+ Fórmula: CSAT = (respostas 4 e 5 ÷ total de respostas) × 100.
+
+ Um CSAT de 80% significa que oito em cada dez clientes avaliaram a experiência como satisfatória ou muito satisfatória.
+
+ CES: Customer Effort Score
+
+ O CES mede o esforço que o cliente precisou fazer para resolver o que queria. Ele captura atritos que o NPS e o CSAT não explicam: quantas etapas, quantas transferências, quanto tempo de espera.
+
+ Pergunta: “Foi fácil resolver o que você precisava hoje?”
+
+ A escala pode ser de 1 a 5 ou de 1 a 7, de “muito difícil” a “muito fácil”. Quanto maior a média, melhor — porque maior facilidade significa menos esforço.
+
+ O CES é especialmente útil em atendimento, suporte técnico, ouvidoria e jornadas com várias etapas.
+
+ Qual métrica usar
+
+ 
+ 
+ Comparativo entre NPS, CSAT e CES 
+ Métrica Pergunta que responde Horizonte Quando usar 
+ 
+ 
+ NPS O cliente recomendaria a empresa? Longo prazo Acompanhamento mensal da relação com a marca. 
+
+ CSAT O cliente ficou satisfeito nesta experiência? Imediato Pós-atendimento, pós-compra, pós-entrega. 
+
+ CES Foi fácil resolver o problema? Jornada Processos com etapas, suporte e ouvidoria. 
+
+ 
+ 
+ 
+
+ Uma boa combinação é usar CSAT no totem , no momento do atendimento, e NPS por WhatsApp , alguns dias depois. O CES entra quando o processo tem várias etapas e você suspeita que o atrito está no caminho, não no resultado.
+
+ 12 exemplos de perguntas de pesquisa de satisfação
+
+ No ponto de atendimento (totem)
+
+ 
+ “Como foi seu atendimento hoje?” — escala de carinhas.
+
+ “Qual seu grau de satisfação com o atendimento?” — escala de 1 a 5.
+
+ “O que poderíamos melhorar?” — campo aberto opcional.
+
+ “Você encontrou o que procurava?” — sim ou não.
+
+ 
+ Depois da compra ou do serviço
+
+ 
+ “De 0 a 10, quanto você recomendaria nossa empresa?” — NPS.
+
+ “O produto atendeu sua expectativa?” — escala de 1 a 5.
+
+ “A entrega chegou no prazo?” — sim, não ou parcialmente.
+
+ “Foi fácil resolver o que você precisava?” — CES.
+
+ 
+ Por segmento
+
+ 
+ Farmácia: “O farmacêutico esclareceu suas dúvidas sobre o medicamento?”
+
+ Clínica: “Como você avalia o tempo de espera e a atenção da recepção?”
+
+ Restaurante: “Como avalia o atendimento, o tempo de preparo e o ambiente?”
+
+ Varejo: “O vendedor ajudou você a encontrar o que precisava?”
+
+ 
+
+ Boas práticas para uma pesquisa que gera ação
+
+ 
+ Pergunte perto da experiência. A memória do cliente esfria rápido; o totem resolve isso melhor do que o e-mail.
+
+ Use uma pergunta principal. Nota ou carinha primeiro; comentário depois, sempre opcional.
+
+ Mantenha a escala estável. Mudar de 1 a 5 para 0 a 10 no meio da série quebra a comparação.
+
+ Feche o ciclo. Quem responde precisa saber que algo mudou. Comunique as melhorias feitas.
+
+ Olhe a distribuição, não só a média. Dois clientes com notas opostas podem gerar a mesma média.
+
+ Respeite a LGPD. Informe a finalidade, colete o mínimo necessário e não exponha comentários identificáveis sem autorização.
+
+ 
+
+ Erros comuns
+
+ 
+ Pesquisa longa demais. No totem, cada pergunta adicional derruba a taxa de conclusão.
+
+ Perguntar e não agir. A pesquisa vira burocracia e o cliente percebe.
+
+ Comparar métricas diferentes. NPS, CSAT e CES medem coisas distintas; não misture os números no mesmo gráfico.
+
+ Incentivar só notas altas. O atendente que pede “nota 10” contamina a amostra e esconde o problema.
+
+ Ignorar o comentário. A nota mostra o tamanho do problema; o comentário mostra a causa.
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Aplicar na prática
+
+ Da teoria ao totem no balcão
+
+ 
+ 
+
+ 
+ Totem de pesquisa
+ O que é, como funciona, modelos e preço.
+ Ver guia 
+ Pesquisa por WhatsApp
+ Como aplicar depois do atendimento, com modelo de mensagem.
+ Ver guia 
+ Pesquisa por QR Code
+ Como criar e onde posicionar para aumentar respostas.
+ Ver guia
+
+
+## Perguntas frequentes
+
+## Qual a diferença entre NPS e CSAT?
+O NPS mede a disposição de recomendar a empresa e reflete a relação de longo prazo. O CSAT mede a satisfação com uma experiência específica, como o atendimento de hoje. Os dois podem ser usados juntos: CSAT no ponto de atendimento e NPS em pesquisas periódicas.
+
+## Qual é um bom índice de satisfação?
+Depende do setor e do histórico da própria empresa. Como referência, CSAT acima de 80% é considerado bom, e NPS acima de 50 é muito bom. O mais importante é acompanhar a evolução e comparar unidades semelhantes.
+
+## Quantas perguntas deve ter uma pesquisa de satisfação?
+De uma a três. A pergunta principal deve capturar a métrica (nota ou carinha) e as demais devem ser opcionais. Pesquisas longas reduzem a taxa de resposta, especialmente no totem.
+
+## Como calcular o NPS?
+Subtraia o percentual de detratores (notas 0 a 6) do percentual de promotores (notas 9 e 10). Os neutros (7 e 8) entram no total, mas não na conta. O resultado varia de −100 a +100.
+
+## Pesquisa de satisfação precisa de consentimento?
+A LGPD exige finalidade clara e tratamento adequado dos dados. Colete o mínimo necessário, informe para que a resposta será usada e evite expor comentários identificáveis. Para contato posterior, registre o consentimento.
+
+
+---
+
+# Locação de totem de pesquisa de satisfação
+URL: https://www.backeend.com.br/locacao-de-totens.html
+
+Locação de totem de pesquisa de satisfação em comodato: menor investimento inicial, equipamento, software e suporte incluídos, para redes, testes e eventos.
+
+Na locação (comodato), a beend.tech fornece o totem, o aplicativo e o painel de resultados por uma mensalidade. O equipamento fica na sua empresa durante o contrato e não exige o investimento inicial de uma compra.
+
+ É a opção mais usada por redes que estão testando o canal, por operações com várias unidades e por empresas que preferem tratar o totem como serviço, e não como patrimônio.
+
+ 
+
+ 
+ Como funciona a locação
+
+ 
+ Diagnóstico: entendemos o fluxo de atendimento, o número de pontos e a métrica principal.
+
+ Proposta: definimos modelo (mesa ou piso), quantidade de terminais, personalização e mensalidade.
+
+ Implantação: o totem é configurado com a sua pesquisa e a sua identidade visual.
+
+ Operação: o cliente responde no ponto de atendimento e você acompanha tudo no painel.
+
+ Suporte: atendimento em horário comercial para ajustes, dúvidas e manutenção.
+
+ 
+
+ O que está incluído
+
+ 
+ Uso do totem durante o período contratado.
+
+ Aplicativo de coleta com pesquisas NPS, CSAT, CES, SMILE e QUIZ.
+
+ Painel online de resultados, com filtros e exportação.
+
+ Personalização visual do equipamento e da tela.
+
+ Suporte humanizado em horário comercial.
+
+ 
+ As condições de prazo, manutenção e devolução do equipamento são definidas em contrato e informadas na proposta.
+
+ Para quem a locação faz mais sentido
+
+ 
+ Redes com várias unidades: padroniza a coleta sem imobilizar capital em equipamentos.
+
+ Empresas testando o canal: permite validar a operação antes de decidir pela compra.
+
+ Eventos e ações temporárias: o totem é usado por um período determinado e devolvido depois.
+
+ Operações que preferem serviço a patrimônio: manutenção e suporte ficam com o fornecedor.
+
+ 
+
+ Locação ou venda?
+
+ 
+ 
+ Comparativo entre locação e venda do totem 
+ Critério Locação (comodato) Venda 
+ 
+ 
+ Investimento inicial Menor Maior 
+
+ Propriedade do equipamento Do fornecedor Da sua empresa 
+
+ Manutenção Incluída no contrato Conforme condições da compra 
+
+ Indicado para Testes, redes, eventos e uso contínuo sem compra Operação permanente com uso intenso 
+
+ Personalização Sim Sim 
+
+ 
+ 
+ 
+
+ Locação para eventos
+
+ Feiras, convenções e ações de curta duração também podem usar o totem para captar a avaliação dos participantes. Nesse caso, o escopo inclui o período de uso, a personalização da tela e a configuração da pesquisa.
+
+ Para eventos, vale definir antes: quantos dias de coleta, se haverá internet estável no local e qual métrica será apresentada no relatório final.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Compare
+
+ Prefere comprar o equipamento?
+
+ 
+ 
+
+ Na venda, o totem passa a ser patrimônio da empresa e o software continua como assinatura. Entenda as diferenças antes de decidir.
+
+ Ver venda de totens
+
+
+## Perguntas frequentes
+
+## O que é comodato?
+No comodato, o fornecedor cede o equipamento para uso durante o contrato, e o cliente paga uma mensalidade. O totem não passa a ser propriedade da empresa ao final, salvo condição específica prevista em contrato.
+
+## A locação inclui o software?
+Sim. O pacote de locação combina o uso do equipamento com o aplicativo de coleta e o painel de resultados. As condições são detalhadas na proposta.
+
+## Posso personalizar o totem alugado?
+Sim. A estrutura e a tela podem receber a identidade visual da empresa. O grau de personalização e o prazo são definidos junto com o modelo escolhido.
+
+## Qual o prazo mínimo de locação?
+O prazo depende do projeto e da quantidade de terminais. Ele é informado na proposta comercial, junto com as condições de renovação e devolução.
+
+## A locação serve para eventos?
+Sim, para ações de curta duração o escopo é ajustado ao período do evento. É importante confirmar a disponibilidade do modelo e a logística de entrega com antecedência.
+
+
+---
+
+# Venda de totem de pesquisa de satisfação
+URL: https://www.backeend.com.br/venda-de-totens.html
+
+Venda de totem de pesquisa de satisfação personalizado, com aplicativo Android, modo offline e painel de NPS, CSAT e CES; software em assinatura.
+
+Na compra, o totem é fabricado com a identidade visual da empresa e passa a ser patrimônio dela. O aplicativo de coleta já sai configurado, e a plataforma de resultados é contratada como assinatura, com valor sob consulta.
+
+ A compra é indicada para quem vai usar o totem de forma contínua, em um ou mais pontos fixos de atendimento.
+
+ 
+
+ 
+ O que você recebe
+
+ 
+ Totem personalizado: estrutura com a identidade visual da empresa.
+
+ Aplicativo de coleta: pesquisas NPS, CSAT, CES, SMILE e QUIZ, com modo offline.
+
+ Painel de resultados: acesso online às respostas, métricas e relatórios.
+
+ Configuração inicial: pesquisa e telas ajustadas ao seu fluxo de atendimento.
+
+ Suporte: atendimento em horário comercial para operação e dúvidas.
+
+ 
+
+ Quando vale a pena comprar
+
+ 
+ O totem ficará em uso contínuo, por mais de um ciclo de contrato.
+
+ A empresa quer o equipamento no ativo e prefere não pagar locação indefinidamente.
+
+ Há necessidade de personalização profunda da estrutura.
+
+ O ponto de atendimento é fixo e tem previsão de permanência longa.
+
+ 
+ Se o objetivo é testar o canal, cobrir várias unidades temporariamente ou usar o totem em um evento, a locação costuma ser mais racional.
+
+ Especificações da solução
+
+ 
+ 
+ Características do totem e do software 
+ Item Detalhe 
+ 
+ 
+ Sistema Android 5.1 ou superior 
+
+ Tela Touch screen, com interface personalizável 
+
+ Coleta NPS, CSAT, CES, SMILE (carinhas) e QUIZ 
+
+ Conectividade Wi-Fi; operação offline com sincronização posterior 
+
+ Personalização Logo, cores e mensagens da empresa 
+
+ Gestão Painel online, com resultados por período e campanha 
+
+ Dispositivo próprio Compatível com tablets e boxes Android 5.1+ 
+
+ 
+ 
+ 
+
+ Modelos, tamanhos de tela e materiais variam conforme a configuração escolhida. As especificações finais constam na proposta.
+
+ Compra e assinatura do software
+
+ A compra do equipamento e a assinatura da plataforma são contratos distintos. O totem pode ser adquirido uma vez; o software é cobrado mensalmente para manter coleta, painel, armazenamento e suporte.
+
+ Isso permite atualizar a pesquisa, criar novas campanhas e acompanhar os indicadores sem trocar o equipamento.
+
+ Personalização
+
+ A personalização pode incluir a cor da estrutura, a aplicação da logo, a tela de espera, a mensagem de convite e as telas de agradecimento. O objetivo é que o totem pareça parte da operação, e não um corpo estranho no balcão.
+
+ Quanto mais alinhado ao ambiente, maior tende a ser a taxa de resposta.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Antes de decidir
+
+ Compare compra e locação
+
+ 
+ 
+
+ 
+ Locação (comodato)
+ Menor investimento inicial, manutenção incluída e foco no serviço.
+ Ver locação 
+ Planos e preços
+ O que está incluso, o que muda o valor e como pedir proposta.
+ Ver planos
+
+
+## Perguntas frequentes
+
+## O totem comprado inclui o software?
+O equipamento é vendido separadamente da assinatura da plataforma. O software é contratado por mensalidade e inclui coleta, painel e suporte. O valor é informado em proposta.
+
+## Posso comprar só o software e usar meu tablet?
+Sim. O aplicativo é compatível com dispositivos Android 5.1 ou superior. Nesse caso, o investimento em hardware é zero, desde que o tablet atenda aos requisitos e possa ficar dedicado à pesquisa.
+
+## Qual o prazo de entrega do totem?
+Depende do modelo, da personalização e da quantidade. O prazo é informado na proposta, junto com o cronograma de produção e configuração.
+
+## Há garantia no equipamento?
+As condições de garantia e assistência são definidas em contrato e informadas na proposta comercial, conforme o modelo adquirido.
+
+## O totem pode ser usado em mais de uma unidade?
+Sim. Cada ponto pode ter um terminal próprio, todos ligados à mesma plataforma. O plano é dimensionado pelo número de terminais e canais.
+
+
+---
+
+# Totem de mesa para pesquisa de satisfação
+URL: https://www.backeend.com.br/totem-de-mesa.html
+
+Totem de mesa para pesquisa de satisfação: compacto, touch, personalizado, com modo offline; indicado para balcões, clínicas, farmácias e restaurantes.
+
+O totem de mesa é um terminal touch compacto, apoiado sobre o balcão ou a recepção, usado para o cliente responder à pesquisa de satisfação logo após o atendimento. Ele roda o mesmo aplicativo e o mesmo painel do totem de piso.
+
+ Atenção: aqui falamos de totem digital para pesquisa de satisfação, não de totens de papel ou de acrílico usados em festas e sinalização.
+
+ 
+
+ 
+ Onde usar
+
+ 
+ Farmácias: ao lado do caixa, após a orientação do farmacêutico.
+
+ Clínicas e consultórios: na recepção e na saída do atendimento.
+
+ Restaurantes e cafeterias: no caixa ou na entrega da conta.
+
+ Lojas e concessionárias: no balcão de vendas e na entrega do produto.
+
+ Academias: na recepção e no acesso à área de treino.
+
+ 
+
+ Por que escolher o modelo de mesa
+
+ 
+ Ocupa pouco espaço: cabe em balcões estreitos e recepções pequenas.
+
+ Fica no campo de visão: o cliente vê o convite enquanto espera o atendimento terminar.
+
+ Interação assistida: o atendente pode indicar o totem no momento certo.
+
+ Mesma plataforma: métricas, campanhas e painel idênticos aos do modelo de piso.
+
+ 
+
+ Como o cliente responde
+
+ A tela mostra a pesquisa configurada pela empresa. Pode ser uma escala de carinhas, uma nota de 0 a 10 (NPS), uma escala de 1 a 5 (CSAT) ou um quiz com perguntas de múltipla escolha.
+
+ Em poucos toques, a resposta é registrada. Se a internet cair, ela fica armazenada no dispositivo e sincroniza quando a conexão volta.
+
+ Especificações
+
+ 
+ 
+ Ficha técnica do totem de mesa 
+ Item Detalhe 
+ 
+ 
+ Formato Compacto, para apoio em balcão ou recepção 
+
+ Tela Touch screen 
+
+ Sistema Android 5.1 ou superior 
+
+ Conectividade Wi-Fi, com operação offline e sincronização 
+
+ Pesquisas NPS, CSAT, CES, SMILE e QUIZ 
+
+ Personalização Logo, cores e mensagens da empresa 
+
+ Gestão Painel online com resultados por período e campanha 
+
+ 
+ 
+ 
+
+ Tamanhos de tela, materiais e acabamentos variam conforme o modelo. As especificações finais constam na proposta.
+
+ Personalização e instalação
+
+ O totem pode receber a identidade visual da empresa na estrutura e na tela. A instalação é simples: basta um ponto de energia e, para tempo real, uma conexão Wi-Fi estável.
+
+ Para redes com várias unidades, o ideal é padronizar a pesquisa e a comunicação visual, mantendo o mesmo conjunto de perguntas para permitir comparação entre lojas.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Outro formato
+
+ Precisa de mais visibilidade?
+
+ 
+ 
+
+ Em locais de alto fluxo, o totem de piso chama mais atenção e captura respostas de quem passa.
+
+ Ver totem de piso
+
+
+## Perguntas frequentes
+
+## Qual a diferença entre totem de mesa e totem de piso?
+O de mesa é compacto e fica sobre o balcão, indicado para atendimento individual. O de piso fica apoiado no chão, tem maior presença visual e é usado em locais de grande circulação. O software e as métricas são os mesmos.
+
+## O totem de mesa precisa de internet?
+Para coletar, não: as respostas ficam no dispositivo e sincronizam depois. Para acompanhar os resultados em tempo real, é necessária uma conexão Wi-Fi.
+
+## Cabe em balcão pequeno?
+O modelo é compacto e foi pensado para balcões e recepções com pouco espaço. As dimensões exatas variam conforme o modelo e são informadas na proposta.
+
+## Posso usar em consultório ou clínica?
+Sim. É um dos usos mais comuns: o paciente avalia o atendimento na recepção, logo após a consulta, sem precisar preencher formulário.
+
+
+---
+
+# Totem de piso para pesquisa de satisfação
+URL: https://www.backeend.com.br/totem-de-piso.html
+
+Totem de piso para pesquisa de satisfação: maior visibilidade, touch, personalização e modo offline; indicado para shoppings, lojas, restaurantes e eventos.
+
+O totem de piso é um terminal touch apoiado no chão, com estrutura vertical, usado para coletar a pesquisa de satisfação em locais de grande circulação. A altura e a presença visual fazem o convite antes de o cliente chegar ao balcão.
+
+ É indicado para shoppings, supermercados, restaurantes, concessionárias, recepções de grande porte e eventos.
+
+ 
+
+ 
+ Onde usar
+
+ 
+ Shoppings e centros comerciais: áreas de circulação e praças de alimentação.
+
+ Supermercados: saída do caixa e corredores de maior fluxo.
+
+ Restaurantes: entrada, caixa e saída.
+
+ Concessionárias: showroom e área de entrega.
+
+ Eventos e feiras: pontos de saída e estandes.
+
+ Recepções corporativas: halls de atendimento e áreas de espera.
+
+ 
+
+ Vantagens do modelo de piso
+
+ 
+ Visibilidade: é visto de longe e funciona como convite à participação.
+
+ Fluxo independente: o cliente responde sem depender do atendente.
+
+ Volume: em locais movimentados, tende a gerar mais respostas por dia.
+
+ Personalização: a estrutura pode receber a identidade visual da marca.
+
+ 
+
+ Como funciona a coleta
+
+ O cliente se aproxima, lê o convite na tela e responde à pesquisa em poucos toques. A resposta é enviada ao painel, que consolida NPS, CSAT, CES e comentários.
+
+ Em caso de queda de internet, as respostas ficam armazenadas no equipamento e são sincronizadas automaticamente quando a conexão retorna.
+
+ Especificações
+
+ 
+ 
+ Ficha técnica do totem de piso 
+ Item Detalhe 
+ 
+ 
+ Formato Estrutura vertical de piso 
+
+ Tela Touch screen 
+
+ Sistema Android 5.1 ou superior 
+
+ Conectividade Wi-Fi, com operação offline e sincronização 
+
+ Pesquisas NPS, CSAT, CES, SMILE e QUIZ 
+
+ Personalização Logo, cores e mensagens da empresa 
+
+ Gestão Painel online com resultados por período e campanha 
+
+ 
+ 
+ 
+
+ Tamanhos de tela, materiais e acabamentos variam conforme o modelo. As especificações finais constam na proposta.
+
+ Onde posicionar para aumentar a taxa de resposta
+
+ O totem precisa estar no caminho natural do cliente, e não escondido em um canto. Alguns princípios ajudam:
+
+ 
+ Posicione na saída, depois do atendimento ou do pagamento.
+
+ Deixe a tela na altura dos olhos e o convite legível à distância.
+
+ Evite refletores e luz solar direta sobre a tela.
+
+ Mantenha o texto curto: uma pergunta e uma instrução.
+
+ Garanta espaço para o cliente parar sem atrapalhar o fluxo.
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Outro formato
+
+ Pouco espaço no balcão?
+
+ 
+ 
+
+ O totem de mesa ocupa menos área e mantém a mesma plataforma de coleta e análise.
+
+ Ver totem de mesa
+
+
+## Perguntas frequentes
+
+## O totem de piso precisa de ponto de energia?
+Sim. O equipamento precisa de tomada e, para sincronização em tempo real, de uma conexão Wi-Fi estável. A instalação é definida no local durante a implantação.
+
+## Funciona em local sem internet?
+Sim. As respostas ficam armazenadas no dispositivo e são sincronizadas quando a conexão retorna. Para acompanhamento em tempo real, é necessária conexão.
+
+## Pode ficar exposto ao sol ou à chuva?
+O totem é indicado para ambientes internos e cobertos. Para áreas externas, é necessário avaliar a proteção do equipamento com a equipe técnica antes da instalação.
+
+## Qual a diferença de preço entre mesa e piso?
+O modelo de piso costuma ter custo maior por causa da estrutura e do tamanho da tela. O valor final depende da configuração e é informado na proposta.
+
+
+---
+
+# Pesquisa de satisfação pelo WhatsApp: como fazer
+URL: https://www.backeend.com.br/pesquisa-de-satisfacao-whatsapp.html
+
+Como fazer pesquisa de satisfação pelo WhatsApp: passo a passo, modelo de mensagem pronto, boas práticas, LGPD e integração com o totem.
+
+Para fazer pesquisa de satisfação pelo WhatsApp, envie uma mensagem curta com uma pergunta de nota ou carinha e um link para a resposta. O ideal é disparar logo depois do atendimento, com opt-in registrado e uma única pergunta principal.
+
+ Na beend.tech, o WhatsApp é um dos canais da mesma plataforma: as respostas caem no mesmo painel do totem e do QR Code, com NPS, CSAT e CES consolidados.
+
+ 
+
+ 
+ Por que usar o WhatsApp
+
+ 
+ Alcance: é o canal em que a maioria dos clientes brasileiros já está todos os dias.
+
+ Abertura: mensagens de WhatsApp tendem a ser vistas muito mais rápido do que e-mail.
+
+ Simplicidade: o cliente responde em dois toques, sem instalar nada.
+
+ Rastreabilidade: é possível saber quem respondeu e cruzar com a unidade ou o atendente.
+
+ 
+
+ Como fazer, passo a passo
+
+ 
+ Defina a pergunta principal: NPS (“de 0 a 10, quanto recomendaria?”) ou CSAT (“qual seu grau de satisfação?”).
+
+ Escolha o momento: logo após o atendimento, a compra ou a entrega. Quanto mais perto da experiência, melhor.
+
+ Registre o opt-in: o cliente precisa ter concordado em receber contato. Isso protege a operação e atende à LGPD.
+
+ Monte a mensagem: identifique a empresa, explique o motivo em uma frase e inclua o link direto para a pesquisa.
+
+ Dispare em lotes: evite mensagens fora de horário e repetições para quem já respondeu.
+
+ Analise e feche o ciclo: acompanhe as respostas no painel e comunique as melhorias feitas.
+
+ 
+
+ Modelo de mensagem pronto
+
+ 
+ Olá, [nome]! Aqui é a [empresa]. Você fez [serviço/compra] com a gente hoje. Podemos saber como foi? São só 2 toques:
+
+ [link da pesquisa]
+
+ Seu retorno ajuda a melhorar nosso atendimento. Obrigado!
+
+ 
+
+ Para NPS, o link pode abrir uma escala de 0 a 10. Para CSAT, uma escala de carinhas ou de 1 a 5. Evite pedir nota e comentário na mesma mensagem: o comentário pode vir na tela seguinte, como opcional.
+
+ Boas práticas
+
+ 
+ Uma pergunta por mensagem. Pesquisa longa no WhatsApp vira abandono.
+
+ Identifique-se. O cliente precisa saber quem está falando e por quê.
+
+ Respeite o horário. Dispare em horário comercial, de preferência perto do atendimento.
+
+ Não insista. Uma mensagem é convite; três viram spam.
+
+ Ofereça saída. Deixe claro como o cliente pode deixar de receber mensagens.
+
+ Não prometa anonimato se o número estiver identificado. Seja transparente sobre o uso do dado.
+
+ 
+
+ LGPD e consentimento
+
+ A pesquisa de satisfação trata dados pessoais (nome, telefone e opinião). Por isso, é necessário informar a finalidade, coletar apenas o necessário e permitir que o cliente solicite a exclusão.
+
+ O consentimento para receber a pesquisa pode ser registrado no cadastro, no momento da compra ou no primeiro contato. Guarde o registro e respeite o descadastro.
+
+ WhatsApp + totem: os canais se complementam
+
+ O totem captura a experiência presencial, no momento em que o cliente está na sua frente. O WhatsApp alcança quem saiu da loja e permite uma segunda pergunta, alguns dias depois.
+
+ Uma operação comum combina CSAT no totem e NPS no WhatsApp . Os dois resultados aparecem no mesmo painel, o que permite comparar a percepção imediata com a lembrança posterior.
+
+ Se o seu objetivo é captar no balcão, veja também a pesquisa por QR Code .
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Coloque a pesquisa no ar
+
+ 
+ 
+
+ 
+ Planos e preços
+ Plataforma com totem, QR Code e WhatsApp. Valores sob consulta.
+ Ver planos 
+ Guia de métricas
+ NPS, CSAT e CES: fórmulas e exemplos de perguntas.
+ Ler o guia
+
+
+## Perguntas frequentes
+
+## Como enviar pesquisa de satisfação pelo WhatsApp?
+Envie uma mensagem curta logo após o atendimento, com uma pergunta de nota ou carinha e um link direto para a resposta. O cliente precisa ter autorizado o contato, e o disparo deve respeitar horário comercial e descadastro.
+
+## Qual a melhor pergunta para WhatsApp?
+Uma pergunta de NPS (0 a 10) ou CSAT (1 a 5) funciona bem porque é rápida de responder. Comentários abertos devem ser opcionais, em uma segunda etapa.
+
+## Pesquisa por WhatsApp pode ser considerada spam?
+Pode, se enviada sem consentimento ou em excesso. Registre a autorização, identifique a empresa, envie uma única mensagem e ofereça uma forma simples de descadastro.
+
+## O WhatsApp substitui o totem?
+Não. O totem captura a experiência presencial no momento em que ela acontece; o WhatsApp alcança o cliente depois. Os dois canais se complementam e podem alimentar o mesmo painel.
+
+## Preciso de API oficial do WhatsApp?
+Depende do volume e do tipo de disparo. Para operações maiores e integradas à plataforma, o uso de uma API oficial traz mais controle e conformidade. As condições são definidas na proposta.
+
+
+---
+
+# Pesquisa de satisfação por QR Code: como criar e onde usar
+URL: https://www.backeend.com.br/pesquisa-de-satisfacao-qrcode.html
+
+Como criar pesquisa de satisfação por QR Code: passo a passo, onde posicionar, vantagens, limitações e integração com o painel.
+
+Para criar uma pesquisa de satisfação por QR Code, gere um link de pesquisa e transforme esse link em um código QR. O cliente aponta a câmera, abre a página no navegador e responde em poucos toques.
+
+ Na beend.tech, o QR Code é um dos canais da plataforma: as respostas entram no mesmo painel do totem e do WhatsApp, com NPS, CSAT e CES consolidados.
+
+ 
+
+ 
+ Como funciona
+
+ 
+ Você cria a pesquisa na plataforma (NPS, CSAT, CES, carinhas ou quiz).
+
+ A plataforma gera um link público para responder.
+
+ O link é convertido em um QR Code.
+
+ O código é impresso no recibo, na mesa, na embalagem ou em um cartaz.
+
+ O cliente escaneia com a câmera e responde no navegador.
+
+ A resposta aparece no painel, identificada pelo canal.
+
+ 
+
+ Como criar, passo a passo
+
+ 
+ Defina a pergunta: NPS (“de 0 a 10, quanto recomendaria?”) ou CSAT (“qual seu grau de satisfação?”).
+
+ Crie a pesquisa na plataforma: escolha o tipo, a escala e a mensagem de agradecimento.
+
+ Copie o link: use um endereço curto e estável.
+
+ Gere o QR Code: a própria plataforma pode gerar, ou você pode usar um gerador confiável.
+
+ Teste com o celular: escaneie o código impresso, responda e confira se a resposta aparece no painel.
+
+ Imprima e posicione: use tamanho legível e uma frase de convite curta.
+
+ 
+
+ Onde colocar o QR Code
+
+ 
+ Recibo ou nota: o cliente já está com o papel na mão.
+
+ Mesa do restaurante: adesivo ou display de mesa.
+
+ Balcão e caixa: placa pequena voltada para o cliente.
+
+ Embalagem: para compras levadas para casa.
+
+ Cartaz e wobler: em locais de espera e saída.
+
+ E-mail ou WhatsApp: o mesmo link pode ser compartilhado digitalmente.
+
+ 
+
+ Boas práticas
+
+ 
+ Escreva o convite. “Avalie nosso atendimento em 30 segundos” funciona melhor do que só o código.
+
+ Teste a impressão. QR Code pequeno, com pouco contraste ou em superfície curva falha na leitura.
+
+ Mantenha o link estável. Se o endereço mudar, os códigos impressos param de funcionar.
+
+ Não peça login. Cada etapa extra reduz a taxa de resposta.
+
+ Use uma pergunta principal. O comentário deve ser opcional.
+
+ Meça por canal. Separe as respostas do QR Code das do totem para saber o que funciona.
+
+ 
+
+ Vantagens e limitações
+
+ 
+ 
+ QR Code na pesquisa de satisfação 
+ Vantagens Limitações 
+ 
+ 
+ Baixo custo de implantação Depende do cliente querer escanear 
+
+ Funciona no celular, sem aplicativo Exige boa impressão e posicionamento 
+
+ Pode ser replicado em vários pontos Não captura quem não tem celular ou não quer usar 
+
+ Integra-se ao mesmo painel do totem Taxa de resposta costuma ser menor que a do totem 
+
+ 
+ 
+ 
+
+ Para locais de alto fluxo, o totem costuma captar mais respostas porque elimina a etapa do scan. O QR Code é útil como complemento, especialmente em recibos e embalagens.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Combine canais
+
+ QR Code no recibo, totem no balcão
+
+ 
+ 
+
+ Os dois canais podem rodar a mesma campanha e alimentar o mesmo painel. Assim você compara a experiência presencial com a lembrança posterior.
+
+ Conhecer o totem
+
+
+## Perguntas frequentes
+
+## Como criar um QR Code para pesquisa de satisfação?
+Crie a pesquisa na plataforma, copie o link público e gere o QR Code a partir desse link. Depois, imprima em recibo, mesa, balcão ou cartaz e teste com o celular antes de distribuir.
+
+## O cliente precisa instalar aplicativo?
+Não. O QR Code abre a pesquisa no navegador do celular. Isso reduz a barreira e aumenta a taxa de conclusão.
+
+## QR Code ou totem: qual responde mais?
+Em geral, o totem responde mais em locais de fluxo, porque elimina a etapa do scan. O QR Code é mais barato e útil em recibos e embalagens. O ideal é medir os dois canais separadamente.
+
+## O QR Code pode ser usado em impressos?
+Sim. Recibos, embalagens, cartazes, displays de mesa e materiais de PDV funcionam bem, desde que o código tenha tamanho e contraste adequados.
+
+
+---
+
+# Planos e preços do sistema de pesquisa de satisfação
+URL: https://www.backeend.com.br/planos-e-precos.html
+
+Planos e preços publicados: Básico R$ 69,90/mês, Profissional R$ 129,90/mês, Premium R$ 239,90/mês e Master R$ 389,90/mês. Anual com dez mensalidades. Teste grátis de 7 dias, sem cartão. O equipamento é contratado separadamente.
+
+O sistema de pesquisa de satisfação da beend.tech começa em R$ 69,90 por mês e inclui totem, QR Code e WhatsApp na mesma plataforma, com NPS, CSAT e CES em tempo real. Você testa 7 dias grátis, sem cartão de crédito.
+
+ São quatro planos. O que muda entre eles é o número de terminais, de campanhas simultâneas e de avaliações por mês. Não há cobrança por resposta: quando você passa do limite do plano, avisamos — o totem continua coletando.
+
+ 
+
+ 
+ Escolha o plano
+
+ Todos os planos incluem o aplicativo de coleta, o painel em tempo real e o suporte em horário comercial. Os valores são por mês; no anual, você paga dez mensalidades.
+
+ 
+
+ 
+ 
+ Básico
+
+ R$ 69,90 /mês 
+
+ ou R$ 699/ano
+
+ 
+ 2 terminais
+
+ 5 campanhas ativas
+
+ 4.000 avaliações/mês
+
+ 3 usuários
+
+ NPS, CSAT e CES
+
+ Totem, QR Code e WhatsApp
+
+ Exportação em PDF, Excel e CSV
+
+ 
+ Testar 7 dias grátis 
+
+ 
+
+ 
+ Mais escolhido
+
+ Profissional
+
+ R$ 129,90 /mês 
+
+ ou R$ 1.299/ano
+
+ 
+ 5 terminais
+
+ 15 campanhas ativas
+
+ 10.000 avaliações/mês
+
+ 8 usuários
+
+ Tudo do Básico
+
+ SMILE (carinhas) e QUIZ
+
+ Análise de sentimento com IA
+
+ Fluxo de campanha em node
+
+ 
+ Testar 7 dias grátis 
+
+ 
+
+ 
+ Premium
+
+ R$ 239,90 /mês 
+
+ ou R$ 2.399/ano
+
+ 
+ 15 terminais
+
+ Campanhas ilimitadas
+
+ 50.000 avaliações/mês
+
+ 20 usuários
+
+ Tudo do Profissional
+
+ Relatórios com filtros por período e terminal
+
+ Suporte prioritário
+
+ 
+ Testar 7 dias grátis 
+
+ 
+
+ 
+ Master
+
+ R$ 389,90 /mês 
+
+ ou R$ 3.899/ano
+
+ 
+ Terminais ilimitados
+
+ Campanhas ilimitadas
+
+ Avaliações ilimitadas
+
+ Tudo do Premium
+
+ Suporte dedicado
+
+ Onboarding assistido
+
+ 
+ Testar 7 dias grátis 
+
+ 
+
+ 
+
+ Órgão público, licitação ou projeto com desenvolvimento dedicado? Fale com a nossa equipe para uma proposta sob medida.
+
+ 
+ O que está incluído em todos os planos
+
+ 
+ Aplicativo de coleta com NPS, CSAT, CES, SMILE e QUIZ.
+
+ Painel online com resultados em tempo real, por período e por terminal.
+
+ Coleta por totem, QR Code e WhatsApp na mesma plataforma.
+
+ Personalização das telas com a identidade visual da empresa.
+
+ Funcionamento offline: as respostas ficam no dispositivo e sincronizam depois.
+
+ Relatório diário enviado por e-mail no horário que você escolher.
+
+ Exportação de dados em PDF, Excel e CSV.
+
+ Suporte em horário comercial (segunda a sexta, 9h às 18h).
+
+ 
+
+ Como funciona a contagem de avaliações
+
+ O limite de avaliações do plano avisa, não bloqueia . Se a sua operação passar do número do plano, o totem continua recebendo respostas e nós entramos em contato para ajustar o plano. Nenhum cliente perde coleta por causa de teto.
+
+ E o equipamento?
+
+ A assinatura é do software . O totem pode ser adquirido ou alugado separadamente, conforme o modelo e a quantidade. Você também pode usar um tablet Android 5.1 ou superior que já tenha — nesse caso, não há custo de equipamento.
+
+ Para comparar os dois caminhos, veja locação de totens e venda de totens .
+
+ Por que o preço é público
+
+ A maioria dos fornecedores esconde o preço atrás de um formulário. A gente publica porque você tem o direito de comparar antes de falar com alguém. Se o valor não couber no seu orçamento, melhor descobrir agora do que depois de três reuniões.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Comece agora
+
+ Teste grátis por 7 dias
+
+ 
+ 
+
+ Use o seu próprio tablet (Android 5.1 ou superior), monte uma campanha e veja as respostas chegando no painel. Sem cartão de crédito e sem compromisso. 
+
+ 
+ Começar o teste grátis 
+ Falar com a equipe
+
+
+## Perguntas frequentes
+
+## Quanto custa o sistema de pesquisa de satisfação?
+A partir de R$ 69,90 por mês, no plano Básico. O Profissional custa R$ 129,90/mês, o Premium R$ 239,90/mês e o Master R$ 389,90/mês. No plano anual, você paga dez mensalidades.
+
+## O totem está incluído no plano?
+Não. A assinatura é do software (coleta, painel, relatórios e suporte). O totem é adquirido ou alugado separadamente. Se você já tem um tablet Android 5.1 ou superior, pode usá-lo sem custo de equipamento.
+
+## O que acontece se eu passar do limite de avaliações?
+Nada é bloqueado. Nós avisamos e sugerimos o ajuste do plano. A coleta continua funcionando normalmente enquanto isso.
+
+## Como funciona o teste grátis de 7 dias?
+Você cria a conta, usa o seu tablet e monta a pesquisa. Não pedimos cartão de crédito. Ao final dos 7 dias, você decide se continua em um dos planos.
+
+## Preciso de internet no totem?
+Para coletar, não — as respostas ficam armazenadas no dispositivo e sincronizam quando a conexão volta. Para acompanhar os resultados em tempo real, é necessária uma conexão.
+
+## Existe fidelidade ou multa de cancelamento?
+O plano mensal não tem fidelidade. O plano anual dá desconto porque é pago adiantado. As condições são informadas antes da contratação.
+
+## Vocês emitem nota fiscal?
+Sim. Emitimos nota fiscal e aceitamos boleto, PIX e cartão, conforme as condições informadas na contratação.
+
+
+---
+
+# Teste grátis por 7 dias, sem cartão de crédito
+URL: https://www.backeend.com.br/teste-gratis.html
+
+Teste grátis de 7 dias do sistema de pesquisa de satisfação: software completo, sem cartão de crédito, usando tablet próprio. Ao final, planos a partir de R$ 69,90/mês.
+
+O teste grátis da beend.tech dura 7 dias e inclui o software completo — aplicativo de coleta, painel em tempo real, relatórios e exportação. Não pedimos cartão de crédito e não há compromisso de continuidade.
+
+ Você usa o seu próprio tablet Android 5.1 ou superior (ou faz o teste no navegador). O equipamento é contratado só depois, se você quiser.
+
+ 
+
+ 
+ Quero começar o teste 
+ Ver planos e preços 
+ 
+
+ 
+ O que está incluído no teste
+
+ 
+ Aplicativo de coleta com NPS, CSAT, CES, SMILE e QUIZ.
+
+ Painel em tempo real com resultados por período e por terminal.
+
+ Coleta por QR Code e WhatsApp , além do totem.
+
+ Personalização das telas com o nome e as cores da sua empresa.
+
+ Relatório diário por e-mail e exportação em PDF, Excel e CSV.
+
+ Modo offline : as respostas ficam no dispositivo e sincronizam depois.
+
+ Suporte em horário comercial para configurar a primeira campanha.
+
+ 
+
+ O que você precisa para começar
+
+ 
+ Um tablet Android 5.1 ou superior (Samsung, Lenovo, Amazon ou similar) — pode ser um que você já tenha.
+
+ Uma conexão de internet para sincronizar os resultados (a coleta funciona offline).
+
+ Definir qual pergunta quer fazer: nota de 0 a 10 (NPS), grau de satisfação (CSAT) ou carinhas (SMILE).
+
+ 
+ Não precisa de equipe de TI, instalação complexa nem mudança na sua operação.
+
+ Como funciona, dia a dia
+
+ 
+ Dia 0: você fala com a gente pelo WhatsApp e recebe o acesso.
+
+ Dia 1: montamos a campanha juntos, com a sua pergunta e a sua identidade visual.
+
+ Dias 2 a 6: você coleta respostas no ponto de atendimento e acompanha no painel.
+
+ Dia 7: você decide se continua. Se sim, escolhe um plano. Se não, o acesso simplesmente expira.
+
+ 
+
+ Por que só 7 dias
+
+ Sete dias é o suficiente para você responder às três perguntas que importam: os clientes respondem? O painel é fácil de usar? A equipe consegue operar no dia a dia? Se a resposta for sim, você contrata com segurança. Se for não, você economizou tempo e dinheiro.
+
+ E depois do teste?
+
+ 
+ 
+ O que acontece no fim dos 7 dias 
+ Você decide O que acontece 
+ 
+ 
+ Continuar Escolhe um plano a partir de R$ 69,90/mês . As campanhas e respostas do teste são mantidas. 
+
+ Continuar com totem Adiciona o equipamento por aluguel ou compra. Veja locação ou aquisição . 
+
+ Não continuar O acesso expira e nada é cobrado. Sem multa, sem letra miúda. 
+
+ 
+ 
+ 
+
+ Para quem o teste faz sentido
+
+ 
+ Farmácias e drogarias: avaliar a orientação do farmacêutico.
+
+ Clínicas e consultórios: medir tempo de espera e atenção da recepção.
+
+ Restaurantes e cafeterias: atendimento, tempo de preparo e ambiente.
+
+ Varejo e lojas: se o cliente encontrou o que procurava.
+
+ Academias, concessionárias e eventos: experiência geral.
+
+ 
+ Se o seu negócio tem atendimento presencial, o teste mostra o que a pesquisa entrega na prática. Veja também as aplicações por segmento .
+
+ 
+ Uma ressalva honesta: com 7 dias, você valida a operação e o painel, mas não tem tempo de acumular histórico suficiente para conclusões estatísticas. Para isso, recomendamos 30 dias de coleta — já dentro do plano.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Comece o teste hoje
+
+ 
+ 
+
+ Fale com a nossa equipe pelo WhatsApp, monte a primeira campanha e veja as respostas chegando no painel.
+
+ 
+ Começar o teste grátis 
+ Ver os planos
+
+
+## Perguntas frequentes
+
+## O teste grátis é realmente grátis?
+Sim. Não pedimos cartão de crédito e não há cobrança automática ao final. Se você não quiser continuar, o acesso expira e nada é cobrado.
+
+## Preciso comprar o totem para testar?
+Não. O teste usa o software com o seu próprio tablet Android 5.1 ou superior. O equipamento só entra se você quiser, depois do teste.
+
+## Posso testar no computador?
+Sim, é possível responder pelo navegador para validar as perguntas e o painel. Para simular a experiência real do cliente no balcão, o tablet é o mais indicado.
+
+## Quantas respostas consigo coletar em 7 dias?
+Depende do fluxo do seu ponto de atendimento. Como orientação, uma operação com movimento costuma receber dezenas de respostas por dia durante o teste.
+
+## Preciso de equipe de TI para configurar?
+Não. A configuração é feita em conjunto com o nosso suporte, em horário comercial, e leva poucos minutos.
+
+## Meus dados ficam com vocês depois do teste?
+As respostas coletadas no teste são mantidas se você continuar. Se não continuar, os dados são excluídos conforme a nossa política de privacidade e a LGPD.
+
+
+---
+
+# Totem de pesquisa de satisfação por segmento
+URL: https://www.backeend.com.br/segmentos.html
+
+Aplicações do totem de pesquisa por segmento: farmácias, clínicas, restaurantes, varejo, academias, concessionárias, shoppings, eventos e órgãos públicos.
+
+O totem de pesquisa de satisfação se adapta a qualquer operação com atendimento presencial. O que muda entre segmentos é o ponto de instalação, a pergunta principal e a métrica usada.
+
+ Abaixo, aplicações para farmácias, clínicas, restaurantes, varejo, academias, concessionárias, shoppings, eventos e órgãos públicos.
+
+ 
+
+ 
+ Segmentos
+
+ Aplicações por tipo de negócio
+
+ Escolha o segmento mais próximo da sua operação para ver onde instalar e qual pergunta usar.
+
+ 
+
+ 
+ 
+ Farmácias e drogarias
+
+ Avalie a orientação do farmacêutico, o tempo de espera e a clareza sobre o uso do medicamento. O totem fica ao lado do caixa, depois do pagamento.
+
+ Pergunta exemplo: “O farmacêutico esclareceu suas dúvidas sobre o medicamento?”
+
+ 
+
+ 
+ Clínicas e consultórios
+
+ Meça a experiência na recepção, o tempo de espera e a clareza das orientações. O paciente responde antes de sair, sem formulário no balcão.
+
+ Pergunta exemplo: “Como você avalia o tempo de espera e a atenção da recepção?”
+
+ 
+
+ 
+ Restaurantes e cafeterias
+
+ Colete a avaliação do atendimento, do tempo de preparo e do ambiente. O totem pode ficar na entrada, no caixa ou na saída.
+
+ Pergunta exemplo: “Como avalia o atendimento, o tempo de preparo e o ambiente?”
+
+ 
+
+ 
+ Varejo e lojas
+
+ Entenda se o cliente encontrou o que procurava e como foi atendido pelo vendedor. Ideal para o balcão de pagamento e a entrega do produto.
+
+ Pergunta exemplo: “O vendedor ajudou você a encontrar o que precisava?”
+
+ 
+
+ 
+ Academias
+
+ Avalie recepção, limpeza, equipamentos e suporte dos professores. A coleta na saída captura a percepção com a experiência ainda fresca.
+
+ Pergunta exemplo: “Como você avalia a estrutura e o atendimento da academia hoje?”
+
+ 
+
+ 
+ Concessionárias
+
+ Meça a experiência no showroom, no test drive e na entrega do veículo. O totem de piso funciona bem em áreas de circulação.
+
+ Pergunta exemplo: “Como foi sua experiência na concessionária hoje?”
+
+ 
+
+ 
+ Shoppings e centros comerciais
+
+ Colete a percepção sobre limpeza, segurança, sinalização e experiência geral. Totens de piso em áreas de circulação ampliam o alcance.
+
+ Pergunta exemplo: “Como você avalia sua experiência no shopping hoje?”
+
+ 
+
+ 
+ Eventos e feiras
+
+ Avalie conteúdo, organização, estandes e atendimento durante o evento. A locação por período permite usar o totem só nos dias necessários.
+
+ Pergunta exemplo: “Como você avalia o evento até agora?”
+
+ 
+
+ 
+ Órgãos públicos
+
+ Meça a satisfação com o atendimento, o tempo de espera e a clareza das informações. A pesquisa ajuda a acompanhar a qualidade do serviço prestado.
+
+ Pergunta exemplo: “Como você avalia o atendimento que recebeu hoje?”
+
+ 
+
+ 
+
+ 
+ Como escolher a pergunta certa para o seu segmento
+
+ A regra é simples: a pergunta precisa estar ligada ao que o cliente acabou de viver. Em uma farmácia, a orientação sobre o medicamento importa mais do que o ambiente. Em um restaurante, tempo de preparo e atendimento pesam mais do que a sinalização.
+
+ Se o objetivo é acompanhar a relação de longo prazo, use NPS. Se é medir a experiência de hoje, use CSAT. Se o processo tem muitas etapas, use CES. O guia de métricas explica cada caso.
+
+ Um ou vários pontos de coleta
+
+ Redes podem padronizar a pesquisa e comparar unidades no mesmo painel. Nesse caso, vale manter o mesmo conjunto de perguntas e a mesma escala em todas as lojas, para que a comparação seja válida.
+
+ Para operações com muitos pontos, a locação costuma ser mais simples do que a compra. Veja locação de totens .
+
+
+## Perguntas frequentes
+
+## Meu segmento não está na lista. O totem serve?
+Provavelmente sim. Qualquer operação com atendimento presencial e clientes circulando pode usar o totem. O que muda é o ponto de instalação e a pergunta. Fale com a equipe para avaliar o seu fluxo.
+
+## Posso usar perguntas diferentes em cada loja?
+Pode, mas a comparação entre unidades fica prejudicada. O recomendado é manter a mesma pergunta e a mesma escala, mudando apenas a personalização visual.
+
+## Qual modelo é indicado para lojas pequenas?
+O totem de mesa, por ocupar menos espaço e ficar próximo do atendente. Em lojas com grande circulação, o modelo de piso tende a captar mais respostas.
+
+## Órgãos públicos podem usar?
+Sim. A pesquisa ajuda a medir tempo de espera, clareza das informações e qualidade do atendimento. A configuração deve respeitar as regras de tratamento de dados aplicáveis ao órgão.
+
+
+---
+
+# Sobre a beend.tech
+URL: https://www.backeend.com.br/sobre.html
+
+Sobre a beend.tech: empresa de Brasília-DF fundada em 2017 (CNPJ 61.171.282/0001-84), que fornece totens e plataforma de pesquisa de satisfação com NPS, CSAT e CES.
+
+beend.tech é a marca da Backeend Soluções Inteligentes, empresa de Brasília-DF fundada em 28 de novembro de 2017 (CNPJ 61.171.282/0001-84). Ela fornece totens e uma plataforma de pesquisa de satisfação do cliente, com coleta por totem, QR Code e WhatsApp e indicadores NPS, CSAT, CES, SMILE e QUIZ.
+
+ O trabalho começou com totens interativos e evoluiu para um ecossistema completo: o equipamento, o aplicativo de coleta e o painel online que transforma as respostas em decisão.
+
+ 
+
+ 
+ O que a beend.tech faz
+
+ A beend.tech ajuda empresas a ouvir o cliente no momento certo. Em vez de depender de um formulário enviado dias depois, a coleta acontece no ponto de atendimento, enquanto a experiência ainda está fresca.
+
+ 
+ Totens: modelos de mesa e de piso, em locação (comodato) ou venda, personalizados com a identidade visual da empresa.
+
+ Aplicativo de coleta: pesquisas NPS, CSAT, CES, escala de carinhas (SMILE) e quiz, com funcionamento offline.
+
+ Plataforma online: painel com resultados por período, campanha e unidade, com filtros e exportação.
+
+ Canais complementares: a mesma campanha pode rodar no totem, por QR Code e por WhatsApp.
+
+ 
+ Para entender cada formato, veja o guia do totem de pesquisa e as páginas de locação e venda .
+
+ Dados da empresa
+
+ 
+ 
+ Informações cadastrais e de atendimento 
+ 
+ Razão social Backeend Soluções Inteligentes 
+
+ CNPJ 61.171.282/0001-84 
+
+ Fundação 28 de novembro de 2017 
+
+ Sede Quadra 305, Conjunto 08 — Recanto das Emas, Brasília — DF, Brasil 
+
+ Atendimento Segunda a sexta, das 9h às 18h 
+
+ Telefones (61) 99595-7461 e (61) 99145-9009 
+
+ E-mail sac@backeend.com.br 
+
+ Área de atuação Todo o Brasil, com sede em Brasília-DF 
+
+ 
+ 
+ 
+
+ Números da operação
+
+ 
+ 200+ clientes atendidos 
+
+ 400+ terminais ativos 
+
+ 300+ campanhas ativas 
+
+ 140 mil+ pesquisas realizadas 
+
+ 
+
+ Como trabalhamos
+
+ 
+ Diagnóstico: entendemos o fluxo de atendimento, o número de pontos de coleta e a métrica que importa.
+
+ Proposta: definimos modelo, quantidade de terminais, personalização, prazo e formato comercial (locação ou compra).
+
+ Implantação: o totem e a pesquisa são configurados com a identidade visual e as perguntas da empresa.
+
+ Operação e suporte: acompanhamento dos resultados no painel e atendimento em horário comercial.
+
+ 
+
+ Por que a beend.tech
+
+ 
+ Equipamento e software no mesmo fornecedor: reduz a fricção entre o totem, o aplicativo e o painel.
+
+ Funciona offline: as respostas ficam no dispositivo e sincronizam quando a conexão volta.
+
+ Aceita tablet próprio: compatível com Android 5.1 ou superior, o que diminui o investimento em hardware.
+
+ Transparência comercial: os dois formatos são explicados abertamente; o valor é fechado em proposta, sem taxa escondida.
+
+ Multicanal: totem, QR Code e WhatsApp alimentando o mesmo painel.
+
+ 
+
+ Contato
+
+ Para orçamento, o caminho mais rápido é o WhatsApp (61) 99595-7461 . Você também pode usar a página de contato ou enviar um e-mail para sac@backeend.com.br .
+
+
+## Perguntas frequentes
+
+## Onde fica a beend.tech?
+A sede fica na Quadra 305, Conjunto 08, no Recanto das Emas, em Brasília — DF. A empresa atende clientes de todo o Brasil, com logística de implantação combinada conforme o projeto.
+
+## Desde quando a beend.tech existe?
+A Backeend Soluções Inteligentes foi fundada em 28 de novembro de 2017. Desde então, passou de totens interativos a um ecossistema completo de coleta e análise de satisfação do cliente.
+
+## O que a beend.tech vende?
+Totens de pesquisa de satisfação (em locação ou venda) e a assinatura da plataforma que faz a coleta e mostra os resultados, com métricas NPS, CSAT e CES. Também atende por QR Code e WhatsApp.
+
+## A beend.tech atende fora de Brasília?
+Sim. A sede é em Brasília, mas a empresa atende empresas de todo o Brasil. O formato da implantação é definido na proposta, conforme a localização.
+
+## Qual é o preço?
+Equipamento e software têm valor sob consulta. O totem pode ser adquirido (PRO INFINITY) ou alugado, e o investimento é informado em proposta, conforme modelo, quantidade e personalização.
+
+
+---
+
+# Peça um orçamento de totem de pesquisa
+URL: https://www.backeend.com.br/contato.html
+
+Contato comercial: WhatsApp (61) 99595-7461, e-mail sac@backeend.com.br, endereço em Brasília-DF e formulário de orçamento.
+
+Fale direto com a equipe
+
+ O caminho mais rápido é o WhatsApp. Se preferir, use o formulário ao lado ou envie um e-mail.
+
+ 
+ WhatsApp comercial (61) 99595-7461 
+
+ Telefone alternativo (61) 99145-9009 
+
+ E-mail sac@backeend.com.br 
+
+ Endereço Quadra 305, Conjunto 08 — Recanto das Emas
+Brasília — DF, Brasil 
+
+ Atendimento Segunda a sexta, das 9h às 18h 
+
+ 
+ Abrir conversa no WhatsApp 
+
+ Atendemos empresas de todo o Brasil. A implantação é combinada conforme a localização.
+
+ 
+
+ 
+ Pedir proposta
+
+ 
+ Nome* 
+ 
+ 
+
+ 
+ Empresa 
+ 
+ 
+
+ 
+ WhatsApp* 
+ 
+ 
+
+ 
+ Segmento 
+ 
+ Selecione 
+ Farmácia 
+ Clínica ou consultório 
+ Restaurante ou cafeteria 
+ Varejo ou loja 
+ Academia 
+ Concessionária 
+ Shopping 
+ Evento ou feira 
+ Órgão público 
+ Outro 
+ 
+ 
+
+ 
+ O que você precisa? 
+ 
+ 
+
+ Enviar pelo WhatsApp 
+ Ao enviar, você será direcionado ao WhatsApp com a mensagem preenchida. Nenhum dado é armazenado neste site.
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Onde estamos
+
+ Brasília — DF
+
+ Atendimento presencial na região e implantação remota para todo o Brasil.
+
+ 
+
+ Ver no Google Maps
+
+
+## Perguntas frequentes
+
+## Qual o prazo de resposta?
+O atendimento é de segunda a sexta, das 9h às 18h. Mensagens no WhatsApp costumam ser respondidas no mesmo dia útil.
+
+## Vocês atendem fora de Brasília?
+Sim. A sede fica em Brasília, mas a implantação e o suporte atendem empresas de todo o Brasil, com logística combinada conforme o projeto.
+
+## O que devo informar no primeiro contato?
+Quantos pontos de coleta você precisa, se prefere locação ou compra, qual modelo interessa (mesa ou piso) e qual métrica quer acompanhar. Com isso, a proposta sai mais rápida.
+
+
+---
+
+# Conteúdo sobre pesquisa de satisfação
+URL: https://www.backeend.com.br/blog/index.html
+
+Índice de conteúdo: artigos sobre preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
+
+Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda está escolhendo a métrica. Se a dúvida é de equipamento, veja o guia do totem de pesquisa .
+
+ 
+
+ 
+ 
+ Preço
+
+ Quanto custa um totem de pesquisa de satisfação?
+
+ O que compõe o investimento, por que o hardware varia e como comparar propostas sem cair em armadilha.
+
+ Ler artigo 
+ 
+ 
+ Operação
+
+ Totem de pesquisa funciona sem internet?
+
+ Como o modo offline armazena as respostas e o que muda quando a conexão volta.
+
+ Ler artigo 
+ 
+ 
+ Boas práticas
+
+ 7 erros que reduzem a taxa de resposta do totem
+
+ Posicionamento, texto na tela, tamanho da pesquisa e outros fatores que afastam o cliente.
+
+ Ler artigo 
+ 
+ 
+ Canal
+
+ Pesquisa de satisfação pelo WhatsApp
+
+ Passo a passo, modelo de mensagem e boas práticas de LGPD.
+
+ Ler guia
+
+
+
+---
+
+# Quanto custa um totem de pesquisa de satisfação?
+URL: https://www.backeend.com.br/blog/quanto-custa-totem-de-pesquisa-de-satisfacao.html
+
+Quanto custa um totem de pesquisa: software e hardware sob consulta, aquisição versus locação e o que comparar na proposta.
+
+O valor de um totem de pesquisa de satisfação é sob consulta , porque depende do modelo, da tela, da personalização, da quantidade e do formato comercial — aquisição do equipamento ou locação.
+
+ Quem já tem um tablet Android 5.1+ pode usar o próprio dispositivo e contratar apenas o software.
+
+ 
+
+ 
+ O que compõe o custo
+
+ Uma proposta de totem de pesquisa tem quatro blocos. Comparar só o número final esconde diferenças importantes:
+
+ 
+ Equipamento: estrutura, tela touch, fonte e acabamento.
+
+ Software: aplicativo de coleta, painel, armazenamento e atualizações.
+
+ Personalização: aplicação de marca, cores e telas sob medida.
+
+ Implantação e suporte: configuração, treinamento, logística e atendimento.
+
+ 
+
+ Quanto custa cada formato
+
+ 
+ 
+ Faixas de investimento por formato 
+ Formato Hardware Software Observação 
+ 
+ 
+ Tablet próprio Já possui Assinatura sob consulta Menor investimento; exige Android 5.1+ 
+
+ Totem de mesa Sob consulta Incluso na locação ou assinatura na compra Compacto, para balcões 
+
+ Totem de piso Sob consulta Incluso na locação ou assinatura na compra Maior presença visual 
+
+ 
+ 
+ 
+
+ Os valores de hardware não são públicos porque dependem da configuração. Um totem de piso com tela grande e personalização especial não custa o mesmo que um modelo de mesa padrão.
+
+ Locação ou compra: o que muda no bolso
+
+ Na locação (comodato) , o investimento inicial é menor e o equipamento fica com o fornecedor. A mensalidade inclui o uso do totem, o software e o suporte. É a opção para testar o canal, equipar várias lojas ou usar por um período determinado.
+
+ Na compra , o equipamento passa a ser patrimônio da empresa. O desembolso inicial é maior, mas o custo por ano tende a cair em operações permanentes. O software continua como assinatura.
+
+ Cinco fatores que mudam o preço
+
+ 
+ Quantidade de terminais: o plano acompanha o número de pontos de coleta.
+
+ Modelo e tela: piso custa mais que mesa; telas maiores custam mais que telas compactas.
+
+ Personalização: aplicação de marca e acabamentos especiais.
+
+ Prazo de contrato: locações mais longas podem ter condições melhores.
+
+ Canais: totem, QR Code e WhatsApp podem ser combinados no mesmo plano.
+
+ 
+
+ Como reduzir o investimento sem perder qualidade
+
+ 
+ Use o tablet que você já tem para validar a operação antes de comprar um totem.
+
+ Comece com um ponto e expanda depois de confirmar a taxa de resposta.
+
+ Padronize a pesquisa para não pagar personalização diferente em cada loja.
+
+ Escolha o modelo certo: um totem de piso em um balcão pequeno é desperdício de espaço e de verba.
+
+ Compare o pacote completo , não só a mensalidade: suporte e modo offline fazem diferença na operação.
+
+ 
+
+ O que comparar em uma proposta
+
+ Ao receber propostas de fornecedores diferentes, verifique se cada uma inclui:
+
+ 
+ Equipamento, instalação e logística.
+
+ Aplicativo, painel e armazenamento das respostas.
+
+ Modo offline e sincronização automática.
+
+ Personalização visual.
+
+ Suporte, prazo de contrato e condições de manutenção.
+
+ Canais incluídos: totem, QR Code e WhatsApp.
+
+ 
+ Um preço menor pode esconder a cobrança separada de itens essenciais. A pergunta certa não é “quanto custa o totem?”, mas “quanto custa operar a pesquisa por mês, com tudo incluído?”.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Veja os planos
+
+ 
+ 
+
+ Equipamento e software têm valor sob consulta, definido conforme o projeto.
+
+ Ver planos e preços
+
+
+## Perguntas frequentes
+
+## Dá para usar um totem de pesquisa sem comprar equipamento?
+Sim, se você já tiver um tablet Android 5.1 ou superior e usar o próprio dispositivo. Nesse caso, não há custo de hardware, apenas a contratação do software.
+
+## O totem de piso é muito mais caro que o de mesa?
+Costuma ser, por causa da estrutura e do tamanho da tela. A diferença exata depende do modelo e da personalização, por isso o valor é informado em proposta.
+
+## A locação inclui manutenção?
+As condições de manutenção fazem parte do contrato de locação e são detalhadas na proposta. Na compra, vale conferir o prazo e as condições de garantia.
+
+## Existe custo por resposta coletada?
+Não. O plano é por assinatura e não por resposta. O volume de pesquisas faz parte da operação, não é cobrado por unidade.
+
+
+---
+
+# Totem de pesquisa funciona sem internet?
+URL: https://www.backeend.com.br/blog/totem-de-pesquisa-funciona-sem-internet.html
+
+Totem de pesquisa sem internet: como funciona o modo offline, o que sincroniza, limitações e o que verificar antes de contratar.
+
+Sim. O totem de pesquisa continua coletando sem internet: as respostas ficam armazenadas no próprio dispositivo e são sincronizadas com o painel quando a conexão volta.
+
+ A ressalva é o tempo real. Sem conexão, o gestor não vê a resposta na hora; ele recebe o lote assim que o equipamento volta a ficar online.
+
+ 
+
+ 
+ Como funciona o modo offline
+
+ O aplicativo mantém a pesquisa disponível localmente e grava cada resposta no armazenamento do dispositivo. Não é necessário que o cliente esteja conectado para responder.
+
+ Quando o totem encontra uma rede, ele envia as respostas pendentes para a plataforma. O processo é automático e não exige que alguém vá até o equipamento para “baixar” os dados.
+
+ O que sincroniza
+
+ 
+ Notas de NPS, CSAT e CES.
+
+ Respostas de escala de carinhas (SMILE).
+
+ Respostas de quiz e comentários.
+
+ Data e hora de cada resposta.
+
+ 
+ A sincronização é feita em lote. Quanto mais tempo offline, maior o volume enviado de uma vez.
+
+ O que muda sem conexão
+
+ 
+ 
+ Operação online versus offline 
+ Recurso Com internet Sem internet 
+ 
+ 
+ Cliente responde Sim Sim 
+
+ Resposta chega ao painel Em tempo real Quando sincronizar 
+
+ Troca de pesquisa Remota Precisa de conexão 
+
+ Monitoramento do terminal Sim Limitado 
+
+ Risco de perda Baixo Baixo, se o dispositivo for preservado 
+
+ 
+ 
+ 
+
+ Quando o offline é essencial
+
+ 
+ Eventos e feiras: a internet do local costuma ser instável ou sobrecarregada.
+
+ Lojas em regiões afastadas: conexão lenta ou intermitente.
+
+ Operações com queda de energia: o totem pode ficar um período sem rede.
+
+ Alto volume: muitos terminais disputando a mesma conexão.
+
+ 
+
+ O que verificar antes de contratar
+
+ 
+ O aplicativo armazena respostas localmente? Por quanto tempo?
+
+ A sincronização é automática ou precisa de ação manual?
+
+ O que acontece se o dispositivo reiniciar antes de sincronizar?
+
+ O painel sinaliza quais terminais estão online?
+
+ Há limite de respostas armazenadas?
+
+ 
+ Essas respostas valem mais do que a promessa genérica de “funciona offline”. Na beend.tech, o aplicativo foi desenhado para coletar sem rede e sincronizar depois, e a operação padrão recomenda conexão estável para acompanhamento em tempo real.
+
+ Offline não substitui conexão
+
+ O modo offline protege a coleta, mas não elimina a necessidade de internet para gestão. Trocar a pesquisa, acompanhar resultados e monitorar os terminais depende de conexão.
+
+ Para locais sem nenhuma rede, o ideal é combinar o totem com um período de sincronização — por exemplo, ao final do dia ou quando o equipamento retornar a uma área com Wi-Fi.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Aplicar
+
+ Veja o guia do totem
+
+ 
+ 
+
+ Entenda o que é, como funciona e como escolher o modelo certo para o seu ponto de atendimento.
+
+ Abrir o guia
+
+
+## Perguntas frequentes
+
+## O totem perde respostas se a internet cair?
+Não, se o modo offline estiver ativo. As respostas ficam no dispositivo e são enviadas quando a conexão volta. O risco existe apenas se o equipamento for desligado ou danificado antes da sincronização.
+
+## Quanto tempo as respostas ficam armazenadas?
+Depende da configuração e da capacidade do dispositivo. O ideal é sincronizar com frequência para reduzir o volume pendente e liberar espaço.
+
+## Preciso de internet para instalar o totem?
+Sim, a configuração inicial da pesquisa e da personalização exige conexão. Depois disso, a coleta pode operar offline.
+
+## Dá para usar o totem em evento sem Wi-Fi?
+Sim. O totem coleta offline e sincroniza quando houver rede. Para o relatório do evento, basta garantir a sincronização antes de encerrar a operação.
+
+
+---
+
+# 7 erros que reduzem a taxa de resposta do totem de pesquisa
+URL: https://www.backeend.com.br/blog/erros-ao-instalar-totem-de-pesquisa.html
+
+Sete erros que reduzem a taxa de resposta do totem de pesquisa e como corrigir posicionamento, pesquisa longa, convite, tela, personalização e rotina de análise.
+
+Os erros mais comuns são posicionamento fora do fluxo, pesquisa longa, convite confuso, tela com brilho excessivo e falta de acompanhamento dos resultados. Corrigir esses pontos costuma ter mais efeito do que trocar de equipamento.
+
+ 
+
+ 
+ 1. Esconder o totem fora do fluxo
+
+ Totem em canto de parede, de costas para o cliente ou atrás do caixa não é visto. O equipamento precisa estar no caminho natural de saída, depois do atendimento ou do pagamento.
+
+ Correção: observe por onde o cliente passa ao terminar a experiência e reposicione o totem nesse trajeto.
+
+ 2. Fazer uma pesquisa longa
+
+ Cada pergunta adicional reduz a conclusão. No totem, o cliente está em pé e de saída: uma pergunta principal basta.
+
+ Correção: deixe uma pergunta de nota ou carinha e um comentário opcional. Se precisar de mais dados, use o WhatsApp depois.
+
+ 3. Escrever um convite confuso
+
+ “Participe da nossa pesquisa de avaliação de qualidade percebida” não diz o que fazer. O cliente precisa entender em dois segundos.
+
+ Correção: use algo como “Como foi seu atendimento hoje? Toque em uma carinha.”
+
+ 4. Deixar a tela ilegível
+
+ Brilho baixo, reflexo do sol, fonte pequena ou contraste fraco afastam o cliente. O mesmo vale para totens instalados em áreas externas sem proteção.
+
+ Correção: teste a leitura à distância, em diferentes horários, e ajuste brilho e contraste.
+
+ 5. Não personalizar
+
+ Um totem genérico parece um objeto estranho no balcão. Com a marca da empresa, ele passa a fazer parte da operação e o cliente entende por que está ali.
+
+ Correção: aplique logo, cores e uma mensagem alinhada ao tom da marca.
+
+ 6. Não treinar a equipe
+
+ Se o atendente não sabe para que o totem serve, ele não indica. Pior: pode pedir “nota 10”, o que contamina a amostra.
+
+ Correção: explique o objetivo, oriente o convite neutro e deixe claro que a pesquisa não é uma avaliação punitiva do colaborador.
+
+ 7. Coletar e não fazer nada com o dado
+
+ A pesquisa perde sentido quando ninguém olha o resultado. O cliente percebe que respondeu e nada mudou.
+
+ Correção: defina uma rotina de leitura — semanal ou mensal —, escolha uma melhoria por ciclo e comunique o que foi feito.
+
+ Como medir se está funcionando
+
+ A taxa de resposta é o primeiro indicador. Divida o número de respostas pelo número estimado de clientes atendidos no período. Se o totem recebe muito fluxo e poucas respostas, revise os sete pontos acima.
+
+ Depois, acompanhe a distribuição das notas e os comentários. Uma taxa alta com notas sempre máximas pode indicar que a equipe está induzindo a resposta.
+
+ 
+ Regra prática: o totem precisa ser visto, entendido e fácil. Se o cliente precisar pensar para saber o que fazer, ele passa direto.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Coloque a pesquisa para funcionar
+
+ 
+ 
+
+ 
+ Guia do totem
+ Modelos, métricas, instalação e preço.
+ Abrir guia 
+ Falar com especialista
+ Peça uma proposta para o seu ponto de atendimento.
+ Contato
+
+
+## Perguntas frequentes
+
+## Qual é uma boa taxa de resposta para totem de pesquisa?
+Depende do fluxo e do setor. O mais útil é medir a sua própria taxa ao longo do tempo e comparar unidades semelhantes. O importante é que o volume seja suficiente para a análise não ser anecdótica.
+
+## O totem deve ficar perto do caixa?
+Sim, desde que esteja no caminho de saída e não atrapalhe a fila. O cliente precisa conseguir parar por alguns segundos para responder.
+
+## Posso pedir nota 10 ao cliente?
+Não é recomendado. Induzir a resposta contamina a amostra e esconde problemas reais. O convite deve ser neutro: convidar a avaliar, sem sugerir a nota.
+
+
+---
+
+# Política de privacidade e LGPD
+URL: https://www.backeend.com.br/politica-de-privacidade.html
+
+Política de privacidade e LGPD: dados coletados, finalidades, base legal, compartilhamento, direitos do titular e contato.
+
+Quais dados coletamos
+
+ Neste site, coletamos apenas os dados que você informa voluntariamente no formulário de contato: nome, empresa, WhatsApp, segmento e descrição da necessidade. O envio abre uma conversa no WhatsApp; o site não armazena esses dados em banco próprio.
+
+ Na plataforma de pesquisa de satisfação contratada pelos clientes, podem ser tratados dados de respondentes, como nota, comentário e identificadores definidos pelo cliente.
+
+ Para que usamos
+
+ 
+ Responder solicitações de orçamento e contato comercial.
+
+ Prestar suporte e operar a plataforma contratada.
+
+ Cumprir obrigações legais e regulatórias.
+
+ 
+
+ Base legal
+
+ O tratamento pode se apoiar em consentimento, execução de contrato, cumprimento de obrigação legal ou legítimo interesse, conforme o caso e o artigo aplicável da Lei nº 13.709/2018 (LGPD).
+
+ Compartilhamento
+
+ Não vendemos dados pessoais. O compartilhamento ocorre apenas com fornecedores necessários à operação, como hospedagem e comunicação, e com autoridades quando houver obrigação legal.
+
+ Direitos do titular
+
+ O titular pode solicitar confirmação de tratamento, acesso, correção, anonimização, portabilidade, eliminação e informação sobre compartilhamento. Para exercer os direitos, envie um e-mail para sac@backeend.com.br .
+
+ Segurança e retenção
+
+ Adotamos medidas técnicas e administrativas para proteger os dados. As informações são mantidas pelo tempo necessário às finalidades descritas ou conforme exigência legal.
+
+ Contato do encarregado
+
+ Dúvidas sobre privacidade podem ser encaminhadas para sac@backeend.com.br ou pelo telefone (61) 99595-7461.
+
+ Última atualização: 02/11/2026.
+

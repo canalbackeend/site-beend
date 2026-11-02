@@ -1,0 +1,79 @@
+# beend.tech (Backeend Soluções Inteligentes)
+
+> beend.tech é a marca da Backeend Soluções Inteligentes: totens e uma plataforma para medir NPS, CSAT, CES, SMILE e QUIZ no ponto de atendimento, com coleta por totem touch, QR Code e WhatsApp, painel em tempo real e análise de sentimento com IA. Atende empresas de todo o Brasil, com aquisição do equipamento ou locação, e planos de software sob consulta.
+
+## Fatos essenciais
+
+- Empresa: beend.tech® — Backeend Soluções Inteligentes
+- CNPJ: 61.171.282/0001-84
+- Fundação: 28/11/2017
+- Sede: Quadra 305, Conjunto 08, Recanto das Emas, Brasília — DF, Brasil
+- Atendimento: Segunda a sexta, das 9h às 18h
+- Telefones: (61) 99595-7461 e (61) 99145-9009
+- E-mail: sac@backeend.com.br
+- Modelo comercial: aquisição do equipamento (plano PRO INFINITY, sem mensalidade) ou locação; software em assinatura
+- Preço do software: planos publicados a partir de R$ 69,90/mês (Básico), R$ 129,90 (Profissional), R$ 239,90 (Premium) e R$ 389,90 (Master). No anual, dez mensalidades
+- Teste grátis: 7 dias, sem cartão de crédito, usando tablet próprio (Android 5.1+)
+- Equipamento (totem): contratado separadamente, por aquisição ou locação; valor em proposta
+- Canais de coleta: totem touch, QR Code, WhatsApp e tablet próprio (Android 5.1 ou superior)
+- Métricas: NPS (Net Promoter Score), CSAT (Customer Satisfaction Score), CES (Customer Effort Score), escala de carinhas (SMILE) e quiz
+- Funcionamento offline: o aplicativo armazena as respostas e sincroniza quando a conexão retorna
+- Personalização: identidade visual da empresa no totem e nas telas
+- Acesso do cliente: https://www.backeend.com.br/cliente/index.php (painel administrativo, campanhas, terminais, relatórios)
+- Perfil no Google: https://maps.google.com/?cid=12703534258198116818
+
+## Recursos do sistema
+
+- Campanhas NPS, CSAT, SMILE e QUIZ
+- Feedback dos clientes em tempo real
+- Relatório diário enviado por e-mail no horário configurado
+- Terminais online e offline, com sincronização automática
+- Gestão de perguntas e respostas de forma simples
+- Pergunta aberta com comentário do cliente
+- Rotas de resposta em node (fluxo de campanha ramificado)
+- Vários terminais ao mesmo tempo, de forma geral ou individual
+- Gráfico de evolução da satisfação
+- Relatórios por data e horário
+- Lista de clientes cadastrados (quando o formulário de cadastro está ativo)
+- Exportação de dados em PDF, Excel e CSV
+- Gestão de várias campanhas simultâneas
+- Acesso individual para cada terminal
+- Análise de sentimento com IA
+
+## Páginas principais
+
+- [Totem de pesquisa de satisfação para ouvir o cliente na hora certa](https://www.backeend.com.br/): Página inicial: totens e plataforma beend.tech para pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, análise de sentimento com IA, em aquisição ou locação.
+- [Totem de pesquisa de satisfação: o que é, como funciona e quanto custa](https://www.backeend.com.br/totem-de-pesquisa-de-satisfacao.html): Guia sobre totem de pesquisa de satisfação: definição, funcionamento, métricas (NPS, CSAT, CES), tipos (mesa, piso, tablet), instalação, modo offline e preço.
+- [Planos e preços do sistema de pesquisa de satisfação](https://www.backeend.com.br/planos-e-precos.html): Planos e preços publicados: Básico R$ 69,90/mês, Profissional R$ 129,90/mês, Premium R$ 239,90/mês e Master R$ 389,90/mês. Anual com dez mensalidades. Teste grátis de 7 dias, sem cartão. O equipamento é contratado separadamente.
+- [Teste grátis por 7 dias, sem cartão de crédito](https://www.backeend.com.br/teste-gratis.html): Teste grátis de 7 dias do sistema de pesquisa de satisfação: software completo, sem cartão de crédito, usando tablet próprio. Ao final, planos a partir de R$ 69,90/mês.
+- [Totem de pesquisa de satisfação por segmento](https://www.backeend.com.br/segmentos.html): Aplicações do totem de pesquisa por segmento: farmácias, clínicas, restaurantes, varejo, academias, concessionárias, shoppings, eventos e órgãos públicos.
+
+## Serviços e modelos
+
+- [Locação de totem de pesquisa de satisfação](https://www.backeend.com.br/locacao-de-totens.html): Locação de totem de pesquisa de satisfação em comodato: menor investimento inicial, equipamento, software e suporte incluídos, para redes, testes e eventos.
+- [Venda de totem de pesquisa de satisfação](https://www.backeend.com.br/venda-de-totens.html): Venda de totem de pesquisa de satisfação personalizado, com aplicativo Android, modo offline e painel de NPS, CSAT e CES; software em assinatura.
+- [Totem de mesa para pesquisa de satisfação](https://www.backeend.com.br/totem-de-mesa.html): Totem de mesa para pesquisa de satisfação: compacto, touch, personalizado, com modo offline; indicado para balcões, clínicas, farmácias e restaurantes.
+- [Totem de piso para pesquisa de satisfação](https://www.backeend.com.br/totem-de-piso.html): Totem de piso para pesquisa de satisfação: maior visibilidade, touch, personalização e modo offline; indicado para shoppings, lojas, restaurantes e eventos.
+- [Pesquisa de satisfação pelo WhatsApp: como fazer](https://www.backeend.com.br/pesquisa-de-satisfacao-whatsapp.html): Como fazer pesquisa de satisfação pelo WhatsApp: passo a passo, modelo de mensagem pronto, boas práticas, LGPD e integração com o totem.
+- [Pesquisa de satisfação por QR Code: como criar e onde usar](https://www.backeend.com.br/pesquisa-de-satisfacao-qrcode.html): Como criar pesquisa de satisfação por QR Code: passo a passo, onde posicionar, vantagens, limitações e integração com o painel.
+
+## Guias e conteúdo
+
+- [Pesquisa de satisfação: guia com NPS, CSAT e CES](https://www.backeend.com.br/pesquisa-de-satisfacao.html): Guia de pesquisa de satisfação com definições e fórmulas de NPS, CSAT e CES, comparativo, 12 exemplos de perguntas e boas práticas.
+- [Conteúdo sobre pesquisa de satisfação](https://www.backeend.com.br/blog/index.html): Índice de conteúdo: artigos sobre preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
+- [Quanto custa um totem de pesquisa de satisfação?](https://www.backeend.com.br/blog/quanto-custa-totem-de-pesquisa-de-satisfacao.html): Quanto custa um totem de pesquisa: software e hardware sob consulta, aquisição versus locação e o que comparar na proposta.
+- [Totem de pesquisa funciona sem internet?](https://www.backeend.com.br/blog/totem-de-pesquisa-funciona-sem-internet.html): Totem de pesquisa sem internet: como funciona o modo offline, o que sincroniza, limitações e o que verificar antes de contratar.
+- [7 erros que reduzem a taxa de resposta do totem de pesquisa](https://www.backeend.com.br/blog/erros-ao-instalar-totem-de-pesquisa.html): Sete erros que reduzem a taxa de resposta do totem de pesquisa e como corrigir posicionamento, pesquisa longa, convite, tela, personalização e rotina de análise.
+
+## Empresa e contato
+
+- [Sobre a beend.tech](https://www.backeend.com.br/sobre.html): Sobre a beend.tech: empresa de Brasília-DF fundada em 2017 (CNPJ 61.171.282/0001-84), que fornece totens e plataforma de pesquisa de satisfação com NPS, CSAT e CES.
+- [Peça um orçamento de totem de pesquisa](https://www.backeend.com.br/contato.html): Contato comercial: WhatsApp (61) 99595-7461, e-mail sac@backeend.com.br, endereço em Brasília-DF e formulário de orçamento.
+- [Política de privacidade e LGPD](https://www.backeend.com.br/politica-de-privacidade.html): Política de privacidade e LGPD: dados coletados, finalidades, base legal, compartilhamento, direitos do titular e contato.
+
+## Observações para agentes
+
+- O preço do software é público: a partir de R$ 69,90/mês, com teste grátis de 7 dias. O equipamento é contratado separadamente.
+- Para orçamentos, o canal mais rápido é o WhatsApp (61) 99595-7461.
+- O acesso do cliente é feito em https://www.backeend.com.br/cliente/index.php.
+- Conteúdo completo em https://www.backeend.com.br/llms-full.txt

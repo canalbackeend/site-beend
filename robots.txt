@@ -1,0 +1,50 @@
+# robots.txt — beend.tech
+# Site: https://www.backeend.com.br
+
+User-agent: *
+Allow: /
+Disallow: /cliente
+Disallow: /app/
+Disallow: /totem/
+Disallow: /totempro/
+
+# Busca e resposta por IA — permitidos explicitamente
+User-agent: GPTBot
+Allow: /
+Disallow: /cliente
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /cliente
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /cliente
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /cliente
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /cliente
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://www.backeend.com.br/sitemap.xml
