@@ -180,8 +180,7 @@ function jsonLd(page, canonical) {
     ...(SITE.sameAs.length ? { sameAs: SITE.sameAs } : {}),
     address: {
       "@type": "PostalAddress",
-      streetAddress: SITE.street,
-      addressLocality: SITE.district,
+      addressLocality: SITE.city,
       addressRegion: SITE.region,
       addressCountry: "BR",
     },
@@ -297,7 +296,7 @@ function footer(root) {
       <div>
         ${logoMarkup(root)}
         <p>Totens e plataforma de pesquisa de satisfação do cliente. Coleta por totem, QR Code e WhatsApp, com NPS, CSAT e CES em tempo real.</p>
-        <p><strong style="color:#fff">${SITE.legalName}</strong><br>CNPJ ${SITE.cnpj}<br>${SITE.street} — ${SITE.district}<br>${SITE.city} — ${SITE.region}</p>
+        <p><strong style="color:#fff">${SITE.legalName}</strong><br>CNPJ ${SITE.cnpj}<br>${SITE.city} — ${SITE.region}</p>
       </div>
       ${FOOTER_COLS.map(
         (col) => `<div>
@@ -343,7 +342,7 @@ function lpHeader(root) {
 function lpFooter(root) {
   return `<footer class="lp-foot">
   <div class="wrap">
-    <p><strong>${SITE.legalName}</strong> · CNPJ ${SITE.cnpj} · ${SITE.street} — ${SITE.district}, ${SITE.city} — ${SITE.region}</p>
+    <p><strong>${SITE.legalName}</strong> · CNPJ ${SITE.cnpj} · ${SITE.city} — ${SITE.region}</p>
     <p class="small">
       <a href="${root}politica-de-privacidade.html">Política de privacidade e LGPD</a> ·
       <a href="${root}index.html">beend.tech</a> ·
@@ -588,7 +587,7 @@ const llms = `# beend.tech (Backeend Soluções Inteligentes)
 - Empresa: ${SITE.brandReg} — ${SITE.legalName}
 - CNPJ: ${SITE.cnpj}
 - Fundação: 28/11/2017
-- Sede: ${SITE.street}, ${SITE.district}, ${SITE.city} — ${SITE.region}, Brasil
+- Sede: ${SITE.city} — ${SITE.region}, Brasil
 - Atendimento: ${SITE.hours}
 - Telefones: ${SITE.phoneDisplay} e ${SITE.phone2Display}
 - E-mail: ${SITE.email}

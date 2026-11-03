@@ -2145,7 +2145,7 @@ beend.tech é a marca da Backeend Soluções Inteligentes, empresa de Brasília-
 
  Fundação 28 de novembro de 2017 
 
- Sede Quadra 305, Conjunto 08 — Recanto das Emas, Brasília — DF, Brasil 
+ Sede Brasília — DF, Brasil 
 
  Atendimento Segunda a sexta, das 9h às 18h 
 
@@ -2208,7 +2208,7 @@ beend.tech é a marca da Backeend Soluções Inteligentes, empresa de Brasília-
 ## Perguntas frequentes
 
 ## Onde fica a beend.tech?
-A sede fica na Quadra 305, Conjunto 08, no Recanto das Emas, em Brasília — DF. A empresa atende clientes de todo o Brasil, com logística de implantação combinada conforme o projeto.
+A sede fica em Brasília — DF. A empresa atende clientes de todo o Brasil, com logística de implantação combinada conforme o projeto.
 
 ## Desde quando a beend.tech existe?
 A Backeend Soluções Inteligentes foi fundada em 28 de novembro de 2017. Desde então, passou de totens interativos a um ecossistema completo de coleta e análise de satisfação do cliente.

@@ -16,7 +16,7 @@ const ROOT_FILES = [
 ];
 
 // Pastas copiadas inteiras
-const DIRS = ["assets", "blog"];
+const DIRS = ["assets", "blog", "lp"];
 
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });

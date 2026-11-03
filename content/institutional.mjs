@@ -687,7 +687,7 @@ export const about = {
             <tr><th>Razão social</th><td>Backeend Soluções Inteligentes</td></tr>
             <tr><th>CNPJ</th><td>61.171.282/0001-84</td></tr>
             <tr><th>Fundação</th><td>28 de novembro de 2017</td></tr>
-            <tr><th>Sede</th><td>Quadra 305, Conjunto 08 — Recanto das Emas, Brasília — DF, Brasil</td></tr>
+            <tr><th>Sede</th><td>Brasília — DF, Brasil</td></tr>
             <tr><th>Atendimento</th><td>Segunda a sexta, das 9h às 18h</td></tr>
             <tr><th>Telefones</th><td><a href="tel:+5561995957461">{{phone}}</a> e <a href="tel:+5561991459009">{{phone2}}</a></td></tr>
             <tr><th>E-mail</th><td><a href="mailto:{{email}}">{{email}}</a></td></tr>
@@ -731,7 +731,7 @@ export const about = {
   faq: [
     {
       q: "Onde fica a beend.tech?",
-      a: "<p>A sede fica na Quadra 305, Conjunto 08, no Recanto das Emas, em Brasília — DF. A empresa atende clientes de todo o Brasil, com logística de implantação combinada conforme o projeto.</p>",
+      a: "<p>A sede fica em Brasília — DF. A empresa atende clientes de todo o Brasil, com logística de implantação combinada conforme o projeto.</p>",
     },
     {
       q: "Desde quando a beend.tech existe?",
