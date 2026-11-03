@@ -64,9 +64,9 @@ hr{border:0;border-top:1px solid var(--line);margin:36px 0}
 .header__in > .header__actions{order:3}
 .header__in > .nav-toggle{order:4}
 .logo{display:inline-flex;flex-direction:column;align-items:flex-start;text-decoration:none;color:var(--ink);white-space:nowrap;line-height:1}
-.logo__word{display:inline-flex;align-items:flex-start;font-family:var(--font-logo);font-weight:700;font-size:1.32rem;letter-spacing:-.02em;text-transform:lowercase}
-.logo__reg{font-family:var(--font);font-size:.42em;font-weight:600;margin-left:2px;margin-top:1px;letter-spacing:0}
-.logo__sub{font-family:var(--font);font-size:.48rem;font-weight:500;letter-spacing:.4em;text-transform:uppercase;color:var(--muted);margin-top:4px;padding-left:1px}
+.logo__word{display:inline-flex;align-items:flex-start;font-family:var(--font-logo);font-weight:700;font-size:1.58rem;letter-spacing:-.03em;text-transform:lowercase}
+.logo__reg{font-family:var(--font);font-size:.42em;font-weight:600;margin-left:2px;margin-top:2px;letter-spacing:0}
+.logo__sub{font-family:var(--font);font-size:.54rem;font-weight:600;letter-spacing:.42em;text-transform:uppercase;color:var(--muted);margin-top:5px;padding-left:1px}
 .logo:hover{color:var(--ink)}
 .nav{margin-left:auto;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
 .nav::-webkit-scrollbar{display:none}
@@ -103,7 +103,7 @@ hr{border:0;border-top:1px solid var(--line);margin:36px 0}
 /* ---------- mobile: cabeçalho de 1 linha + menu em gaveta ---------- */
 @media (max-width:900px){
   .header__in{flex-wrap:wrap;gap:10px;min-height:60px;padding-top:8px;padding-bottom:8px}
-  .logo__word{font-size:1.18rem}
+  .logo__word{font-size:1.34rem}
   .logo__sub{display:none}
   .header__in > .header__actions{order:2;margin-left:auto;gap:8px}
   .header__in > .nav-toggle{order:3}
