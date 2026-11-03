@@ -295,7 +295,15 @@ details.faq[open] summary{border-bottom:1px solid var(--line)}
 .form{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px;box-shadow:var(--shadow)}
 .field{display:grid;gap:6px;margin-bottom:16px}
 .field label{font-weight:700;font-size:.9rem;color:var(--ink-2)}
-.field input,.field select,.field textarea{font:inherit;font-size:1rem;padding:12px 14px;border:1px solid #cdd2d8;border-radius:10px;background:#fff;color:var(--ink);width:100%}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;padding:12px 14px;border:1px solid #cdd2d8;border-radius:10px;background:#fff;color:var(--ink);width:100%;min-height:47px;line-height:1.3}
+.field select{
+  appearance:none;-webkit-appearance:none;-moz-appearance:none;
+  padding-right:42px;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9' fill='none'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%235b626c' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;background-size:14px 9px;
+}
+.field select::-ms-expand{display:none}
+.field input[type="tel"]{letter-spacing:.01em}
 .field textarea{min-height:110px;resize:vertical}
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--brand-ink);box-shadow:0 0 0 3px rgba(11,130,255,.18)}
 .form .hint{font-size:.82rem;color:var(--muted);margin:12px 0 0}
@@ -329,3 +337,68 @@ details.faq[open] summary{border-bottom:1px solid var(--line)}
 .badge-row svg{width:16px;height:16px;color:#7ee2a8;flex:none}
 
 @media print{.header,.footer,.cta-band,.btn{display:none}body{font-size:12pt}}
+
+/* ==========================================================================
+   Landing page de campanha (lp/) — sem menu, um objetivo só
+   ========================================================================== */
+.btn--lg{padding:17px 30px;font-size:1.06rem}
+
+.lp-head{position:sticky;top:0;z-index:60;background:#fff;border-bottom:1px solid var(--line)}
+.lp-head__in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:61px}
+.lp-head .logo{margin:0}
+
+.lp-hero{background:#0d1014;color:#fff;overflow:hidden}
+.lp-hero__in{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(28px,5vw,56px);align-items:center;padding-top:clamp(44px,6vw,80px);padding-bottom:clamp(44px,6vw,80px)}
+.lp-hero h1{color:#fff;font-size:clamp(1.95rem,3.8vw,3rem);max-width:18ch;margin-bottom:18px}
+.lp-hero .lp-sub{color:#dbe1e8;font-size:clamp(1.02rem,1.4vw,1.16rem);max-width:52ch}
+.lp-flag{display:inline-block;margin:0 0 18px;padding:7px 14px;border-radius:999px;background:rgba(11,130,255,.16);border:1px solid rgba(11,130,255,.45);color:#a8d2ff;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.lp-micro{font-size:.85rem;color:#9aa4b0;margin:16px 0 0}
+.lp-hero .btn-row{margin-top:24px}
+.lp-hero__media img{width:100%;height:auto;border-radius:14px;border:1px solid rgba(255,255,255,.14);box-shadow:0 30px 70px rgba(0,0,0,.45)}
+
+.lp-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;text-align:center;padding:26px 20px;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg-2)}
+.lp-stats div{display:flex;flex-direction:column;gap:2px}
+.lp-stats b{font-size:clamp(1.35rem,2.4vw,1.9rem);color:var(--brand-ink);letter-spacing:-.02em}
+.lp-stats span{font-size:.86rem;color:var(--muted)}
+
+.lp-steps{list-style:none;padding:0;margin:0;counter-reset:s;display:grid;gap:16px}
+.lp-steps li{counter-increment:s;position:relative;padding:20px 22px 20px 66px;background:#fff;border:1px solid var(--line);border-radius:var(--radius)}
+.lp-steps li::before{content:counter(s);position:absolute;left:20px;top:18px;width:32px;height:32px;border-radius:50%;background:var(--brand-ink);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem}
+.lp-steps b{display:block;color:var(--ink);font-size:1.05rem;margin-bottom:3px}
+.lp-steps span{color:var(--muted);font-size:.96rem}
+
+.lp-split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,56px);align-items:start}
+.lp-check{list-style:none;padding:0;margin:22px 0 12px;display:grid;gap:8px}
+.lp-check li{position:relative;padding-left:26px;color:var(--ink-2);font-weight:600}
+.lp-check li::before{content:"";position:absolute;left:0;top:.55em;width:12px;height:12px;border-radius:3px;background:var(--brand-soft);border:2px solid var(--brand-ink)}
+
+.lp-form-box{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+
+.lp-final{text-align:center;background:var(--bg-2);border:1px solid var(--line);border-radius:20px;padding:clamp(32px,5vw,56px) clamp(20px,4vw,44px)}
+.lp-final h2{margin-bottom:10px}
+.lp-final p{color:var(--muted);max-width:60ch;margin-left:auto;margin-right:auto}
+
+.lp-foot{background:#0d1014;color:#9aa4b0;padding:32px 0;font-size:.88rem}
+.lp-foot p{margin:0 0 6px}
+.lp-foot strong{color:#fff}
+.lp-foot a{color:#c9d3de}
+
+/* ---------- banner de consentimento (LGPD) ---------- */
+.consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:90;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;padding:16px 20px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-lg);max-width:760px;margin:0 auto}
+.consent p{margin:0;font-size:.9rem;color:var(--body);max-width:52ch}
+.consent__actions{display:flex;gap:10px;flex:none}
+
+@media (max-width:860px){
+  .lp-hero__in{grid-template-columns:1fr}
+  .lp-hero__media img{max-width:560px}
+  .lp-split{grid-template-columns:1fr}
+  .lp-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:520px){
+  .lp-head .btn{font-size:.82rem;padding:9px 12px}
+  .lp-head .btn svg{display:none}
+  .consent{left:10px;right:10px;bottom:10px;padding:14px}
+  .consent__actions{width:100%}
+  .consent__actions .btn{flex:1}
+}
+

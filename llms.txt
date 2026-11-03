@@ -68,7 +68,7 @@
 ## Empresa e contato
 
 - [Sobre a beend.tech](https://www.backeend.com.br/sobre.html): Sobre a beend.tech: empresa de Brasília-DF fundada em 2017 (CNPJ 61.171.282/0001-84), que fornece totens e plataforma de pesquisa de satisfação com NPS, CSAT e CES.
-- [Peça um orçamento de totem de pesquisa](https://www.backeend.com.br/contato.html): Contato comercial: WhatsApp (61) 99595-7461, e-mail sac@backeend.com.br, endereço em Brasília-DF e formulário de orçamento.
+- [Peça um orçamento de totem de pesquisa](https://www.backeend.com.br/contato.html): Contato comercial: WhatsApp (61) 99595-7461, e-mail beendtech@gmail.com e formulário de orçamento. Atendimento em todo o Brasil.
 - [Política de privacidade e LGPD](https://www.backeend.com.br/politica-de-privacidade.html): Política de privacidade e LGPD: dados coletados, finalidades, base legal, compartilhamento, direitos do titular e contato.
 
 ## Observações para agentes

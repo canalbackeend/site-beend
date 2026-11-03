@@ -440,7 +440,7 @@ export const contact = {
   kicker: "Fale com a beend.tech",
   title: "Contato e Orçamento | beend.tech",
   description:
-    "Peça um orçamento de totem de pesquisa de satisfação. WhatsApp (61) 99595-7461, e-mail sac@backeend.com.br ou formulário. Atendimento em todo o Brasil.",
+    "Peça um orçamento de totem de pesquisa de satisfação. WhatsApp (61) 99595-7461, e-mail beendtech@gmail.com ou formulário. Atendimento em todo o Brasil.",
   h1: "Peça um orçamento de totem de pesquisa",
   lead:
     "Conte quantos pontos de coleta você precisa e qual métrica quer acompanhar. A equipe responde com modelo, plano e prazo de implantação.",
@@ -455,8 +455,7 @@ export const contact = {
         <ul class="contact-list">
           <li><b>WhatsApp comercial</b><a href="{{wa}}" target="_blank" rel="noopener">{{phone}}</a></li>
           <li><b>Telefone alternativo</b><a href="tel:+5561991459009">{{phone2}}</a></li>
-          <li><b>E-mail</b><a href="mailto:{{email}}">{{email}}</a></li>
-          <li><b>Endereço</b><span>Quadra 305, Conjunto 08 — Recanto das Emas<br>Brasília — DF, Brasil</span></li>
+          <li><b>E-mail</b><a href="mailto:beendtech@gmail.com">beendtech@gmail.com</a></li>
           <li><b>Atendimento</b><span>Segunda a sexta, das 9h às 18h</span></li>
         </ul>
         <p style="margin-top:26px"><a class="btn btn--wa" href="{{wa}}" target="_blank" rel="noopener">Abrir conversa no WhatsApp</a></p>
@@ -475,7 +474,7 @@ export const contact = {
         </div>
         <div class="field">
           <label for="telefone">WhatsApp*</label>
-          <input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(61) 99999-9999" required>
+          <input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" data-mask="phone" placeholder="(61) 99999-9999" required>
         </div>
         <div class="field">
           <label for="segmento">Segmento</label>
@@ -508,11 +507,10 @@ export const contact = {
 <section class="section section--alt">
   <div class="wrap">
     <div class="section__head">
-      <p class="kicker">Onde estamos</p>
-      <h2>Brasília — DF</h2>
-      <p>Atendimento presencial na região e implantação remota para todo o Brasil.</p>
+      <p class="kicker">Cobertura</p>
+      <h2>Atendemos empresas de todo o Brasil</h2>
+      <p>Base em Brasília — DF, com instalação e suporte remoto para as demais regiões. A logística é combinada conforme o projeto.</p>
     </div>
-    <p><a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=Quadra+305+Conjunto+08+Recanto+das+Emas+Bras%C3%ADlia+DF" target="_blank" rel="noopener">Ver no Google Maps</a></p>
   </div>
 </section>
 
@@ -535,7 +533,9 @@ export const contact = {
       + '\\nSegmento: ' + (form.segmento.value || 'não informado')
       + '\\nNecessidade: ' + (form.mensagem.value.trim() || 'não informada');
     document.getElementById('form-status').textContent = 'Abrindo o WhatsApp…';
-    window.open('https://wa.me/5561995957461?text=' + encodeURIComponent(texto), '_blank', 'noopener');
+    var url = 'https://wa.me/5561995957461?text=' + encodeURIComponent(texto);
+    var w = window.open(url, '_blank', 'noopener');
+    if (!w) location.href = url;
   });
 })();
 </script>
@@ -558,7 +558,7 @@ export const contact = {
   llms: {
     section: "empresa",
     summary:
-      "Contato comercial: WhatsApp (61) 99595-7461, e-mail sac@backeend.com.br, endereço em Brasília-DF e formulário de orçamento.",
+      "Contato comercial: WhatsApp (61) 99595-7461, e-mail beendtech@gmail.com e formulário de orçamento. Atendimento em todo o Brasil.",
   },
   priority: "0.8",
 };

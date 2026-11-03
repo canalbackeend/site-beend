@@ -12,6 +12,7 @@ import {
   about,
 } from "./institutional.mjs";
 import { blogIndex, posts } from "./blog.mjs";
+import { landingTrial } from "./lp.mjs";
 
 export const pages = [
   home,
@@ -27,4 +28,6 @@ export const pages = [
   ...posts,
   privacy,
   notFound,
+  // Landing pages de campanha (noindex, fora do sitemap)
+  landingTrial,
 ];

@@ -42,6 +42,15 @@ export const SITE = {
   updated: "2026-11-02",
   // Verificação do Google Search Console (propriedade de prefixo de URL)
   googleVerification: "f5ROYlF53YvWNdg6ypF7XPnlvA7CJj-m908ICZ4aoRI",
+  // ── Rastreamento de campanhas (Google Ads / GA4) ─────────────────────────
+  // Vazio = nenhum script de terceiros é carregado (site 100% sem cookies).
+  // Defina no Coolify:
+  //   GADS_ID=AW-123456789  GADS_LABEL=AbC-D_efGhIj  GA4_ID=G-XXXXXXXXXX
+  tracking: {
+    ads: process.env.GADS_ID || "",
+    adsLabel: process.env.GADS_LABEL || "",
+    ga4: process.env.GA4_ID || "",
+  },
 };
 
 const OUT = path.resolve(process.cwd());
@@ -245,11 +254,14 @@ function jsonLd(page, canonical) {
   return JSON.stringify({ "@context": "https://schema.org", "@graph": graph }, null, 2);
 }
 
-function logoMarkup(root, cls = "") {
-  return `<a class="logo${cls}" href="${root}index.html">
-      <span class="logo__word">${SITE.brand}<span class="logo__reg" aria-hidden="true">®</span></span>
-      <span class="logo__sub" aria-hidden="true">${SITE.tagline}</span>
-    </a>`;
+function logoMarkup(root, cls = "", link = true) {
+  const inner = `<span class="logo__word">${SITE.brand}<span class="logo__reg" aria-hidden="true">®</span></span>
+      <span class="logo__sub" aria-hidden="true">${SITE.tagline}</span>`;
+  return link
+    ? `<a class="logo${cls}" href="${root}index.html">
+      ${inner}
+    </a>`
+    : `<span class="logo${cls}">${inner}</span>`;
 }
 
 function header(active, root) {
@@ -318,6 +330,40 @@ function footer(root) {
 </footer>`;
 }
 
+/* ---------- landing page de campanha (sem menu, um único CTA) ---------- */
+function lpHeader(root) {
+  return `<header class="lp-head">
+  <div class="wrap lp-head__in">
+    ${logoMarkup(root, "", false)}
+    <a class="btn btn--wa btn--sm" href="${wa("Olá! Quero ativar o teste grátis de 7 dias do sistema de pesquisa de satisfação.")}" target="_blank" rel="noopener" data-cta="header">${svgWa} Falar no WhatsApp</a>
+  </div>
+</header>`;
+}
+
+function lpFooter(root) {
+  return `<footer class="lp-foot">
+  <div class="wrap">
+    <p><strong>${SITE.legalName}</strong> · CNPJ ${SITE.cnpj} · ${SITE.street} — ${SITE.district}, ${SITE.city} — ${SITE.region}</p>
+    <p class="small">
+      <a href="${root}politica-de-privacidade.html">Política de privacidade e LGPD</a> ·
+      <a href="${root}index.html">beend.tech</a> ·
+      <a href="tel:${SITE.phone}">${SITE.phoneDisplay}</a>
+    </p>
+  </div>
+</footer>`;
+}
+
+/* ---------- rastreamento (só carrega se houver ID configurado) ---------- */
+const UI_JS = assetVersion("assets/js/ui.js");
+const TRACKING_JS = assetVersion("assets/js/track.js");
+const hasTracking = () => Boolean(SITE.tracking.ads || SITE.tracking.ga4);
+
+const trackingSnippet = (root) =>
+  !hasTracking()
+    ? ""
+    : `<script>window.BEEND_TRACKING=${JSON.stringify(SITE.tracking)};</script>
+<script src="${root}assets/js/track.js?v=${TRACKING_JS}" defer></script>`;
+
 const resolve = (html, root) =>
   String(html)
     .replaceAll("{{root}}", root)
@@ -328,7 +374,9 @@ const resolve = (html, root) =>
 
 export function layout(page) {
   const isBlog = page.slug.startsWith("blog/");
-  const root = isBlog ? "../" : "";
+  const isLp = Boolean(page.lp);
+  // Páginas em subpasta (blog/, lp/) precisam de "../" para assets e links.
+  const root = page.slug.includes("/") ? "../" : "";
   const canonical =
     page.slug === "index.html" ? `${SITE.url}/` : `${SITE.url}/${page.slug}`;
   const ogImage = `${SITE.url}/assets/img/og-default.jpg`;
@@ -358,7 +406,9 @@ export function layout(page) {
 </section>`
     : "";
 
-  const updated = `<div class="wrap"><p class="updated">Conteúdo atualizado em 02/11/2026. ${page.updatedNote || ""}</p></div>`;
+  const updated = isLp
+    ? ""
+    : `<div class="wrap"><p class="updated">Conteúdo atualizado em 02/11/2026. ${page.updatedNote || ""}</p></div>`;
 
   const bodyHtml = `${pageHero}${resolve(page.body, root)}${faqSection}${updated}`;
 
@@ -401,12 +451,12 @@ ${jsonLd(page, canonical)}
 </head>
 <body>
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
-${header(page.active, root)}
+${isLp ? lpHeader(root) : header(page.active, root)}
 <main id="conteudo">
 ${bodyHtml}
 </main>
-${ctaBand(root)}
-${footer(root)}
+${isLp ? "" : ctaBand(root)}
+${isLp ? lpFooter(root) : footer(root)}
 <noscript><style>.nav{display:block!important}.nav__foot{display:block!important}</style></noscript>
 <script>
 (function () {
@@ -432,6 +482,8 @@ ${footer(root)}
   });
 })();
 </script>
+<script src="${root}assets/js/ui.js?v=${UI_JS}" defer></script>
+${trackingSnippet(root)}
 </body>
 </html>`;
 
