@@ -20,15 +20,25 @@ Atualizado em 03/11/2026
 - [x] Sitemap processado no Search Console — 19 páginas
 - [x] Perfil da Empresa no Google: site alterado para `https://beend.tech`
 - [x] Categoria do Perfil corrigida (saiu de "agência de marketing digital")
+- [x] Google: home **indexada** ("O URL está no Google", HTTPS válido) — 03/11/2026
+- [x] **Limpar snippet** solicitado para `https://beend.tech/` (descrição antiga removida)
+- [x] **Indexação solicitada** novamente para a home
+- [x] **Mudança de endereço** `www.backeend.com.br` → `beend.tech` **aprovada e ativa** — 03/11/2026 (válida por 180 dias)
 - [x] **Tokens revogados** (GitHub fine-grained, GitHub classic, Coolify API) — 03/11/2026
+
+> ⚠️ A Mudança de endereço **só funciona** se a ferramenta for aberta na propriedade
+> **antiga** (`https://www.backeend.com.br/`). Aberta na propriedade nova, ela esconde
+> o destino da lista e propõe a migração ao contrário. Não é necessário ter propriedade
+> de Domínio — prefixo no nível do host é aceito.
 
 ## ⏳ Pendente
 
 ### Você — rápido
+- [ ] **Renovar `beend.tech` por 5 anos** (expira 18/03/2027) e ativar renovação automática
 - [ ] Cloudflare: **Purge** de `https://www.backeend.com.br/robots.txt` (está em cache com conteúdo antigo)
-- [ ] Search Console → Inspeção de URL → **Solicitar indexação** em:
-      `https://beend.tech/`, `/planos-e-precos.html`, `/teste-gratis.html`
+- [ ] Search Console: verificar `https://backeend.com.br/` (sem www) e repetir a Mudança de endereço nessa variante
 - [ ] Google Ads: informar `GADS_ID`, `GADS_LABEL` e `GA4_ID` para ativar a medição
+- [ ] Search Console: remover a propriedade `beend.tech` (Domínio) que ficou "Não verificado" — a Mudança de endereço por prefixo tornou-a desnecessária
 
 ### Você — depois
 - [ ] Perfil da Empresa: adicionar os 7 serviços, fotos reais e **pedir avaliações** aos clientes
