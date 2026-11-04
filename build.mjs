@@ -485,6 +485,11 @@ ${isLp ? lpFooter(root) : footer(root)}
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     btn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
   }
+  function onScroll() {
+    header.classList.toggle('is-scrolled', window.scrollY > 8);
+  }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
   btn.addEventListener('click', function () {
     setMenu(header.getAttribute('data-menu') !== 'open');
   });

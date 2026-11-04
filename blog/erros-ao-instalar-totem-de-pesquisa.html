@@ -13,7 +13,7 @@
 <link rel="alternate" hreflang="x-default" href="https://beend.tech/blog/erros-ao-instalar-totem-de-pesquisa">
 <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="../assets/css/styles.css?v=5d0e5821">
+<link rel="stylesheet" href="../assets/css/styles.css?v=4de1a57e">
 <link rel="alternate" type="text/plain" href="https://beend.tech/llms.txt" title="Resumo para modelos de linguagem">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="beend.tech">
@@ -375,6 +375,11 @@
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     btn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
   }
+  function onScroll() {
+    header.classList.toggle('is-scrolled', window.scrollY > 8);
+  }
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
   btn.addEventListener('click', function () {
     setMenu(header.getAttribute('data-menu') !== 'open');
   });
