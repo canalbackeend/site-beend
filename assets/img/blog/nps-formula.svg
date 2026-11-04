@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" role="img" aria-labelledby="t d">
+  <title id="t">Cálculo do NPS</title>
+  <desc id="d">Fórmula do NPS: percentual de promotores menos percentual de detratores, com um exemplo numérico.</desc>
+  <rect width="960" height="340" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">Como se calcula o NPS</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">É sempre uma subtração entre duas porcentagens. O valor final vai de −100 a +100.</text>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="middle">
+    <rect x="48" y="116" width="248" height="76" rx="12" fill="#2fb344"/>
+    <text x="172" y="150" font-size="15" font-weight="700" fill="#ffffff">% PROMOTORES</text>
+    <text x="172" y="176" font-size="14" fill="#d8f5e0">notas 9 e 10</text>
+
+    <text x="332" y="166" font-size="40" font-weight="700" fill="#14161a">−</text>
+
+    <rect x="372" y="116" width="248" height="76" rx="12" fill="#e5484d"/>
+    <text x="496" y="150" font-size="15" font-weight="700" fill="#ffffff">% DETRATORES</text>
+    <text x="496" y="176" font-size="14" fill="#fbdada">notas 0 a 6</text>
+
+    <text x="656" y="166" font-size="40" font-weight="700" fill="#14161a">=</text>
+
+    <rect x="700" y="116" width="212" height="76" rx="12" fill="#14161a"/>
+    <text x="806" y="150" font-size="15" font-weight="700" fill="#ffffff">NPS</text>
+    <text x="806" y="176" font-size="14" fill="#c7ccd3">de −100 a +100</text>
+  </g>
+
+  <line x1="48" y1="226" x2="912" y2="226" stroke="#e4e7ea" stroke-width="2"/>
+  <text x="48" y="258" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="700" fill="#14161a">Exemplo com 100 respostas</text>
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">
+    <text x="48" y="290">62 promotores e 18 detratores →  62% − 18% =</text>
+    <text x="470" y="292" font-size="22" font-weight="700" fill="#0a63c4">NPS 44</text>
+    <text x="48" y="320" font-size="14">Os 20 neutros entram na conta, mas não somam nem subtraem.</text>
+  </g>
+</svg>

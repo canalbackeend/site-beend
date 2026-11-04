@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" role="img" aria-labelledby="t d">
+  <title id="t">NPS e CSAT lado a lado</title>
+  <desc id="d">Comparativo entre NPS e CSAT em pergunta, escala, o que mede, frequência e uso.</desc>
+  <rect width="960" height="440" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">NPS e CSAT lado a lado</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">As duas métricas convivem: uma olha a relação com a empresa, a outra o episódio de atendimento.</text>
+
+  <rect x="48" y="112" width="424" height="292" rx="14" fill="#ffffff" stroke="#e4e7ea"/>
+  <rect x="48" y="112" width="424" height="46" rx="14" fill="#0b82ff"/>
+  <rect x="48" y="140" width="424" height="18" fill="#0b82ff"/>
+  <text x="260" y="142" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">NPS — relação com a empresa</text>
+
+  <rect x="488" y="112" width="424" height="292" rx="14" fill="#ffffff" stroke="#e4e7ea"/>
+  <rect x="488" y="112" width="424" height="46" rx="14" fill="#25d366"/>
+  <rect x="488" y="140" width="424" height="18" fill="#25d366"/>
+  <text x="700" y="142" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#0b2e13" text-anchor="middle">CSAT — satisfação com o atendimento</text>
+
+  <g font-family="system-ui,sans-serif" font-size="14" fill="#33383f">
+    <text x="72" y="192" font-weight="700" fill="#5b626c">PERGUNTA</text>
+    <text x="72" y="214">De 0 a 10, qual a chance de</text>
+    <text x="72" y="234">recomendar a nossa empresa?</text>
+
+    <text x="72" y="270" font-weight="700" fill="#5b626c">ESCALA</text>
+    <text x="72" y="292">0 a 10 (detrator, neutro, promotor)</text>
+
+    <text x="72" y="328" font-weight="700" fill="#5b626c">MEDE</text>
+    <text x="72" y="350">Lealdade e tendência a recomendar</text>
+
+    <text x="72" y="376" font-weight="700" fill="#5b626c">USE QUANDO</text>
+    <text x="72" y="398">quer acompanhar a relação ao longo do tempo</text>
+
+    <text x="512" y="192" font-weight="700" fill="#5b626c">PERGUNTA</text>
+    <text x="512" y="214">Como você avalia o atendimento</text>
+    <text x="512" y="234">que recebeu hoje?</text>
+
+    <text x="512" y="270" font-weight="700" fill="#5b626c">ESCALA</text>
+    <text x="512" y="292">1 a 5 estrelas ou carinhas</text>
+
+    <text x="512" y="328" font-weight="700" fill="#5b626c">MEDE</text>
+    <text x="512" y="350">Satisfação com um contato específico</text>
+
+    <text x="512" y="376" font-weight="700" fill="#5b626c">USE QUANDO</text>
+    <text x="512" y="398">quer corrigir um ponto da operação e medir a mudança</text>
+  </g>
+</svg>

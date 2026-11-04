@@ -12,6 +12,7 @@ import {
   about,
 } from "./institutional.mjs";
 import { blogIndex, posts } from "./blog.mjs";
+import { metricPosts } from "./blog-metricas.mjs";
 import { landingTrial } from "./lp.mjs";
 
 export const pages = [
@@ -26,6 +27,7 @@ export const pages = [
   contact,
   blogIndex,
   ...posts,
+  ...metricPosts,
   privacy,
   notFound,
   // Landing pages de campanha (noindex, fora do sitemap)

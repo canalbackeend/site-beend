@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="t d">
+  <title id="t">Escala do NPS de 0 a 10</title>
+  <desc id="d">Escala de 0 a 10 dividida em detratores (0 a 6), neutros (7 a 8) e promotores (9 a 10).</desc>
+  <rect width="960" height="300" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">Escala do NPS — de 0 a 10</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">“De 0 a 10, qual a chance de você recomendar a nossa empresa a um amigo?”</text>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#ffffff">
+    <rect x="44" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="80" y="170">0</text>
+    <rect x="124" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="160" y="170">1</text>
+    <rect x="204" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="240" y="170">2</text>
+    <rect x="284" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="320" y="170">3</text>
+    <rect x="364" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="400" y="170">4</text>
+    <rect x="444" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="480" y="170">5</text>
+    <rect x="524" y="122" width="72" height="72" rx="10" fill="#e5484d"/><text x="560" y="170">6</text>
+    <rect x="604" y="122" width="72" height="72" rx="10" fill="#f5a524"/><text x="640" y="170">7</text>
+    <rect x="684" y="122" width="72" height="72" rx="10" fill="#f5a524"/><text x="720" y="170">8</text>
+    <rect x="764" y="122" width="72" height="72" rx="10" fill="#2fb344"/><text x="800" y="170">9</text>
+    <rect x="844" y="122" width="72" height="72" rx="10" fill="#2fb344"/><text x="880" y="170">10</text>
+  </g>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="14" font-weight="700">
+    <text x="44" y="234" fill="#e5484d">Detratores · 0 a 6</text>
+    <text x="604" y="234" fill="#b57400">Neutros · 7 e 8</text>
+    <text x="916" y="234" fill="#2fb344" text-anchor="end">Promotores · 9 e 10</text>
+  </g>
+  <g stroke="#d7dbe0" stroke-width="2" fill="none">
+    <path d="M44 214h552"/><path d="M604 214h152"/><path d="M764 214h152"/>
+  </g>
+  <text x="48" y="272" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="14" fill="#5b626c">Quem dá nota 9 ou 10 é promotor; 7 e 8 é neutro; 0 a 6 é detrator.</text>
+</svg>

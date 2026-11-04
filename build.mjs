@@ -39,7 +39,7 @@ export const SITE = {
     "https://maps.google.com/?cid=12703534258198116818",
     "https://www.linkedin.com/in/beendtech",
   ],
-  updated: "2026-11-02",
+  updated: "2026-11-04",
   // Verificação do Google Search Console (propriedade de prefixo de URL)
   googleVerification: "f5ROYlF53YvWNdg6ypF7XPnlvA7CJj-m908ICZ4aoRI",
   // ── Rastreamento de campanhas (Google Ads / GA4) ─────────────────────────
@@ -338,7 +338,7 @@ function footer(root) {
     </div>
     <div class="footer__bottom">
       <span>© ${new Date().getFullYear()} ${SITE.name}. Todos os direitos reservados.</span>
-      <span>Conteúdo atualizado em 02/11/2026 · <a href="${prettyPath("politica-de-privacidade.html")}">Privacidade e LGPD</a></span>
+      <span>Conteúdo atualizado em 04/11/2026 · <a href="${prettyPath("politica-de-privacidade.html")}">Privacidade e LGPD</a></span>
     </div>
   </div>
 </footer>`;
@@ -425,7 +425,7 @@ export function layout(page) {
 
   const updated = isLp
     ? ""
-    : `<div class="wrap"><p class="updated">Conteúdo atualizado em 02/11/2026. ${page.updatedNote || ""}</p></div>`;
+    : `<div class="wrap"><p class="updated">Conteúdo atualizado em 04/11/2026. ${page.updatedNote || ""}</p></div>`;
 
   const bodyHtml = `${pageHero}${resolve(page.body, root)}${faqSection}${updated}`;
 

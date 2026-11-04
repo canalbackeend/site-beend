@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="t d">
+  <title id="t">Escala do CSAT de 1 a 5</title>
+  <desc id="d">Escala de satisfação de 1 a 5, de muito insatisfeito a muito satisfeito, com a fórmula do CSAT.</desc>
+  <rect width="960" height="320" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">Escala do CSAT — satisfação com algo específico</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">“Como você avalia o atendimento que recebeu hoje?”</text>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="middle">
+    <rect x="48" y="122" width="160" height="88" rx="12" fill="#fdeceb"/>
+    <text x="128" y="170" font-size="30" fill="#e5484d">★</text>
+    <text x="128" y="196" font-size="13" font-weight="700" fill="#9c2b2f">Muito insatisfeito</text>
+
+    <rect x="228" y="122" width="160" height="88" rx="12" fill="#fdf1de"/>
+    <text x="308" y="170" font-size="30" fill="#e5484d">★★</text>
+    <text x="308" y="196" font-size="13" font-weight="700" fill="#9c2b2f">Insatisfeito</text>
+
+    <rect x="408" y="122" width="160" height="88" rx="12" fill="#eef1f4"/>
+    <text x="488" y="170" font-size="30" fill="#8b929c">★★★</text>
+    <text x="488" y="196" font-size="13" font-weight="700" fill="#5b626c">Neutro</text>
+
+    <rect x="588" y="122" width="160" height="88" rx="12" fill="#e7f6ec"/>
+    <text x="668" y="170" font-size="30" fill="#2fb344">★★★★</text>
+    <text x="668" y="196" font-size="13" font-weight="700" fill="#1f7a2f">Satisfeito</text>
+
+    <rect x="768" y="122" width="144" height="88" rx="12" fill="#2fb344"/>
+    <text x="840" y="170" font-size="30" fill="#ffffff">★★★★★</text>
+    <text x="840" y="196" font-size="13" font-weight="700" fill="#ffffff">Muito satisfeito</text>
+  </g>
+
+  <text x="48" y="256" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" font-weight="700" fill="#14161a">CSAT = respostas satisfeitas ÷ total de respostas × 100</text>
+  <text x="48" y="284" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">Se 80 de 100 clientes marcaram 4 ou 5 estrelas, o CSAT é 80%.</text>
+</svg>

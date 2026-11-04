@@ -825,7 +825,35 @@ Pesquisa de satisfação é o processo de medir a percepção do cliente sobre u
  Ver guia 
  Pesquisa por QR Code
  Como criar e onde posicionar para aumentar respostas.
- Ver guia
+ Ver guia 
+ 
+
+ 
+
+ 
+ 
+ 
+ Aprofunde cada métrica
+
+ Guias por indicador
+
+ Se você já sabe o que quer medir, vá direto ao guia da métrica.
+
+ 
+
+ 
+ O que é NPS
+ A pergunta de 0 a 10, o cálculo passo a passo e como implantar na empresa.
+ Ler artigo 
+ O que é CSAT
+ Como medir a satisfação com um atendimento e exemplos de pergunta.
+ Ler artigo 
+ NPS ou CSAT: qual escolher?
+ O que cada métrica mede e quando usar as duas juntas.
+ Ler artigo 
+ O que é CES
+ A métrica de esforço e por que ela importa no suporte.
+ Ler artigo
 
 
 ## Perguntas frequentes
@@ -2327,19 +2355,102 @@ Quantos pontos de coleta você precisa, se prefere locação ou compra, qual mod
 # Conteúdo sobre pesquisa de satisfação
 URL: https://beend.tech/blog
 
-Índice de conteúdo: artigos sobre preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
+Índice de conteúdo: métricas (NPS, CSAT, CES, NPS ou CSAT), taxa de resposta, modelos de pergunta, benchmark de NPS, relatórios, preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
 
 Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda está escolhendo a métrica. Se a dúvida é de equipamento, veja o guia do totem de pesquisa .
 
  
 
+ Métricas de satisfação
+
+ Entenda cada indicador antes de escolher o que medir no seu ponto de atendimento.
+
+ 
+ 
+ NPS
+
+ O que é NPS: para que serve e como calcular
+
+ A pergunta, a escala de 0 a 10, o cálculo passo a passo e como implantar na empresa.
+
+ Ler artigo 
+ 
+ 
+ CSAT
+
+ O que é CSAT: para que serve e como medir
+
+ Como calcular a satisfação com um atendimento, exemplos de pergunta e quando usar.
+
+ Ler artigo 
+ 
+ 
+ Comparativo
+
+ NPS ou CSAT: qual escolher?
+
+ A diferença entre as duas métricas e por que o mais comum é usar as duas.
+
+ Ler artigo 
+ 
+ 
+ CES
+
+ O que é CES: a métrica de esforço
+
+ Quanto trabalho o cliente teve para resolver — e por que isso importa no suporte.
+
+ Ler artigo 
+ 
+ 
+
+ Guias e operação
+
+ Do preço do equipamento à rotina de leitura do resultado.
+
+ 
+ 
+ Operação
+
+ Como aumentar a taxa de resposta
+
+ Nove ajustes práticos e o que medir em cada etapa do funil.
+
+ Ler artigo 
+ 
+ 
+ Modelos
+
+ Perguntas para pesquisa de satisfação
+
+ Modelos prontos de NPS, CSAT, CES, carinhas, quiz e comentário aberto.
+
+ Ler artigo 
+ 
+ 
+ Dados
+
+ Benchmark de NPS: o seu resultado é bom?
+
+ Por que a média geral engana e como criar o seu próprio parâmetro.
+
+ Ler artigo 
+ 
+ 
+ Gestão
+
+ Relatório: o que analisar e com que frequência
+
+ Quatro indicadores, o ritmo de leitura e como transformar dado em ação.
+
+ Ler artigo 
  
  
  Preço
 
- Quanto custa um totem de pesquisa de satisfação?
+ Quanto custa um totem de pesquisa?
 
- O que compõe o investimento, por que o hardware varia e como comparar propostas sem cair em armadilha.
+ O que compõe o investimento e como comparar propostas sem cair em armadilha.
 
  Ler artigo 
  
@@ -2355,9 +2466,9 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  
  Boas práticas
 
- 7 erros que reduzem a taxa de resposta do totem
+ 7 erros que reduzem a taxa de resposta
 
- Posicionamento, texto na tela, tamanho da pesquisa e outros fatores que afastam o cliente.
+ Posicionamento, texto na tela e outros fatores que afastam o cliente.
 
  Ler artigo 
  
@@ -2734,6 +2845,1172 @@ Sim, desde que esteja no caminho de saída e não atrapalhe a fila. O cliente pr
 
 ## Posso pedir nota 10 ao cliente?
 Não é recomendado. Induzir a resposta contamina a amostra e esconde problemas reais. O convite deve ser neutro: convidar a avaliar, sem sugerir a nota.
+
+
+---
+
+# O que é NPS, para que serve e como calcular
+URL: https://beend.tech/blog/o-que-e-nps
+
+O que é NPS: definição, pergunta de 0 a 10, detratores/neutros/promotores, fórmula (%promotores − %detratores), faixas de referência e passo a passo de implantação.
+
+NPS (Net Promoter Score) é uma métrica de lealdade. Você faz uma única pergunta — “de 0 a 10, qual a chance de você recomendar a nossa empresa a um amigo?” — e classifica as respostas em detratores, neutros e promotores.
+
+ O resultado é a porcentagem de promotores menos a de detratores, num intervalo de −100 a +100. Quanto mais alto, maior a chance de o cliente recomendar e voltar.
+
+ 
+
+ 
+ 
+ Neste artigo
+
+ 
+ Para que serve o NPS 
+
+ A escala e o que é cada grupo 
+
+ Como calcular o NPS 
+
+ O que é um NPS bom 
+
+ Como implantar na empresa, passo a passo 
+
+ Erros que estragam o NPS 
+
+ 
+ 
+
+ Para que serve o NPS
+
+ O NPS responde a uma pergunta que nenhuma planilha de vendas responde sozinha: o cliente voltaria e indicaria a sua empresa? Ele serve para quatro usos práticos:
+
+ 
+ Acompanhar a relação ao longo do tempo. O número de hoje comparado ao do trimestre passado mostra se a percepção está melhorando ou piorando.
+
+ Comparar unidades, lojas ou equipes. Com a mesma pergunta em todas as praças, você vê onde a experiência falha.
+
+ Priorizar investimento. Se o NPS cai sempre no mesmo ponto do atendimento, é ali que o dinheiro deve ir.
+
+ Antecipar risco de perda. Detratores são o grupo mais propenso a sair — e o alvo mais útil de uma ação de recuperação.
+
+ 
+ O NPS não é uma pesquisa longa nem um relatório complexo. É um termômetro simples, medido sempre do mesmo jeito.
+
+ 
+ 
+ 
+ A escala do NPS vai de 0 a 10 e se divide em três grupos: detratores (0 a 6), neutros (7 e 8) e promotores (9 e 10). 
+ 
+
+ A escala e o que é cada grupo
+
+ A divisão não é aleatória: ela foi desenhada para separar quem defende a marca de quem apenas tolera.
+
+ 
+ Promotores (9 e 10): clientes leais, que recomendam e voltam. São a base de crescimento por indicação.
+
+ Neutros (7 e 8): satisfeitos, mas sem entusiasmo. Não defendem nem sabotam. São o maior grupo de oportunidade.
+
+ Detratores (0 a 6): insatisfeitos que podem falar mal da empresa. Aqui mora o risco de reputação.
+
+ 
+ Repare que os neutros entram na conta do total, mas não somam nem subtraem. Por isso um NPS pode ser 0 mesmo com a maioria das notas acima de 7.
+
+ Como calcular o NPS
+
+ O cálculo tem três passos e não exige software especial:
+
+ 
+ Conte quantas respostas foram promotoras (9 e 10) e divida pelo total de respostas.
+
+ Faça o mesmo com as detratoras (0 a 6).
+
+ Subtraia: % promotores − % detratores .
+
+ 
+
+ 
+ 
+ 
+ O NPS é sempre uma subtração entre duas porcentagens. No exemplo, 62% de promotores menos 18% de detratores resulta em NPS 44. 
+ 
+
+ 
+ 
+ Exemplo de cálculo com 100 respostas 
+ Grupo Notas Respostas Percentual 
+ 
+ 
+ Promotores 9 e 10 62 62% 
+
+ Neutros 7 e 8 20 20% 
+
+ Detratores 0 a 6 18 18% 
+
+ Resultado 62% − 18% — NPS 44 
+
+ 
+ 
+ 
+
+ Atenção ao tamanho da amostra. Um NPS calculado sobre 5 respostas oscila demais para orientar decisão. Só faz sentido comparar períodos quando o volume é parecido.
+
+ O que é um NPS bom
+
+ Não existe um número universal. Um NPS 40 pode ser excelente numa operação e preocupante em outra, porque o patamar depende do setor, do tipo de relação e do momento da empresa.
+
+ O que funciona na prática é usar três referências , nesta ordem:
+
+ 
+ Seu próprio histórico. A melhor comparação é você com você mesmo, na mesma pergunta.
+
+ Suas unidades. Comparar lojas entre si revela o que a melhor faz de diferente.
+
+ Faixas do setor , apenas como contexto. Elas variam muito e não substituem o seu dado.
+
+ 
+ Se quiser aprofundar, escrevi um artigo só sobre benchmark de NPS e como definir a sua meta .
+
+ Como implantar o NPS na empresa, passo a passo
+
+ A implantação é menos sobre ferramenta e mais sobre rotina. Estes seis passos evitam a maioria dos problemas:
+
+ 
+ Defina a pergunta e não a mude. “De 0 a 10, qual a chance de você recomendar a nossa empresa a um amigo?” é o padrão. Alterar o texto a cada mês invalida a comparação.
+
+ Escolha o momento da coleta. Logo após o atendimento, quando a experiência ainda está fresca. No totem de pesquisa , isso acontece no caminho de saída.
+
+ Escolha o canal. Totem no ponto de venda, QR Code na embalagem ou na nota, WhatsApp depois do atendimento. O ideal é combinar canais, sem inflar a mesma pergunta.
+
+ Deixe um comentário opcional. A nota diz quanto; o comentário diz por quê. É ele que aponta a correção.
+
+ Defina a frequência de leitura. Uma leitura semanal para a operação e um fechamento mensal com o time.
+
+ Feche o ciclo com o cliente. Quando uma melhoria nasce de um comentário, comunique. Isso muda a percepção de quem responde.
+
+ 
+ 
+ Regra prática: se a pesquisa não gera nenhuma decisão, ela deixa de ser respondida. O cliente percebe quando responde e nada acontece.
+
+ 
+
+ Erros que estragam o NPS
+
+ 
+ Perguntar demais. Dez perguntas reduzem a conclusão. O NPS foi feito para ser curto.
+
+ Pedir nota alta. Orientar o cliente a dar 10 contamina a amostra e esconde o problema real.
+
+ Misturar públicos. Somar a nota de quem comprou com a de quem só visitou distorce o número.
+
+ Olhar só a média. A distribuição mostra o que a média esconde — muitos detratores podem estar diluídos num mar de neutros.
+
+ Comparar perguntas diferentes. Se o texto mudou, o histórico não vale.
+
+ 
+ Erros de operação — posicionamento do totem, convite confuso, tela ilegível — também derrubam o volume de respostas. Reuni esses casos em como aumentar a taxa de resposta .
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Coloque o NPS para rodar no ponto de atendimento
+
+ 
+ 
+
+ O totem coleta a nota no momento da saída, com comentário opcional e painel em tempo real. O software começa em R$ 69,90/mês e você testa 7 dias grátis.
+
+ Começar teste grátis 
+ Falar no WhatsApp
+
+
+## Perguntas frequentes
+
+## Qual é a pergunta oficial do NPS?
+“De 0 a 10, qual a chance de você recomendar a nossa empresa a um amigo?”. Para manter o histórico comparável, o texto não deve mudar entre medições.
+
+## O NPS vai de quanto a quanto?
+De −100 a +100. O pior caso é quando todos são detratores (−100) e o melhor é quando todos são promotores (+100).
+
+## Preciso de quantas respostas para o NPS valer?
+Quanto mais respostas, mais estável o número. Como regra, só compare períodos quando o volume for parecido — amostras muito pequenas oscilam e enganam.
+
+## Dá para calcular NPS com poucos clientes?
+Dá, desde que você leia o resultado como tendência e não como nota exata. Em volumes baixos, acompanhe a evolução ao longo de vários meses.
+
+## Qual a diferença entre NPS e CSAT?
+O NPS mede a relação com a empresa; o CSAT mede a satisfação com um atendimento específico. Expliquei a diferença em detalhe neste artigo .
+
+
+---
+
+# O que é CSAT: para que serve e como medir
+URL: https://beend.tech/blog/o-que-e-csat
+
+O que é CSAT: percentual de clientes satisfeitos com um atendimento específico, como calcular, exemplos de pergunta e quando usar em vez do NPS.
+
+CSAT (Customer Satisfaction Score) é o percentual de clientes satisfeitos com um atendimento, produto ou serviço específico. Normalmente vem de uma pergunta com escala de 1 a 5 — “como você avalia o atendimento que recebeu hoje?”.
+
+ Se 80 de 100 clientes marcaram as duas notas mais altas, o CSAT é 80%. É uma métrica de episódio: mede um contato, não a relação inteira.
+
+ 
+
+ 
+ 
+ Neste artigo
+
+ 
+ O que o CSAT mede 
+
+ Como calcular o CSAT 
+
+ Exemplos de perguntas 
+
+ Quando usar o CSAT 
+
+ CSAT no totem de atendimento 
+
+ Cuidados ao ler o CSAT 
+
+ 
+ 
+
+ O que o CSAT mede
+
+ O CSAT olha para o episódio : aquela compra, aquele suporte, aquela visita. Ele responde “esta experiência funcionou?”. É diferente do NPS, que olha para a relação de longo prazo.
+
+ Por ser específico, o CSAT é ótimo para:
+
+ 
+ avaliar um atendimento logo depois que ele termina;
+
+ testar uma mudança (novo fluxo de caixa, novo roteiro de atendimento) e ver o efeito;
+
+ comparar equipes, turnos ou unidades na mesma tarefa;
+
+ acompanhar um canal isolado, como WhatsApp ou telefone.
+
+ 
+
+ 
+ 
+ 
+ O CSAT usa uma escala curta, normalmente de 1 a 5. As duas notas mais altas contam como satisfação. 
+ 
+
+ Como calcular o CSAT
+
+ A conta é simples e direta:
+
+ CSAT = respostas satisfeitas ÷ total de respostas × 100 
+
+ Consideram-se “satisfeitas” as notas que expressam aprovação — com a escala de 5 pontos, normalmente as notas 4 e 5. O critério precisa ser fixo: se um mês você conta 4 e 5 e no outro conta só 5, o número deixa de ser comparável.
+
+ 
+ 
+ Exemplo com escala de 1 a 5 
+ Nota Respostas Entra no CSAT? 
+ 
+ 
+ 5 — muito satisfeito 58 Sim 
+
+ 4 — satisfeito 22 Sim 
+
+ 3 — neutro 12 Não 
+
+ 2 — insatisfeito 6 Não 
+
+ 1 — muito insatisfeito 2 Não 
+
+ Resultado 80 de 100 CSAT 80% 
+
+ 
+ 
+ 
+
+ Diferente do NPS, o CSAT não tem faixa negativa: ele vai de 0% a 100%. Isso facilita a leitura, mas também esconde a intensidade da insatisfação — 80% de satisfação com 2% de clientes furiosos ainda é um problema.
+
+ Exemplos de perguntas
+
+ O texto da pergunta define o que você mede. Estes formatos funcionam bem no ponto de atendimento:
+
+ 
+ Satisfação geral: “De 1 a 5, quão satisfeito você ficou com o atendimento hoje?”
+
+ Específica do produto: “Como você avalia a qualidade do que levou hoje?”
+
+ Do canal: “Você conseguiu resolver o que precisava?” (sim/não, com comentário).
+
+ Escala de carinhas: cinco expressões, sem número — ajuda quando o público é amplo.
+
+ Estrelas: cinco estrelas, formato familiar e rápido de tocar.
+
+ 
+ Reuni mais modelos, com exemplos prontos, em perguntas para pesquisa de satisfação .
+
+ Quando usar o CSAT
+
+ Use o CSAT quando a pergunta que você quer responder for “como foi este atendimento?” . Ele é a métrica certa para:
+
+ 
+ operar um plano de melhoria contínua — mudou algo, mediu de novo;
+
+ avaliar treinamento de equipe;
+
+ medir canais e fluxos específicos;
+
+ dar feedback rápido para quem está na linha de frente.
+
+ 
+ Use o NPS quando a pergunta for “o cliente continuaria com a gente?” . Não é escolher um ou outro: as duas métricas convivem e contam histórias diferentes. Comparei as duas em NPS ou CSAT: qual escolher .
+
+ CSAT no totem de atendimento
+
+ O CSAT foi feito para coleta imediata. No totem de pesquisa de satisfação , o cliente responde em poucos toques, antes de sair — e a resposta chega ao painel praticamente em tempo real.
+
+ Isso resolve o maior problema do CSAT: o esquecimento. Perguntar uma semana depois, por e-mail, mede a memória do cliente, não a experiência.
+
+ Cuidados ao ler o CSAT
+
+ 
+ CSAT alto não significa lealdade. Um cliente pode estar satisfeito com o atendimento e, ainda assim, trocar de fornecedor.
+
+ Não compare escalas diferentes. Uma média de 4,2 numa escala de 5 não é comparável a “80% satisfeito”.
+
+ Cuide da taxa de resposta. CSAT calculado sobre poucas respostas engana. Veja como aumentar a taxa de resposta .
+
+ Leia o comentário. Ele transforma um percentual em uma correção concreta.
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Meça o CSAT no ponto de atendimento
+
+ 
+ 
+
+ Coleta por totem, QR Code ou WhatsApp, com painel em tempo real. Teste grátis por 7 dias, sem cartão de crédito.
+
+ Começar teste grátis 
+ Falar no WhatsApp
+
+
+## Perguntas frequentes
+
+## O que significa a sigla CSAT?
+Customer Satisfaction Score, ou pontuação de satisfação do cliente. É o percentual de respostas satisfeitas sobre o total de respostas.
+
+## Qual a diferença entre CSAT e avaliação em estrelas?
+A avaliação em estrelas é um formato de pergunta; o CSAT é a métrica calculada a partir dela. As estrelas viram número quando você define quais notas contam como satisfação.
+
+## Um CSAT de 80% é bom?
+Depende do setor e do histórico da própria empresa. O mais importante é a tendência: o CSAT subiu depois da mudança que você fez?
+
+## Posso usar CSAT e NPS ao mesmo tempo?
+Sim, e é o mais comum. O CSAT mede o episódio; o NPS mede a relação. Duas perguntas curtas já dão as duas leituras.
+
+
+---
+
+# Diferença entre NPS e CSAT: qual é a melhor para a sua empresa?
+URL: https://beend.tech/blog/nps-ou-csat-qual-escolher
+
+NPS ou CSAT: comparativo de pergunta, escala, faixa de resultado, horizonte e uso. O NPS mede a relação e a lealdade; o CSAT mede a satisfação com um atendimento específico.
+
+Não é uma questão de qual é melhor, e sim de qual pergunta você quer responder. O NPS mede a relação do cliente com a empresa ao longo do tempo; o CSAT mede a satisfação com um atendimento específico.
+
+ Na prática, a maioria das operações usa as duas: o CSAT para corrigir a rotina e o NPS para acompanhar a lealdade.
+
+ 
+
+ 
+ O que cada uma mede
+
+ A diferença começa no objeto da medição. Uma olha para a empresa inteira; a outra, para um episódio.
+
+ 
+ 
+ 
+ NPS e CSAT lado a lado: pergunta, escala, o que cada uma mede e quando usar. 
+ 
+
+ 
+ 
+ NPS x CSAT 
+ Critério NPS CSAT 
+ 
+ 
+ Pergunta Chance de recomendar a empresa Satisfação com um atendimento 
+
+ Escala 0 a 10 1 a 5 (ou carinhas/estrelas) 
+
+ Faixa do resultado −100 a +100 0% a 100% 
+
+ O que mede Lealdade e intenção de recomendar Satisfação com o episódio 
+
+ Horizonte Relação de longo prazo Contato pontual 
+
+ Velocidade de reação Mais lenta Imediata a uma mudança 
+
+ Uso típico Acompanhamento trimestral, metas Melhoria contínua, treinamento 
+
+ 
+ 
+ 
+
+ A pergunta que resolve a dúvida
+
+ Antes de escolher, complete esta frase: “o que eu quero saber é…” .
+
+ 
+ “se o cliente continuaria com a gente” → NPS .
+
+ “se o atendimento de ontem foi bem” → CSAT .
+
+ “se o cliente teve trabalho para resolver o problema” → CES , que explico em o que é CES .
+
+ 
+ Se a resposta for “as três coisas”, a solução não é escolher: é usar uma pergunta principal e medir as outras em momentos diferentes.
+
+ Quando usar NPS e CSAT juntos
+
+ Combinar as duas métricas dá uma leitura mais completa, porque separa o que aconteceu do que isso significa :
+
+ 
+ CSAT em alta e NPS estável → a operação está boa, mas o cliente não vê motivo para recomendar. Pode faltar diferencial percebido.
+
+ CSAT baixo em uma unidade e NPS bom na média → um ponto específico puxa a experiência para baixo, sem comprometer a marca ainda.
+
+ Os dois caindo → sinal de problema estrutural, não de um dia ruim.
+
+ 
+ Uma montagem comum é usar o totem para o CSAT, no caminho de saída, e enviar a pergunta de NPS por WhatsApp em uma periodicidade maior.
+
+ Erros comuns na comparação
+
+ 
+ Comparar números entre métricas. NPS 44 e CSAT 44% não significam a mesma coisa. Cada uma tem sua régua.
+
+ Trocar a escala no meio do caminho. Mudar de 1 a 5 para 1 a 7 invalida o histórico.
+
+ Usar CSAT para prever retenção. Satisfação pontual não garante lealdade.
+
+ Usar NPS para corrigir a rotina. A nota de lealdade é lenta demais para orientar o dia a dia.
+
+ Medir as duas na mesma tela, em sequência. Duas perguntas seguidas reduzem a taxa de conclusão. Prefira um canal para cada uma.
+
+ 
+
+ 
+ Resumo prático: use CSAT para melhorar a operação e NPS para acompanhar a relação. Se só puder medir uma coisa, comece pelo NPS — é o indicador que mais se aproxima da decisão de voltar.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Meça as duas no mesmo painel
+
+ 
+ 
+
+ A plataforma beend.tech coleta NPS, CSAT e CES no totem, no QR Code ou no WhatsApp, com os resultados no mesmo painel.
+
+ Ver o guia de pesquisa de satisfação
+
+
+## Perguntas frequentes
+
+## Qual é mais importante, NPS ou CSAT?
+Depende do objetivo. O NPS indica a tendência de o cliente permanecer e recomendar; o CSAT ajuda a corrigir o atendimento do dia a dia. Medir os dois dá uma leitura mais completa.
+
+## Dá para converter NPS em CSAT?
+Não. São escalas e conceitos diferentes. Cada métrica deve ser comparada com o próprio histórico.
+
+## Com que frequência devo medir cada uma?
+O CSAT pode ser contínuo, a cada atendimento. O NPS costuma ser lido por período — mensal ou trimestral — para dar estabilidade ao número.
+
+## Qual métrica usar em uma pesquisa por totem?
+O totem funciona melhor com uma pergunta rápida. O CSAT ou a escala de carinhas encaixam bem; o NPS também, desde que seja a pergunta principal.
+
+
+---
+
+# O que é CES: a métrica de esforço do cliente
+URL: https://beend.tech/blog/o-que-e-ces-customer-effort-score
+
+O que é CES: métrica de esforço do cliente em escala de 1 a 7, como calcular, quando usar em suporte e pós-venda e como se combina com NPS e CSAT.
+
+CES (Customer Effort Score) mede o esforço que o cliente precisou fazer para resolver um problema. A pergunta clássica é “a empresa facilitou a resolução do seu caso?”, com resposta em escala.
+
+ Quanto menor o esforço, melhor. É a métrica mais indicada para jornadas de suporte, troca, devolução e segunda via — situações em que o cliente já chegou incomodado.
+
+ 
+
+ 
+ 
+ Neste artigo
+
+ 
+ O que o CES mede 
+
+ A escala de esforço 
+
+ Como calcular 
+
+ Quando usar o CES 
+
+ CES, NPS e CSAT juntos 
+
+ 
+ 
+
+ O que o CES mede
+
+ O CES parte de uma constatação prática: cliente não odeia errar, odeia ter trabalho para resolver. Um problema bem resolvido, com pouco esforço, costuma gerar mais lealdade do que a ausência de problema.
+
+ Por isso o CES é bom em:
+
+ 
+ medir a qualidade do suporte e do pós-venda;
+
+ avaliar políticas de troca, devolução e cancelamento;
+
+ detectar burocracia — quantas etapas, quantos canais, quanto tempo;
+
+ priorizar automações e ajustes de processo.
+
+ 
+
+ A escala de esforço
+
+ A escala mais usada é de 1 a 7, ancorada em “muito difícil” e “muito fácil”. Também funciona com 5 pontos ou com carinhas.
+
+ 
+ 
+ 
+ No CES, 7 significa que a empresa facilitou tudo e 1 que o cliente precisou se virar. CES alto é bom. 
+ 
+
+ Como calcular o CES
+
+ Há dois jeitos, e o mais comum é bem simples: média das respostas . Some todas as notas e divida pelo número de respostas. Numa escala de 7, um CES 5,9 indica pouco esforço.
+
+ Outro formato, mais parecido com o NPS, é o percentual de notas altas (6 e 7) menos o de notas baixas (1 a 3). Escolha um critério e mantenha — misturar os dois no mesmo histórico invalida a comparação.
+
+ Quando usar o CES
+
+ Use o CES quando o cliente passou por um processo que exige ação dele: abrir um chamado, pedir segunda via, resolver uma cobrança, trocar um produto.
+
+ 
+ Suporte e SAC: quanto trabalho deu resolver o caso?
+
+ Autoatendimento: o cliente achou o que precisava sozinho?
+
+ Burocracia interna: quantas vezes o cliente precisou repetir a mesma informação?
+
+ 
+ O CES não substitui o NPS nem o CSAT. Ele responde uma pergunta que os outros dois não fazem: “foi fácil?” .
+
+ CES, NPS e CSAT juntos
+
+ As três métricas cobrem dimensões diferentes da experiência:
+
+ 
+ NPS — o cliente recomenda a empresa? ( o que é NPS )
+
+ CSAT — o cliente ficou satisfeito com o atendimento? ( o que é CSAT )
+
+ CES — foi fácil resolver? 
+
+ 
+ Uma combinação útil é perguntar o CES logo depois de uma interação de suporte e reservar o NPS para uma leitura periódica da relação. Assim cada pergunta aparece no momento em que faz sentido.
+
+ 
+ Regra prática: se o esforço é alto, a satisfação cai e a lealdade some — nessa ordem. Reduzir etapas costuma ser mais barato do que compensar com desconto.
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Meça esforço, satisfação e lealdade
+
+ 
+ 
+
+ O mesmo totem pode rodar NPS, CSAT, CES, escala de carinhas e quiz, com relatórios por período.
+
+ Ver métricas e como aplicar
+
+
+## Perguntas frequentes
+
+## O que significa CES?
+Customer Effort Score, ou pontuação de esforço do cliente. Mede quanto trabalho o cliente teve para resolver o que precisava.
+
+## CES alto é bom ou ruim?
+Alto é bom: significa que o cliente precisou de pouco esforço, porque a escala vai de “muito difícil” a “muito fácil”.
+
+## Qual a diferença entre CES e CSAT?
+O CSAT pergunta se o cliente ficou satisfeito; o CES pergunta se foi fácil. Um cliente pode estar satisfeito com o fim e ter passado por um processo cansativo.
+
+## Preciso do CES se já uso NPS e CSAT?
+Se a empresa tem jornadas de suporte, troca ou cobrança, o CES acrescenta uma leitura que as outras duas não capturam. Em operações sem esse tipo de processo, ele pode ser dispensável.
+
+
+---
+
+# Como aumentar a taxa de resposta da pesquisa de satisfação
+URL: https://beend.tech/blog/como-aumentar-taxa-de-resposta
+
+Como aumentar a taxa de resposta: funil (visibilidade, convite, início, conclusão), nove ajustes práticos, tempo ideal de resposta e indicadores por etapa.
+
+A taxa de resposta é o número de pesquisas concluídas dividido pelo número de clientes que passaram pelo ponto de coleta. Para aumentá-la, trabalhe na ordem do funil: visibilidade, clareza do convite, facilidade de responder e treinamento da equipe.
+
+ 
+
+ 
+ Onde as respostas se perdem
+
+ A taxa cai em etapas. Se você mede só o resultado final, não sabe o que corrigir. Pense no caminho do cliente como um funil:
+
+ 
+ 
+ 
+ A taxa de resposta é o resultado de quatro etapas. Cada uma pode ser melhorada separadamente. 
+ 
+
+ 
+ Notam o totem. Se está fora do caminho, nem chega a existir.
+
+ Entendem o convite. Se a tela não explica em dois segundos, o cliente passa direto.
+
+ Começam a responder. Se o primeiro toque tem atrito, ele desiste.
+
+ Concluem. Se a pesquisa é longa, ele abandona no meio.
+
+ 
+
+ Nove ajustes que mais movem o ponteiro
+
+ 
+ Coloque o totem no caminho de saída. Depois do atendimento e do pagamento, onde o cliente naturalmente passa.
+
+ Uma pergunta principal. Nota ou carinha. Deixe o comentário como opcional.
+
+ Convite direto. “Como foi seu atendimento hoje? Toque em uma carinha.” Nada de frase institucional longa.
+
+ Tela legível. Contraste alto, fonte grande e brilho suficiente. Teste à distância e em horários diferentes.
+
+ Toques grandes. Botões fáceis de acertar, com espaço entre eles.
+
+ Sem login, sem dados obrigatórios. Nome e telefone só se houver contrapartida clara.
+
+ Personalize com a marca. O totem genérico parece um objeto estranho no balcão.
+
+ Treine a equipe para um convite neutro. Indicar o totem sim; sugerir a nota, não.
+
+ Dê um motivo. Uma frase do tipo “sua resposta muda o nosso atendimento” aumenta a disposição de participar.
+
+ 
+
+ Quanto tempo a pesquisa deve levar
+
+ O cliente está em pé e de saída. A regra é: menos de 15 segundos entre o primeiro toque e o agradecimento. Acima disso, a conclusão cai de forma acentuada.
+
+ Se você precisa de mais dados, não alongue o totem: use o WhatsApp depois, com o cliente já em casa e disposto a conversar.
+
+ O que medir
+
+ 
+ 
+ Indicadores por etapa do funil 
+ Etapa Indicador Como melhorar 
+ 
+ 
+ Visibilidade Quantos notam o totem Posição, sinalização, iluminação 
+
+ Convite Quantos começam Texto curto, tela clara 
+
+ Conclusão Quantos terminam Pesquisa mais curta, toques grandes 
+
+ Qualidade Distribuição das notas Convite neutro, sem indução 
+
+ 
+ 
+ 
+
+ 
+ Alerta: notas sempre máximas com volume alto podem indicar que a equipe está pedindo 10. Taxa de resposta e distribuição devem ser lidas juntas.
+
+ 
+
+ Erros que derrubam a resposta
+
+ 
+ Pedir nome, e-mail e telefone antes de começar.
+
+ Pesquisa com mais de três telas.
+
+ Totem atrás do caixa, virado para a parede ou fora do fluxo.
+
+ Tela com reflexo, brilho baixo ou fonte pequena.
+
+ Equipe que não sabe explicar para que serve a pesquisa.
+
+ 
+ Vários desses pontos aparecem também em 7 erros que reduzem a taxa de resposta .
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Veja o plano certo para o seu volume
+
+ 
+ 
+
+ Os planos acompanham o número de terminais e o volume de avaliações. Comece com um ponto e expanda depois de confirmar a resposta.
+
+ Ver planos e preços
+
+
+## Perguntas frequentes
+
+## Qual é uma boa taxa de resposta?
+Varia por setor e por fluxo. O mais útil é medir a sua própria taxa ao longo do tempo e comparar unidades parecidas. O essencial é que o volume sustente a análise.
+
+## Quantas perguntas deve ter a pesquisa?
+Uma pergunta principal e um comentário opcional. No totem, tempo e atenção são curtos; pesquisas longas derrubam a conclusão.
+
+## Oferecer brinde aumenta a resposta?
+Pode aumentar o volume, mas tende a distorcer a amostra — quem responde pelo brinde nem sempre representa o cliente. Um convite direto costuma ser mais honesto.
+
+## E se a taxa continuar baixa?
+Revise o funil na ordem: visibilidade, convite, facilidade e treinamento. Na maioria dos casos, o gargalo está no começo, não no questionário.
+
+
+---
+
+# Perguntas para pesquisa de satisfação: modelos prontos
+URL: https://beend.tech/blog/perguntas-para-pesquisa-de-satisfacao
+
+Modelos de perguntas para pesquisa de satisfação: formatos (nota, carinha, estrela, quiz, comentário), exemplos por métrica (NPS, CSAT, CES) e perguntas a evitar.
+
+Uma boa pesquisa de satisfação no ponto de atendimento tem uma pergunta principal e um comentário opcional. A pergunta principal varia conforme a métrica: NPS para lealdade, CSAT para satisfação com o atendimento, CES para esforço.
+
+ 
+
+ 
+ Formatos de pergunta
+
+ Antes dos modelos, vale conhecer os formatos. Cada um tem um tempo de resposta e um tipo de leitura:
+
+ 
+ 
+ 
+ No totem, o formato mais rápido costuma vencer: nota, carinha ou estrela, com um comentário opcional. 
+ 
+
+ Perguntas de NPS (lealdade)
+
+ 
+ “De 0 a 10, qual a chance de você recomendar a nossa empresa a um amigo?”
+
+ “De 0 a 10, quanto você recomendaria a nossa loja para alguém?”
+
+ “De 0 a 10, você voltaria a comprar aqui?”
+
+ 
+ Use sempre a mesma redação. Mudar o texto invalida a comparação com o histórico.
+
+ Perguntas de CSAT (satisfação)
+
+ 
+ “De 1 a 5, quão satisfeito você ficou com o atendimento hoje?”
+
+ “Como você avalia a qualidade do que levou hoje?”
+
+ “O que você achou do tempo de espera?”
+
+ “Você conseguiu resolver o que precisava?” (sim/não + comentário)
+
+ 
+
+ Perguntas de CES (esforço)
+
+ 
+ “A nossa equipe facilitou a resolução do seu problema?”
+
+ “Foi fácil resolver o que você precisava hoje?”
+
+ “Quantas tentativas você precisou para resolver o seu caso?”
+
+ 
+
+ Escala de carinhas (SMILE)
+
+ 
+ “Como foi o seu dia aqui?” com cinco expressões.
+
+ “Como você se sentiu com o atendimento?” com cinco expressões.
+
+ 
+ A escala de carinhas funciona bem com público amplo, porque não exige interpretar números.
+
+ Quiz e perguntas de múltipla escolha
+
+ 
+ “Qual foi o principal motivo da sua visita?” (lista de opções)
+
+ “Você encontrou o que procurava?” (sim / parcialmente / não)
+
+ “Como você conheceu a nossa loja?” (indicação, redes sociais, passou na frente…)
+
+ 
+
+ Comentário aberto
+
+ 
+ “Quer contar o motivo da sua nota?” (opcional)
+
+ “O que poderíamos melhorar?”
+
+ “Deixe um recado para a nossa equipe.”
+
+ 
+
+ Perguntas que você deve evitar
+
+ 
+ Perguntas que induzem a nota: “você ficou muito satisfeito, certo?”.
+
+ Duas perguntas em uma: “o atendimento foi rápido e educado?” — se a resposta for mista, o dado se perde.
+
+ Jargão interno: “como você avalia a qualidade percebida?”.
+
+ Pedido de dado pessoal sem contrapartida: reduz a taxa de resposta.
+
+ Pesquisa longa no totem: mais de uma pergunta principal derruba a conclusão.
+
+ 
+
+ 
+ Como escolher: comece pelo objetivo. Quer lealdade? NPS. Quer corrigir o atendimento? CSAT. Quer medir burocracia? CES. Um quiz ou pergunta de motivo serve depois, para qualificar.
+
+ 
+
+ Para saber como cada métrica é calculada, veja o que é NPS e o que é CSAT .
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Monte a sua pesquisa no totem
+
+ 
+ 
+
+ Perguntas de nota, carinha, estrela e quiz, com comentário opcional e relatórios por período.
+
+ Conhecer o totem
+
+
+## Perguntas frequentes
+
+## Quantas perguntas devo fazer no totem?
+Uma principal e um comentário opcional. Se precisar de mais informação, use um canal posterior, como o WhatsApp.
+
+## A pergunta de NPS sempre tem que ser a mesma?
+Sim, para manter o histórico comparável. Se mudar o texto, comece um novo histórico.
+
+## Escala de carinhas ou nota de 0 a 10?
+A carinha é mais rápida e amigável; a nota é mais precisa e permite calcular NPS. Escolha conforme o público e o que você quer comparar.
+
+## Posso misturar NPS e CSAT na mesma pesquisa?
+Pode, mas evite duas perguntas seguidas no mesmo totem: a taxa de conclusão cai. Prefira um canal para cada métrica.
+
+
+---
+
+# Benchmark de NPS: como saber se o seu resultado é bom
+URL: https://beend.tech/blog/benchmark-de-nps
+
+Benchmark de NPS: não existe NPS universal; comparação útil é com o próprio histórico e entre unidades. Faixas por setor como contexto e como definir meta de melhoria.
+
+Não existe um NPS “bom” universal. O patamar muda por setor, por tipo de relação (B2B ou B2C) e pelo momento da empresa. A comparação mais útil é com o seu próprio histórico e entre as suas unidades.
+
+ Benchmarks de setor servem como contexto — nunca como meta isolada.
+
+ 
+
+ 
+ Por que a média geral engana
+
+ Uma média que junta bancos, restaurantes e SaaS não descreve nenhum deles. Além disso, dois fatores distorcem qualquer comparação entre empresas:
+
+ 
+ Momento da pergunta: perguntar logo após a compra tende a gerar notas mais altas do que perguntar meses depois.
+
+ Público: quem já é cliente costuma dar notas diferentes de quem acabou de conhecer a empresa.
+
+ 
+ Sem padronizar pergunta e momento, comparar números entre empresas é comparar coisas diferentes.
+
+ Faixas por setor, como contexto
+
+ As faixas abaixo servem apenas para dar noção de ordem de grandeza. Trate como ilustração e use o seu histórico como régua principal.
+
+ 
+ 
+ 
+ Faixas por setor são referência de contexto, não meta. Elas variam com público, momento da pergunta e definição de cliente ativo. 
+ 
+
+ 
+ 
+ Como interpretar faixas (referência de contexto) 
+ Contexto Leitura 
+ 
+ 
+ Acima da média do setor Bom sinal, mas confirme se a base de clientes é comparável 
+
+ Na média Há espaço: procure onde os detratores se concentram 
+
+ Abaixo da média Prioridade em entender os comentários antes de criar meta 
+
+ 
+ 
+ 
+
+ O benchmark que realmente importa: o interno
+
+ Comparar a empresa com ela mesma resolve a maioria das dúvidas. Três recortes são especialmente úteis:
+
+ 
+ Período: este mês contra o mês anterior, na mesma pergunta.
+
+ Unidade: lojas ou setores entre si — a melhor mostra o caminho.
+
+ Momento da jornada: antes e depois de uma mudança na operação.
+
+ 
+ Um NPS 30 que subiu de 18 em três meses é uma história melhor do que um NPS 50 parado há um ano.
+
+ Como definir a sua meta
+
+ 
+ Meça o ponto de partida por pelo menos dois meses, sem mexer na pergunta.
+
+ Identifique os detratores e agrupe os comentários por causa.
+
+ Escolha uma melhoria por ciclo — uma só, a mais frequente.
+
+ Defina a meta como variação (“+8 pontos em um trimestre”), não como número absoluto.
+
+ Comunique o resultado ao time e aos clientes.
+
+ 
+
+ 
+ Cuidado com meta artificial: perseguir um número sem olhar a distribuição leva a equipes pedindo nota alta — o que contamina a amostra e esconde o problema real.
+
+ 
+
+ Se você está começando agora, veja antes o que é NPS e como calcular .
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Acompanhe o seu NPS com histórico
+
+ 
+ 
+
+ O painel guarda o histórico por período, por campanha e por terminal — o comparativo que realmente importa.
+
+ Como funciona a plataforma
+
+
+## Perguntas frequentes
+
+## Qual é um bom NPS?
+Depende do setor e do histórico da empresa. O referencial mais confiável é o seu próprio resultado ao longo do tempo, na mesma pergunta.
+
+## Onde encontro médias de NPS por setor?
+Existem estudos de mercado, mas eles variam de método. Use-os como contexto e nunca como meta única — a base de clientes e o momento da pergunta mudam tudo.
+
+## Devo comparar o meu NPS com o de concorrentes?
+Só se você souber exatamente como eles medem. Sem isso, a comparação é enganosa. Comparar as suas unidades entre si dá mais informação prática.
+
+## Como melhorar o NPS de forma consistente?
+Agrupe os comentários dos detratores, escolha uma causa por ciclo, corrija e meça de novo. Melhoria contínua funciona melhor que campanha pontual.
+
+
+---
+
+# Relatório de pesquisa de satisfação: o que analisar
+URL: https://beend.tech/blog/relatorio-de-pesquisa-de-satisfacao
+
+Relatório de pesquisa de satisfação: quatro indicadores (nota, distribuição, evolução, comentários), frequência de leitura, ciclo de melhoria e comunicação ao cliente.
+
+Um bom relatório de satisfação responde a três perguntas: qual é a nota, o que explica essa nota e o que vamos fazer a respeito. Quatro indicadores cobrem a maior parte das decisões — e a leitura certa é mais importante que o painel bonito.
+
+ 
+
+ 
+ Os quatro indicadores que importam
+
+ Não é preciso acompanhar dezenas de gráficos. Estes quatro resolvem:
+
+ 
+ 
+ 
+ Quatro leituras: a nota, a distribuição, a comparação por período e unidade, e os comentários abertos. 
+ 
+
+ 
+ A nota e a distribuição. A média esconde; a distribuição revela. Muitos detratores diluídos em neutros explicam uma nota que parece “ok”.
+
+ A evolução no tempo. Sempre na mesma pergunta, para o histórico valer.
+
+ A comparação entre unidades ou canais. Mostra onde a experiência é melhor e o que essa unidade faz de diferente.
+
+ Os comentários abertos. É o que transforma um número em uma correção concreta.
+
+ 
+
+ Com que frequência ler
+
+ 
+ 
+ Ritmo de leitura sugerido 
+ Frequência Público O que olhar 
+ 
+ 
+ Diária Operação / linha de frente Alertas de nota baixa e comentários do dia 
+
+ Semanal Gestores de unidade Distribuição, tendência e um ajuste por semana 
+
+ Mensal Direção Indicador consolidado, comparação e prioridade do mês 
+
+ Trimestral Estratégia Tendência de fundo, metas e investimento 
+
+ 
+ 
+ 
+
+ Como transformar o dado em ação
+
+ O relatório só vale quando termina em decisão. Um ciclo simples, repetido a cada mês:
+
+ 
+ Agrupe os comentários por causa (espera, preço, atendimento, produto, ambiente).
+
+ Escolha uma causa — a mais frequente, não a mais fácil.
+
+ Defina uma ação com responsável e prazo.
+
+ Meça de novo na mesma pergunta e compare.
+
+ Comunique o que mudou para o time e para o cliente.
+
+ 
+ Esse último passo é o mais negligenciado e o que mais aumenta a disposição de responder da próxima vez.
+
+ O que comunicar ao cliente
+
+ 
+ Uma mudança concreta gerada por comentários: “reduzimos a fila no horário de pico”.
+
+ Um agradecimento simples, no próprio totem, na tela final.
+
+ Um retorno individual quando o cliente deixou contato e pediu ajuda.
+
+ 
+
+ 
+ Pauta de reunião mensal: (1) nota e distribuição, (2) comentários agrupados, (3) uma ação escolhida, (4) resultado da ação do mês anterior. Quatro itens, trinta minutos.
+
+ 
+
+ Para transformar ação em melhoria, vale revisar também a taxa de resposta e comparar o resultado com o benchmark interno .
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Próximo passo
+
+ Relatórios prontos, sem planilha
+
+ 
+ 
+
+ Painel em tempo real, relatório diário por e-mail, exportação em PDF, Excel e CSV e leitura por período e por terminal.
+
+ Começar teste grátis 
+ Falar no WhatsApp
+
+
+## Perguntas frequentes
+
+## Quais indicadores devo acompanhar em um relatório de satisfação?
+A nota, a distribuição das respostas, a evolução no tempo, a comparação entre unidades e os comentários abertos. Quatro ou cinco itens bastam para decidir.
+
+## Com que frequência devo ler o resultado?
+Diariamente para alertas, semanalmente para ajustes na operação e mensalmente para o consolidado. O importante é manter o ritmo.
+
+## Devo comunicar o resultado aos clientes?
+Sim, ao menos as mudanças que nasceram dos comentários. Isso mostra que a pesquisa tem efeito e melhora a taxa de resposta.
+
+## Qual métrica deve abrir o relatório?
+Depende do objetivo. Para a relação com a empresa, o NPS; para o atendimento do dia a dia, o CSAT; para o esforço de resolver, o CES.
 
 
 ---

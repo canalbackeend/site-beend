@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" role="img" aria-labelledby="t d">
+  <title id="t">Funil da taxa de resposta do totem</title>
+  <desc id="d">Do cliente atendido que vê o totem ao que conclui a pesquisa, mostrando onde as respostas se perdem.</desc>
+  <rect width="960" height="400" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">Onde as respostas se perdem</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">A taxa de resposta cai a cada etapa. Melhorar o começo do funil rende mais que trocar o equipamento.</text>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+    <rect x="48" y="120" width="864" height="46" rx="10" fill="#0b82ff"/>
+    <text x="72" y="149" font-size="15" font-weight="700" fill="#ffffff">1. Clientes atendidos no período</text>
+    <text x="888" y="149" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">100%</text>
+
+    <rect x="140" y="180" width="680" height="46" rx="10" fill="#3b9dff"/>
+    <text x="164" y="209" font-size="15" font-weight="700" fill="#ffffff">2. Notam o totem no caminho de saída</text>
+    <text x="796" y="209" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">enxergam</text>
+
+    <rect x="240" y="240" width="480" height="46" rx="10" fill="#8cc2ff"/>
+    <text x="264" y="269" font-size="15" font-weight="700" fill="#0a3f78">3. Entendem o convite e começam</text>
+    <text x="696" y="269" font-size="15" font-weight="700" fill="#0a3f78" text-anchor="end">iniciam</text>
+
+    <rect x="300" y="300" width="360" height="46" rx="10" fill="#2fb344"/>
+    <text x="324" y="329" font-size="15" font-weight="700" fill="#ffffff">4. Concluem a pesquisa</text>
+    <text x="636" y="329" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">respostas</text>
+  </g>
+
+  <text x="48" y="378" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="14" fill="#5b626c">Vale medir as quatro etapas: assim você sabe se o problema é visibilidade, convite ou comprimento da pesquisa.</text>
+</svg>

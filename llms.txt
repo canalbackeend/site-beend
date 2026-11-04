@@ -60,10 +60,18 @@
 ## Guias e conteúdo
 
 - [Pesquisa de satisfação: guia com NPS, CSAT e CES](https://beend.tech/pesquisa-de-satisfacao): Guia de pesquisa de satisfação com definições e fórmulas de NPS, CSAT e CES, comparativo, 12 exemplos de perguntas e boas práticas.
-- [Conteúdo sobre pesquisa de satisfação](https://beend.tech/blog): Índice de conteúdo: artigos sobre preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
+- [Conteúdo sobre pesquisa de satisfação](https://beend.tech/blog): Índice de conteúdo: métricas (NPS, CSAT, CES, NPS ou CSAT), taxa de resposta, modelos de pergunta, benchmark de NPS, relatórios, preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
 - [Quanto custa um totem de pesquisa de satisfação?](https://beend.tech/blog/quanto-custa-totem-de-pesquisa-de-satisfacao): Quanto custa um totem de pesquisa: software e hardware sob consulta, aquisição versus locação e o que comparar na proposta.
 - [Totem de pesquisa funciona sem internet?](https://beend.tech/blog/totem-de-pesquisa-funciona-sem-internet): Totem de pesquisa sem internet: como funciona o modo offline, o que sincroniza, limitações e o que verificar antes de contratar.
 - [7 erros que reduzem a taxa de resposta do totem de pesquisa](https://beend.tech/blog/erros-ao-instalar-totem-de-pesquisa): Sete erros que reduzem a taxa de resposta do totem de pesquisa e como corrigir posicionamento, pesquisa longa, convite, tela, personalização e rotina de análise.
+- [O que é NPS, para que serve e como calcular](https://beend.tech/blog/o-que-e-nps): O que é NPS: definição, pergunta de 0 a 10, detratores/neutros/promotores, fórmula (%promotores − %detratores), faixas de referência e passo a passo de implantação.
+- [O que é CSAT: para que serve e como medir](https://beend.tech/blog/o-que-e-csat): O que é CSAT: percentual de clientes satisfeitos com um atendimento específico, como calcular, exemplos de pergunta e quando usar em vez do NPS.
+- [Diferença entre NPS e CSAT: qual é a melhor para a sua empresa?](https://beend.tech/blog/nps-ou-csat-qual-escolher): NPS ou CSAT: comparativo de pergunta, escala, faixa de resultado, horizonte e uso. O NPS mede a relação e a lealdade; o CSAT mede a satisfação com um atendimento específico.
+- [O que é CES: a métrica de esforço do cliente](https://beend.tech/blog/o-que-e-ces-customer-effort-score): O que é CES: métrica de esforço do cliente em escala de 1 a 7, como calcular, quando usar em suporte e pós-venda e como se combina com NPS e CSAT.
+- [Como aumentar a taxa de resposta da pesquisa de satisfação](https://beend.tech/blog/como-aumentar-taxa-de-resposta): Como aumentar a taxa de resposta: funil (visibilidade, convite, início, conclusão), nove ajustes práticos, tempo ideal de resposta e indicadores por etapa.
+- [Perguntas para pesquisa de satisfação: modelos prontos](https://beend.tech/blog/perguntas-para-pesquisa-de-satisfacao): Modelos de perguntas para pesquisa de satisfação: formatos (nota, carinha, estrela, quiz, comentário), exemplos por métrica (NPS, CSAT, CES) e perguntas a evitar.
+- [Benchmark de NPS: como saber se o seu resultado é bom](https://beend.tech/blog/benchmark-de-nps): Benchmark de NPS: não existe NPS universal; comparação útil é com o próprio histórico e entre unidades. Faixas por setor como contexto e como definir meta de melhoria.
+- [Relatório de pesquisa de satisfação: o que analisar](https://beend.tech/blog/relatorio-de-pesquisa-de-satisfacao): Relatório de pesquisa de satisfação: quatro indicadores (nota, distribuição, evolução, comentários), frequência de leitura, ciclo de melhoria e comunicação ao cliente.
 
 ## Empresa e contato
 

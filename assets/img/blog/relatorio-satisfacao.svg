@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t d">
+  <title id="t">Painel de resultados de pesquisa de satisfação</title>
+  <desc id="d">Exemplo de painel com NPS, distribuição das notas, evolução no tempo e comentários recentes.</desc>
+  <rect width="960" height="420" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">O que olhar no relatório — e com que frequência</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">Quatro leituras resolvem a maior parte das decisões.</text>
+
+  <rect x="48" y="112" width="270" height="180" rx="14" fill="#ffffff" stroke="#e4e7ea"/>
+  <text x="72" y="146" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#5b626c">NPS DO PERÍODO</text>
+  <text x="72" y="204" font-family="system-ui,sans-serif" font-size="52" font-weight="700" fill="#0a63c4">44</text>
+  <text x="72" y="236" font-family="system-ui,sans-serif" font-size="14" fill="#2fb344">▲ 6 vs. mês anterior</text>
+  <text x="72" y="266" font-family="system-ui,sans-serif" font-size="14" fill="#5b626c">Diário · semanal · mensal</text>
+
+  <rect x="336" y="112" width="270" height="180" rx="14" fill="#ffffff" stroke="#e4e7ea"/>
+  <text x="360" y="146" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#5b626c">DISTRIBUIÇÃO DAS NOTAS</text>
+  <g font-family="system-ui,sans-serif">
+    <rect x="360" y="252" width="26" height="24" rx="4" fill="#e5484d"/><text x="392" y="270" font-size="12" fill="#5b626c">0–6</text>
+    <rect x="440" y="228" width="26" height="48" rx="4" fill="#f5a524"/><text x="472" y="270" font-size="12" fill="#5b626c">7–8</text>
+    <rect x="520" y="176" width="26" height="100" rx="4" fill="#2fb344"/><text x="552" y="270" font-size="12" fill="#5b626c">9–10</text>
+  </g>
+
+  <rect x="624" y="112" width="288" height="180" rx="14" fill="#ffffff" stroke="#e4e7ea"/>
+  <text x="648" y="146" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#5b626c">COMENTÁRIOS ABERTOS</text>
+  <g font-family="system-ui,sans-serif" font-size="13" fill="#33383f">
+    <text x="648" y="180">“Atendimento rápido, mas a fila demora.”</text>
+    <text x="648" y="208">“Resolveram meu problema na hora.”</text>
+    <text x="648" y="236">“Faltou informação no caixa.”</text>
+    <text x="648" y="264">“Voltarei com certeza.”</text>
+  </g>
+
+  <line x1="48" y1="322" x2="912" y2="322" stroke="#e4e7ea" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif" font-size="14" fill="#33383f">
+    <text x="48" y="352" font-weight="700" fill="#14161a">1. Olhe a nota e a distribuição</text>
+    <text x="48" y="376">média esconde, distribuição revela</text>
+    <text x="360" y="352" font-weight="700" fill="#14161a">2. Leia os comentários</text>
+    <text x="360" y="376">eles explicam o “porquê” do número</text>
+    <text x="672" y="352" font-weight="700" fill="#14161a">3. Compare unidades e períodos</text>
+    <text x="672" y="376">mesma pergunta, mesma régua</text>
+  </g>
+</svg>

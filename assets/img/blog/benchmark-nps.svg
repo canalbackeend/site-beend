@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t d">
+  <title id="t">Faixas de NPS por setor, valores ilustrativos</title>
+  <desc id="d">Gráfico de barras com faixas de NPS por setor, marcadas como referência ilustrativa.</desc>
+  <rect width="960" height="420" rx="16" fill="#f6f7f8"/>
+  <text x="48" y="56" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="24" font-weight="700" fill="#14161a">Faixas de NPS por setor — referência ilustrativa</text>
+  <text x="48" y="86" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="15" fill="#5b626c">Não existe NPS “bom” universal. Use as faixas abaixo só como ponto de partida e compare com o seu próprio histórico.</text>
+
+  <g font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="14" fill="#33383f">
+    <text x="48" y="140">Serviços B2B</text>
+    <rect x="230" y="124" width="180" height="22" rx="6" fill="#2fb344"/><text x="424" y="141" font-weight="700" fill="#14161a">acima de 50</text>
+
+    <text x="48" y="184">Clínicas e saúde</text>
+    <rect x="230" y="168" width="200" height="22" rx="6" fill="#4fbc68"/><text x="444" y="185" font-weight="700" fill="#14161a">40 a 60</text>
+
+    <text x="48" y="228">Varejo e lojas</text>
+    <rect x="230" y="212" width="160" height="22" rx="6" fill="#f5a524"/><text x="404" y="229" font-weight="700" fill="#14161a">20 a 45</text>
+
+    <text x="48" y="272">Restaurantes</text>
+    <rect x="230" y="256" width="150" height="22" rx="6" fill="#f0a05b"/><text x="394" y="273" font-weight="700" fill="#14161a">15 a 45</text>
+
+    <text x="48" y="316">Telecom e internet</text>
+    <rect x="230" y="300" width="90" height="22" rx="6" fill="#e5484d"/><text x="334" y="317" font-weight="700" fill="#14161a">0 a 25</text>
+  </g>
+
+  <line x1="48" y1="348" x2="912" y2="348" stroke="#e4e7ea" stroke-width="2"/>
+  <text x="48" y="378" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="14" fill="#5b626c">O que importa é a tendência: compare o seu NPS deste trimestre com o do anterior, na mesma pergunta.</text>
+  <text x="48" y="402" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="13" fill="#8b929c">Valores apenas ilustrativos, sem base em pesquisa própria.</text>
+</svg>

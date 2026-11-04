@@ -156,6 +156,18 @@ ${section({
     <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-qrcode.html"><h3>Pesquisa por QR Code</h3><p>Como criar e onde posicionar para aumentar respostas.</p><span class="card__more">Ver guia</span></a>
   </div>`,
 })}
+
+${section({
+  kicker: "Aprofunde cada métrica",
+  title: "Guias por indicador",
+  intro: "Se você já sabe o que quer medir, vá direto ao guia da métrica.",
+  body: `<div class="grid grid--2">
+    <a class="card card--link" href="{{root}}blog/o-que-e-nps.html"><h3>O que é NPS</h3><p>A pergunta de 0 a 10, o cálculo passo a passo e como implantar na empresa.</p><span class="card__more">Ler artigo</span></a>
+    <a class="card card--link" href="{{root}}blog/o-que-e-csat.html"><h3>O que é CSAT</h3><p>Como medir a satisfação com um atendimento e exemplos de pergunta.</p><span class="card__more">Ler artigo</span></a>
+    <a class="card card--link" href="{{root}}blog/nps-ou-csat-qual-escolher.html"><h3>NPS ou CSAT: qual escolher?</h3><p>O que cada métrica mede e quando usar as duas juntas.</p><span class="card__more">Ler artigo</span></a>
+    <a class="card card--link" href="{{root}}blog/o-que-e-ces-customer-effort-score.html"><h3>O que é CES</h3><p>A métrica de esforço e por que ela importa no suporte.</p><span class="card__more">Ler artigo</span></a>
+  </div>`,
+})}
 `,
   faqTitle: "Perguntas frequentes sobre pesquisa de satisfação",
   faq: [
@@ -190,9 +202,10 @@ ${section({
       author: { "@id": "https://beend.tech/#organization" },
       publisher: { "@id": "https://beend.tech/#organization" },
       datePublished: "2026-11-02",
-      dateModified: "2026-11-02",
+      dateModified: "2026-11-04",
       inLanguage: "pt-BR",
-      mainEntityOfPage: "https://beend.tech/pesquisa-de-satisfacao.html",
+      mainEntityOfPage: "https://beend.tech/pesquisa-de-satisfacao",
+    image: "https://beend.tech/assets/img/og-default.jpg",
     },
   ],
   llms: {

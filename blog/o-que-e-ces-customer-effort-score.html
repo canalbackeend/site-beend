@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O que é CES (Customer Effort Score) e quando usar</title>
+<meta name="description" content="O que é CES, como aplicar a escala de esforço, como calcular e por que essa métrica explica melhor a experiência de quem teve um problema.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="beend.tech">
+<meta name="google-site-verification" content="f5ROYlF53YvWNdg6ypF7XPnlvA7CJj-m908ICZ4aoRI">
+<link rel="canonical" href="https://beend.tech/blog/o-que-e-ces-customer-effort-score">
+<link rel="alternate" hreflang="pt-BR" href="https://beend.tech/blog/o-que-e-ces-customer-effort-score">
+<link rel="alternate" hreflang="x-default" href="https://beend.tech/blog/o-que-e-ces-customer-effort-score">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/css/styles.css?v=5d0e5821">
+<link rel="alternate" type="text/plain" href="https://beend.tech/llms.txt" title="Resumo para modelos de linguagem">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="beend.tech">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="O que é CES (Customer Effort Score) e quando usar">
+<meta property="og:description" content="O que é CES, como aplicar a escala de esforço, como calcular e por que essa métrica explica melhor a experiência de quem teve um problema.">
+<meta property="og:url" content="https://beend.tech/blog/o-que-e-ces-customer-effort-score">
+<meta property="og:image" content="https://beend.tech/assets/img/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="beend.tech — totens e plataforma de pesquisa de satisfação">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="O que é CES (Customer Effort Score) e quando usar">
+<meta name="twitter:description" content="O que é CES, como aplicar a escala de esforço, como calcular e por que essa métrica explica melhor a experiência de quem teve um problema.">
+<meta name="twitter:image" content="https://beend.tech/assets/img/og-default.jpg">
+<meta name="theme-color" content="#14161a">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "LocalBusiness"
+      ],
+      "@id": "https://beend.tech/#organization",
+      "name": "beend.tech®",
+      "alternateName": "Backeend Soluções Inteligentes",
+      "legalName": "Backeend Soluções Inteligentes",
+      "url": "https://beend.tech/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://beend.tech/assets/img/logo-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://beend.tech/assets/img/og-default.jpg",
+      "description": "beend.tech fornece totens e uma plataforma de pesquisa de satisfação do cliente com NPS, CSAT, CES, SMILE e QUIZ, além de coleta por QR Code e WhatsApp e análise de sentimento com IA.",
+      "slogan": "Smart Solution",
+      "email": "sac@backeend.com.br",
+      "telephone": "+5561995957461",
+      "taxID": "61.171.282/0001-84",
+      "foundingDate": "2017-11-28",
+      "sameAs": [
+        "https://maps.google.com/?cid=12703534258198116818",
+        "https://www.linkedin.com/in/beendtech"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Brasília",
+        "addressRegion": "DF",
+        "addressCountry": "BR"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+5561995957461",
+          "contactType": "sales",
+          "areaServed": "BR",
+          "availableLanguage": "Portuguese"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+5561991459009",
+          "contactType": "customer support",
+          "areaServed": "BR",
+          "availableLanguage": "Portuguese"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://beend.tech/#website",
+      "url": "https://beend.tech/",
+      "name": "beend.tech",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://beend.tech/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://beend.tech/blog/o-que-e-ces-customer-effort-score#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://beend.tech/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Conteúdo",
+          "item": "https://beend.tech/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "O que é CES",
+          "item": "https://beend.tech/blog/o-que-e-ces-customer-effort-score"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://beend.tech/blog/o-que-e-ces-customer-effort-score#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que significa CES?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Customer Effort Score, ou pontuação de esforço do cliente. Mede quanto trabalho o cliente teve para resolver o que precisava."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CES alto é bom ou ruim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alto é bom: significa que o cliente precisou de pouco esforço, porque a escala vai de “muito difícil” a “muito fácil”."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre CES e CSAT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O CSAT pergunta se o cliente ficou satisfeito; o CES pergunta se foi fácil. Um cliente pode estar satisfeito com o fim e ter passado por um processo cansativo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso do CES se já uso NPS e CSAT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se a empresa tem jornadas de suporte, troca ou cobrança, o CES acrescenta uma leitura que as outras duas não capturam. Em operações sem esse tipo de processo, ele pode ser dispensável."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://beend.tech/blog/o-que-e-ces-customer-effort-score#artigo",
+      "headline": "O que é CES: a métrica de esforço do cliente",
+      "description": "O que é CES (Customer Effort Score): escala de esforço, como calcular, quando usar e a diferença para NPS e CSAT.",
+      "author": {
+        "@id": "https://beend.tech/#organization"
+      },
+      "publisher": {
+        "@id": "https://beend.tech/#organization"
+      },
+      "datePublished": "2026-11-04",
+      "dateModified": "2026-11-04",
+      "inLanguage": "pt-BR",
+      "mainEntityOfPage": "https://beend.tech/blog/o-que-e-ces-customer-effort-score",
+      "image": "https://beend.tech/assets/img/og-default.jpg"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="header" data-menu="closed">
+  <div class="wrap header__in">
+    <a class="logo" href="/">
+      <span class="logo__word">beend.tech<span class="logo__reg" aria-hidden="true">®</span></span>
+      <span class="logo__sub" aria-hidden="true">Smart Solution</span>
+    </a>
+    <div class="header__actions">
+      <a class="btn btn--ghost btn--sm only-desktop" href="https://www.backeend.com.br/cliente/index.php" rel="noopener">Acessar plataforma</a>
+      <a class="btn btn--primary btn--sm" href="/teste-gratis">Teste grátis</a>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+    </button>
+    <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+      <ul>
+        <li><a href="/totem-de-pesquisa-de-satisfacao">Totem de pesquisa</a></li>
+        <li><a href="/locacao-de-totens">Locação</a></li>
+        <li><a href="/venda-de-totens">Venda</a></li>
+        <li><a href="/planos-e-precos">Planos</a></li>
+        <li><a href="/blog">Conteúdo</a></li>
+        <li><a href="/contato">Contato</a></li>
+      </ul>
+      <div class="nav__foot">
+        <a class="btn btn--ghost btn--sm only-mobile" href="https://www.backeend.com.br/cliente/index.php" rel="noopener">Acessar plataforma</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Você está aqui"><ol><li><a href="/">Home</a></li><li><a href="/blog">Conteúdo</a></li><li><span aria-current="page">O que é CES</span></li></ol></nav>
+    <p class="kicker">Métrica</p>
+    <h1>O que é CES: a métrica de esforço do cliente</h1>
+    <p class="lead">O CES mede quanto trabalho o cliente teve para resolver o que precisava. Em jornadas com problema, ele aponta o que o NPS e o CSAT não veem.</p>
+    
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    
+<div class="answer" role="note" aria-label="Resposta rápida">
+  
+      <p><strong>CES (Customer Effort Score) mede o esforço que o cliente precisou fazer para resolver um problema.</strong> A pergunta clássica é “a empresa facilitou a resolução do seu caso?”, com resposta em escala.</p>
+      <p>Quanto menor o esforço, melhor. É a métrica mais indicada para jornadas de suporte, troca, devolução e segunda via — situações em que o cliente já chegou incomodado.</p>
+    
+</div>
+
+    <div class="prose">
+      <div class="toc">
+        <p>Neste artigo</p>
+        <ol>
+          <li><a href="#o-que-e">O que o CES mede</a></li>
+          <li><a href="#escala">A escala de esforço</a></li>
+          <li><a href="#como-calcular">Como calcular</a></li>
+          <li><a href="#quando-usar">Quando usar o CES</a></li>
+          <li><a href="#comparacao">CES, NPS e CSAT juntos</a></li>
+        </ol>
+      </div>
+
+      <h2 id="o-que-e">O que o CES mede</h2>
+      <p>O CES parte de uma constatação prática: <strong>cliente não odeia errar, odeia ter trabalho para resolver.</strong> Um problema bem resolvido, com pouco esforço, costuma gerar mais lealdade do que a ausência de problema.</p>
+      <p>Por isso o CES é bom em:</p>
+      <ul>
+        <li>medir a qualidade do suporte e do pós-venda;</li>
+        <li>avaliar políticas de troca, devolução e cancelamento;</li>
+        <li>detectar burocracia — quantas etapas, quantos canais, quanto tempo;</li>
+        <li>priorizar automações e ajustes de processo.</li>
+      </ul>
+
+      <h2 id="escala">A escala de esforço</h2>
+      <p>A escala mais usada é de 1 a 7, ancorada em “muito difícil” e “muito fácil”. Também funciona com 5 pontos ou com carinhas.</p>
+
+      
+      <figure class="figure">
+        <img src="../assets/img/blog/ces-escala.svg" width="960" height="300" alt="Escala do CES de 1 a 7, de muito difícil a muito fácil" loading="lazy" decoding="async">
+        <figcaption>No CES, 7 significa que a empresa facilitou tudo e 1 que o cliente precisou se virar. CES alto é bom.</figcaption>
+      </figure>
+
+      <h2 id="como-calcular">Como calcular o CES</h2>
+      <p>Há dois jeitos, e o mais comum é bem simples: <strong>média das respostas</strong>. Some todas as notas e divida pelo número de respostas. Numa escala de 7, um CES 5,9 indica pouco esforço.</p>
+      <p>Outro formato, mais parecido com o NPS, é o percentual de notas altas (6 e 7) menos o de notas baixas (1 a 3). Escolha um critério e mantenha — misturar os dois no mesmo histórico invalida a comparação.</p>
+
+      <h2 id="quando-usar">Quando usar o CES</h2>
+      <p>Use o CES quando o cliente passou por um processo que exige ação dele: abrir um chamado, pedir segunda via, resolver uma cobrança, trocar um produto.</p>
+      <ul>
+        <li><strong>Suporte e SAC:</strong> quanto trabalho deu resolver o caso?</li>
+        <li><strong>Autoatendimento:</strong> o cliente achou o que precisava sozinho?</li>
+        <li><strong>Burocracia interna:</strong> quantas vezes o cliente precisou repetir a mesma informação?</li>
+      </ul>
+      <p>O CES não substitui o NPS nem o CSAT. Ele responde uma pergunta que os outros dois não fazem: <strong>“foi fácil?”</strong>.</p>
+
+      <h2 id="comparacao">CES, NPS e CSAT juntos</h2>
+      <p>As três métricas cobrem dimensões diferentes da experiência:</p>
+      <ul>
+        <li><strong>NPS</strong> — o cliente recomenda a empresa? (<a href="/blog/o-que-e-nps">o que é NPS</a>)</li>
+        <li><strong>CSAT</strong> — o cliente ficou satisfeito com o atendimento? (<a href="/blog/o-que-e-csat">o que é CSAT</a>)</li>
+        <li><strong>CES</strong> — foi fácil resolver? </li>
+      </ul>
+      <p>Uma combinação útil é perguntar o CES logo depois de uma interação de suporte e reservar o NPS para uma leitura periódica da relação. Assim cada pergunta aparece no momento em que faz sentido.</p>
+      <div class="note">
+        <p><strong>Regra prática:</strong> se o esforço é alto, a satisfação cai e a lealdade some — nessa ordem. Reduzir etapas costuma ser mais barato do que compensar com desconto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="kicker">Próximo passo</p>
+      <h2>Meça esforço, satisfação e lealdade</h2>
+      
+    </div>
+    <p>O mesmo totem pode rodar NPS, CSAT, CES, escala de carinhas e quiz, com relatórios por período.</p>
+  <p><a class="btn btn--dark" href="/pesquisa-de-satisfacao">Ver métricas e como aplicar</a></p>
+  </div>
+</section>
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="kicker">Dúvidas</p>
+      <h2 id="faq-title">Perguntas frequentes sobre CES</h2>
+    </div>
+    <div class="faq-list"><details class="faq" open>
+  <summary>O que significa CES?</summary>
+  <div class="faq__a"><p>Customer Effort Score, ou pontuação de esforço do cliente. Mede quanto trabalho o cliente teve para resolver o que precisava.</p></div>
+</details>
+<details class="faq">
+  <summary>CES alto é bom ou ruim?</summary>
+  <div class="faq__a"><p>Alto é bom: significa que o cliente precisou de pouco esforço, porque a escala vai de “muito difícil” a “muito fácil”.</p></div>
+</details>
+<details class="faq">
+  <summary>Qual a diferença entre CES e CSAT?</summary>
+  <div class="faq__a"><p>O CSAT pergunta se o cliente ficou satisfeito; o CES pergunta se foi fácil. Um cliente pode estar satisfeito com o fim e ter passado por um processo cansativo.</p></div>
+</details>
+<details class="faq">
+  <summary>Preciso do CES se já uso NPS e CSAT?</summary>
+  <div class="faq__a"><p>Se a empresa tem jornadas de suporte, troca ou cobrança, o CES acrescenta uma leitura que as outras duas não capturam. Em operações sem esse tipo de processo, ele pode ser dispensável.</p></div>
+</details></div>
+  </div>
+</section><div class="wrap"><p class="updated">Conteúdo atualizado em 04/11/2026. </p></div>
+</main>
+<section class="section section--tight" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2 id="cta-title">Quer medir a satisfação no seu ponto de atendimento?</h2>
+        <p>Receba uma proposta com modelo de totem, plano de software e prazo de implantação. Atendemos todo o Brasil.</p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn--wa" href="https://wa.me/5561995957461?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20totem%20de%20pesquisa%20de%20satisfa%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg> Falar no WhatsApp</a>
+        <a class="btn btn--on-dark" href="/teste-gratis">Teste grátis 7 dias</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="/">
+      <span class="logo__word">beend.tech<span class="logo__reg" aria-hidden="true">®</span></span>
+      <span class="logo__sub" aria-hidden="true">Smart Solution</span>
+    </a>
+        <p>Totens e plataforma de pesquisa de satisfação do cliente. Coleta por totem, QR Code e WhatsApp, com NPS, CSAT e CES em tempo real.</p>
+        <p><strong style="color:#fff">Backeend Soluções Inteligentes</strong><br>CNPJ 61.171.282/0001-84<br>Brasília — DF</p>
+      </div>
+      <div>
+        <h3>Soluções</h3>
+        <ul><li><a href="/totem-de-pesquisa-de-satisfacao">Totem de pesquisa de satisfação</a></li><li><a href="/locacao-de-totens">Locação de totens</a></li><li><a href="/venda-de-totens">Venda de totens</a></li><li><a href="/totem-de-mesa">Totem de mesa</a></li><li><a href="/totem-de-piso">Totem de piso</a></li></ul>
+      </div>
+      <div>
+        <h3>Canais</h3>
+        <ul><li><a href="/pesquisa-de-satisfacao-whatsapp">Pesquisa por WhatsApp</a></li><li><a href="/pesquisa-de-satisfacao-qrcode">Pesquisa por QR Code</a></li><li><a href="/pesquisa-de-satisfacao">Guia de pesquisa de satisfação</a></li><li><a href="/segmentos">Segmentos atendidos</a></li><li><a href="/planos-e-precos">Planos e preços</a></li></ul>
+      </div>
+      <div>
+        <h3>Empresa</h3>
+        <ul><li><a href="/sobre">Sobre a beend.tech</a></li><li><a href="/blog">Conteúdo</a></li><li><a href="/contato">Contato</a></li><li><a href="/totem-de-pesquisa-de-satisfacao#faq">Perguntas frequentes</a></li><li><a href="https://www.backeend.com.br/cliente/index.php" target="_blank" rel="noopener">Acessar o sistema</a></li></ul>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="tel:+5561995957461">(61) 99595-7461</a></li>
+          <li><a href="tel:+5561991459009">(61) 99145-9009</a></li>
+          <li><a href="mailto:sac@backeend.com.br">sac@backeend.com.br</a></li>
+          <li>Segunda a sexta, das 9h às 18h</li>
+        </ul>
+        <p style="margin-top:14px"><a href="https://wa.me/5561995957461?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20totem%20de%20pesquisa%20de%20satisfa%C3%A7%C3%A3o." target="_blank" rel="noopener">WhatsApp comercial →</a></p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 beend.tech. Todos os direitos reservados.</span>
+      <span>Conteúdo atualizado em 04/11/2026 · <a href="/politica-de-privacidade">Privacidade e LGPD</a></span>
+    </div>
+  </div>
+</footer>
+<noscript><style>.nav{display:block!important}.nav__foot{display:block!important}</style></noscript>
+<script>
+(function () {
+  var header = document.querySelector('.header');
+  var btn = document.querySelector('.nav-toggle');
+  if (!header || !btn) return;
+  function setMenu(open) {
+    header.setAttribute('data-menu', open ? 'open' : 'closed');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  }
+  btn.addEventListener('click', function () {
+    setMenu(header.getAttribute('data-menu') !== 'open');
+  });
+  header.addEventListener('click', function (e) {
+    if (e.target.closest('.nav a')) setMenu(false);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && header.getAttribute('data-menu') === 'open') { setMenu(false); btn.focus(); }
+  });
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 900) setMenu(false);
+  });
+})();
+</script>
+<script src="../assets/js/ui.js?v=973976de" defer></script>
+
+</body>
+</html>
