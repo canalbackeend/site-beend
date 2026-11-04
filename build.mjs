@@ -379,6 +379,11 @@ const trackingSnippet = (root) =>
 
 const resolve = (html, root) =>
   String(html)
+    // imagens e outros assets locais ganham ?v=<hash> — sem isso, trocar uma
+    // imagem sem mudar a URL deixa o visitante preso na versão antiga por 1 ano
+    .replace(/\{\{root\}\}(assets\/(?!.*\.html$)[^"'  ,]+)/g, (_, rel) =>
+      `${root}${rel}?v=${assetVersion(rel)}`
+    )
     // links internos com {{root}} viram URL amigável absoluta
     .replace(/\{\{root\}\}((?:[a-z0-9][a-z0-9\-_/]*)?\.html)(#[a-z0-9\-_]+)?/gi, (_, p, h) =>
       prettyPath(p + (h || ""))
@@ -398,6 +403,17 @@ export function layout(page) {
   const ogImage = `${SITE.url}/assets/img/og-default.jpg`;
 
   const crumbs = page.crumbs?.length ? crumbsHtml(page.crumbs, root) : "";
+  // URL de asset com versão (evita cache de 1 ano servindo imagem antiga)
+  const assetUrl = (rel) => `${root}${rel}?v=${assetVersion(rel)}`;
+  const preloadSrcset = page.preloadSrcset
+    ? page.preloadSrcset
+        .split(",")
+        .map((s) => {
+          const [u, w] = s.trim().split(/\s+/);
+          return `${assetUrl(u)} ${w}`;
+        })
+        .join(", ")
+    : "";
   const pageHero = page.customHero
     ? resolve(page.customHero, root)
     : `<section class="page-hero">
@@ -460,7 +476,7 @@ export function layout(page) {
 <meta name="twitter:description" content="${page.description}">
 <meta name="twitter:image" content="${ogImage}">
 <meta name="theme-color" content="#14161a">
-${page.preload ? `<link rel="preload" as="image" href="${root}${page.preload}"${page.preloadSrcset ? ` imagesrcset="${page.preloadSrcset.replaceAll("assets/", root + "assets/")}" imagesizes="${page.preloadSizes}"` : ""} fetchpriority="high">` : ""}
+${page.preload ? `<link rel="preload" as="image" href="${assetUrl(page.preload)}"${preloadSrcset ? ` imagesrcset="${preloadSrcset}"` : ""}${page.preloadSizes ? ` imagesizes="${page.preloadSizes}"` : ""} fetchpriority="high">` : ""}
 <script type="application/ld+json">
 ${jsonLd(page, canonical)}
 </script>

@@ -2,14 +2,26 @@ import { section, answer, card } from "./_ui.mjs";
 
 const hero = `
 <section class="hero">
-  <img class="hero__bg"
-       src="{{root}}assets/img/opt/totens-900.webp"
-       srcset="{{root}}assets/img/opt/totens-900.webp 900w, {{root}}assets/img/opt/totens.webp 1600w"
-       sizes="100vw" width="1600" height="1073"
-       alt="Três totens de piso personalizados para pesquisa de satisfação, nas cores amarelo, branco e laranja"
-       fetchpriority="high" decoding="async">
+  <div class="hero__deco" aria-hidden="true">
+    <svg viewBox="0 0 900 900" fill="none" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#2f9bff" stop-opacity=".8"/>
+          <stop offset="1" stop-color="#0b82ff" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="hg2">
+          <stop offset="0" stop-color="#1a8cff" stop-opacity=".45"/>
+          <stop offset="1" stop-color="#1a8cff" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle cx="620" cy="330" r="250" fill="url(#hg2)"/>
+      <circle cx="620" cy="330" r="252" stroke="url(#hg1)" stroke-width="2"/>
+      <circle cx="620" cy="330" r="340" stroke="url(#hg1)" stroke-width="1.5" opacity=".55"/>
+      <path d="M232 812 A 430 430 0 0 1 792 232" stroke="url(#hg1)" stroke-width="2.5" opacity=".8"/>
+    </svg>
+  </div>
   <div class="wrap hero__in">
-    <div>
+    <div class="hero__copy">
       <p class="kicker">Totens + plataforma de pesquisa de satisfação</p>
       <h1>Totem de pesquisa de satisfação para ouvir o cliente na hora certa</h1>
       <p class="lead">O cliente avalia o atendimento em poucos toques, no ponto de venda. A beend.tech entrega o totem, o aplicativo e o painel que transformam as respostas em NPS, CSAT e CES.</p>
@@ -19,22 +31,38 @@ const hero = `
       </div>
       <ul class="badge-row">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Locação ou venda</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Implantação em todo o Brasil</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Todo o Brasil</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Teste grátis de 7 dias</li>
       </ul>
     </div>
-    <aside class="quick-card" aria-label="Resumo da solução em formato de leitura rápida">
-      <h2>Resumo rápido</h2>
-      <p>Um totem de pesquisa de satisfação é um terminal com tela touch colocado no ponto de atendimento para o cliente avaliar a experiência em poucos toques.</p>
-      <ul>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Coleta por totem, QR Code ou WhatsApp</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NPS, CSAT, CES, SMILE e QUIZ</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Painel online com os resultados</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Análise de sentimento com IA</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Funciona com tablet Android próprio</li>
-      </ul>
-      <p class="mini">Planos a partir de R$ 69,90/mês. Teste grátis de 7 dias, sem cartão de crédito.</p>
-    </aside>
+
+    <div class="hero__stage">
+      <figure class="hero-frame">
+        <div class="hero-frame__bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <em>totem.beend.tech</em>
+        </div>
+        <img src="{{root}}assets/img/opt/painel-900.webp"
+             srcset="{{root}}assets/img/opt/painel-900.webp 900w, {{root}}assets/img/opt/painel.webp 1600w"
+             sizes="(max-width:900px) 92vw, 520px" width="1600" height="884"
+             alt="Painel do sistema beend.tech com a nota de NPS do período, detratores, neutros e promotores" fetchpriority="high" decoding="async">
+      </figure>
+      <div class="hero-chip hero-chip--nps">
+        <b>44</b><span>NPS do mês <i>▲ 6</i></span>
+      </div>
+      <div class="hero-chip hero-chip--vol">
+        <b>140 mil+</b><span>respostas coletadas</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <ul class="hero__features">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Coleta por totem, QR Code e WhatsApp</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NPS, CSAT, CES, SMILE e QUIZ</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Painel online e análise de sentimento com IA</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Funciona offline com tablet próprio</li>
+    </ul>
   </div>
 </section>
 
@@ -319,7 +347,7 @@ export const home = {
       "Página inicial: totens e plataforma beend.tech para pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, análise de sentimento com IA, em aquisição ou locação.",
   },
   priority: "1.0",
-  preload: "assets/img/opt/totens-900.webp",
-  preloadSrcset: "assets/img/opt/totens-900.webp 900w, assets/img/opt/totens.webp 1600w",
-  preloadSizes: "100vw",
+  preload: "assets/img/opt/painel-900.webp",
+  preloadSrcset: "assets/img/opt/painel-900.webp 900w, assets/img/opt/painel.webp 1600w",
+  preloadSizes: "(max-width:900px) 92vw, 520px",
 };

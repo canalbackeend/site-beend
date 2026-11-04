@@ -225,37 +225,136 @@ hr{border:0;border-top:1px solid var(--line);margin:36px 0}
 /* ==========================================================================
    HERO (home)
    ========================================================================== */
-.hero{position:relative;isolation:isolate;color:#fff;background:#0a0d12;overflow:hidden}
-.hero__bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
-.hero::after{
-  content:"";position:absolute;inset:0;z-index:-1;
+.hero{
+  position:relative;isolation:isolate;color:#fff;overflow:hidden;
   background:
-    radial-gradient(900px 460px at 82% 4%,rgba(11,130,255,.32),transparent 60%),
-    radial-gradient(760px 420px at 6% 96%,rgba(37,99,235,.24),transparent 62%),
-    linear-gradient(95deg,rgba(8,10,14,.96) 0%,rgba(8,10,14,.88) 40%,rgba(8,10,14,.56) 72%,rgba(8,10,14,.38) 100%);
+    radial-gradient(920px 520px at 78% 12%,rgba(11,130,255,.22),transparent 62%),
+    radial-gradient(760px 520px at 4% 92%,rgba(37,99,235,.16),transparent 60%),
+    linear-gradient(180deg,#0d1219 0%,#090c11 65%,#0b0f15 100%);
 }
-.hero__in{padding-top:clamp(60px,8vw,110px);padding-bottom:clamp(52px,7vw,92px);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,64px);align-items:center}
-.hero h1{color:#fff;max-width:16ch;text-shadow:0 2px 30px rgba(0,0,0,.35)}
-.hero .lead{color:#e7eaee;font-size:clamp(1.05rem,1.6vw,1.25rem);max-width:52ch}
+.hero__deco{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.hero__deco svg{position:absolute;right:-16%;top:-26%;width:min(1080px,95vw);height:auto;opacity:.55}
+.hero__in{
+  padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(36px,5vw,64px);
+  display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);
+  gap:clamp(28px,5vw,60px);align-items:center
+}
+.hero h1{color:#fff;max-width:17ch;text-shadow:0 2px 40px rgba(0,0,0,.4)}
+.hero .lead{color:#dfe4ea;font-size:clamp(1.05rem,1.6vw,1.22rem);max-width:50ch}
 .hero .kicker{color:#9ccbff}
-@media (max-width:900px){.hero__in{grid-template-columns:1fr}.hero::after{background:radial-gradient(600px 400px at 80% 0%,rgba(11,130,255,.28),transparent 60%),linear-gradient(180deg,rgba(8,10,14,.93),rgba(8,10,14,.8))}}
+
+/* ---- palco do produto: moldura com o painel real + chips flutuantes ---- */
+.hero__stage{position:relative;padding:8px 0 18px}
+.hero__stage::before{
+  content:"";position:absolute;inset:-6% -10% -10% -6%;z-index:-1;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(11,130,255,.34),transparent 78%);
+  filter:blur(6px);
+}
+.hero-frame{
+  position:relative;margin:0;border-radius:18px;overflow:hidden;
+  background:#0f141b;border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 44px 90px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.04) inset;
+  transform:rotate(-1.4deg);
+}
+.hero-frame__bar{
+  display:flex;align-items:center;gap:6px;padding:10px 14px;
+  background:linear-gradient(180deg,#1a212a,#121820);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.hero-frame__bar span{width:8px;height:8px;border-radius:50%;background:#39424f}
+.hero-frame__bar span:nth-child(1){background:#3f4a58}
+.hero-frame__bar span:nth-child(2){background:#333c48}
+.hero-frame__bar span:nth-child(3){background:#2b333e}
+.hero-frame__bar em{
+  font-style:normal;margin-left:10px;font-size:.72rem;letter-spacing:.02em;
+  color:#8b939d;font-weight:600;
+}
+.hero-frame img{display:block;width:100%;height:auto}
+
+.hero-chip{
+  position:absolute;z-index:2;display:grid;gap:3px;
+  padding:13px 17px;border-radius:15px;
+  background:linear-gradient(180deg,rgba(17,23,32,.94),rgba(9,13,19,.9));
+  border:1px solid rgba(255,255,255,.17);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  box-shadow:0 24px 50px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.14);
+}
+.hero-chip b{font-size:1.32rem;line-height:1;letter-spacing:-.02em;color:#fff}
+.hero-chip span{font-size:.72rem;font-weight:600;color:#bcc5d0;white-space:nowrap}
+.hero-chip i{font-style:normal;color:#7ee2a8;font-weight:700;margin-left:2px}
+.hero-chip--nps{left:-22px;bottom:56px}
+.hero-chip--vol{right:-12px;top:38px}
+
+.hero .btn{padding:13px 20px;font-size:.95rem}
+
+
+/* ---- faixa de recursos (antes era o card "resumo rápido") ---- */
+.hero__features{
+  list-style:none;margin:0;padding:22px 0 26px;
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px 26px;
+  border-top:1px solid rgba(255,255,255,.1);
+}
+.hero__features li{
+  display:flex;gap:9px;align-items:flex-start;margin:0;
+  font-size:.9rem;color:#cfd6de;font-weight:600;line-height:1.45;
+}
+.hero__features svg{width:16px;height:16px;flex:none;margin-top:3px;color:#7ee2a8}
+
+/* ---------- animações do hero (respeitam prefers-reduced-motion) ---------- */
+@media (prefers-reduced-motion: no-preference){
+  /* entrada: texto em cascata, palco sobe depois */
+  .hero__copy > *{animation:heroRise .72s var(--ease) both}
+  .hero__copy > *:nth-child(1){animation-delay:.05s}
+  .hero__copy > *:nth-child(2){animation-delay:.11s}
+  .hero__copy > *:nth-child(3){animation-delay:.17s}
+  .hero__copy > *:nth-child(4){animation-delay:.23s}
+  .hero__copy > *:nth-child(5){animation-delay:.29s}
+
+  /* vida contínua: moldura e chips flutuam em ritmos diferentes */
+  .hero-frame{animation:heroFloatTilt 7.5s ease-in-out 1.3s infinite alternate}
+  .hero-chip--nps{animation:heroFloatUp 6.2s ease-in-out 1.5s infinite alternate}
+  .hero-chip--vol{animation:heroFloatDown 5.4s ease-in-out 1.7s infinite alternate}
+
+  .hero__stage::before{animation:heroGlowPulse 9s ease-in-out infinite alternate}
+  .hero__deco svg{animation:heroDecoPulse 18s ease-in-out infinite alternate}
+
+  .hero__features li{animation:heroRise .6s var(--ease) both}
+  .hero__features li:nth-child(1){animation-delay:.36s}
+  .hero__features li:nth-child(2){animation-delay:.42s}
+  .hero__features li:nth-child(3){animation-delay:.48s}
+  .hero__features li:nth-child(4){animation-delay:.54s}
+}
+@keyframes heroRise{from{transform:translateY(12px)}to{transform:none}}
+@keyframes heroFloatTilt{
+  from{transform:rotate(-1.4deg) translateY(0)}
+  to{transform:rotate(-1.4deg) translateY(-10px)}
+}
+@keyframes heroFloatUp{from{transform:translateY(0)}to{transform:translateY(-9px)}}
+@keyframes heroFloatDown{from{transform:translateY(0)}to{transform:translateY(8px)}}
+@keyframes heroGlowPulse{from{opacity:.6}to{opacity:1}}
+@keyframes heroDecoPulse{from{opacity:.42}to{opacity:.62}}
+
+@media (max-width:1000px){
+  .hero__features{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:900px){
+  .hero__in{grid-template-columns:1fr;padding-bottom:28px}
+  .hero__deco svg{right:-30%;top:-10%;width:150vw;opacity:.55}
+  .hero__stage{order:2;margin-top:8px;padding:4px 0 10px}
+  .hero-frame{transform:none;animation:none}
+  .hero-chip--nps{left:8px;bottom:52px;padding:11px 14px}
+  .hero-chip--vol{right:8px;top:34px;padding:11px 14px}
+  .hero-chip b{font-size:1.15rem}
+}
+@media (max-width:520px){
+  .hero__features{grid-template-columns:1fr;gap:12px;padding:18px 0 20px}
+  .hero-chip--vol{top:26px}
+  .hero-chip span{font-size:.68rem}
+}
 
 .kicker{display:inline-block;margin:0 0 14px;font-size:.8rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--brand-ink)}
 .hero .kicker{color:#9ccbff}
 
-.quick-card{
-  position:relative;
-  background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.045));
-  border:1px solid rgba(255,255,255,.2);border-radius:22px;padding:28px;
-  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
-  box-shadow:0 30px 70px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.2);
-}
-.quick-card h2{color:#fff;font-size:1.02rem;letter-spacing:.07em;text-transform:uppercase;margin-bottom:16px}
-.quick-card p{color:#e3e8ee;font-size:.98rem;margin-bottom:14px}
-.quick-card ul{list-style:none;padding:0;margin:0;display:grid;gap:11px;font-size:.95rem}
-.quick-card li{display:flex;gap:10px;align-items:flex-start;color:#eef1f4;margin:0}
-.quick-card li svg{width:18px;height:18px;margin-top:3px;flex:none;color:#7ee2a8}
-.quick-card .mini{font-size:.8rem;color:#b1b9c3;margin:18px 0 0;padding-top:14px;border-top:1px solid rgba(255,255,255,.12)}
 
 /* ==========================================================================
    PAGE HERO (internas)
@@ -575,7 +674,7 @@ details.faq[open] summary{border-bottom:1px solid var(--line-2)}
 .updated{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:38px}
 .link-list{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .link-list a{font-weight:600}
-.badge-row{display:flex;flex-wrap:wrap;gap:10px 18px;margin:20px 0 0;padding:0;list-style:none;font-size:.88rem;color:#d9dee4}
+.badge-row{display:flex;flex-wrap:wrap;gap:8px 16px;margin:20px 0 0;padding:0;list-style:none;font-size:.82rem;color:#c9d1da}
 .badge-row li{display:flex;gap:7px;align-items:center;margin:0}
 .badge-row svg{width:16px;height:16px;color:#7ee2a8;flex:none}
 

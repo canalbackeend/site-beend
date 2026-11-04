@@ -13,7 +13,7 @@
 <link rel="alternate" hreflang="x-default" href="https://beend.tech/">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="assets/css/styles.css?v=4de1a57e">
+<link rel="stylesheet" href="assets/css/styles.css?v=75ef392e">
 <link rel="alternate" type="text/plain" href="https://beend.tech/llms.txt" title="Resumo para modelos de linguagem">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="beend.tech">
@@ -30,7 +30,7 @@
 <meta name="twitter:description" content="Sistema de pesquisa de satisfação a partir de R$ 69,90/mês. NPS, CSAT e CES por totem, QR Code e WhatsApp. Teste grátis por 7 dias, sem cartão.">
 <meta name="twitter:image" content="https://beend.tech/assets/img/og-default.jpg">
 <meta name="theme-color" content="#14161a">
-<link rel="preload" as="image" href="assets/img/opt/totens-900.webp" imagesrcset="assets/img/opt/totens-900.webp 900w, assets/img/opt/totens.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" href="assets/img/opt/painel-900.webp?v=e4b8c11f" imagesrcset="assets/img/opt/painel-900.webp?v=e4b8c11f 900w, assets/img/opt/painel.webp?v=7890445e 1600w" imagesizes="(max-width:900px) 92vw, 520px" fetchpriority="high">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -223,14 +223,26 @@
 <main id="conteudo">
 
 <section class="hero">
-  <img class="hero__bg"
-       src="assets/img/opt/totens-900.webp"
-       srcset="assets/img/opt/totens-900.webp 900w, assets/img/opt/totens.webp 1600w"
-       sizes="100vw" width="1600" height="1073"
-       alt="Três totens de piso personalizados para pesquisa de satisfação, nas cores amarelo, branco e laranja"
-       fetchpriority="high" decoding="async">
+  <div class="hero__deco" aria-hidden="true">
+    <svg viewBox="0 0 900 900" fill="none" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#2f9bff" stop-opacity=".8"/>
+          <stop offset="1" stop-color="#0b82ff" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="hg2">
+          <stop offset="0" stop-color="#1a8cff" stop-opacity=".45"/>
+          <stop offset="1" stop-color="#1a8cff" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <circle cx="620" cy="330" r="250" fill="url(#hg2)"/>
+      <circle cx="620" cy="330" r="252" stroke="url(#hg1)" stroke-width="2"/>
+      <circle cx="620" cy="330" r="340" stroke="url(#hg1)" stroke-width="1.5" opacity=".55"/>
+      <path d="M232 812 A 430 430 0 0 1 792 232" stroke="url(#hg1)" stroke-width="2.5" opacity=".8"/>
+    </svg>
+  </div>
   <div class="wrap hero__in">
-    <div>
+    <div class="hero__copy">
       <p class="kicker">Totens + plataforma de pesquisa de satisfação</p>
       <h1>Totem de pesquisa de satisfação para ouvir o cliente na hora certa</h1>
       <p class="lead">O cliente avalia o atendimento em poucos toques, no ponto de venda. A beend.tech entrega o totem, o aplicativo e o painel que transformam as respostas em NPS, CSAT e CES.</p>
@@ -240,22 +252,38 @@
       </div>
       <ul class="badge-row">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Locação ou venda</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Implantação em todo o Brasil</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Todo o Brasil</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Teste grátis de 7 dias</li>
       </ul>
     </div>
-    <aside class="quick-card" aria-label="Resumo da solução em formato de leitura rápida">
-      <h2>Resumo rápido</h2>
-      <p>Um totem de pesquisa de satisfação é um terminal com tela touch colocado no ponto de atendimento para o cliente avaliar a experiência em poucos toques.</p>
-      <ul>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Coleta por totem, QR Code ou WhatsApp</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NPS, CSAT, CES, SMILE e QUIZ</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Painel online com os resultados</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Análise de sentimento com IA</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Funciona com tablet Android próprio</li>
-      </ul>
-      <p class="mini">Planos a partir de R$ 69,90/mês. Teste grátis de 7 dias, sem cartão de crédito.</p>
-    </aside>
+
+    <div class="hero__stage">
+      <figure class="hero-frame">
+        <div class="hero-frame__bar" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <em>totem.beend.tech</em>
+        </div>
+        <img src="assets/img/opt/painel-900.webp?v=e4b8c11f"
+             srcset="assets/img/opt/painel-900.webp?v=e4b8c11f 900w, assets/img/opt/painel.webp?v=7890445e 1600w"
+             sizes="(max-width:900px) 92vw, 520px" width="1600" height="884"
+             alt="Painel do sistema beend.tech com a nota de NPS do período, detratores, neutros e promotores" fetchpriority="high" decoding="async">
+      </figure>
+      <div class="hero-chip hero-chip--nps">
+        <b>44</b><span>NPS do mês <i>▲ 6</i></span>
+      </div>
+      <div class="hero-chip hero-chip--vol">
+        <b>140 mil+</b><span>respostas coletadas</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <ul class="hero__features">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Coleta por totem, QR Code e WhatsApp</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NPS, CSAT, CES, SMILE e QUIZ</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Painel online e análise de sentimento com IA</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Funciona offline com tablet próprio</li>
+    </ul>
   </div>
 </section>
 
@@ -292,7 +320,7 @@
     </div>
     <div class="grid grid--2" style="align-items:center;gap:40px">
     <figure class="figure" style="margin:0">
-      <img src="assets/img/opt/painel-900.webp" srcset="assets/img/opt/painel-900.webp 900w, assets/img/opt/painel.webp 1600w" sizes="(max-width:900px) 100vw, 520px" width="1600" height="884" loading="lazy" decoding="async"
+      <img src="assets/img/opt/painel-900.webp?v=e4b8c11f" srcset="assets/img/opt/painel-900.webp?v=e4b8c11f 900w, assets/img/opt/painel.webp?v=7890445e 1600w" sizes="(max-width:900px) 100vw, 520px" width="1600" height="884" loading="lazy" decoding="async"
            alt="Painel do sistema beend.tech com indicadores de NPS, filtros de pesquisa e exportação de relatórios">
       <figcaption>Painel do sistema beend.tech, com NPS, filtros por período e terminal, e exportação de relatórios.</figcaption>
     </figure>
@@ -329,7 +357,7 @@
     <div class="card"><h3>Exportação PDF, Excel e CSV</h3><p>Relatórios por data e horário, prontos para levar à reunião.</p></div>
   </div>
   <figure class="figure" style="margin-top:32px">
-    <img src="assets/img/opt/campanhas-900.webp" srcset="assets/img/opt/campanhas-900.webp 900w, assets/img/opt/campanhas.webp 1600w" sizes="(max-width:900px) 100vw, 1160px" width="1600" height="912" loading="lazy" decoding="async"
+    <img src="assets/img/opt/campanhas-900.webp?v=30635509" srcset="assets/img/opt/campanhas-900.webp?v=30635509 900w, assets/img/opt/campanhas.webp?v=248fbdc1 1600w" sizes="(max-width:900px) 100vw, 1160px" width="1600" height="912" loading="lazy" decoding="async"
          alt="Editor de campanha em node do sistema beend.tech, com perguntas ramificadas e tela de agradecimento">
     <figcaption>Editor de campanha em node: cada resposta pode levar a uma nova pergunta.</figcaption>
   </figure>
@@ -397,14 +425,14 @@
     </div>
     <div class="grid grid--2">
     <a class="card card--link" href="/totem-de-mesa">
-      <img src="assets/img/opt/totem-mesa.webp" width="800" height="1066" loading="lazy" decoding="async"
+      <img src="assets/img/opt/totem-mesa.webp?v=90a33b3e" width="800" height="1066" loading="lazy" decoding="async"
            alt="Totem de mesa branco exibindo a pergunta como você avalia a qualidade do atendimento prestado" style="border-radius:12px;margin-bottom:18px">
       <h3>Totem de mesa</h3>
       <p>Compacto, para balcões, caixas, consultórios e recepções. Ideal para pontos de atendimento individuais.</p>
       <span class="card__more">Ver totem de mesa</span>
     </a>
     <a class="card card--link" href="/totem-de-piso">
-      <img src="assets/img/opt/totens-900.webp" srcset="assets/img/opt/totens-900.webp 900w, assets/img/opt/totens.webp 1600w" sizes="(max-width:900px) 100vw, 520px" width="1600" height="1073" loading="lazy" decoding="async"
+      <img src="assets/img/opt/totens-900.webp?v=ad7399b1" srcset="assets/img/opt/totens-900.webp?v=ad7399b1 900w, assets/img/opt/totens.webp?v=b5ebb9df 1600w" sizes="(max-width:900px) 100vw, 520px" width="1600" height="1073" loading="lazy" decoding="async"
            alt="Três totens de piso personalizados para pesquisa de satisfação, nas cores amarelo, branco e laranja" style="border-radius:12px;margin-bottom:18px">
       <h3>Totem de piso</h3>
       <p>Maior visibilidade em lojas, shoppings, restaurantes e recepções de alto fluxo. Chama a atenção de quem passa.</p>
