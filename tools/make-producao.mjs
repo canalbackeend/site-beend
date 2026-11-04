@@ -7,12 +7,13 @@ const ROOT = process.cwd();
 const OUT = path.join(ROOT, "producao");
 
 // Arquivos da raiz que vão para o servidor
+// (.htaccess ficou de fora de propósito: é a configuração Apache do domínio
+//  antigo, o deploy agora é nginx e não deve ser publicado como arquivo.)
 const ROOT_FILES = [
   "robots.txt",
   "sitemap.xml",
   "llms.txt",
   "llms-full.txt",
-  ".htaccess",
 ];
 
 // Pastas copiadas inteiras
