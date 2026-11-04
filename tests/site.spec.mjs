@@ -233,6 +233,25 @@ export default async function siteSuite(h, ctx) {
     }
   });
 
+  await h.test("e-mail e nome da empresa são os atuais em todo o site", () => {
+    const antigos = [
+      { rotulo: "sac@backeend.com.br", re: /sac@backeend\.com\.br/ },
+      { rotulo: "Backeend Soluções Inteligentes", re: /Backeend Soluções Inteligentes/ },
+    ];
+    const problemas = [];
+    for (const { rotulo, re } of antigos) {
+      for (const [rel, html] of conteudo) if (re.test(html)) problemas.push(`${rel}: ${rotulo}`);
+      for (const f of ["llms.txt", "llms-full.txt"]) {
+        if (re.test(fs.readFileSync(path.join(dist, f), "utf8"))) problemas.push(`${f}: ${rotulo}`);
+      }
+    }
+    h.assertEmpty(problemas, "textos antigos ainda publicados");
+
+    const home = conteudo.get("index.html");
+    h.assert(home.includes("beendtech@gmail.com"), "a home não mostra beendtech@gmail.com");
+    h.assert(home.includes("Beend.tech Smart Solution"), "a home não mostra Beend.tech Smart Solution");
+  });
+
   await h.test("robots.txt bloqueia a área do cliente e libera bots de IA", () => {
     const robots = fs.readFileSync(path.join(dist, "robots.txt"), "utf8");
     h.assert(/Disallow: \/cliente/.test(robots), "não bloqueia /cliente");

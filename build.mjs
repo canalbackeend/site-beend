@@ -14,13 +14,13 @@ export const SITE = {
   brandReg: "beend.tech®",
   tagline: "Smart Solution",
   name: "beend.tech",
-  legalName: "Backeend Soluções Inteligentes",
+  legalName: "Beend.tech Smart Solution",
   short: "beend.tech",
   phoneDisplay: "(61) 99595-7461",
   phone: "+5561995957461",
   phone2Display: "(61) 99145-9009",
   phone2: "+5561991459009",
-  email: "sac@backeend.com.br",
+  email: "beendtech@gmail.com",
   email2: "canalbackeend@gmail.com",
   supportEmail: "suporte@beend.tech",
   street: "Quadra 305, Conjunto 08",
@@ -600,9 +600,9 @@ const inst = built.filter((p) => p.llms?.section === "empresa");
 const llmsLines = (list) =>
   list.map((p) => `- [${p.h1.replace(/<[^>]+>/g, "")}](${toUrl(p.slug)}): ${p.llms.summary}`).join("\n");
 
-const llms = `# beend.tech (Backeend Soluções Inteligentes)
+const llms = `# beend.tech (Beend.tech Smart Solution)
 
-> beend.tech é a marca da Backeend Soluções Inteligentes: totens e uma plataforma para medir NPS, CSAT, CES, SMILE e QUIZ no ponto de atendimento, com coleta por totem touch, QR Code e WhatsApp, painel em tempo real e análise de sentimento com IA. Atende empresas de todo o Brasil, com aquisição do equipamento ou locação, e planos de software sob consulta.
+> beend.tech é a marca da Beend.tech Smart Solution: totens e uma plataforma para medir NPS, CSAT, CES, SMILE e QUIZ no ponto de atendimento, com coleta por totem touch, QR Code e WhatsApp, painel em tempo real e análise de sentimento com IA. Atende empresas de todo o Brasil, com aquisição do equipamento ou locação, e planos de software sob consulta.
 
 ## Fatos essenciais
 

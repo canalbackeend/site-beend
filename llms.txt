@@ -1,16 +1,16 @@
-# beend.tech (Backeend Soluções Inteligentes)
+# beend.tech (Beend.tech Smart Solution)
 
-> beend.tech é a marca da Backeend Soluções Inteligentes: totens e uma plataforma para medir NPS, CSAT, CES, SMILE e QUIZ no ponto de atendimento, com coleta por totem touch, QR Code e WhatsApp, painel em tempo real e análise de sentimento com IA. Atende empresas de todo o Brasil, com aquisição do equipamento ou locação, e planos de software sob consulta.
+> beend.tech é a marca da Beend.tech Smart Solution: totens e uma plataforma para medir NPS, CSAT, CES, SMILE e QUIZ no ponto de atendimento, com coleta por totem touch, QR Code e WhatsApp, painel em tempo real e análise de sentimento com IA. Atende empresas de todo o Brasil, com aquisição do equipamento ou locação, e planos de software sob consulta.
 
 ## Fatos essenciais
 
-- Empresa: beend.tech® — Backeend Soluções Inteligentes
+- Empresa: beend.tech® — Beend.tech Smart Solution
 - CNPJ: 61.171.282/0001-84
 - Fundação: 28/11/2017
 - Sede: Brasília — DF, Brasil
 - Atendimento: Segunda a sexta, das 9h às 18h
 - Telefones: (61) 99595-7461 e (61) 99145-9009
-- E-mail: sac@backeend.com.br
+- E-mail: beendtech@gmail.com
 - Modelo comercial: aquisição do equipamento (plano PRO INFINITY, sem mensalidade) ou locação; software em assinatura
 - Preço do software: planos publicados a partir de R$ 69,90/mês (Básico), R$ 129,90 (Profissional), R$ 239,90 (Premium) e R$ 389,90 (Master). No anual, dez mensalidades
 - Teste grátis: 7 dias, sem cartão de crédito, usando tablet próprio (Android 5.1+)

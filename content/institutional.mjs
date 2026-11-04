@@ -659,7 +659,7 @@ export const about = {
 <section class="section">
   <div class="wrap">
     ${answer(`
-      <p><strong>beend.tech é a marca da Backeend Soluções Inteligentes, empresa de Brasília-DF fundada em 28 de novembro de 2017 (CNPJ 61.171.282/0001-84).</strong> Ela fornece totens e uma plataforma de pesquisa de satisfação do cliente, com coleta por totem, QR Code e WhatsApp e indicadores NPS, CSAT, CES, SMILE e QUIZ.</p>
+      <p><strong>beend.tech é a marca da Beend.tech Smart Solution, empresa de Brasília-DF fundada em 28 de novembro de 2017 (CNPJ 61.171.282/0001-84).</strong> Ela fornece totens e uma plataforma de pesquisa de satisfação do cliente, com coleta por totem, QR Code e WhatsApp e indicadores NPS, CSAT, CES, SMILE e QUIZ.</p>
       <p>O trabalho começou com totens interativos e evoluiu para um ecossistema completo: o equipamento, o aplicativo de coleta e o painel online que transforma as respostas em decisão.</p>
     `)}
 
@@ -679,7 +679,7 @@ export const about = {
         <table>
           <caption>Informações cadastrais e de atendimento</caption>
           <tbody>
-            <tr><th>Razão social</th><td>Backeend Soluções Inteligentes</td></tr>
+            <tr><th>Razão social</th><td>Beend.tech Smart Solution</td></tr>
             <tr><th>CNPJ</th><td>61.171.282/0001-84</td></tr>
             <tr><th>Fundação</th><td>28 de novembro de 2017</td></tr>
             <tr><th>Sede</th><td>Brasília — DF, Brasil</td></tr>
@@ -730,7 +730,7 @@ export const about = {
     },
     {
       q: "Desde quando a beend.tech existe?",
-      a: "<p>A Backeend Soluções Inteligentes foi fundada em 28 de novembro de 2017. Desde então, passou de totens interativos a um ecossistema completo de coleta e análise de satisfação do cliente.</p>",
+      a: "<p>A Beend.tech Smart Solution foi fundada em 28 de novembro de 2017. Desde então, passou de totens interativos a um ecossistema completo de coleta e análise de satisfação do cliente.</p>",
     },
     {
       q: "O que a beend.tech vende?",
