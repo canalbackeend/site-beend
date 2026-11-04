@@ -26,6 +26,7 @@ Atualizado em 03/11/2026
 - [x] **Mudança de endereço** `www.backeend.com.br` → `beend.tech` **aprovada e ativa** — 03/11/2026 (válida por 180 dias)
 - [x] **URLs amigáveis** (`/planos-e-precos` em vez de `/planos-e-precos.html`) — nginx `try_files` + 301 das URLs `.html` antigas
 - [x] **Dados estruturados corrigidos** — removido `Offer` de `Service`/`Product` que disparava "Listagens do comerciante" (WNC-756200); `image` adicionado ao `Product`
+- [x] **Blog ampliado para 11 artigos** — NPS, CSAT, NPS x CSAT, CES, taxa de resposta, modelos de pergunta, benchmark de NPS e relatório, com 9 diagramas vetoriais próprios e FAQ com schema
 - [x] **Tokens revogados** (GitHub fine-grained, GitHub classic, Coolify API) — 03/11/2026
 
 > ⚠️ A Mudança de endereço **só funciona** se a ferramenta for aberta na propriedade
