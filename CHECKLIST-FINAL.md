@@ -12,7 +12,9 @@ Atualizado em 04/11/2026
 - [x] E-mail comercial trocado para `beendtech@gmail.com` na página de contato
 - [x] Certificado Let's Encrypt válido no apex (até 31/jan/2027)
 - [x] `www.beend.tech` → 301 → `beend.tech` (sem canônico duplicado)
-- [x] Deploy automático no Coolify (git push → build → nginx)
+- [x] Deploy no Coolify (build Docker → nginx) — **disparado pelo painel ou pela API**
+      ⚠️ corrigido em 04/11/2026: **não há webhook no GitHub**, então `git push` **não** publica sozinho
+      (o checklist afirmava deploy automático; era falso e o site ficou 2 commits atrás sem aviso)
 - [x] Projeto "Site" excluído do Coolify
 - [x] `backeend.com.br`: site redireciona 301 para o beend.tech
 - [x] `backeend.com.br`: aplicações preservadas (`/cliente`, `/loja`, `/webmail`, `/cpanel`, `/beta`, `/totem/`, `/totempro/`)
@@ -74,6 +76,9 @@ numa porta livre e verifica cada URL do sitemap, cada link interno e cada redire
 ## ⏳ Pendente
 
 ### Você — rápido
+- [ ] **Configurar o webhook do GitHub** (ou publicar sempre pelo painel do Coolify): hoje o `git push`
+      **não** dispara deploy. No Coolify, em **Webhooks**, copie a URL de webhook manual do GitHub e
+      cadastre em GitHub → repo → Settings → Webhooks (secret: o `manual_webhook_secret_github` do app)
 - [ ] **Renovar `beend.tech` por 5 anos** (expira 18/03/2027) e ativar renovação automática
 - [ ] Cloudflare: **Purge** de `https://www.backeend.com.br/robots.txt` (está em cache com conteúdo antigo)
 - [ ] Search Console: **reenviar o sitemap** (agora com 27 URLs)
