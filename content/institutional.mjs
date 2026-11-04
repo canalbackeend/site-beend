@@ -169,17 +169,12 @@ ${section({
   schema: [
     {
       "@type": "Product",
-      "@id": "https://www.backeend.com.br/planos-e-precos.html#produto",
+      "@id": "https://beend.tech/planos-e-precos#produto",
       name: "Sistema de pesquisa de satisfação beend.tech",
       description:
-        "Plataforma de pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, com análise de sentimento por IA.",
+        "Plataforma de pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, com análise de sentimento por IA. Quatro planos publicados: Básico, Profissional, Premium e Master.",
       brand: { "@type": "Brand", name: "beend.tech" },
-      offers: [
-        { "@type": "Offer", name: "Básico", price: "69.90", priceCurrency: "BRL", description: "2 terminais, 5 campanhas ativas, 4.000 avaliações por mês" },
-        { "@type": "Offer", name: "Profissional", price: "129.90", priceCurrency: "BRL", description: "5 terminais, 15 campanhas ativas, 10.000 avaliações por mês" },
-        { "@type": "Offer", name: "Premium", price: "239.90", priceCurrency: "BRL", description: "15 terminais, campanhas ilimitadas, 50.000 avaliações por mês" },
-        { "@type": "Offer", name: "Master", price: "389.90", priceCurrency: "BRL", description: "Terminais, campanhas e avaliações ilimitados" },
-      ],
+      image: "https://beend.tech/assets/img/og-default.jpg",
     },
   ],
   llms: {
@@ -414,13 +409,13 @@ export const segments = {
   schema: [
     {
       "@type": "ItemList",
-      "@id": "https://beend.tech/segmentos.html#lista",
+      "@id": "https://beend.tech/segmentos#lista",
       name: "Segmentos atendidos",
       itemListElement: segmentsList.map(([id, name], i) => ({
         "@type": "ListItem",
         position: i + 1,
         name,
-        url: `https://beend.tech/segmentos.html#${id}`,
+        url: `https://beend.tech/segmentos#${id}`,
       })),
     },
   ],
@@ -753,7 +748,7 @@ export const about = {
   schema: [
     {
       "@type": "AboutPage",
-      "@id": "https://beend.tech/sobre.html#pagina",
+      "@id": "https://beend.tech/sobre#pagina",
       name: "Sobre a beend.tech",
       about: { "@id": "https://beend.tech/#organization" },
       inLanguage: "pt-BR",

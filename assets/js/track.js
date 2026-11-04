@@ -121,7 +121,7 @@
     el.innerHTML =
       '<p>Usamos cookies para medir o resultado dos anúncios. ' +
       'Nenhum dado é usado para outro fim. ' +
-      '<a href="/politica-de-privacidade.html">Saiba mais</a>.</p>' +
+      '<a href="/politica-de-privacidade">Saiba mais</a>.</p>' +
       '<div class="consent__actions">' +
       '<button type="button" class="btn btn--ghost btn--sm" data-consent="no">Recusar</button>' +
       '<button type="button" class="btn btn--primary btn--sm" data-consent="yes">Aceitar</button>' +

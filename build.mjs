@@ -70,6 +70,21 @@ const CSS_V = assetVersion("assets/css/styles.css");
 const wa = (msg = "Olá! Quero um orçamento de totem de pesquisa de satisfação.") =>
   `https://wa.me/${SITE.phone.replace("+", "")}?text=${encodeURIComponent(msg)}`;
 
+// ── URLs amigáveis ────────────────────────────────────────────────────────
+// O arquivo continua sendo gerado como "planos-e-precos.html", mas a URL
+// pública é "/planos-e-precos" (o nginx resolve com try_files, e as URLs
+// .html antigas recebem 301 — ver deploy/nginx.conf).
+// O canonical, o sitemap, o JSON-LD e TODOS os links internos usam esta forma.
+export const prettyPath = (slug = "") => {
+  const [rawPath, hash] = String(slug).split("#");
+  let p = rawPath;
+  if (p === "index.html" || p === "" || p === "/") p = "";
+  else p = p.replace(/\/index\.html$/, "").replace(/\.html$/, "");
+  return `/${p}${hash ? `#${hash}` : ""}`;
+};
+
+const isExternal = (href = "") => /^(https?:|mailto:|tel:|#)/.test(href);
+
 const NAV = [
   ["Totem de pesquisa", "totem-de-pesquisa-de-satisfacao.html"],
   ["Locação", "locacao-de-totens.html"],
@@ -140,7 +155,7 @@ export const ctaBand = (root) => `<section class="section section--tight" aria-l
       </div>
       <div class="btn-row">
         <a class="btn btn--wa" href="${wa()}" target="_blank" rel="noopener">${svgWa} Falar no WhatsApp</a>
-        <a class="btn btn--on-dark" href="${root}teste-gratis.html">Teste grátis 7 dias</a>
+        <a class="btn btn--on-dark" href="${prettyPath("teste-gratis.html")}">Teste grátis 7 dias</a>
       </div>
     </div>
   </div>
@@ -151,7 +166,7 @@ const crumbsHtml = (items, root) =>
     .map((c, i) =>
       i === items.length - 1
         ? `<li><span aria-current="page">${c.name}</span></li>`
-        : `<li><a href="${root}${c.href}">${c.name}</a></li>`
+        : `<li><a href="${isExternal(c.href) ? c.href : prettyPath(c.href)}">${c.name}</a></li>`
     )
     .join("")}</ol></nav>`;
 
@@ -228,7 +243,7 @@ function jsonLd(page, canonical) {
         "@type": "ListItem",
         position: i + 1,
         name: c.name,
-        item: `${SITE.url}/${c.href === "index.html" ? "" : c.href}`,
+        item: c.href ? `${SITE.url}${prettyPath(c.href)}` : canonical,
       })),
     });
   }
@@ -257,7 +272,7 @@ function logoMarkup(root, cls = "", link = true) {
   const inner = `<span class="logo__word">${SITE.brand}<span class="logo__reg" aria-hidden="true">®</span></span>
       <span class="logo__sub" aria-hidden="true">${SITE.tagline}</span>`;
   return link
-    ? `<a class="logo${cls}" href="${root}index.html">
+    ? `<a class="logo${cls}" href="/">
       ${inner}
     </a>`
     : `<span class="logo${cls}">${inner}</span>`;
@@ -269,7 +284,7 @@ function header(active, root) {
     ${logoMarkup(root)}
     <div class="header__actions">
       <a class="btn btn--ghost btn--sm only-desktop" href="${SITE.login}" rel="noopener">Acessar plataforma</a>
-      <a class="btn btn--primary btn--sm" href="${root}teste-gratis.html">Teste grátis</a>
+      <a class="btn btn--primary btn--sm" href="${prettyPath("teste-gratis.html")}">Teste grátis</a>
     </div>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
       <span class="nav-toggle__bars" aria-hidden="true"></span>
@@ -278,7 +293,7 @@ function header(active, root) {
       <ul>
         ${NAV.map(
           ([label, href]) =>
-            `<li><a href="${root}${href}"${active === href ? ' aria-current="page"' : ""}>${label}</a></li>`
+            `<li><a href="${prettyPath(href)}"${active === href ? ' aria-current="page"' : ""}>${label}</a></li>`
         ).join("\n        ")}
       </ul>
       <div class="nav__foot">
@@ -303,9 +318,9 @@ function footer(root) {
         <h3>${col.title}</h3>
         <ul>${col.links
           .map(([label, href]) =>
-            /^https?:/.test(href)
+            isExternal(href)
               ? `<li><a href="${href}" target="_blank" rel="noopener">${label}</a></li>`
-              : `<li><a href="${root}${href}">${label}</a></li>`
+              : `<li><a href="${prettyPath(href)}">${label}</a></li>`
           )
           .join("")}</ul>
       </div>`
@@ -323,7 +338,7 @@ function footer(root) {
     </div>
     <div class="footer__bottom">
       <span>© ${new Date().getFullYear()} ${SITE.name}. Todos os direitos reservados.</span>
-      <span>Conteúdo atualizado em 02/11/2026 · <a href="${root}politica-de-privacidade.html">Privacidade e LGPD</a></span>
+      <span>Conteúdo atualizado em 02/11/2026 · <a href="${prettyPath("politica-de-privacidade.html")}">Privacidade e LGPD</a></span>
     </div>
   </div>
 </footer>`;
@@ -344,8 +359,8 @@ function lpFooter(root) {
   <div class="wrap">
     <p><strong>${SITE.legalName}</strong> · CNPJ ${SITE.cnpj} · ${SITE.city} — ${SITE.region}</p>
     <p class="small">
-      <a href="${root}politica-de-privacidade.html">Política de privacidade e LGPD</a> ·
-      <a href="${root}index.html">beend.tech</a> ·
+      <a href="${prettyPath("politica-de-privacidade.html")}">Política de privacidade e LGPD</a> ·
+      <a href="/">beend.tech</a> ·
       <a href="tel:${SITE.phone}">${SITE.phoneDisplay}</a>
     </p>
   </div>
@@ -365,6 +380,10 @@ const trackingSnippet = (root) =>
 
 const resolve = (html, root) =>
   String(html)
+    // links internos com {{root}} viram URL amigável absoluta
+    .replace(/\{\{root\}\}((?:[a-z0-9][a-z0-9\-_/]*)?\.html)(#[a-z0-9\-_]+)?/gi, (_, p, h) =>
+      prettyPath(p + (h || ""))
+    )
     .replaceAll("{{root}}", root)
     .replaceAll("{{wa}}", wa())
     .replaceAll("{{phone}}", SITE.phoneDisplay)
@@ -376,8 +395,7 @@ export function layout(page) {
   const isLp = Boolean(page.lp);
   // Páginas em subpasta (blog/, lp/) precisam de "../" para assets e links.
   const root = page.slug.includes("/") ? "../" : "";
-  const canonical =
-    page.slug === "index.html" ? `${SITE.url}/` : `${SITE.url}/${page.slug}`;
+  const canonical = `${SITE.url}${prettyPath(page.slug)}`;
   const ogImage = `${SITE.url}/assets/img/og-default.jpg`;
 
   const crumbs = page.crumbs?.length ? crumbsHtml(page.crumbs, root) : "";
@@ -496,7 +514,7 @@ ${trackingSnippet(root)}
 /* ------------------------------ build ------------------------------ */
 const built = pages.map(layout);
 
-const toUrl = (slug) => (slug === "index.html" ? `${SITE.url}/` : `${SITE.url}/${slug}`);
+const toUrl = (slug) => `${SITE.url}${prettyPath(slug)}`;
 
 const sitemapPages = built.filter((p) => !p.noindex && p.slug !== "404.html");
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

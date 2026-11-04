@@ -24,6 +24,8 @@ Atualizado em 03/11/2026
 - [x] **Limpar snippet** solicitado para `https://beend.tech/` (descrição antiga removida)
 - [x] **Indexação solicitada** novamente para a home
 - [x] **Mudança de endereço** `www.backeend.com.br` → `beend.tech` **aprovada e ativa** — 03/11/2026 (válida por 180 dias)
+- [x] **URLs amigáveis** (`/planos-e-precos` em vez de `/planos-e-precos.html`) — nginx `try_files` + 301 das URLs `.html` antigas
+- [x] **Dados estruturados corrigidos** — removido `Offer` de `Service`/`Product` que disparava "Listagens do comerciante" (WNC-756200); `image` adicionado ao `Product`
 - [x] **Tokens revogados** (GitHub fine-grained, GitHub classic, Coolify API) — 03/11/2026
 
 > ⚠️ A Mudança de endereço **só funciona** se a ferramenta for aberta na propriedade

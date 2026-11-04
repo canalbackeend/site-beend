@@ -311,11 +311,6 @@ export const home = {
         "Fornecimento e locação de totens de pesquisa de satisfação com plataforma de NPS, CSAT e CES",
       provider: { "@id": "https://beend.tech/#organization" },
       areaServed: { "@type": "Country", name: "Brasil" },
-      offers: {
-        "@type": "Offer",
-        priceCurrency: "BRL",
-        description: "Equipamento e software sob consulta, conforme modelo, quantidade e prazo",
-      },
     },
   ],
   llms: {

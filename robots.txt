@@ -1,5 +1,5 @@
 # robots.txt — beend.tech
-# Site: https://www.backeend.com.br
+# Site: https://beend.tech
 
 User-agent: *
 Allow: /
@@ -47,4 +47,4 @@ Allow: /
 User-agent: meta-externalagent
 Allow: /
 
-Sitemap: https://www.backeend.com.br/sitemap.xml
+Sitemap: https://beend.tech/sitemap.xml

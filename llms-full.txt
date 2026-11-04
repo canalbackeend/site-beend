@@ -1,7 +1,7 @@
 # beend.tech — conteúdo completo
 
 # Totem de pesquisa de satisfação para ouvir o cliente na hora certa
-URL: https://www.backeend.com.br/
+URL: https://beend.tech/
 
 Página inicial: totens e plataforma beend.tech para pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, análise de sentimento com IA, em aquisição ou locação.
 
@@ -366,7 +366,7 @@ Sim. São 7 dias de teste com o sistema completo, sem cartão de crédito, usand
 ---
 
 # Totem de pesquisa de satisfação: o que é, como funciona e quanto custa
-URL: https://www.backeend.com.br/totem-de-pesquisa-de-satisfacao.html
+URL: https://beend.tech/totem-de-pesquisa-de-satisfacao
 
 Guia sobre totem de pesquisa de satisfação: definição, funcionamento, métricas (NPS, CSAT, CES), tipos (mesa, piso, tablet), instalação, modo offline e preço.
 
@@ -597,7 +597,7 @@ Depende do modelo escolhido, da personalização e da quantidade de terminais. O
 ---
 
 # Pesquisa de satisfação: guia com NPS, CSAT e CES
-URL: https://www.backeend.com.br/pesquisa-de-satisfacao.html
+URL: https://beend.tech/pesquisa-de-satisfacao
 
 Guia de pesquisa de satisfação com definições e fórmulas de NPS, CSAT e CES, comparativo, 12 exemplos de perguntas e boas práticas.
 
@@ -849,7 +849,7 @@ A LGPD exige finalidade clara e tratamento adequado dos dados. Colete o mínimo 
 ---
 
 # Locação de totem de pesquisa de satisfação
-URL: https://www.backeend.com.br/locacao-de-totens.html
+URL: https://beend.tech/locacao-de-totens
 
 Locação de totem de pesquisa de satisfação em comodato: menor investimento inicial, equipamento, software e suporte incluídos, para redes, testes e eventos.
 
@@ -972,7 +972,7 @@ Sim, para ações de curta duração o escopo é ajustado ao período do evento.
 ---
 
 # Venda de totem de pesquisa de satisfação
-URL: https://www.backeend.com.br/venda-de-totens.html
+URL: https://beend.tech/venda-de-totens
 
 Venda de totem de pesquisa de satisfação personalizado, com aplicativo Android, modo offline e painel de NPS, CSAT e CES; software em assinatura.
 
@@ -1096,7 +1096,7 @@ Sim. Cada ponto pode ter um terminal próprio, todos ligados à mesma plataforma
 ---
 
 # Totem de mesa para pesquisa de satisfação
-URL: https://www.backeend.com.br/totem-de-mesa.html
+URL: https://beend.tech/totem-de-mesa
 
 Totem de mesa para pesquisa de satisfação: compacto, touch, personalizado, com modo offline; indicado para balcões, clínicas, farmácias e restaurantes.
 
@@ -1212,7 +1212,7 @@ Sim. É um dos usos mais comuns: o paciente avalia o atendimento na recepção, 
 ---
 
 # Totem de piso para pesquisa de satisfação
-URL: https://www.backeend.com.br/totem-de-piso.html
+URL: https://beend.tech/totem-de-piso
 
 Totem de piso para pesquisa de satisfação: maior visibilidade, touch, personalização e modo offline; indicado para shoppings, lojas, restaurantes e eventos.
 
@@ -1340,7 +1340,7 @@ O modelo de piso costuma ter custo maior por causa da estrutura e do tamanho da 
 ---
 
 # Pesquisa de satisfação pelo WhatsApp: como fazer
-URL: https://www.backeend.com.br/pesquisa-de-satisfacao-whatsapp.html
+URL: https://beend.tech/pesquisa-de-satisfacao-whatsapp
 
 Como fazer pesquisa de satisfação pelo WhatsApp: passo a passo, modelo de mensagem pronto, boas práticas, LGPD e integração com o totem.
 
@@ -1469,7 +1469,7 @@ Depende do volume e do tipo de disparo. Para operações maiores e integradas à
 ---
 
 # Pesquisa de satisfação por QR Code: como criar e onde usar
-URL: https://www.backeend.com.br/pesquisa-de-satisfacao-qrcode.html
+URL: https://beend.tech/pesquisa-de-satisfacao-qrcode
 
 Como criar pesquisa de satisfação por QR Code: passo a passo, onde posicionar, vantagens, limitações e integração com o painel.
 
@@ -1607,7 +1607,7 @@ Sim. Recibos, embalagens, cartazes, displays de mesa e materiais de PDV funciona
 ---
 
 # Planos e preços do sistema de pesquisa de satisfação
-URL: https://www.backeend.com.br/planos-e-precos.html
+URL: https://beend.tech/planos-e-precos
 
 Planos e preços publicados: Básico R$ 69,90/mês, Profissional R$ 129,90/mês, Premium R$ 239,90/mês e Master R$ 389,90/mês. Anual com dez mensalidades. Teste grátis de 7 dias, sem cartão. O equipamento é contratado separadamente.
 
@@ -1823,7 +1823,7 @@ Sim. Emitimos nota fiscal e aceitamos boleto, PIX e cartão, conforme as condiç
 ---
 
 # Teste grátis por 7 dias, sem cartão de crédito
-URL: https://www.backeend.com.br/teste-gratis.html
+URL: https://beend.tech/teste-gratis
 
 Teste grátis de 7 dias do sistema de pesquisa de satisfação: software completo, sem cartão de crédito, usando tablet próprio. Ao final, planos a partir de R$ 69,90/mês.
 
@@ -1971,7 +1971,7 @@ As respostas coletadas no teste são mantidas se você continuar. Se não contin
 ---
 
 # Totem de pesquisa de satisfação por segmento
-URL: https://www.backeend.com.br/segmentos.html
+URL: https://beend.tech/segmentos
 
 Aplicações do totem de pesquisa por segmento: farmácias, clínicas, restaurantes, varejo, academias, concessionárias, shoppings, eventos e órgãos públicos.
 
@@ -2106,7 +2106,7 @@ Sim. A pesquisa ajuda a medir tempo de espera, clareza das informações e quali
 ---
 
 # Sobre a beend.tech
-URL: https://www.backeend.com.br/sobre.html
+URL: https://beend.tech/sobre
 
 Sobre a beend.tech: empresa de Brasília-DF fundada em 2017 (CNPJ 61.171.282/0001-84), que fornece totens e plataforma de pesquisa de satisfação com NPS, CSAT e CES.
 
@@ -2226,7 +2226,7 @@ Equipamento e software têm valor sob consulta. O totem pode ser adquirido (PRO 
 ---
 
 # Peça um orçamento de totem de pesquisa
-URL: https://www.backeend.com.br/contato.html
+URL: https://beend.tech/contato
 
 Contato comercial: WhatsApp (61) 99595-7461, e-mail beendtech@gmail.com e formulário de orçamento. Atendimento em todo o Brasil.
 
@@ -2325,7 +2325,7 @@ Quantos pontos de coleta você precisa, se prefere locação ou compra, qual mod
 ---
 
 # Conteúdo sobre pesquisa de satisfação
-URL: https://www.backeend.com.br/blog/index.html
+URL: https://beend.tech/blog
 
 Índice de conteúdo: artigos sobre preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
 
@@ -2375,7 +2375,7 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 ---
 
 # Quanto custa um totem de pesquisa de satisfação?
-URL: https://www.backeend.com.br/blog/quanto-custa-totem-de-pesquisa-de-satisfacao.html
+URL: https://beend.tech/blog/quanto-custa-totem-de-pesquisa-de-satisfacao
 
 Quanto custa um totem de pesquisa: software e hardware sob consulta, aquisição versus locação e o que comparar na proposta.
 
@@ -2514,7 +2514,7 @@ Não. O plano é por assinatura e não por resposta. O volume de pesquisas faz p
 ---
 
 # Totem de pesquisa funciona sem internet?
-URL: https://www.backeend.com.br/blog/totem-de-pesquisa-funciona-sem-internet.html
+URL: https://beend.tech/blog/totem-de-pesquisa-funciona-sem-internet
 
 Totem de pesquisa sem internet: como funciona o modo offline, o que sincroniza, limitações e o que verificar antes de contratar.
 
@@ -2639,7 +2639,7 @@ Sim. O totem coleta offline e sincroniza quando houver rede. Para o relatório d
 ---
 
 # 7 erros que reduzem a taxa de resposta do totem de pesquisa
-URL: https://www.backeend.com.br/blog/erros-ao-instalar-totem-de-pesquisa.html
+URL: https://beend.tech/blog/erros-ao-instalar-totem-de-pesquisa
 
 Sete erros que reduzem a taxa de resposta do totem de pesquisa e como corrigir posicionamento, pesquisa longa, convite, tela, personalização e rotina de análise.
 
@@ -2739,7 +2739,7 @@ Não é recomendado. Induzir a resposta contamina a amostra e esconde problemas 
 ---
 
 # Política de privacidade e LGPD
-URL: https://www.backeend.com.br/politica-de-privacidade.html
+URL: https://beend.tech/politica-de-privacidade
 
 Política de privacidade e LGPD: dados coletados, finalidades, base legal, compartilhamento, direitos do titular e contato.
 

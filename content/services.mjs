@@ -8,11 +8,6 @@ const serviceSchema = (name, url, description) => [
     serviceType: description,
     provider: { "@id": "https://beend.tech/#organization" },
     areaServed: { "@type": "Country", name: "Brasil" },
-    offers: {
-      "@type": "Offer",
-      priceCurrency: "BRL",
-      description: "Equipamento e software sob consulta, conforme modelo, quantidade e prazo",
-    },
   },
 ];
 
@@ -124,7 +119,7 @@ ${section({
     ],
     schema: serviceSchema(
       "Locação de totem de pesquisa de satisfação",
-      "https://beend.tech/locacao-de-totens.html",
+      "https://beend.tech/locacao-de-totens",
       "Locação de totens de pesquisa de satisfação em regime de comodato, com software e suporte"
     ),
     llms: {
@@ -242,7 +237,7 @@ ${section({
     ],
     schema: serviceSchema(
       "Venda de totem de pesquisa de satisfação",
-      "https://beend.tech/venda-de-totens.html",
+      "https://beend.tech/venda-de-totens",
       "Venda de totens personalizados de pesquisa de satisfação com aplicativo Android e painel de resultados"
     ),
     llms: {
@@ -353,7 +348,7 @@ ${section({
     ],
     schema: serviceSchema(
       "Totem de mesa para pesquisa de satisfação",
-      "https://beend.tech/totem-de-mesa.html",
+      "https://beend.tech/totem-de-mesa",
       "Totem de mesa touch para pesquisa de satisfação em balcões, clínicas, farmácias e restaurantes"
     ),
     llms: {
@@ -471,7 +466,7 @@ ${section({
     ],
     schema: serviceSchema(
       "Totem de piso para pesquisa de satisfação",
-      "https://beend.tech/totem-de-piso.html",
+      "https://beend.tech/totem-de-piso",
       "Totem de piso touch para pesquisa de satisfação em shoppings, lojas, restaurantes e eventos"
     ),
     llms: {
@@ -591,7 +586,7 @@ ${section({
     schema: [
       {
         "@type": "Article",
-        "@id": "https://beend.tech/pesquisa-de-satisfacao-whatsapp.html#artigo",
+        "@id": "https://beend.tech/pesquisa-de-satisfacao-whatsapp#artigo",
         headline: "Pesquisa de satisfação pelo WhatsApp: como fazer",
         description:
           "Passo a passo para fazer pesquisa de satisfação pelo WhatsApp, com modelo de mensagem, boas práticas e LGPD.",
@@ -725,7 +720,7 @@ ${section({
     schema: [
       {
         "@type": "Article",
-        "@id": "https://beend.tech/pesquisa-de-satisfacao-qrcode.html#artigo",
+        "@id": "https://beend.tech/pesquisa-de-satisfacao-qrcode#artigo",
         headline: "Pesquisa de satisfação por QR Code: como criar e onde usar",
         description:
           "Passo a passo para criar pesquisa de satisfação por QR Code, onde posicionar e boas práticas.",

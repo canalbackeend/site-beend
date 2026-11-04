@@ -175,17 +175,12 @@ ${section({
   schema: [
     {
       "@type": "Service",
-      "@id": "https://beend.tech/totem-de-pesquisa-de-satisfacao.html#servico",
+      "@id": "https://beend.tech/totem-de-pesquisa-de-satisfacao#servico",
       name: "Totem de pesquisa de satisfação",
       serviceType:
         "Locação e venda de totens de pesquisa de satisfação com plataforma de NPS, CSAT e CES",
       provider: { "@id": "https://beend.tech/#organization" },
       areaServed: { "@type": "Country", name: "Brasil" },
-      offers: {
-        "@type": "Offer",
-        priceCurrency: "BRL",
-        description: "Equipamento e software sob consulta, conforme modelo, quantidade e prazo",
-      },
     },
   ],
   llms: {

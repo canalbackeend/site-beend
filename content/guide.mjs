@@ -183,7 +183,7 @@ ${section({
   schema: [
     {
       "@type": "Article",
-      "@id": "https://beend.tech/pesquisa-de-satisfacao.html#artigo",
+      "@id": "https://beend.tech/pesquisa-de-satisfacao#artigo",
       headline: "Pesquisa de satisfação: guia com NPS, CSAT e CES",
       description:
         "Guia completo de pesquisa de satisfação com NPS, CSAT e CES, fórmulas, exemplos de perguntas e boas práticas.",

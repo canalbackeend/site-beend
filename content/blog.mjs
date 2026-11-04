@@ -64,7 +64,7 @@ export const blogIndex = {
   schema: [
     {
       "@type": "Blog",
-      "@id": "https://beend.tech/blog/index.html#blog",
+      "@id": "https://beend.tech/blog#blog",
       name: "Conteúdo beend.tech",
       description:
         "Guias sobre totem de pesquisa, NPS, CSAT, CES, QR Code e WhatsApp.",
