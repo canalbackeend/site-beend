@@ -5,11 +5,10 @@ import { pages } from "./content/index.mjs";
 
 export const SITE = {
   // ── Destino canônico do site ────────────────────────────────────────────
-  // Hoje o site é publicado em backeend.com.br (captação de clientes).
-  // Quando migrar para beend.tech, troque esta linha por "https://beend.tech".
-  // Domínio canônico. Pode ser definido no deploy (Coolify/Docker) via SITE_URL.
-  // Ex.: SITE_URL=https://beend.tech npm run build
-  url: process.env.SITE_URL || "https://www.backeend.com.br",
+  // Domínio canônico. Definível no deploy via SITE_URL (Coolify/Docker).
+  // O padrão é o domínio correto: um build sem variável nenhuma continua
+  // publicando canonical, sitemap e og:url em beend.tech.
+  url: process.env.SITE_URL || "https://beend.tech",
   legacyUrl: "https://www.backeend.com.br",
   brand: "beend.tech",
   brandReg: "beend.tech®",

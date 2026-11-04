@@ -14,8 +14,10 @@ WORKDIR /app
 
 COPY . .
 
-# domínio canônico (defina no Coolify em Build Variables se for usar outro)
-ARG SITE_URL=https://www.backeend.com.br
+# domínio canônico. O padrão já é o domínio correto para que um build sem
+# variável alguma nunca publique canonical/sitemap apontando para o domínio antigo.
+# Pode ser sobrescrito em Coolify (Build Variable) se algum dia mudar.
+ARG SITE_URL=https://beend.tech
 ENV SITE_URL=$SITE_URL
 
 # gera as páginas e depois monta a pasta de produção
