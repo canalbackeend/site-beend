@@ -393,7 +393,7 @@ const postNpsCsat = {
       ${fig(
         "nps-vs-csat.svg",
         960,
-        440,
+        470,
         "Comparativo entre NPS e CSAT em pergunta, escala, o que mede e quando usar",
         "NPS e CSAT lado a lado: pergunta, escala, o que cada uma mede e quando usar."
       )}
