@@ -4,16 +4,15 @@
 //
 //   node tools/preview-urls.mjs [porta]
 //
-// Regras replicadas:
-//   0. /services-details.html, /service-details.html, /portfolio-details.html,
-//      /index.php → 301 para o destino novo (regras exatas, têm prioridade)
-//   1. /index.html                      → 301 /
-//   2. /dir/index.html                  → 301 /dir
-//   3. /dir/                            → 301 /dir
-//   4. /qualquer.html                   → 301 /qualquer   (exceto 404 e google*.html)
-//   5. /x                               → x.html
-//   6. /dir                             → dir/index.html
-//   7. resto                            → 404.html
+// Emula a ORDEM de precedência do nginx:
+//   1. location = exatas  (legado, /index.html, /blog, /blog/)
+//   2. location ~ regex   (/dir/index.html, /*.html)
+//   3. location /         try_files $uri $uri/index.html $uri.html =404
+//
+// E também a semântica de DIRETÓRIO do módulo estático do nginx: um caminho
+// que é diretório e não termina em "/" recebe 301 para a versão com barra.
+// É justamente esse comportamento que cria laços quando há uma regra
+// genérica de "remover barra final".
 // ==========================================================================
 import http from "node:http";
 import fs from "node:fs";
@@ -34,74 +33,50 @@ const TYPES = {
   ".txt": "text/plain; charset=utf-8",
 };
 
-const isFile = (p) => {
-  try {
-    return fs.statSync(p).isFile();
-  } catch {
-    return false;
-  }
-};
+const isFile = (p) => { try { return fs.statSync(p).isFile(); } catch { return false; } };
+const isDir = (p) => { try { return fs.statSync(p).isDirectory(); } catch { return false; } };
 
 function send(res, code, file, extra = {}) {
-  const body = fs.readFileSync(file);
   res.writeHead(code, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream", ...extra });
-  res.end(body);
+  res.end(file ? fs.readFileSync(file) : "");
 }
+const redirect = (res, to) => { res.writeHead(301, { Location: to }); res.end(); };
 
-http
-  .createServer((req, res) => {
-    const url = new URL(req.url, "http://localhost");
-    const p = decodeURIComponent(url.pathname);
+http.createServer((req, res) => {
+  const p = decodeURIComponent(new URL(req.url, "http://localhost").pathname);
 
-    // 0. redirecionamentos legados (location = ... no nginx)
-    const LEGACY = {
-      "/index.php": "/",
-      "/services-details.html": "/totem-de-pesquisa-de-satisfacao",
-      "/service-details.html": "/totem-de-pesquisa-de-satisfacao",
-      "/portfolio-details.html": "/segmentos",
-    };
-    if (LEGACY[p]) {
-      res.writeHead(301, { Location: LEGACY[p] });
-      return res.end();
-    }
+  // ---------- 1. locations exatas ----------
+  const LEGACY = {
+    "/index.php": "/",
+    "/services-details.html": "/totem-de-pesquisa-de-satisfacao",
+    "/service-details.html": "/totem-de-pesquisa-de-satisfacao",
+    "/portfolio-details.html": "/segmentos",
+  };
+  if (LEGACY[p]) return redirect(res, LEGACY[p]);
+  if (p === "/index.html") return redirect(res, "/");
+  if (p === "/blog/") return redirect(res, "/blog");
+  if (p === "/blog") {
+    const f = path.join(ROOT, "blog/index.html");
+    return isFile(f) ? send(res, 200, f) : send(res, 404, path.join(ROOT, "404.html"));
+  }
 
-    // 1. home canônica
-    if (p === "/index.html") {
-      res.writeHead(301, { Location: "/" });
-      return res.end();
-    }
+  // ---------- 2. locations regex ----------
+  const dirIndex = p.match(/^\/(.+)\/index\.html$/);
+  if (dirIndex) return redirect(res, "/" + dirIndex[1]);
+  if (/\.html$/.test(p) && !/^\/404\.html$/.test(p) && !/^\/google[a-z0-9]+\.html$/i.test(p)) {
+    return redirect(res, p.replace(/\.html$/, ""));
+  }
 
-    // 2. /dir/index.html → /dir
-    const dirIndex = p.match(/^\/(.+)\/index\.html$/);
-    if (dirIndex) {
-      res.writeHead(301, { Location: "/" + dirIndex[1] });
-      return res.end();
-    }
+  // ---------- 3. location / (try_files) ----------
+  const abs = path.join(ROOT, p);
+  // semântica de diretório do nginx: 301 para a versão com barra
+  if (isDir(abs)) {
+    if (!p.endsWith("/")) return redirect(res, p + "/");
+    const idx = path.join(abs, "index.html");
+    return isFile(idx) ? send(res, 200, idx) : send(res, 404, path.join(ROOT, "404.html"));
+  }
+  if (isFile(abs)) return send(res, 200, abs);
+  if (isFile(abs + ".html")) return send(res, 200, abs + ".html");
 
-    // 3. barra final → sem barra
-    const trailing = p.match(/^\/(.+)\/$/);
-    if (trailing) {
-      res.writeHead(301, { Location: "/" + trailing[1] });
-      return res.end();
-    }
-
-    // 4. .html antigo → URL amigável (exceções: 404 e google*.html)
-    if (/\.html$/.test(p) && !/^\/404\.html$/.test(p) && !/^\/google[a-z0-9]+\.html$/i.test(p)) {
-      res.writeHead(301, { Location: p.replace(/\.html$/, "") });
-      return res.end();
-    }
-
-    // 5/6. try_files $uri → $uri/index.html → $uri.html
-    const candidates = [
-      path.join(ROOT, p),
-      path.join(ROOT, p, "index.html"),
-      path.join(ROOT, p + ".html"),
-    ];
-    for (const c of candidates) {
-      if (isFile(c)) return send(res, 200, c);
-    }
-
-    // 5. 404
-    return send(res, 404, path.join(ROOT, "404.html"));
-  })
-  .listen(PORT, () => console.log(`preview em http://localhost:${PORT} (raiz: ${ROOT})`));
+  return send(res, 404, path.join(ROOT, "404.html"));
+}).listen(PORT, () => console.log(`preview em http://localhost:${PORT} (raiz: ${ROOT})`));
