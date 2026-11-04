@@ -33,14 +33,20 @@ Atualizado em 04/11/2026
 - [x] **URLs amigáveis em produção** — `/planos-e-precos` em vez de `.html`; 301 das antigas em **1 salto**
 - [x] **`absolute_redirect off`** — os 301 saem como caminho relativo; sem isto o nginx montava
       `http://` (o TLS termina no Traefik) e todo link antigo custava um salto extra
-- [x] **`/blog` sem laço** — o nginx trata `/blog` como diretório e faz 301 para `/blog/`;
-      uma regra genérica de "remover barra final" criava laço infinito. Resolvido com `location = /blog`
 - [x] **Arquivos ocultos bloqueados** (`/.htaccess` respondia **200** e expunha a config Apache do domínio antigo)
 - [x] **`.htaccess` deixou de ser publicado** — era config do domínio antigo, inútil no nginx
 - [x] **`SITE_URL` com padrão correto** — no `Dockerfile` e no `build.mjs` o padrão passou a ser
       `https://beend.tech`. O Coolify tem a variável como **runtime**, não build-time: um build sem
       build-arg geraria canonical/sitemap no domínio antigo
-- [x] **`nginx -t` validado localmente** e 19 rotas testadas com nginx real antes do deploy
+- [x] **Testes automatizados** — `npm test`: 28 verificações (build sem `SITE_URL`, conteúdo gerado e
+      rotas em **nginx real**) + prova por mutação. `npm run testes:prova`: 9/9 bugs conhecidos detectados
+
+> ✅ **Correção (04/11/2026):** este checklist chegou a registrar um "laço infinito em `/blog`". Ele
+> **nunca existiu**. O `try_files` resolve `/blog` pelo `$uri/index.html` antes de o nginx tratar o
+> caminho como diretório; testado com nginx real, a configuração anterior também servia `/blog` com 200.
+> A conclusão veio de uma **emulação errada** de `try_files` (que simulava um 301 de diretório que o
+> nginx não faz ali). As regras exatas de `/blog` ficaram como explicitação, e o emulador
+> (`tools/preview-urls.mjs`) foi corrigido para refletir o comportamento real.
 
 > ⚠️ A Mudança de endereço **só funciona** se a ferramenta for aberta na propriedade
 > **antiga** (`https://www.backeend.com.br/`). Aberta na propriedade nova, ela esconde
@@ -49,6 +55,21 @@ Atualizado em 04/11/2026
 
 > ⚠️ `return 301 /caminho` no nginx **não** é relativo por padrão: ele monta `$scheme://$host`
 > e, atrás de proxy TLS, `$scheme` é `http`. Sempre use `absolute_redirect off`.
+
+> ⚠️ Nenhum laço de redirecionamento passa por teste de rota: por isso a suíte segue **todo**
+> redirecionamento com limite de saltos e falha ao detectar ciclo.
+
+## Como rodar os testes
+
+```bash
+npm test                  # suíte completa (build + site gerado + rotas em nginx real)
+npm run test:sem-nginx    # só as verificações estáticas (máquinas sem nginx)
+npm run testes:prova      # reintroduz cada bug conhecido e confirma que a suíte falha
+```
+
+Os testes sempre fazem um **build limpo em pasta temporária, sem `SITE_URL`** — é esse o
+cenário que quebrou o canonical uma vez. A suíte de rotas sobe o `deploy/nginx.conf` **real**
+numa porta livre e verifica cada URL do sitemap, cada link interno e cada redirecionamento.
 
 ## ⏳ Pendente
 

@@ -61,11 +61,19 @@ for (const file of pages) {
   }
 
   // links + assets
+  // As URLs internas são "amigáveis" (/planos-e-precos serve planos-e-precos.html),
+  // então a resolução precisa aceitar: arquivo exato, arquivo + ".html" e pasta com index.
   const hrefs = [...html.matchAll(/(?:href|src)="([^"]+)"/g)].map((m) => m[1]);
   for (const h of hrefs) {
-    if (/^(https?:|mailto:|tel:|#|\{\{)/.test(h)) continue;
-    const target = path.resolve(path.dirname(file), h.split("#")[0].split("?")[0]);
-    if (!fs.existsSync(target)) problems.push("link quebrado: " + h);
+    if (/^(https?:|mailto:|tel:|#|data:|\{\{)/.test(h)) continue;
+    const alvo = h.split("#")[0].split("?")[0];
+    if (!alvo) continue;
+    const base = alvo.startsWith("/") ? ROOT : path.dirname(file);
+    const caminho = path.resolve(base, alvo.replace(/^\//, ""));
+    const existe = [caminho, caminho + ".html", path.join(caminho, "index.html")].some((c) =>
+      fs.existsSync(c)
+    );
+    if (!existe) problems.push("link quebrado: " + h);
   }
 
   // json-ld

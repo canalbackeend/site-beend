@@ -1021,7 +1021,7 @@ const postRelatorio = {
   active: null,
   type: "article",
   kicker: "Gestão",
-  title: "Relatório de pesquisa de satisfação: o que analisar e com que frequência",
+  title: "Relatório de Pesquisa de Satisfação: o Que Analisar",
   description:
     "Como montar um relatório de pesquisa de satisfação: quais indicadores olhar, com que frequência ler, como transformar dado em ação e o que comunicar ao cliente.",
   h1: "Relatório de pesquisa de satisfação: o que analisar",
