@@ -114,6 +114,50 @@ export const blogIndex = {
         <span class="card__more">Ler guia</span>
       </a>
     </div>
+
+    <div class="section__head" style="margin-top:52px">
+      <p class="kicker">Soluções</p>
+      <h2>Pesquisa de satisfação por segmento</h2>
+      <p>Se o seu negócio tem atendimento presencial, veja onde instalar o totem, qual pergunta usar e como medir no seu setor.</p>
+    </div>
+    <div class="grid grid--3">
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-farmacias.html">
+        <h3>Farmácias</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-clinicas.html">
+        <h3>Clínicas</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-restaurantes.html">
+        <h3>Restaurantes</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-varejo.html">
+        <h3>Varejo</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-academias.html">
+        <h3>Academias</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-concessionarias.html">
+        <h3>Concessionárias</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-shoppings.html">
+        <h3>Shoppings</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-eventos.html">
+        <h3>Eventos</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-orgaos-publicos.html">
+        <h3>Órgãos públicos</h3>
+        <span class="card__more">Ver aplicação</span>
+      </a>
+    </div>
   </div>
 </section>
 `,

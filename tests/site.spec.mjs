@@ -46,6 +46,20 @@ const PAGINAS_ESPERADAS = [
   "blog/quanto-custa-totem-de-pesquisa-de-satisfacao.html",
   "blog/relatorio-de-pesquisa-de-satisfacao.html",
   "blog/totem-de-pesquisa-funciona-sem-internet.html",
+  // Comparação e escolha (intenção de compra)
+  "melhor-totem-de-pesquisa-de-satisfacao.html",
+  "totem-de-pesquisa-vs-pesquisa-por-email.html",
+  "alternativas-de-pesquisa-de-satisfacao.html",
+  // Segmentos
+  "pesquisa-de-satisfacao-para-farmacias.html",
+  "pesquisa-de-satisfacao-para-clinicas.html",
+  "pesquisa-de-satisfacao-para-restaurantes.html",
+  "pesquisa-de-satisfacao-para-varejo.html",
+  "pesquisa-de-satisfacao-para-academias.html",
+  "pesquisa-de-satisfacao-para-concessionarias.html",
+  "pesquisa-de-satisfacao-para-shoppings.html",
+  "pesquisa-de-satisfacao-para-eventos.html",
+  "pesquisa-de-satisfacao-para-orgaos-publicos.html",
 ];
 
 export default async function siteSuite(h, ctx) {
@@ -139,7 +153,10 @@ export default async function siteSuite(h, ctx) {
     h.assertEmpty(problemas, "blocos JSON-LD inválidos");
   });
 
-  await h.test("nenhuma oferta de produto no schema (Listagens do comerciante)", () => {
+  await h.test("ofertas de produto ficam na página de preços e são válidas", () => {
+    // O Offer é intencional em /planos-e-precos (preço publicado). Em qualquer
+    // outra página ele é ruído e pode disparar "Listagens do comerciante" sem
+    // que a empresa cumpra os requisitos do programa.
     const problemas = [];
     for (const [rel, html] of conteudo) {
       if (!html.includes("application/ld+json")) continue;
@@ -149,15 +166,23 @@ export default async function siteSuite(h, ctx) {
           const n = fila.pop();
           if (!n || typeof n !== "object") continue;
           const tipos = [].concat(n["@type"] || []);
-          if (tipos.includes("Offer")) problemas.push(`${rel}: Offer`);
-          if (tipos.includes("Product") && n.offers) problemas.push(`${rel}: Product com offers`);
+          const ehOferta = tipos.includes("Offer") || tipos.includes("AggregateOffer");
+          if (ehOferta) {
+            if (rel !== "planos-e-precos.html") problemas.push(`${rel}: oferta fora da página de preços`);
+            if (!n.price && !n.lowPrice) problemas.push(`${rel}: oferta sem preço`);
+            if (!n.priceCurrency) problemas.push(`${rel}: oferta sem priceCurrency`);
+            if (!n.availability) problemas.push(`${rel}: oferta sem availability`);
+          }
+          if (tipos.includes("Product") && rel === "planos-e-precos.html" && !n.offers) {
+            problemas.push(`${rel}: Product sem offers`);
+          }
           for (const v of Object.values(n)) {
             if (v && typeof v === "object") fila.push(...(Array.isArray(v) ? v : [v]));
           }
         }
       }
     }
-    h.assertEmpty(problemas, "schema que dispara 'Listagens do comerciante'");
+    h.assertEmpty(problemas, "schema de oferta inválido");
   });
 
   await h.test("arquivos internos e do gerador não vão para produção", () => {
@@ -250,6 +275,34 @@ export default async function siteSuite(h, ctx) {
     const home = conteudo.get("index.html");
     h.assert(home.includes("beendtech@gmail.com"), "a home não mostra beendtech@gmail.com");
     h.assert(home.includes("Beend.tech Smart Solution"), "a home não mostra Beend.tech Smart Solution");
+  });
+
+  await h.test("formulário do teste grátis tem todos os campos", () => {
+    const html = conteudo.get("teste-gratis.html");
+    h.assert(html, "teste-gratis.html não existe");
+    const ids = [
+      "form-teste",
+      "t-nome",
+      "t-empresa",
+      "t-segmento",
+      "t-cnpj",
+      "t-telefone",
+      "t-email",
+      "t-cep",
+      "t-terminais",
+      "t-origem",
+      "t-mensagem",
+      "t-enviar",
+      "t-status",
+    ];
+    const faltando = ids.filter((id) => !html.includes(`id="${id}"`));
+    h.assertEmpty(faltando, "campos ausentes no formulário");
+    h.assert(/<option>Farmácia<\/option>/.test(html), "select de segmento sem opções");
+    h.assert(/<option>Google<\/option>/.test(html), "select de origem sem opções");
+    h.assert(/data-mask="cnpj"/.test(html), "CNPJ sem máscara");
+    h.assert(/data-mask="cep"/.test(html), "CEP sem máscara");
+    h.assert(!/\{\{(formEndpoint|waNumber)\}\}/.test(html), "placeholder não resolvido no formulário");
+    h.assert(/wa\.me\/\d+/.test(html), "fallback do WhatsApp sem número");
   });
 
   await h.test("robots.txt bloqueia a área do cliente e libera bots de IA", () => {

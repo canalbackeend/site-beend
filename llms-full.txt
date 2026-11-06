@@ -888,6 +888,17 @@ Na locação (comodato), a beend.tech fornece o totem, o aplicativo e o painel d
  
 
  
+ 
+ 
+ 
+ Locação: o equipamento fica na sua empresa durante o contrato. 
+ 
+ 
+ 
+ A plataforma completa vai junto com o totem, sem custo de licença extra. 
+ 
+ 
+
  Como funciona a locação
 
  
@@ -1011,6 +1022,11 @@ Na compra, o totem é fabricado com a identidade visual da empresa e passa a ser
  
 
  
+ 
+ 
+ Na compra, o totem passa a ser patrimônio da empresa e pode ser personalizado com a sua marca. 
+ 
+
  O que você recebe
 
  
@@ -1135,6 +1151,11 @@ O totem de mesa é um terminal touch compacto, apoiado sobre o balcão ou a rece
  
 
  
+ 
+ 
+ Totem de mesa: compacto, touch e personalizado com a sua marca. 
+ 
+
  Onde usar
 
  
@@ -1251,6 +1272,11 @@ O totem de piso é um terminal touch apoiado no chão, com estrutura vertical, u
  
 
  
+ 
+ 
+ Totem de piso: maior visibilidade e alcance em áreas de circulação. 
+ 
+
  Onde usar
 
  
@@ -1634,6 +1660,1361 @@ Sim. Recibos, embalagens, cartazes, displays de mesa e materiais de PDV funciona
 
 ---
 
+# Melhor totem de pesquisa de satisfação: como escolher
+URL: https://beend.tech/melhor-totem-de-pesquisa-de-satisfacao
+
+Critérios para escolher totem de pesquisa de satisfação: ponto de instalação, modo offline, métrica, número de terminais, personalização, contrato e custo total em 12 meses.
+
+O melhor totem de pesquisa de satisfação é o que coleta mais respostas com o menor atrito no seu ponto de atendimento. Antes de comparar preço ou tamanho de tela, responda três perguntas: onde ele vai ficar, quem vai responder e o que você quer medir.
+
+ Abaixo estão os sete critérios que separam uma escolha boa de uma escolha cara — e as armadilhas mais comuns de contrato.
+
+ 
+
+ 
+ 1. O ponto de instalação define o modelo
+
+ Totem de mesa serve balcões, recepções e caixas: fica próximo do atendente e ocupa pouco espaço. Totem de piso serve áreas de circulação — shoppings, saguões, showrooms e corredores — e capta quem passa sem parar no balcão.
+
+ Escolher piso para um balcão estreito, ou mesa para um saguão, é o erro mais comum e o mais caro: o equipamento fica mal posicionado e a taxa de resposta cai.
+
+ 2. O modo offline não é detalhe
+
+ Se a internet cair, o totem continua coletando? Essa pergunta separa soluções maduras de soluções frágeis. Em lojas, clínicas, eventos e órgãos públicos, a conexão oscila — e perder as respostas de um dia inteiro invalida qualquer análise.
+
+ O aplicativo da beend.tech armazena as respostas no próprio dispositivo e sincroniza quando a conexão volta. Vale exigir essa informação por escrito de qualquer fornecedor.
+
+ 3. A métrica precisa caber na tela
+
+ NPS (0 a 10), CSAT, CES, escala de carinhas e quiz com múltiplas perguntas são formatos diferentes, com tempos de resposta diferentes. Duas carinhas levam menos de três segundos; um quiz de cinco perguntas pode levar um minuto.
+
+ Defina o que você quer medir antes de escolher o hardware. A plataforma precisa calcular os indicadores automaticamente — se o cálculo de NPS for manual, a operação não se sustenta.
+
+ 4. Conte com quantos terminais você realmente vai precisar
+
+ Um totem por loja é o começo mais comum, mas redes com várias unidades precisam de gestão separada por terminal, com acesso individual e comparação entre lojas. Verifique quantos terminais o plano inclui e qual o limite de respostas por mês.
+
+ 5. Personalização visual não é vaidade
+
+ A tela e o totem com a identidade da empresa aumentam a taxa de resposta, porque o cliente reconhece o canal como parte da loja — e não como um equipamento estranho no balcão.
+
+ 6. Contrato e manutenção
+
+ Na locação, o equipamento fica com o fornecedor e a manutenção costuma estar incluída. Na compra, o totem passa a ser patrimônio da empresa. Pergunte sempre: o que acontece se o equipamento quebrar, qual o prazo de reparo, existe fidelidade e como é a devolução.
+
+ 7. O custo total, não a mensalidade
+
+ Compare o custo total em 12 meses: mensalidade do software, equipamento, instalação, suporte e eventuais taxas por resposta. Uma mensalidade baixa com cobrança por resposta pode custar mais caro no fim do ano.
+
+ Comparativo rápido dos dois modelos
+
+ 
+ 
+ Totem de mesa e totem de piso: quando usar cada um 
+ Critério Totem de mesa Totem de piso 
+ 
+ 
+ Melhor para Balcões, caixas e recepções Saguões, corredores e showrooms 
+
+ Espaço Pequeno Precisa de área livre 
+
+ Alcance Quem passa pelo balcão Quem circula pelo ambiente 
+
+ Visibilidade Média Alta 
+
+ Ideal para Farmácias, clínicas, varejo, oficinas Shoppings, eventos, concessionárias, saguões 
+
+ 
+ 
+ 
+
+ O que pedir na proposta
+
+ 
+ Modelo do equipamento e dimensões reais;
+
+ Confirmação por escrito do funcionamento offline;
+
+ Limite de terminais, campanhas e respostas por mês;
+
+ O que está incluído em manutenção e suporte;
+
+ Prazo de instalação e de devolução, na locação;
+
+ Como os dados são exportados e quem é o titular deles.
+
+ 
+ 
+
+ 
+ 
+ Totem de mesa
+
+ Compacto, touch e personalizado. Para balcões, clínicas, farmácias e restaurantes.
+
+ Ver o modelo 
+ 
+ 
+ Totem de piso
+
+ Maior visibilidade em áreas de circulação, shoppings, eventos e showrooms.
+
+ Ver o modelo 
+ 
+ 
+ Planos e preços
+
+ Quatro planos publicados a partir de R$ 69,90/mês, sem cobrança por resposta.
+
+ Ver preços
+
+
+## Perguntas frequentes
+
+## Qual o melhor tamanho de tela para totem de pesquisa?
+Depende da distância. Para totem de mesa, telas de 10 a 15 polegadas são suficientes. Para totem de piso em área de circulação, telas maiores melhoram a leitura à distância. O mais importante é que a pergunta principal caiba na tela sem rolagem.
+
+## Vale mais a pena comprar ou alugar o totem?
+Alugar faz sentido para testes, eventos e redes que preferem não imobilizar capital. Comprar faz sentido para operação permanente e uso intenso, quando o equipamento passa a ser patrimônio. As duas opções estão disponíveis na beend.tech.
+
+## Preciso de internet para o totem funcionar?
+Para coletar, não: as respostas ficam no dispositivo e sincronizam quando a conexão volta. Para acompanhar o painel em tempo real, sim. Em locais com rede instável, o modo offline é o que garante a integridade dos dados.
+
+## Um totem atende uma rede com várias lojas?
+Cada loja precisa do seu próprio terminal. A plataforma permite cadastrar vários terminais com acesso individual e consolidar os resultados no mesmo painel, comparando unidades.
+
+
+---
+
+# Totem de pesquisa ou pesquisa por e-mail?
+URL: https://beend.tech/totem-de-pesquisa-vs-pesquisa-por-email
+
+Comparação entre totem de pesquisa de satisfação e pesquisa por e-mail: momento da coleta, taxa de resposta, viés de amostra e quando combinar os dois canais.
+
+O totem coleta no momento da experiência; o e-mail coleta depois. Para medir o atendimento presencial de hoje, o totem é mais preciso e tem taxa de resposta maior. Para acompanhar a relação ao longo do tempo, o e-mail complementa.
+
+ O erro comum não é escolher um dos dois — é usar só o e-mail em operações presenciais e concluir que o cliente está satisfeito porque 3% respondeu.
+
+ 
+
+ 
+ A diferença que importa: o momento
+
+ A satisfação é uma memória com prazo. Quanto mais tempo passa entre a experiência e a pergunta, mais a resposta é reconstruída por outros fatores — o humor do dia, a lembrança de outra visita, a opinião de terceiros.
+
+ No totem, a pergunta aparece segundos depois do atendimento. No e-mail, ela chega horas ou dias depois, com o cliente já em outro contexto.
+
+ Taxa de resposta
+
+ Pesquisa enviada por e-mail compete com a caixa de entrada inteira. Mesmo em listas bem cuidadas, a resposta é uma fração pequena do total. No totem, a barreira é um toque na tela, e o cliente está fisicamente no local.
+
+ Isso não significa que o e-mail seja inútil: significa que ele mede uma amostra menor e mais engajada, o que serve para acompanhar tendência, não para retratar o atendimento do dia.
+
+ Viés de quem responde
+
+ Quem responde e-mail tende a ser quem tem relação prévia com a marca — cliente frequente ou reclamante motivado. O totem capta também o cliente ocasional, que passou uma vez e não voltaria a responder nada por e-mail.
+
+ Comparativo direto
+
+ 
+ 
+ Totem de pesquisa e pesquisa por e-mail lado a lado 
+ Critério Totem no ponto de atendimento Pesquisa por e-mail 
+ 
+ 
+ Momento Segundos após o atendimento Horas ou dias depois 
+
+ Barreira Um toque na tela Abrir o e-mail e clicar no link 
+
+ Alcance Quem passou pelo local Quem está na base de contatos 
+
+ Viés Menor — pega cliente ocasional Maior — responde quem já tem relação 
+
+ Dado que gera Experiência do atendimento Relação com a marca 
+
+ Melhor uso Operação, treinamento e correção rápida Acompanhamento de longo prazo 
+
+ 
+ 
+ 
+
+ Quando o e-mail ainda faz sentido
+
+ 
+ Público que não passa por um ponto físico — clientes online, assinaturas e serviços remotos.
+
+ Pesquisa de relação — perguntas sobre lealdade, intenção de recompra e percepção de marca.
+
+ Públicos específicos — decisores B2B, que raramente estão no balcão.
+
+ Complemento ao totem — para quem não respondeu presencialmente.
+
+ 
+
+ O que o totem resolve que o e-mail não resolve
+
+ O e-mail não diz nada sobre a fila do caixa naquela terça-feira, sobre o tempo de preparo do prato ou sobre a clareza da orientação no balcão. Esses são exatamente os problemas que o gestor consegue corrigir na semana seguinte — e que só a coleta presencial captura com volume.
+
+ Se o seu negócio tem atendimento presencial e a única pesquisa que existe é por e-mail, você provavelmente está tomando decisões com uma amostra pequena e enviesada.
+
+ 
+
+ 
+ 
+ Guia do totem
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa.
+
+ Ler o guia 
+ 
+ 
+ Pesquisa por QR Code
+
+ Alternativa sem totem: o cliente responde pelo celular, apontando a câmera.
+
+ Ver QR Code 
+ 
+ 
+ Pesquisa por WhatsApp
+
+ Canal complementar para alcançar quem já saiu do ponto de atendimento.
+
+ Ver WhatsApp
+
+
+## Perguntas frequentes
+
+## Posso usar totem e e-mail na mesma campanha?
+Sim, e é o cenário recomendado. A mesma campanha pode rodar no totem, no QR Code e no WhatsApp, permitindo comparar a percepção de quem respondeu presencialmente com a de quem respondeu depois.
+
+## A pesquisa por e-mail ainda vale a pena?
+Vale, para medir relação de longo prazo e para públicos que não passam por um ponto físico. O que não vale é usá-la como única fonte para avaliar a qualidade do atendimento presencial.
+
+## Qual canal tem taxa de resposta maior?
+O totem, na maioria dos casos, porque a barreira é um toque na tela e o cliente está no local. A diferença tende a ser ainda maior em operações com atendimento rápido.
+
+
+---
+
+# Alternativas de pesquisa de satisfação no ponto de venda
+URL: https://beend.tech/alternativas-de-pesquisa-de-satisfacao
+
+Quatro alternativas para pesquisar satisfação no ponto de venda: totem dedicado, tablet próprio com aplicativo, QR Code e pesquisa por link — com custo, atrito e volume de cada uma.
+
+As alternativas são quatro: totem dedicado, tablet próprio com aplicativo, QR Code impresso e pesquisa por link. Elas diferem em custo de hardware, atrito para o cliente e volume de respostas — e não são excludentes.
+
+ A escolha depende de quantas respostas você precisa, com que frequência e quanto pode investir para começar.
+
+ 
+
+ 
+ 1. Totem dedicado (locação ou compra)
+
+ Equipamento fixo, com tela touch, instalado no ponto de atendimento. É o formato com maior visibilidade e menor atrito: o cliente não precisa pegar o celular nem digitar nada.
+
+ 
+ A favor: maior taxa de resposta, presença física, personalização com a marca, coleta offline.
+
+ Contra: exige investimento em hardware e espaço físico.
+
+ Indicado para: operações com fluxo constante e objetivo de medir continuamente.
+
+ 
+
+ 2. Tablet próprio com aplicativo
+
+ Você usa um tablet Android que já tem na empresa — na recepção, no caixa ou no balcão — e instala o aplicativo de coleta. O custo de hardware é próximo de zero.
+
+ 
+ A favor: começa no mesmo dia, sem comprar equipamento, e depois migra para totem se fizer sentido.
+
+ Contra: precisa de suporte e carregador, e a aparência é menos “institucional” do que um totem.
+
+ Indicado para: testes, operações pequenas e quem quer validar antes de investir.
+
+ 
+
+ 3. QR Code impresso
+
+ Um cartaz com QR Code no caixa, na mesa ou na embalagem. O cliente aponta a câmera e responde no próprio celular.
+
+ 
+ A favor: custo quase nulo e fácil de distribuir em vários pontos.
+
+ Contra: depende da iniciativa do cliente, o que reduz a taxa de resposta; não funciona para quem não tem celular com internet no momento.
+
+ Indicado para: complementar o totem, alcançar mesas e embalagens, e operações sem espaço para equipamento.
+
+ 
+
+ 4. Pesquisa por link ou e-mail
+
+ O convite é enviado depois do atendimento, por e-mail, SMS ou WhatsApp, com um link para o formulário.
+
+ 
+ A favor: alcança quem já saiu e serve para medir relação de longo prazo.
+
+ Contra: taxa de resposta baixa e viés para quem já tem vínculo com a marca.
+
+ Indicado para: complemento, não como única fonte em operações presenciais.
+
+ 
+
+ Comparativo das quatro alternativas
+
+ 
+ 
+ Alternativas de coleta no ponto de venda 
+ Alternativa Custo de hardware Atrito para o cliente Volume esperado 
+ 
+ 
+ Totem dedicado Médio (locação ou compra) Muito baixo Alto 
+
+ Tablet próprio Zero (se já tiver) Baixo Médio a alto 
+
+ QR Code Quase zero Médio Baixo a médio 
+
+ Link ou e-mail Zero Alto Baixo 
+
+ 
+ 
+ 
+
+ O caminho mais comum: começar simples e evoluir
+
+ A maioria das operações começa com o tablet que já tem, valida a pergunta e a rotina de leitura do painel, e só depois investe em totem dedicado. Como a campanha é a mesma, a migração não exige refazer o trabalho.
+
+ O importante é não confundir “começar simples” com “coletar pouco”: se a alternativa escolhida não gera volume suficiente, o dado não sustenta decisão nenhuma.
+
+ 
+
+ 
+ 
+ Totem de mesa
+
+ O modelo mais simples para balcões e recepções, com coleta offline.
+
+ Ver modelo 
+ 
+ 
+ Locação de totens
+
+ Para testar sem comprar equipamento, com manutenção incluída.
+
+ Ver locação 
+ 
+ 
+ Teste grátis
+
+ Use seu tablet Android por 7 dias e veja o painel funcionando.
+
+ Começar
+
+
+## Perguntas frequentes
+
+## Qual alternativa tem a maior taxa de resposta?
+O totem dedicado, porque o cliente não precisa pegar o celular nem digitar nada. O tablet no balcão vem em seguida. QR Code e link dependem da iniciativa do cliente e tendem a coletar menos.
+
+## Posso trocar de alternativa depois?
+Sim. A campanha, as perguntas e o painel são os mesmos — muda apenas o dispositivo onde a coleta acontece. Quem começa no tablet pode migrar para totem sem refazer a configuração.
+
+## Preciso contratar o totem para usar a plataforma?
+Não. O sistema funciona com tablet Android 5.1 ou superior que a empresa já tenha, além de QR Code e WhatsApp. O totem é opcional e pode ser contratado depois.
+
+
+---
+
+# Pesquisa de satisfação para farmácias e drogarias
+URL: https://beend.tech/pesquisa-de-satisfacao-para-farmacias
+
+Pesquisa de satisfação para farmácias e drogarias com totem no caixa: avaliação da orientação farmacêutica, tempo de espera e atendimento, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+Na farmácia, a pesquisa de satisfação precisa acontecer no caixa, logo depois do atendimento. É ali que o cliente ainda lembra se o farmacêutico explicou a posologia, se esperou na fila e se encontrou o produto. Um totem com duas carinhas ou uma nota de 0 a 10 coleta isso em segundos, sem formulário e sem cadastro.
+
+ 
+ Por que medir a satisfação em farmácias e drogarias
+
+ Farmácia é um negócio de fluxo: fila curta, atendimento rápido e decisão de compra tomada no balcão. A experiência que fica na memória do cliente raramente é o preço — é a orientação que ele recebeu (ou não) sobre o medicamento.
+
+ Pesquisa por e-mail não funciona nesse contexto: o cliente não abriu o e-mail, não lembra o nome da farmácia e não vai responder dois dias depois. Já o totem, ao lado do caixa, captura a percepção com a experiência ainda fresca — e com taxa de resposta muito maior do que qualquer convite posterior.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em farmácias e drogarias 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar o atendimento do dia: tempo de fila, clareza do atendente e orientação do farmacêutico. 
+
+ NPS O cliente recomendaria a empresa Acompanhar se o cliente voltaria e indicaria a farmácia para família e vizinhos. 
+
+ CES Quanto esforço o cliente teve Medir o esforço para resolver algo que exigiu pedido, troca ou segunda visita. 
+
+ 
+ 
+ 
+
+ Na prática, a maioria das farmácias começa com CSAT de duas carinhas — resposta alta e leitura imediata — e adiciona NPS quando já tem base para acompanhar a evolução mês a mês.
+
+ Onde instalar o totem
+
+ Ao lado do caixa, após o pagamento: o cliente já está com o produto na mão e responde antes de sair.
+ Balcão de medicamentos controlados: ponto de contato mais longo, ideal para perguntas sobre orientação farmacêutica.
+ Área de dermocosméticos e conveniência: captura a avaliação de quem entrou só para consultar preço.
+ 
+ Evite instalar o totem dentro do balcão ou virado para o atendente: o cliente precisa enxergar a pergunta de longe para responder sem constrangimento.
+
+ 
+ 
+ Totem de mesa ao lado do caixa: o cliente responde antes de sair. 
+ 
+
+ Perguntas prontas para farmácias e drogarias
+
+ “O farmacêutico esclareceu suas dúvidas sobre o medicamento?”
+ “Como você avalia o tempo de espera no atendimento de hoje?”
+ “Você encontrou tudo o que procurava nesta farmácia?”
+ “De 0 a 10, qual a chance de você recomendar esta farmácia a um amigo?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ Você não precisa comprar equipamento para começar. O aplicativo roda em tablet Android 5.1 ou superior, com modo offline — se a internet cair, as respostas ficam no aparelho e sincronizam quando a conexão voltar. Quando fizer sentido, dá para evoluir para um totem de mesa ou de piso personalizado com a marca da farmácia.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## A pesquisa atrapalha a fila do caixa?
+Não, porque a resposta leva poucos segundos. Com duas carinhas, o tempo médio de interação é menor do que o de um pagamento por cartão. O totem fica ao lado do caixa, e o cliente decide se responde.
+
+## A pesquisa coleta dados pessoais do cliente?
+Por padrão, não: a resposta é anônima e não pede nome, CPF ou telefone. Se a farmácia quiser identificar o respondente, o cadastro é opcional e configurável — e a política de privacidade do site explica como os dados são tratados.
+
+## Serve para rede com várias lojas?
+Sim. Cada terminal é cadastrado separadamente, com acesso individual, e o painel consolida os resultados por loja, período e campanha. É o que permite comparar unidades com a mesma pergunta e a mesma escala.
+
+
+---
+
+# Pesquisa de satisfação para clínicas e consultórios
+URL: https://beend.tech/pesquisa-de-satisfacao-para-clinicas
+
+Pesquisa de satisfação para clínicas e consultórios na saída do paciente: avaliação de recepção, tempo de espera e clareza das orientações, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+Em clínicas, a pesquisa deve ser feita na saída, antes de o paciente deixar o consultório. É o momento em que a experiência inteira ainda está presente: tempo de espera, acolhimento da recepção, clareza das orientações e confiança no profissional. Um totem ou tablet na recepção de saída coleta isso em segundos e evita depender de formulário enviado depois.
+
+ 
+ Por que medir a satisfação em clínicas e consultórios
+
+ A jornada do paciente tem quatro momentos distintos: agendamento, espera, consulta e saída. O que costuma doer não é o atendimento clínico — é a espera além do horário, a dificuldade de remarcar e a falta de clareza sobre o que fazer depois.
+
+ Pesquisa por telefone e por e-mail erra o alvo: o paciente já foi embora, a memória esfriou e a taxa de resposta é baixa. Já a pesquisa presencial, feita na saída, captura o momento exato e permite que a clínica identifique padrões — por exemplo, se a insatisfação se concentra em determinada recepcionista, turno ou dia da semana.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em clínicas e consultórios 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência de hoje: acolhimento, tempo de espera e clareza das orientações. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o paciente indicar a clínica para familiares e amigos. 
+
+ CES Quanto esforço o cliente teve Entender o esforço para agendar, remarcar ou resolver uma dúvida administrativa. 
+
+ 
+ 
+ 
+
+ Clínicas com foco em retorno e indicação costumam usar NPS; quem quer monitorar a operação do dia a dia usa CSAT. As duas podem rodar na mesma campanha, com perguntas em sequência.
+
+ Onde instalar o totem
+
+ Recepção de saída: o paciente responde antes de ir embora, com a experiência intacta.
+ Antes do pagamento ou da entrega de exames: ponto de passagem obrigatória.
+ Sala de espera: útil para medir a percepção sobre conforto e tempo, mas nunca com o paciente ainda aguardando atendimento.
+ 
+ A pergunta precisa deixar claro que a avaliação é sobre a experiência de atendimento, não sobre o resultado do tratamento — isso reduz ruído e melhora a leitura do dado.
+
+ 
+ 
+ Na recepção de saída, o paciente avalia antes de ir embora. 
+ 
+
+ Perguntas prontas para clínicas e consultórios
+
+ “Como você avalia o tempo de espera e a atenção da recepção?”
+ “O profissional explicou o seu caso de forma clara?”
+ “Você recomendaria esta clínica a um familiar ou amigo?”
+ “Como foi a facilidade para agendar ou remarcar a sua consulta?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ O mesmo aplicativo roda no tablet da recepção, sem equipamento dedicado. Como a clínica já tem tablet ou computador na recepção, o início é imediato — e o modo offline garante a coleta mesmo em dias de internet instável.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## O paciente precisa se identificar para responder?
+Não. A resposta é anônima por padrão, o que aumenta a sinceridade e reduz o constrangimento de avaliar a recepção na frente dela. A identificação é opcional e configurável.
+
+## A pesquisa coleta dados de saúde do paciente?
+Não é o objetivo. As perguntas padrão tratam da experiência de atendimento — espera, recepção, clareza das orientações. Evite campos que coletem diagnóstico ou dado sensível sem base legal específica.
+
+## Dá para comparar unidades ou profissionais?
+Dá. Você pode criar campanhas separadas por unidade ou por profissional e comparar no painel, mantendo a mesma pergunta e a mesma escala para que a comparação seja válida.
+
+
+---
+
+# Pesquisa de satisfação para restaurantes e cafeterias
+URL: https://beend.tech/pesquisa-de-satisfacao-para-restaurantes
+
+Pesquisa de satisfação para restaurantes e cafeterias na saída: avaliação de atendimento, tempo de preparo e ambiente, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+Em restaurantes, a coleta funciona melhor na saída, depois do pagamento. O cliente já viveu a experiência inteira — espera, atendimento, comida e ambiente — e ainda está no salão. Duas carinhas ou uma nota de 0 a 10 custam segundos e transformam a percepção em dado antes que ela se perca.
+
+ 
+ Por que medir a satisfação em restaurantes e cafeterias
+
+ Restaurante tem pico de fluxo, rotatividade alta de mesas e equipe trocando a cada turno. Nesse cenário, a avaliação precisa ser rápida e não pode depender de o cliente abrir um link depois.
+
+ O ponto crítico é o tempo: quanto mais distante do momento da refeição, menos confiável é a lembrança. Além disso, a insatisfação do cliente de restaurante raramente chega ao gerente — ela aparece nas avaliações públicas semanas depois, quando já não há o que corrigir naquele turno.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em restaurantes e cafeterias 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência de hoje: atendimento, tempo de preparo e ambiente. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o cliente voltar e indicar o restaurante. 
+
+ CES Quanto esforço o cliente teve Entender o esforço em situações como esperar por mesa, pedir a conta ou resolver um pedido trocado. 
+
+ 
+ 
+ 
+
+ Para operação de salão, CSAT é o indicador mais direto, porque muda rápido e aponta problemas do turno. NPS entra quando o objetivo é acompanhar a relação com o cliente ao longo do tempo.
+
+ Onde instalar o totem
+
+ Na saída, perto do caixa: o cliente passa por ali obrigatoriamente antes de ir embora.
+ Entrada do salão: funciona bem em casas com fluxo alto e sem caixa centralizado.
+ Totem de mesa: discreto, permite a resposta durante a refeição e complementa a coleta na saída.
+ 
+ Evite instalar o totem dentro da fila do caixa: ele atrasa o pagamento e reduz a taxa de resposta. O ponto ideal é a lateral do caixa, fora do fluxo de pagamento.
+
+ 
+ 
+ Na saída do salão, a experiência da refeição ainda está fresca. 
+ 
+
+ Perguntas prontas para restaurantes e cafeterias
+
+ “Como avalia o atendimento, o tempo de preparo e o ambiente?”
+ “De 0 a 10, qual a chance de você voltar a este restaurante?”
+ “Você encontrou o que esperava do prato que pediu?”
+ “Como foi a experiência para pedir e pagar a conta?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ Um tablet na saída já resolve o começo. Se a casa tem salão grande, o totem de piso capta mais respostas; para mesas e balcões, o modelo de mesa é o mais indicado.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## Funciona no horário de pico, com fila?
+Sim, justamente porque a interação é curta. O ponto de instalação fora da fila de pagamento é o que garante que o totem não vire gargalo no salão.
+
+## Dá para avaliar prato, atendimento e ambiente separadamente?
+Dá. É possível montar uma campanha com perguntas em sequência — ou usar o recurso de rotas em node, em que cada resposta leva à próxima pergunta — e depois filtrar os resultados no painel.
+
+## O cliente pode responder pelo QR Code na mesa?
+Pode. A mesma campanha roda no totem, no QR Code e no WhatsApp, então o restaurante pode combinar os canais sem duplicar o trabalho de configuração.
+
+
+---
+
+# Pesquisa de satisfação para varejo e lojas
+URL: https://beend.tech/pesquisa-de-satisfacao-para-varejo
+
+Pesquisa de satisfação para varejo e lojas no caixa: avaliação de atendimento do vendedor, tempo de caixa e disponibilidade de produto, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+No varejo, a pesquisa deve ser feita no caixa ou na entrega do produto. São os dois momentos em que o cliente está com a experiência completa na cabeça: foi atendido, encontrou o que procurava, esperou na fila e vai levar o produto. O totem coleta essa percepção em segundos, com taxa de resposta muito maior do que qualquer pesquisa posterior.
+
+ 
+ Por que medir a satisfação em varejo e lojas
+
+ Varejo vive de conversão e recompra. E os dois dependem de fatores que só o cliente sabe avaliar: se o vendedor entendeu o que ele queria, se o produto estava disponível, quanto tempo ele esperou no caixa.
+
+ O problema é que o cliente insatisfeito raramente reclamou no balcão — ele saiu e não voltou. Sem pesquisa no ponto de venda, a loja só descobre isso pela queda no faturamento, tarde demais. Com coleta no caixa, o gestor enxerga o mesmo problema no mesmo dia.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em varejo e lojas 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência de compra de hoje, incluindo atendimento e tempo de caixa. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o cliente voltar e indicar a loja, o que antecipa recompra e boca a boca. 
+
+ CES Quanto esforço o cliente teve Medir o esforço para encontrar produto, trocar item ou resolver uma dúvida. 
+
+ 
+ 
+ 
+
+ Lojas com foco em recompra usam NPS; operações que querem corrigir o atendimento do dia usam CSAT. Uma campanha pode combinar as duas perguntas em sequência.
+
+ Onde instalar o totem
+
+ Caixa, após o pagamento: ponto de passagem obrigatório para quase todo cliente.
+ Entrega do produto: especialmente útil em móveis, eletrônicos e materiais de construção.
+ Saída da loja: alternativa em operações sem caixa centralizado, como shoppings de rua.
+ 
+ Em lojas pequenas, o totem de mesa no balcão resolve. Em lojas de grande circulação, o totem de piso amplia o alcance e capta quem entrou sem comprar.
+
+ 
+ 
+ No caixa, o cliente avalia o atendimento antes de deixar a loja. 
+ 
+
+ Perguntas prontas para varejo e lojas
+
+ “O vendedor ajudou você a encontrar o que precisava?”
+ “Como você avalia o tempo de espera no caixa?”
+ “De 0 a 10, qual a chance de você comprar aqui novamente?”
+ “Você encontrou o produto que veio procurar?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ A loja não precisa comprar equipamento para começar: o aplicativo roda no tablet Android que já existe no caixa. O totem dedicado entra depois, quando a operação já validou a pesquisa.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## Funciona em loja pequena, com um só caixa?
+Funciona. Nesse caso, o totem de mesa ao lado do caixa é o formato mais simples, e o começo pode ser feito com um tablet comum, sem investimento em equipamento.
+
+## Dá para comparar vendedores?
+Dá, mas com cuidado: o ideal é comparar período, turno ou loja, porque a avaliação do cliente pode ser influenciada por fatores que não dependem do vendedor. O painel permite filtrar por terminal e por campanha.
+
+## Preciso integrar com o PDV?
+Não é necessário. A pesquisa roda de forma independente do sistema de caixa, o que permite começar sem projeto de integração. A coleta por QR Code também está disponível na mesma plataforma.
+
+
+---
+
+# Pesquisa de satisfação para academias
+URL: https://beend.tech/pesquisa-de-satisfacao-para-academias
+
+Pesquisa de satisfação para academias na saída do treino: avaliação de recepção, limpeza, equipamentos e suporte dos professores, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+Em academias, a pesquisa funciona melhor na saída do treino. O aluno acabou de usar a estrutura, os equipamentos e o suporte dos professores. É o momento em que a percepção está formada e a resposta custa segundos — e é também a janela mais curta para agir antes que ele decida cancelar.
+
+ 
+ Por que medir a satisfação em academias
+
+ Academia é um negócio de retenção. O custo de conquistar um aluno novo é alto, e o cancelamento quase nunca é comunicado: o aluno simplesmente para de aparecer.
+
+ Os sinais costumam estar na operação — equipamento quebrado, vestiário sujo, horário de pico lotado, professor que não atende. Nenhum desses problemas aparece no relatório financeiro antes de virar cancelamento. A pesquisa no ponto de treino antecipa esse diagnóstico.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em academias 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência de hoje: recepção, limpeza, equipamentos e suporte. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o aluno indicar a academia — o indicador que melhor antecipa retenção. 
+
+ CES Quanto esforço o cliente teve Entender o esforço em situações como remarcar aula, cancelar plano ou resolver cobrança. 
+
+ 
+ 
+ 
+
+ Para retenção, NPS é o indicador mais útil, porque acompanha a relação do aluno com a academia ao longo do tempo. CSAT complementa, mostrando a percepção do dia.
+
+ Onde instalar o totem
+
+ Saída do vestiário: ponto de passagem natural depois do treino.
+ Recepção: funciona, mas compete com a catraca e o check-in — evite instalar no fluxo de entrada.
+ Área de musculação ou corredor: o totem de piso capta a avaliação de quem treina em horário de pico.
+ 
+ Horário de pico e horário vazio produzem avaliações diferentes. Vale comparar os dois períodos no painel antes de concluir que existe um problema estrutural.
+
+ 
+ 
+ Totem de piso na saída do treino, quando a percepção está formada. 
+ 
+
+ Perguntas prontas para academias
+
+ “Como você avalia a estrutura e o atendimento da academia hoje?”
+ “De 0 a 10, qual a chance de você continuar treinando aqui nos próximos meses?”
+ “Como você avalia a limpeza e a conservação dos equipamentos?”
+ “Os professores ajudaram você quando precisou?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ A academia pode usar um tablet na recepção ou no vestiário para começar, sem comprar equipamento. O totem de piso entra quando a coleta já faz parte da rotina.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## A pesquisa ajuda a reduzir cancelamento?
+Ajuda a enxergar o risco antes do cancelamento. Quando o aluno avalia mal a estrutura ou o suporte, a academia tem tempo de agir — o que não acontece quando o único sinal é a queda na frequência.
+
+## Dá para medir cada unidade separadamente?
+Sim. Cada terminal é cadastrado individualmente, com acesso próprio, e o painel consolida os resultados por unidade, período e campanha.
+
+## O aluno responde no celular?
+Pode responder pelo QR Code, se a academia preferir esse canal. O totem tem a vantagem de não depender do celular do aluno e de captar quem não abriria um link depois.
+
+
+---
+
+# Pesquisa de satisfação para concessionárias
+URL: https://beend.tech/pesquisa-de-satisfacao-para-concessionarias
+
+Pesquisa de satisfação para concessionárias em showroom, entrega e oficina: avaliação por etapa da jornada, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+Em concessionárias, a pesquisa precisa acompanhar cada etapa da jornada, não só o fechamento. Showroom, test drive, negociação, entrega e pós-venda são experiências diferentes, com expectativas diferentes. Medir só no fim mistura tudo. Coletar em cada ponto mostra exatamente onde a jornada perde o cliente.
+
+ 
+ Por que medir a satisfação em concessionárias
+
+ Concessionária tem ciclo de compra longo e ticket alto. O cliente decide com base em confiança, e a experiência pesa tanto quanto o produto — às vezes mais.
+
+ O erro comum é medir apenas a satisfação com a compra, semanas depois, por telefone ou e-mail. Nesse formato, a memória já está contaminada e a taxa de resposta é baixa. A coleta presencial, na saída do showroom ou na entrega do veículo, captura a percepção real de cada etapa.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em concessionárias 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência de cada etapa: showroom, test drive, negociação, entrega e oficina. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o cliente recomendar a concessionária e voltar na próxima troca. 
+
+ CES Quanto esforço o cliente teve Entender o esforço em etapas burocráticas: financiamento, documentação e agendamento de revisão. 
+
+ 
+ 
+ 
+
+ O ideal é manter a mesma pergunta de CSAT em todas as etapas e comparar os resultados entre elas. Assim fica claro se o problema está no atendimento comercial ou no pós-venda.
+
+ Onde instalar o totem
+
+ Showroom: após o test drive ou a negociação, antes de o cliente sair.
+ Entrega do veículo: momento de maior expectativa e de maior impacto na percepção.
+ Recepção da oficina: mede a experiência de quem já é cliente e decide a recompra.
+ 
+ O totem de piso funciona bem em áreas de circulação amplas, como showroom e hall de entrega. Para a recepção da oficina, o modelo de mesa ocupa menos espaço.
+
+ 
+ 
+ No showroom e na entrega, o totem de piso alcança quem circula. 
+ 
+
+ Perguntas prontas para concessionárias
+
+ “Como foi sua experiência na concessionária hoje?”
+ “O consultor respondeu às suas dúvidas durante a negociação?”
+ “De 0 a 10, qual a chance de você recomendar esta concessionária?”
+ “Como você avalia o tempo de espera no agendamento da revisão?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ A concessionária pode começar com um tablet no showroom ou na entrega, sem equipamento dedicado. Quando a coleta se torna rotina, o totem de piso é o formato que mais aparece para o cliente.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## Serve para medir a oficina, além da venda?
+Serve. A oficina é onde o cliente decide se volta — e onde a insatisfação com prazo e orçamento aparece primeiro. Criar uma campanha específica para a recepção da oficina separa esse resultado do resultado comercial.
+
+## Dá para medir cada consultor ou cada etapa?
+Dá, com campanhas e terminais separados. O painel permite filtrar por período, terminal e campanha, mantendo a mesma pergunta para que a comparação seja válida.
+
+## Preciso de internet no showroom?
+Não. O aplicativo funciona offline e sincroniza as respostas quando a conexão volta — útil em eventos, feiras e áreas com Wi-Fi instável.
+
+
+---
+
+# Pesquisa de satisfação para shoppings e centros comerciais
+URL: https://beend.tech/pesquisa-de-satisfacao-para-shoppings
+
+Pesquisa de satisfação para shoppings e centros comerciais por área: limpeza, segurança, sinalização e experiência geral, com NPS, CSAT e CES a partir de R$ 69,90/mês.
+
+Em shoppings, a coleta precisa ser distribuída: um único totem não representa a experiência de todo o empreendimento. Áreas diferentes têm problemas diferentes. Praça de alimentação, corredores, banheiros e estacionamento produzem percepções distintas. Totens de piso em pontos de circulação capturam essa diversidade e permitem comparar as áreas no painel.
+
+ 
+ Por que medir a satisfação em shoppings e centros comerciais
+
+ Centro comercial tem fluxo alto e público heterogêneo: quem vai comprar, quem vai comer, quem só passa. A avaliação agregada esconde a diferença entre essas experiências.
+
+ Além disso, a insatisfação de shopping costuma ser difusa — um banheiro sujo, uma placa confusa, uma área mal iluminada. Nada disso vira reclamação formal, mas tudo influencia a decisão de voltar. A pesquisa no local transforma percepção difusa em indicador acompanhável.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em shoppings e centros comerciais 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência de hoje por área: limpeza, segurança, sinalização e conforto. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o frequentador recomendar o shopping e voltar. 
+
+ CES Quanto esforço o cliente teve Entender o esforço para localizar uma loja, estacionar ou usar um serviço. 
+
+ 
+ 
+ 
+
+ Como o shopping não controla o atendimento de cada loja, o indicador mais útil é o CSAT por área, que aponta onde agir. O NPS complementa com a visão geral do empreendimento.
+
+ Onde instalar o totem
+
+ Praças de alimentação: fluxo alto e permanência longa, o que favorece a resposta.
+ Corredores e entradas: totens de piso captam o frequentador em movimento.
+ Próximo ao estacionamento e aos banheiros: pontos em que a insatisfação costuma aparecer.
+ 
+ Distribuir os totens por área — em vez de concentrar tudo na entrada — é o que permite comparar a experiência entre regiões do shopping.
+
+ 
+ 
+ Distribuídos por área, os totens comparam a experiência do shopping. 
+ 
+
+ Perguntas prontas para shoppings e centros comerciais
+
+ “Como você avalia sua experiência no shopping hoje?”
+ “Como estão a limpeza e a conservação das áreas comuns?”
+ “Você conseguiu se localizar com facilidade dentro do shopping?”
+ “De 0 a 10, qual a chance de você recomendar este shopping?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ O shopping pode começar com poucos tablets em pontos estratégicos e evoluir para totens de piso quando a operação se consolidar. A gestão de vários terminais já está prevista na plataforma.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## Um totem só representa o shopping inteiro?
+Dificilmente. O recomendado é distribuir os terminais por área — alimentação, corredores, estacionamento — e comparar os resultados no painel, em vez de tirar uma média única.
+
+## Dá para comparar áreas ou turnos?
+Sim. Cada terminal é cadastrado separadamente, e o painel permite filtrar por período, terminal e campanha para comparar áreas e horários.
+
+## Como funciona para eventos e ações no shopping?
+A locação por período atende ações temporárias: o totem é usado nos dias do evento e devolvido depois, sem compra de equipamento.
+
+
+---
+
+# Pesquisa de satisfação para eventos e feiras
+URL: https://beend.tech/pesquisa-de-satisfacao-para-eventos
+
+Pesquisa de satisfação para eventos e feiras durante o evento: avaliação de conteúdo, organização e credenciamento, com locação por período e planos a partir de R$ 69,90/mês.
+
+Em eventos, a coleta tem que acontecer durante o evento, não depois. O participante avalia na hora: qualidade do conteúdo, organização, credenciamento, estandes e atendimento. Um totem na saída ou nos corredores captura isso enquanto a experiência está viva — e a locação por período evita comprar equipamento para usar três dias.
+
+ 
+ Por que medir a satisfação em eventos e feiras
+
+ Eventos e feiras têm prazo curto, público concentrado e alto investimento. A avaliação costuma ser feita por formulário enviado depois — com taxa de resposta baixa e viés de quem se lembra de responder.
+
+ Coletar durante o evento muda a natureza do dado: a resposta é imediata e a organização ainda pode agir na edição seguinte com informação confiável, inclusive por palestra, estande ou dia.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em eventos e feiras 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar a experiência do dia: conteúdo, organização, credenciamento e estrutura. 
+
+ NPS O cliente recomendaria a empresa Medir a chance de o participante voltar na próxima edição e indicar o evento. 
+
+ CES Quanto esforço o cliente teve Entender o esforço em credenciamento, localização de estandes e acesso às palestras. 
+
+ 
+ 
+ 
+
+ Para eventos, o CSAT por palestra ou por dia costuma ser mais acionável do que uma média geral. O NPS entra como indicador de satisfação com o evento como um todo.
+
+ Onde instalar o totem
+
+ Saída do evento: ponto de passagem obrigatório e momento de maior disponibilidade.
+ Corredores e áreas de convivência: totens de piso captam a avaliação entre uma atividade e outra.
+ Estandes e ativações: úteis para medir a percepção sobre patrocinadores e expositores.
+ 
+ Em feiras com vários dias, compare os resultados por dia: o primeiro dia costuma revelar problemas de credenciamento e o último, problemas de conteúdo.
+
+ 
+ 
+ Na saída do evento, a coleta acontece com o público presente. 
+ 
+
+ Perguntas prontas para eventos e feiras
+
+ “Como você avalia o evento até agora?”
+ “O conteúdo atendeu às suas expectativas?”
+ “Como foi a experiência no credenciamento?”
+ “De 0 a 10, qual a chance de você participar da próxima edição?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ Para eventos, a locação é o formato mais comum: o totem é usado durante o período do evento e devolvido depois. Se o local não tiver internet estável, o modo offline garante a coleta e a sincronização posterior.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## Dá para alugar o totem só pelos dias do evento?
+Sim. A locação em comodato permite usar o equipamento por um período determinado e devolver depois, sem imobilizar capital em uma compra.
+
+## Funciona sem internet no pavilhão?
+Funciona. O aplicativo armazena as respostas no dispositivo e sincroniza quando a conexão volta — o que é comum em pavilhões e centros de convenções.
+
+## Consigo separar a avaliação por palestra ou estande?
+Sim. Basta criar campanhas ou terminais separados por atividade e comparar no painel, mantendo a mesma pergunta para que a comparação seja válida.
+
+
+---
+
+# Pesquisa de satisfação para órgãos públicos
+URL: https://beend.tech/pesquisa-de-satisfacao-para-orgaos-publicos
+
+Pesquisa de satisfação para órgãos públicos no atendimento presencial: avaliação anônima de espera, clareza e cordialidade, em apoio à avaliação prevista na Lei 13.460/2017, a partir de R$ 69,90/mês.
+
+Órgãos públicos podem usar o totem para avaliar o atendimento presencial de forma contínua e anônima. Tempo de espera, clareza das informações, cordialidade e resolutividade são medidos no momento em que o cidadão sai do atendimento — o que gera indicador para gestão e para prestação de contas, sem depender de pesquisa anual.
+
+ 
+ Por que medir a satisfação em órgãos públicos
+
+ A avaliação de serviços públicos costuma ser feita por pesquisa anual ou por ouvidoria. As duas têm valor, mas nenhuma captura a experiência do dia a dia com volume e frequência suficientes para orientar a gestão.
+
+ Com coleta presencial, o órgão passa a ter série histórica por unidade, por tipo de serviço e por período. Isso ajuda a justificar investimento, acompanhar metas e identificar gargalos — como fila em determinado horário ou baixa clareza de um formulário.
+
+ O que medir: NPS, CSAT ou CES
+
+ 
+ 
+ Métrica indicada para cada decisão em órgãos públicos 
+ Métrica Responde a Quando usar 
+ 
+ 
+ CSAT Como foi a experiência de hoje Avaliar o atendimento recebido hoje: espera, clareza e cordialidade. 
+
+ NPS O cliente recomendaria a empresa Medir a percepção do cidadão sobre o serviço e a chance de recomendá-lo. 
+
+ CES Quanto esforço o cliente teve Entender o esforço para resolver a demanda: quantas idas, quantos formulários, quantas exigências. 
+
+ 
+ 
+ 
+
+ Órgãos costumam usar CSAT por serviço e CES para processos com muitas etapas. O NPS complementa com a percepção geral, sem substituir os indicadores de gestão.
+
+ Onde instalar o totem
+
+ Saída do atendimento: o cidadão responde logo após ser atendido, com o processo ainda claro na memória.
+ Saguão de espera: útil para medir a percepção sobre tempo e informação, mas nunca com a pessoa ainda aguardando.
+ Recepção de cada serviço: permite comparar secretarias, unidades e tipos de atendimento.
+ 
+ A comunicação do totem deve deixar explícito que a resposta é anônima e que não interfere no atendimento — isso aumenta a sinceridade e reduz a hesitação.
+
+ 
+ 
+ No saguão, o cidadão avalia o atendimento de forma anônima. 
+ 
+
+ Perguntas prontas para órgãos públicos
+
+ “Como você avalia o atendimento que recebeu hoje?”
+ “As informações sobre o seu processo ficaram claras?”
+ “Como você avalia o tempo de espera?”
+ “De 0 a 10, qual a chance de você recomendar este serviço a outra pessoa?”
+ 
+
+ Como funciona na prática
+
+ Escolhemos a pergunta e a escala com você (NPS, CSAT, CES, carinhas ou quiz).
+ O totem ou tablet é configurado com a sua identidade visual.
+ O cliente responde no ponto de atendimento, em poucos toques.
+ As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
+ 
+
+ Quanto custa
+
+ O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
+
+ Comece com o tablet que você já tem
+
+ O órgão pode iniciar com tablets já disponíveis nas recepções e evoluir para totens de piso nos saguões de maior circulação. A coleta funciona offline, o que evita dependência da rede local.
+
+ 
+
+ 
+ 
+ Teste grátis de 7 dias
+
+ Use um tablet Android 5.1 ou superior, monte a campanha e veja as respostas no painel. Sem cartão de crédito.
+
+ Começar o teste 
+ 
+ 
+ Guia do totem de pesquisa
+
+ O que é, como funciona, o que mede e quanto custa um totem de pesquisa de satisfação.
+
+ Ler o guia 
+ 
+ 
+ Outros segmentos
+
+ Veja como o totem se aplica a farmácias, clínicas, restaurantes, varejo, academias, shoppings, eventos e órgãos públicos.
+
+ Ver segmentos
+
+
+## Perguntas frequentes
+
+## O totem atende à exigência de avaliação da Lei 13.460/2017?
+Ele fornece o instrumento de coleta contínua da satisfação do usuário, que é a base da avaliação prevista na lei. A forma de uso, a periodicidade e a publicação dos resultados devem ser definidas pelo órgão, conforme sua regulamentação.
+
+## A pesquisa é anônima?
+Sim, por padrão. Não há coleta de nome, CPF ou qualquer dado de identificação do cidadão. Se o órgão precisar de algum campo adicional, ele é configurável e deve observar a LGPD.
+
+## É possível contratar por licitação?
+Sim. A contratação segue o processo de compras do órgão, com nota fiscal e documentação. A locação costuma ser mais simples para testes e projetos-piloto, e a compra, para uso permanente.
+
+
+---
+
 # Planos e preços do sistema de pesquisa de satisfação
 URL: https://beend.tech/planos-e-precos
 
@@ -1643,6 +3024,11 @@ O sistema de pesquisa de satisfação da beend.tech começa em R$ 69,90 por mês
 
  São quatro planos. O que muda entre eles é o número de terminais, de campanhas simultâneas e de avaliações por mês. Não há cobrança por resposta: quando você passa do limite do plano, avisamos — o totem continua coletando.
 
+ 
+
+ 
+ 
+ O painel que acompanha todos os planos: NPS do período, evolução e exportação em PDF, Excel e CSV. 
  
 
  
@@ -1862,8 +3248,128 @@ O teste grátis da beend.tech dura 7 dias e inclui o software completo — aplic
  
 
  
- Quero começar o teste 
+ 
+ Quero fazer o teste grátis na minha empresa
+
+ Preencha os dados ao lado. A nossa equipe confere as informações, libera o acesso e monta a primeira campanha com você — em um contato só.
+
+ 
+ 7 dias com o software completo
+
+ Sem cartão de crédito e sem compromisso
+
+ Você usa o tablet que já tem
+
+ Suporte em horário comercial para configurar
+
+ 
+ 
  Ver planos e preços 
+ 
+
+ 
+
+ 
+ 
+ Seus dados
+
+ Campos com * são obrigatórios.
+
+ 
+ Nome* 
+ 
+ 
+
+ 
+ Empresa* 
+ 
+ 
+
+ 
+ Segmento 
+ 
+ Selecione 
+ Farmácia 
+ Clínica ou consultório 
+ Restaurante ou cafeteria 
+ Varejo ou loja 
+ Academia 
+ Concessionária 
+ Shopping 
+ Evento ou feira 
+ Órgão público 
+ Outro 
+ 
+ 
+
+ 
+ CNPJ 
+ 
+ 
+
+ 
+ Telefone* 
+ 
+ 
+
+ 
+ Seu melhor e-mail* 
+ 
+ 
+
+ 
+ CEP 
+ 
+ 
+
+ 
+ Quantidade de terminais 
+ 
+ Selecione 
+ 1 terminal 
+ 2 a 3 
+ 4 a 10 
+ 11 a 50 
+ Mais de 50 
+ 
+ 
+
+ 
+ Como conheceu a beend.tech 
+ 
+ Selecione 
+ Google 
+ Indicação de alguém 
+ Instagram 
+ LinkedIn 
+ WhatsApp 
+ Evento ou feira 
+ Já sou cliente 
+ Outro 
+ 
+ 
+
+ 
+ Mensagem (opcional) 
+ 
+ 
+
+ 
+ 
+ Não preencha este campo 
+ 
+ 
+
+ 
+
+ Enviar 
+ Ao enviar, você concorda com o tratamento dos dados conforme a Política de Privacidade (LGPD).
+
+ 
+
+ 
+ 
+
  
 
  
@@ -2026,8 +3532,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “O farmacêutico esclareceu suas dúvidas sobre o medicamento?”
 
+ Ver aplicação em farmácias e drogarias 
  
-
  
  Clínicas e consultórios
 
@@ -2035,8 +3541,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como você avalia o tempo de espera e a atenção da recepção?”
 
+ Ver aplicação em clínicas e consultórios 
  
-
  
  Restaurantes e cafeterias
 
@@ -2044,8 +3550,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como avalia o atendimento, o tempo de preparo e o ambiente?”
 
+ Ver aplicação em restaurantes e cafeterias 
  
-
  
  Varejo e lojas
 
@@ -2053,8 +3559,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “O vendedor ajudou você a encontrar o que precisava?”
 
+ Ver aplicação em varejo e lojas 
  
-
  
  Academias
 
@@ -2062,8 +3568,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como você avalia a estrutura e o atendimento da academia hoje?”
 
+ Ver aplicação em academias 
  
-
  
  Concessionárias
 
@@ -2071,8 +3577,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como foi sua experiência na concessionária hoje?”
 
+ Ver aplicação em concessionárias 
  
-
  
  Shoppings e centros comerciais
 
@@ -2080,8 +3586,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como você avalia sua experiência no shopping hoje?”
 
+ Ver aplicação em shoppings e centros comerciais 
  
-
  
  Eventos e feiras
 
@@ -2089,8 +3595,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como você avalia o evento até agora?”
 
+ Ver aplicação em eventos e feiras 
  
-
  
  Órgãos públicos
 
@@ -2098,8 +3604,8 @@ O totem de pesquisa de satisfação se adapta a qualquer operação com atendime
 
  Pergunta exemplo: “Como você avalia o atendimento que recebeu hoje?”
 
+ Ver aplicação em órgãos públicos 
  
-
  
 
  
@@ -2479,7 +3985,64 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Passo a passo, modelo de mensagem e boas práticas de LGPD.
 
- Ler guia
+ Ler guia 
+ 
+ 
+
+ 
+ Soluções
+
+ Pesquisa de satisfação por segmento
+
+ Se o seu negócio tem atendimento presencial, veja onde instalar o totem, qual pergunta usar e como medir no seu setor.
+
+ 
+
+ 
+ 
+ Farmácias
+
+ Ver aplicação 
+ 
+ 
+ Clínicas
+
+ Ver aplicação 
+ 
+ 
+ Restaurantes
+
+ Ver aplicação 
+ 
+ 
+ Varejo
+
+ Ver aplicação 
+ 
+ 
+ Academias
+
+ Ver aplicação 
+ 
+ 
+ Concessionárias
+
+ Ver aplicação 
+ 
+ 
+ Shoppings
+
+ Ver aplicação 
+ 
+ 
+ Eventos
+
+ Ver aplicação 
+ 
+ 
+ Órgãos públicos
+
+ Ver aplicação
 
 
 

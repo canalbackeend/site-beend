@@ -2,6 +2,8 @@ import { home } from "./home.mjs";
 import { pillar } from "./pillar.mjs";
 import { guide } from "./guide.mjs";
 import { services } from "./services.mjs";
+import { segmentPageObjects } from "./segmentos.mjs";
+import { comparativos } from "./comparativos.mjs";
 import {
   pricing,
   freeTrial,
@@ -20,6 +22,8 @@ export const pages = [
   pillar,
   guide,
   ...services,
+  ...comparativos,
+  ...segmentPageObjects,
   pricing,
   freeTrial,
   segments,

@@ -21,6 +21,15 @@ export const SITE = {
   phone2Display: "(61) 99145-9009",
   phone2: "+5561991459009",
   email: "beendtech@gmail.com",
+  // Endpoint do formulário de teste grátis (Google Apps Script Web App).
+  // Vazio = o formulário cai no WhatsApp, sem depender de backend.
+  // Web App do Google Apps Script que recebe o formulário e envia por e-mail.
+  // Pode ser sobrescrito no deploy com FORM_ENDPOINT.
+  formEndpoint:
+    process.env.FORM_ENDPOINT ||
+    "https://script.google.com/macros/s/AKfycbyceKKxxHd-RKBWyc_SnduL7u-N0GwXjxH4jT4PMRGTJSZOpEpgdhTSOIKk7gTh5uw1hw/exec",
+  // Alternativa sem servidor: chave do Web3Forms (web3forms.com) — 1 minuto para criar.
+  web3formsKey: process.env.WEB3FORMS_KEY || "",
   email2: "canalbackeend@gmail.com",
   supportEmail: "suporte@beend.tech",
   street: "Quadra 305, Conjunto 08",
@@ -38,7 +47,7 @@ export const SITE = {
     "https://maps.google.com/?cid=12703534258198116818",
     "https://www.linkedin.com/in/beendtech",
   ],
-  updated: "2026-11-04",
+  updated: process.env.SITE_UPDATED || "2026-11-05",
   // Verificação do Google Search Console (propriedade de prefixo de URL)
   googleVerification: "f5ROYlF53YvWNdg6ypF7XPnlvA7CJj-m908ICZ4aoRI",
   // ── Rastreamento de campanhas (Google Ads / GA4) ─────────────────────────
@@ -337,7 +346,7 @@ function footer(root) {
     </div>
     <div class="footer__bottom">
       <span>© ${new Date().getFullYear()} ${SITE.name}. Todos os direitos reservados.</span>
-      <span>Conteúdo atualizado em 04/11/2026 · <a href="${prettyPath("politica-de-privacidade.html")}">Privacidade e LGPD</a></span>
+      <span><a href="${prettyPath("politica-de-privacidade.html")}">Privacidade e LGPD</a></span>
     </div>
   </div>
 </footer>`;
@@ -392,7 +401,10 @@ const resolve = (html, root) =>
     .replaceAll("{{wa}}", wa())
     .replaceAll("{{phone}}", SITE.phoneDisplay)
     .replaceAll("{{phone2}}", SITE.phone2Display)
-    .replaceAll("{{email}}", SITE.email);
+    .replaceAll("{{email}}", SITE.email)
+    .replaceAll("{{formEndpoint}}", SITE.formEndpoint)
+    .replaceAll("{{web3formsKey}}", SITE.web3formsKey)
+    .replaceAll("{{waNumber}}", SITE.phone.replace("+", ""));
 
 export function layout(page) {
   const isBlog = page.slug.startsWith("blog/");
@@ -438,11 +450,7 @@ export function layout(page) {
 </section>`
     : "";
 
-  const updated = isLp
-    ? ""
-    : `<div class="wrap"><p class="updated">Conteúdo atualizado em 04/11/2026. ${page.updatedNote || ""}</p></div>`;
-
-  const bodyHtml = `${pageHero}${resolve(page.body, root)}${faqSection}${updated}`;
+  const bodyHtml = `${pageHero}${resolve(page.body, root)}${faqSection}`;
 
   const head = `<!doctype html>
 <html lang="pt-BR">

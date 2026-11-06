@@ -24,6 +24,12 @@ export const pricing = {
       <p>São quatro planos. O que muda entre eles é o número de terminais, de campanhas simultâneas e de avaliações por mês. Não há cobrança por resposta: quando você passa do limite do plano, avisamos — o totem continua coletando.</p>
     `)}
 
+    <figure class="figure" style="margin:28px auto 10px">
+      <img src="{{root}}assets/img/opt/painel-900.webp" srcset="{{root}}assets/img/opt/painel-900.webp 900w, {{root}}assets/img/opt/painel.webp 1600w" sizes="(max-width:900px) 100vw, 1160px" width="1600" height="884" loading="lazy" decoding="async"
+           alt="Painel do sistema beend.tech com NPS do mês, evolução por período e indicadores de CSAT e CES">
+      <figcaption>O painel que acompanha todos os planos: NPS do período, evolução e exportação em PDF, Excel e CSV.</figcaption>
+    </figure>
+
     <div class="prose">
       <h2>Escolha o plano</h2>
       <p>Todos os planos incluem o aplicativo de coleta, o painel em tempo real e o suporte em horário comercial. Os valores são por mês; no anual, você paga dez mensalidades.</p>
@@ -175,6 +181,23 @@ ${section({
         "Plataforma de pesquisa de satisfação com NPS, CSAT, CES, SMILE e QUIZ, coleta por totem, QR Code e WhatsApp, com análise de sentimento por IA. Quatro planos publicados: Básico, Profissional, Premium e Master.",
       brand: { "@type": "Brand", name: "beend.tech" },
       image: "https://beend.tech/assets/img/og-default.jpg",
+      url: "https://beend.tech/planos-e-precos",
+      offers: {
+        "@type": "AggregateOffer",
+        "@id": "https://beend.tech/planos-e-precos#ofertas",
+        priceCurrency: "BRL",
+        lowPrice: "69.90",
+        highPrice: "389.90",
+        offerCount: 4,
+        availability: "https://schema.org/InStock",
+        url: "https://beend.tech/planos-e-precos",
+        offers: [
+          { "@type": "Offer", name: "Básico", price: "69.90", priceCurrency: "BRL", availability: "https://schema.org/InStock", url: "https://beend.tech/planos-e-precos" },
+          { "@type": "Offer", name: "Profissional", price: "129.90", priceCurrency: "BRL", availability: "https://schema.org/InStock", url: "https://beend.tech/planos-e-precos" },
+          { "@type": "Offer", name: "Premium", price: "239.90", priceCurrency: "BRL", availability: "https://schema.org/InStock", url: "https://beend.tech/planos-e-precos" },
+          { "@type": "Offer", name: "Master", price: "389.90", priceCurrency: "BRL", availability: "https://schema.org/InStock", url: "https://beend.tech/planos-e-precos" },
+        ],
+      },
     },
   ],
   llms: {
@@ -209,9 +232,108 @@ export const freeTrial = {
       <p>Você usa o seu próprio tablet Android 5.1 ou superior (ou faz o teste no navegador). O equipamento é contratado só depois, se você quiser.</p>
     `)}
 
-    <div class="btn-row" style="margin-top:0">
-      <a class="btn btn--wa" href="{{wa}}" target="_blank" rel="noopener">Quero começar o teste</a>
-      <a class="btn btn--ghost" href="{{root}}planos-e-precos.html">Ver planos e preços</a>
+    <div class="contact-grid trial-grid" style="margin-top:34px">
+      <div>
+        <h2>Quero fazer o teste grátis na minha empresa</h2>
+        <p>Preencha os dados ao lado. A nossa equipe confere as informações, libera o acesso e monta a primeira campanha com você — em um contato só.</p>
+        <ul class="check-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>7 dias com o software completo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Sem cartão de crédito e sem compromisso</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Você usa o tablet que já tem</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Suporte em horário comercial para configurar</li>
+        </ul>
+        <p style="margin-top:22px">
+          <a class="btn btn--ghost" href="{{root}}planos-e-precos.html">Ver planos e preços</a>
+        </p>
+      </div>
+
+      <div>
+        <form class="form" id="form-teste" novalidate>
+          <h2 style="font-size:1.25rem;margin-bottom:6px">Seus dados</h2>
+          <p class="small muted" style="margin-bottom:18px">Campos com * são obrigatórios.</p>
+
+          <div class="field">
+            <label for="t-nome">Nome*</label>
+            <input id="t-nome" name="nome" type="text" autocomplete="name" maxlength="80" placeholder="Maria Silva" required>
+          </div>
+          <div class="field">
+            <label for="t-empresa">Empresa*</label>
+            <input id="t-empresa" name="empresa" type="text" autocomplete="organization" maxlength="120" placeholder="Farmácia São João" required>
+          </div>
+          <div class="field">
+            <label for="t-segmento">Segmento</label>
+            <select id="t-segmento" name="segmento">
+              <option value="">Selecione</option>
+              <option>Farmácia</option>
+              <option>Clínica ou consultório</option>
+              <option>Restaurante ou cafeteria</option>
+              <option>Varejo ou loja</option>
+              <option>Academia</option>
+              <option>Concessionária</option>
+              <option>Shopping</option>
+              <option>Evento ou feira</option>
+              <option>Órgão público</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="t-cnpj">CNPJ</label>
+            <input id="t-cnpj" name="cnpj" type="text" inputmode="numeric" data-mask="cnpj" placeholder="00.000.000/0000-00">
+          </div>
+          <div class="field">
+            <label for="t-telefone">Telefone*</label>
+            <input id="t-telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" data-mask="phone" placeholder="(61) 99999-9999" required>
+          </div>
+          <div class="field">
+            <label for="t-email">Seu melhor e-mail*</label>
+            <input id="t-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="120" placeholder="voce@empresa.com.br" required>
+          </div>
+          <div class="field">
+            <label for="t-cep">CEP</label>
+            <input id="t-cep" name="cep" type="text" inputmode="numeric" autocomplete="postal-code" data-mask="cep" placeholder="00000-000">
+          </div>
+          <div class="field">
+            <label for="t-terminais">Quantidade de terminais</label>
+            <select id="t-terminais" name="terminais">
+              <option value="">Selecione</option>
+              <option>1 terminal</option>
+              <option>2 a 3</option>
+              <option>4 a 10</option>
+              <option>11 a 50</option>
+              <option>Mais de 50</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="t-origem">Como conheceu a beend.tech</label>
+            <select id="t-origem" name="origem">
+              <option value="">Selecione</option>
+              <option>Google</option>
+              <option>Indicação de alguém</option>
+              <option>Instagram</option>
+              <option>LinkedIn</option>
+              <option>WhatsApp</option>
+              <option>Evento ou feira</option>
+              <option>Já sou cliente</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="t-mensagem">Mensagem (opcional)</label>
+            <textarea id="t-mensagem" name="mensagem" maxlength="1200" placeholder="Conte o que quer medir, quantas lojas, prazo..."></textarea>
+          </div>
+
+          <!-- armadilha para robôs: campo invisível, humano nunca preenche -->
+          <div class="field field--hp" aria-hidden="true">
+            <label for="t-site">Não preencha este campo</label>
+            <input id="t-site" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <input type="hidden" name="_ts" id="t-ts" value="">
+
+          <button class="btn btn--primary btn--block" type="submit" id="t-enviar">Enviar</button>
+          <p class="hint">Ao enviar, você concorda com o tratamento dos dados conforme a <a href="{{root}}politica-de-privacidade.html">Política de Privacidade</a> (LGPD).</p>
+          <p class="status" id="t-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
     </div>
 
     <div class="prose" style="margin-top:40px">
@@ -285,6 +407,219 @@ ${section({
     <a class="btn btn--ghost" href="{{root}}planos-e-precos.html">Ver os planos</a>
   </div>`,
 })}
+<script>
+  (function () {
+    var form = document.getElementById('form-teste');
+    if (!form) return;
+    // Envio por e-mail sem servidor: endpoint do FormSubmit para a caixa da empresa.
+    // Se FORM_ENDPOINT estiver definido no deploy (Google Apps Script), ele tem prioridade.
+    var WEB3_KEY = '{{web3formsKey}}';
+    var EMAIL_TO = 'beendtech@gmail.com';
+    var EMAIL_ENDPOINT = 'https://formsubmit.co/ajax/' + EMAIL_TO;
+    var ENDPOINT = '{{formEndpoint}}';
+    var status = document.getElementById('t-status');
+    var botao = document.getElementById('t-enviar');
+
+    // Momento em que o formulário chegou ao navegador — usado para barrar envios
+    // instantâneos (robôs preenchem e enviam em milissegundos).
+    var FORM_TS = Date.now();
+    var tsInput = document.getElementById('t-ts');
+    if (tsInput) tsInput.value = String(FORM_TS);
+
+    function honeypotPreenchido() {
+      var hp = form.querySelector('[name="website"]');
+      return !!(hp && String(hp.value).trim());
+    }
+
+    function rapidoDemais() {
+      return Date.now() - FORM_TS < 2500;
+    }
+
+    function envioRecente() {
+      try {
+        var t = Number(localStorage.getItem('beend_envio_ts') || 0);
+        return !!t && Date.now() - t < 60000;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function marcarEnvio() {
+      try { localStorage.setItem('beend_envio_ts', String(Date.now())); } catch (e) {}
+    }
+
+    function val(id) {
+      var el = form.querySelector('#' + id);
+      return el ? String(el.value || '').trim() : '';
+    }
+    function digits(v) { return String(v || '').replace(/\\D+/g, ''); }
+
+    function aviso(msg) {
+      status.style.color = '#9c2b2f';
+      status.textContent = msg;
+      return false;
+    }
+
+    function validar() {
+      if (!val('t-nome')) return aviso('Informe seu nome para continuar.');
+      if (!val('t-empresa')) return aviso('Informe o nome da empresa.');
+      if (digits(val('t-telefone')).length < 10) return aviso('Informe um telefone com DDD.');
+      if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]{2,}$/.test(val('t-email'))) return aviso('Informe um e-mail válido.');
+      return true;
+    }
+
+    function dados() {
+      return {
+        nome: val('t-nome'),
+        empresa: val('t-empresa'),
+        segmento: val('t-segmento') || 'não informado',
+        cnpj: val('t-cnpj') || 'não informado',
+        telefone: val('t-telefone'),
+        email: val('t-email'),
+        cep: val('t-cep') || 'não informado',
+        terminais: val('t-terminais') || 'não informado',
+        origem: val('t-origem') || 'não informado',
+        mensagem: val('t-mensagem') || 'não informada',
+        website: val('t-site'),
+        _ts: String(FORM_TS)
+      };
+    }
+
+    function texto(d) {
+      return 'Olá! Quero fazer o teste grátis de 7 dias na minha empresa.'
+        + '\\n\\nNome: ' + d.nome
+        + '\\nEmpresa: ' + d.empresa
+        + '\\nSegmento: ' + d.segmento
+        + '\\nCNPJ: ' + d.cnpj
+        + '\\nTelefone: ' + d.telefone
+        + '\\nE-mail: ' + d.email
+        + '\\nCEP: ' + d.cep
+        + '\\nTerminais: ' + d.terminais
+        + '\\nComo conheceu: ' + d.origem
+        + '\\nMensagem: ' + d.mensagem;
+    }
+
+    function abrirWhatsApp(d) {
+      var url = 'https://wa.me/{{waNumber}}?text=' + encodeURIComponent(texto(d));
+      var w = window.open(url, '_blank', 'noopener');
+      if (!w) location.href = url;
+    }
+
+    function postJson(url, corpo) {
+      return fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(corpo)
+      }).then(function (r) {
+        return r.json().catch(function () { return {}; });
+      }).then(function (r) {
+        return !!(r && (r.success === true || r.success === 'true'));
+      }).catch(function () {
+        return false;
+      });
+    }
+
+    // Ordem de prioridade:
+    //   1. FORM_ENDPOINT (Google Apps Script) — roda na conta Google da empresa
+    //   2. WEB3FORMS_KEY — serviço sem servidor, chave criada em web3forms.com
+    //   3. FormSubmit — sem configuração, envia direto para EMAIL_TO
+    function enviar(d) {
+      if (ENDPOINT) {
+        return fetch(ENDPOINT, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(d)
+        }).then(function () { return true; })
+          .catch(function () { return false; });
+      }
+
+      if (WEB3_KEY) {
+        var corpo3 = {
+          access_key: WEB3_KEY,
+          subject: 'Teste grátis — ' + (d.empresa || d.nome),
+          from_name: 'Site beend.tech',
+          replyto: d.email,
+          nome: d.nome,
+          empresa: d.empresa,
+          segmento: d.segmento,
+          cnpj: d.cnpj,
+          telefone: d.telefone,
+          email: d.email,
+          cep: d.cep,
+          terminais: d.terminais,
+          origem: d.origem,
+          mensagem: d.mensagem
+        };
+        return postJson('https://api.web3forms.com/submit', corpo3);
+      }
+
+      var corpo = {
+        nome: d.nome,
+        empresa: d.empresa,
+        segmento: d.segmento,
+        cnpj: d.cnpj,
+        telefone: d.telefone,
+        email: d.email,
+        cep: d.cep,
+        terminais: d.terminais,
+        origem: d.origem,
+        mensagem: d.mensagem,
+        _subject: 'Teste grátis — ' + (d.empresa || d.nome),
+        _replyto: d.email,
+        _template: 'table',
+        _captcha: 'false'
+      };
+      return postJson(EMAIL_ENDPOINT, corpo);
+    }
+
+    function concluir(ok, d) {
+      botao.disabled = false;
+      botao.textContent = 'Enviar';
+      if (ok) {
+        marcarEnvio();
+        form.reset();
+        status.style.color = '#0f7a3d';
+        status.textContent = 'Recebemos os seus dados. Vamos entrar em contato para liberar o acesso ao teste.';
+      } else {
+        status.style.color = '#9c2b2f';
+        status.textContent = 'Não conseguimos enviar por e-mail agora. Abrimos o WhatsApp com os seus dados para não perder o contato.';
+        abrirWhatsApp(d);
+      }
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      status.style.color = '';
+      if (!validar()) return;
+      var d = dados();
+
+      // Camada 1 — robô: honeypot preenchido ou envio em menos de 2,5s.
+      // Responde como sucesso para não ensinar o robô a burlar.
+      if (honeypotPreenchido() || rapidoDemais()) {
+        form.reset();
+        status.style.color = '#0f7a3d';
+        status.textContent = 'Recebemos os seus dados. Vamos entrar em contato para liberar o acesso ao teste.';
+        return;
+      }
+
+      // Camada 2 — mesmo visitante reenviando em menos de 1 minuto.
+      if (envioRecente()) {
+        status.style.color = '';
+        status.textContent = 'Já recebemos o seu pedido. Aguarde um instante antes de enviar novamente.';
+        return;
+      }
+
+      botao.disabled = true;
+      botao.textContent = 'Enviando…';
+      status.textContent = 'Enviando os seus dados…';
+
+      enviar(d).then(function (ok) {
+        concluir(ok, d);
+      });
+    });
+  })();
+  </script>
 `,
   faqTitle: "Perguntas frequentes sobre o teste grátis",
   faq: [
@@ -322,7 +657,7 @@ ${section({
 };
 
 /* ------------------------------ SEGMENTOS ------------------------------- */
-const segmentsList = [
+export const segmentsList = [
   ["farmacias", "Farmácias e drogarias", "Avalie a orientação do farmacêutico, o tempo de espera e a clareza sobre o uso do medicamento. O totem fica ao lado do caixa, depois do pagamento.", "“O farmacêutico esclareceu suas dúvidas sobre o medicamento?”"],
   ["clinicas", "Clínicas e consultórios", "Meça a experiência na recepção, o tempo de espera e a clareza das orientações. O paciente responde antes de sair, sem formulário no balcão.", "“Como você avalia o tempo de espera e a atenção da recepção?”"],
   ["restaurantes", "Restaurantes e cafeterias", "Colete a avaliação do atendimento, do tempo de preparo e do ambiente. O totem pode ficar na entrada, no caixa ou na saída.", "“Como avalia o atendimento, o tempo de preparo e o ambiente?”"],
@@ -366,11 +701,12 @@ export const segments = {
     <div class="grid grid--2" style="margin-top:8px">
       ${segmentsList
         .map(
-          ([id, title, text, question]) => `<section class="card" id="${id}">
+          ([id, title, text, question]) => `<a class="card card--link" id="${id}" href="{{root}}pesquisa-de-satisfacao-para-${id}.html">
         <h3>${title}</h3>
         <p>${text}</p>
         <p style="margin-top:12px"><strong>Pergunta exemplo:</strong> ${question}</p>
-      </section>`
+        <span class="card__more">Ver aplicação em ${title.toLowerCase()}</span>
+      </a>`
         )
         .join("\n      ")}
     </div>
@@ -415,7 +751,7 @@ export const segments = {
         "@type": "ListItem",
         position: i + 1,
         name,
-        url: `https://beend.tech/segmentos#${id}`,
+        url: `https://beend.tech/pesquisa-de-satisfacao-para-${id}`,
       })),
     },
   ],
@@ -461,11 +797,11 @@ export const contact = {
         <h2 style="font-size:1.3rem;margin-bottom:16px">Pedir proposta</h2>
         <div class="field">
           <label for="nome">Nome*</label>
-          <input id="nome" name="nome" type="text" autocomplete="name" required>
+          <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Maria Silva" required>
         </div>
         <div class="field">
           <label for="empresa">Empresa</label>
-          <input id="empresa" name="empresa" type="text" autocomplete="organization">
+          <input id="empresa" name="empresa" type="text" autocomplete="organization" placeholder="Farmácia São João">
         </div>
         <div class="field">
           <label for="telefone">WhatsApp*</label>

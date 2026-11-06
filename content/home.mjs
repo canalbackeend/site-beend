@@ -293,9 +293,9 @@ export const home = {
   slug: "index.html",
   active: "index.html",
   type: "website",
-  title: "Totem de Pesquisa de Satisfação | beend.tech",
+  title: "Totem de Pesquisa de Satisfação: Locação e Venda | beend.tech",
   description:
-    "Sistema de pesquisa de satisfação a partir de R$ 69,90/mês. NPS, CSAT e CES por totem, QR Code e WhatsApp. Teste grátis por 7 dias, sem cartão.",
+    "Totem de pesquisa de satisfação para locação ou venda, a partir de R$ 69,90/mês. NPS, CSAT e CES no ponto de atendimento. Teste grátis de 7 dias.",
   h1: "Totem de pesquisa de satisfação para ouvir o cliente na hora certa",
   customHero: hero,
   body: why + solution + recursos + how + metrics + models + channels + segments + pricing,

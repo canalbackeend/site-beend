@@ -37,6 +37,19 @@ export const services = [
     `)}
 
     <div class="prose">
+    <div class="grid grid--2" style="margin:24px 0 8px">
+      <figure class="figure" style="margin:0">
+        <img src="{{root}}assets/img/opt/totens-900.webp" srcset="{{root}}assets/img/opt/totens-900.webp 900w, {{root}}assets/img/opt/totens.webp 1600w" sizes="(max-width:900px) 100vw, 560px" width="1600" height="1073" loading="lazy" decoding="async"
+             alt="Três totens de piso personalizados com a identidade visual do cliente">
+        <figcaption>Locação: o equipamento fica na sua empresa durante o contrato.</figcaption>
+      </figure>
+      <figure class="figure" style="margin:0">
+        <img src="{{root}}assets/img/opt/painel-900.webp" srcset="{{root}}assets/img/opt/painel-900.webp 900w, {{root}}assets/img/opt/painel.webp 1600w" sizes="(max-width:900px) 100vw, 560px" width="1600" height="884" loading="lazy" decoding="async"
+             alt="Painel do sistema beend.tech com NPS, evolução do período e exportação">
+        <figcaption>A plataforma completa vai junto com o totem, sem custo de licença extra.</figcaption>
+      </figure>
+    </div>
+
       <h2>Como funciona a locação</h2>
       <ol>
         <li><strong>Diagnóstico:</strong> entendemos o fluxo de atendimento, o número de pontos e a métrica principal.</li>
@@ -155,6 +168,12 @@ ${section({
     `)}
 
     <div class="prose">
+    <figure class="figure" style="margin:24px 0 8px">
+      <img src="{{root}}assets/img/opt/totens.webp" width="1600" height="1073" loading="lazy" decoding="async"
+           alt="Totens de piso e de mesa fabricados para pesquisa de satisfação, com personalização visual">
+      <figcaption>Na compra, o totem passa a ser patrimônio da empresa e pode ser personalizado com a sua marca.</figcaption>
+    </figure>
+
       <h2>O que você recebe</h2>
       <ul>
         <li><strong>Totem personalizado:</strong> estrutura com a identidade visual da empresa.</li>
@@ -273,6 +292,12 @@ ${section({
     `)}
 
     <div class="prose">
+    <figure class="figure figure--portrait" style="margin:24px auto 8px">
+      <img src="{{root}}assets/img/opt/totem-mesa.webp" width="800" height="1066" loading="lazy" decoding="async"
+           alt="Totem de mesa branco para pesquisa de satisfação em balcão de atendimento">
+      <figcaption>Totem de mesa: compacto, touch e personalizado com a sua marca.</figcaption>
+    </figure>
+
       <h2>Onde usar</h2>
       <ul>
         <li><strong>Farmácias:</strong> ao lado do caixa, após a orientação do farmacêutico.</li>
@@ -384,6 +409,12 @@ ${section({
     `)}
 
     <div class="prose">
+    <figure class="figure" style="margin:24px 0 8px">
+      <img src="{{root}}assets/img/opt/totens.webp" width="1600" height="1073" loading="lazy" decoding="async"
+           alt="Totens de piso personalizados instalados em área de circulação">
+      <figcaption>Totem de piso: maior visibilidade e alcance em áreas de circulação.</figcaption>
+    </figure>
+
       <h2>Onde usar</h2>
       <ul>
         <li><strong>Shoppings e centros comerciais:</strong> áreas de circulação e praças de alimentação.</li>
