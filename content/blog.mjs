@@ -14,6 +14,28 @@ const articleSchema = (slug, headline, description) => ({
   image: "https://beend.tech/assets/img/og-default.jpg",
 });
 
+
+// Card do índice de conteúdo: imagem conceitual + etiqueta + título + resumo.
+const postCard = ({
+  href,
+  tag,
+  title,
+  text,
+  img,
+  alt,
+  more = "Ler artigo",
+  brand = false,
+}) => `
+      <a class="card card--link card--post" href="{{root}}${href}">
+        <img class="card__img" src="{{root}}assets/img/blog/${img}.webp" width="640" height="400" alt="${alt}" loading="lazy" decoding="async">
+        <div class="card__body">
+          <p class="pill${brand ? " pill--brand" : ""}">${tag}</p>
+          <h3>${title}</h3>
+          <p>${text}</p>
+          <span class="card__more">${more}</span>
+        </div>
+      </a>`;
+
 export const blogIndex = {
   slug: "blog/index.html",
   active: "blog/index.html",
@@ -35,84 +57,111 @@ export const blogIndex = {
 
     <h2 style="margin-top:44px">Métricas de satisfação</h2>
     <p>Entenda cada indicador antes de escolher o que medir no seu ponto de atendimento.</p>
-    <div class="grid grid--2">
-      <a class="card card--link" href="{{root}}blog/o-que-e-nps.html">
-        <p class="pill pill--brand">NPS</p>
-        <h3>O que é NPS: para que serve e como calcular</h3>
-        <p>A pergunta, a escala de 0 a 10, o cálculo passo a passo e como implantar na empresa.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/o-que-e-csat.html">
-        <p class="pill pill--brand">CSAT</p>
-        <h3>O que é CSAT: para que serve e como medir</h3>
-        <p>Como calcular a satisfação com um atendimento, exemplos de pergunta e quando usar.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/nps-ou-csat-qual-escolher.html">
-        <p class="pill">Comparativo</p>
-        <h3>NPS ou CSAT: qual escolher?</h3>
-        <p>A diferença entre as duas métricas e por que o mais comum é usar as duas.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/o-que-e-ces-customer-effort-score.html">
-        <p class="pill">CES</p>
-        <h3>O que é CES: a métrica de esforço</h3>
-        <p>Quanto trabalho o cliente teve para resolver — e por que isso importa no suporte.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
+    <div class="grid grid--posts">
+      ${postCard({
+        href: "blog/o-que-e-nps.html",
+        tag: "NPS",
+        brand: true,
+        title: "O que é NPS: para que serve e como calcular",
+        text: "A pergunta, a escala de 0 a 10, o cálculo passo a passo e como implantar na empresa.",
+        img: "o-que-e-nps",
+        alt: "Painel com gráfico de barras e anotações sobre uma mesa de trabalho",
+      })}
+      ${postCard({
+        href: "blog/o-que-e-csat.html",
+        tag: "CSAT",
+        brand: true,
+        title: "O que é CSAT: para que serve e como medir",
+        text: "Como calcular a satisfação com um atendimento, exemplos de pergunta e quando usar.",
+        img: "o-que-e-csat",
+        alt: "Atendente sorrindo com headset em um escritório",
+      })}
+      ${postCard({
+        href: "blog/nps-ou-csat-qual-escolher.html",
+        tag: "Comparativo",
+        title: "NPS ou CSAT: qual escolher?",
+        text: "A diferença entre as duas métricas e por que o mais comum é usar as duas.",
+        img: "nps-ou-csat-qual-escolher",
+        alt: "Duas pessoas fechando um acordo com aperto de mão",
+      })}
+      ${postCard({
+        href: "blog/o-que-e-ces-customer-effort-score.html",
+        tag: "CES",
+        title: "O que é CES: a métrica de esforço",
+        text: "Quanto trabalho o cliente teve para resolver — e por que isso importa no suporte.",
+        img: "o-que-e-ces-customer-effort-score",
+        alt: "Pessoa com headset de atendimento em primeiro plano",
+      })}
     </div>
 
     <h2 style="margin-top:52px">Guias e operação</h2>
     <p>Do preço do equipamento à rotina de leitura do resultado.</p>
-    <div class="grid grid--2">
-      <a class="card card--link" href="{{root}}blog/como-aumentar-taxa-de-resposta.html">
-        <p class="pill">Operação</p>
-        <h3>Como aumentar a taxa de resposta</h3>
-        <p>Nove ajustes práticos e o que medir em cada etapa do funil.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/perguntas-para-pesquisa-de-satisfacao.html">
-        <p class="pill">Modelos</p>
-        <h3>Perguntas para pesquisa de satisfação</h3>
-        <p>Modelos prontos de NPS, CSAT, CES, carinhas, quiz e comentário aberto.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/benchmark-de-nps.html">
-        <p class="pill">Dados</p>
-        <h3>Benchmark de NPS: o seu resultado é bom?</h3>
-        <p>Por que a média geral engana e como criar o seu próprio parâmetro.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/relatorio-de-pesquisa-de-satisfacao.html">
-        <p class="pill">Gestão</p>
-        <h3>Relatório: o que analisar e com que frequência</h3>
-        <p>Quatro indicadores, o ritmo de leitura e como transformar dado em ação.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/quanto-custa-totem-de-pesquisa-de-satisfacao.html">
-        <p class="pill">Preço</p>
-        <h3>Quanto custa um totem de pesquisa?</h3>
-        <p>O que compõe o investimento e como comparar propostas sem cair em armadilha.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/totem-de-pesquisa-funciona-sem-internet.html">
-        <p class="pill">Operação</p>
-        <h3>Totem de pesquisa funciona sem internet?</h3>
-        <p>Como o modo offline armazena as respostas e o que muda quando a conexão volta.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}blog/erros-ao-instalar-totem-de-pesquisa.html">
-        <p class="pill">Boas práticas</p>
-        <h3>7 erros que reduzem a taxa de resposta</h3>
-        <p>Posicionamento, texto na tela e outros fatores que afastam o cliente.</p>
-        <span class="card__more">Ler artigo</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-whatsapp.html">
-        <p class="pill">Canal</p>
-        <h3>Pesquisa de satisfação pelo WhatsApp</h3>
-        <p>Passo a passo, modelo de mensagem e boas práticas de LGPD.</p>
-        <span class="card__more">Ler guia</span>
-      </a>
+    <div class="grid grid--posts">
+      ${postCard({
+        href: "blog/como-aumentar-taxa-de-resposta.html",
+        tag: "Operação",
+        title: "Como aumentar a taxa de resposta",
+        text: "Nove ajustes práticos e o que medir em cada etapa do funil.",
+        img: "como-aumentar-taxa-de-resposta",
+        alt: "Atendente conversando com cliente no caixa de uma loja",
+      })}
+      ${postCard({
+        href: "blog/perguntas-para-pesquisa-de-satisfacao.html",
+        tag: "Modelos",
+        title: "Perguntas para pesquisa de satisfação",
+        text: "Modelos prontos de NPS, CSAT, CES, carinhas, quiz e comentário aberto.",
+        img: "perguntas-para-pesquisa-de-satisfacao",
+        alt: "Mãos escrevendo perguntas em formulários de papel sobre a mesa",
+      })}
+      ${postCard({
+        href: "blog/benchmark-de-nps.html",
+        tag: "Dados",
+        title: "Benchmark de NPS: o seu resultado é bom?",
+        text: "Por que a média geral engana e como criar o seu próprio parâmetro.",
+        img: "benchmark-de-nps",
+        alt: "Equipe analisando gráficos impressos em uma reunião",
+      })}
+      ${postCard({
+        href: "blog/relatorio-de-pesquisa-de-satisfacao.html",
+        tag: "Gestão",
+        title: "Relatório: o que analisar e com que frequência",
+        text: "Quatro indicadores, o ritmo de leitura e como transformar dado em ação.",
+        img: "relatorio-de-pesquisa-de-satisfacao",
+        alt: "Pessoa apontando caneta para um relatório com gráficos",
+      })}
+      ${postCard({
+        href: "blog/quanto-custa-totem-de-pesquisa-de-satisfacao.html",
+        tag: "Preço",
+        title: "Quanto custa um totem de pesquisa?",
+        text: "O que compõe o investimento e como comparar propostas sem cair em armadilha.",
+        img: "quanto-custa-totem-de-pesquisa-de-satisfacao",
+        alt: "Pessoas usando calculadora e notebook em uma mesa de trabalho",
+      })}
+      ${postCard({
+        href: "blog/totem-de-pesquisa-funciona-sem-internet.html",
+        tag: "Operação",
+        title: "Totem de pesquisa funciona sem internet?",
+        text: "Como o modo offline armazena as respostas e o que muda quando a conexão volta.",
+        img: "totem-de-pesquisa-funciona-sem-internet",
+        alt: "Pessoa usando um tablet apoiado no colo",
+      })}
+      ${postCard({
+        href: "blog/erros-ao-instalar-totem-de-pesquisa.html",
+        tag: "Boas práticas",
+        title: "7 erros que reduzem a taxa de resposta",
+        text: "Posicionamento, texto na tela e outros fatores que afastam o cliente.",
+        img: "erros-ao-instalar-totem-de-pesquisa",
+        alt: "Interior de loja de roupas com araras organizadas",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-whatsapp.html",
+        tag: "Canal",
+        title: "Pesquisa de satisfação pelo WhatsApp",
+        text: "Passo a passo, modelo de mensagem e boas práticas de LGPD.",
+        img: "pesquisa-de-satisfacao-whatsapp",
+        alt: "Pessoa usando o celular para navegar em redes sociais",
+        more: "Ler guia",
+      })}
     </div>
 
     <div class="section__head" style="margin-top:52px">

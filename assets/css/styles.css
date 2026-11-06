@@ -439,6 +439,19 @@ hr{border:0;border-top:1px solid var(--line);margin:36px 0}
 .card__more::after{content:"→";transition:transform .22s var(--ease)}
 .card--link:hover .card__more::after{transform:translateX(4px)}
 
+/* ---------- card do índice de conteúdo (imagem no topo) ---------- */
+.grid--posts{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.grid--posts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.grid--posts{grid-template-columns:1fr}}
+.card--post{padding:0;display:flex;flex-direction:column}
+.card__img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:var(--bg-3);transition:transform .45s var(--ease)}
+.card--post:hover .card__img{transform:scale(1.035)}
+.card__body{padding:20px 22px 24px;display:flex;flex-direction:column;flex:1}
+.card--post .pill{align-self:flex-start}
+.card--post h3{font-size:1.1rem;line-height:1.32;margin:12px 0 8px}
+.card--post p{font-size:.93rem;line-height:1.5}
+.card--post .card__more{margin-top:auto;padding-top:18px}
+
 .pill{
   display:inline-block;padding:6px 13px;border-radius:999px;
   background:var(--bg-3);border:1px solid var(--line);color:var(--ink-2);

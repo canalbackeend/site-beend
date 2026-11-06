@@ -3873,6 +3873,9 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  
  
+ 
+ 
+ 
  NPS
 
  O que é NPS: para que serve e como calcular
@@ -3880,6 +3883,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  A pergunta, a escala de 0 a 10, o cálculo passo a passo e como implantar na empresa.
 
  Ler artigo 
+ 
+
+ 
+ 
+ 
  
  
  CSAT
@@ -3890,6 +3898,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Ler artigo 
  
+
+ 
+ 
+ 
+ 
  
  Comparativo
 
@@ -3898,6 +3911,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  A diferença entre as duas métricas e por que o mais comum é usar as duas.
 
  Ler artigo 
+ 
+
+ 
+ 
+ 
  
  
  CES
@@ -3908,12 +3926,17 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Ler artigo 
  
+
+ 
  
 
  Guias e operação
 
  Do preço do equipamento à rotina de leitura do resultado.
 
+ 
+ 
+ 
  
  
  Operação
@@ -3924,6 +3947,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Ler artigo 
  
+
+ 
+ 
+ 
+ 
  
  Modelos
 
@@ -3932,6 +3960,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  Modelos prontos de NPS, CSAT, CES, carinhas, quiz e comentário aberto.
 
  Ler artigo 
+ 
+
+ 
+ 
+ 
  
  
  Dados
@@ -3942,6 +3975,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Ler artigo 
  
+
+ 
+ 
+ 
+ 
  
  Gestão
 
@@ -3950,6 +3988,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  Quatro indicadores, o ritmo de leitura e como transformar dado em ação.
 
  Ler artigo 
+ 
+
+ 
+ 
+ 
  
  
  Preço
@@ -3960,6 +4003,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Ler artigo 
  
+
+ 
+ 
+ 
+ 
  
  Operação
 
@@ -3968,6 +4016,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  Como o modo offline armazena as respostas e o que muda quando a conexão volta.
 
  Ler artigo 
+ 
+
+ 
+ 
+ 
  
  
  Boas práticas
@@ -3978,6 +4031,11 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
 
  Ler artigo 
  
+
+ 
+ 
+ 
+ 
  
  Canal
 
@@ -3986,6 +4044,8 @@ Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda 
  Passo a passo, modelo de mensagem e boas práticas de LGPD.
 
  Ler guia 
+ 
+
  
  
 
