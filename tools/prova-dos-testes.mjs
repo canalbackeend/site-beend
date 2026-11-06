@@ -65,11 +65,11 @@ const MUTACOES = [
     teste: "nenhum link ou asset interno usa .html",
   },
   {
-    nome: "schema: volta o Product com Offer (erro 'Listagens do comerciante')",
+    nome: "schema: Product da página de preços fica sem offers",
     arquivo: "content/institutional.mjs",
-    de: '      brand: { "@type": "Brand", name: "beend.tech" },',
-    para: '      brand: { "@type": "Brand", name: "beend.tech" },\n      offers: [{ "@type": "Offer", price: "69.90", priceCurrency: "BRL" }],',
-    teste: "nenhuma oferta de produto no schema",
+    de: '      offers: {\n        "@type": "AggregateOffer",',
+    para: '      semOfertas: {\n        "@type": "AggregateOffer",',
+    teste: "ofertas de produto ficam na página de preços e são válidas",
   },
   {
     nome: "sitemap: landing de campanha (noindex) entra no sitemap",

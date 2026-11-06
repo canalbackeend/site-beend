@@ -21,19 +21,14 @@ export const SITE = {
   phone2Display: "(61) 99145-9009",
   phone2: "+5561991459009",
   email: "beendtech@gmail.com",
-  // Endpoint do formulário de teste grátis (Google Apps Script Web App).
-  // Vazio = o formulário cai no WhatsApp, sem depender de backend.
-  // Web App do Google Apps Script que recebe o formulário e envia por e-mail.
-  // Pode ser sobrescrito no deploy com FORM_ENDPOINT.
+  // Web App do Google Apps Script que recebe o formulário de teste grátis e
+  // envia por e-mail. Pode ser sobrescrito no deploy com FORM_ENDPOINT.
   formEndpoint:
     process.env.FORM_ENDPOINT ||
     "https://script.google.com/macros/s/AKfycbyceKKxxHd-RKBWyc_SnduL7u-N0GwXjxH4jT4PMRGTJSZOpEpgdhTSOIKk7gTh5uw1hw/exec",
   // Alternativa sem servidor: chave do Web3Forms (web3forms.com) — 1 minuto para criar.
   web3formsKey: process.env.WEB3FORMS_KEY || "",
-  email2: "canalbackeend@gmail.com",
-  supportEmail: "suporte@beend.tech",
-  street: "Quadra 305, Conjunto 08",
-  district: "Recanto das Emas",
+  // Endereço público: só cidade e UF. Rua e bairro foram removidos de propósito.
   city: "Brasília",
   region: "DF",
   hours: "Segunda a sexta, das 9h às 18h",

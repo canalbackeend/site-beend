@@ -414,7 +414,7 @@ ${section({
     // Envio por e-mail sem servidor: endpoint do FormSubmit para a caixa da empresa.
     // Se FORM_ENDPOINT estiver definido no deploy (Google Apps Script), ele tem prioridade.
     var WEB3_KEY = '{{web3formsKey}}';
-    var EMAIL_TO = 'beendtech@gmail.com';
+    var EMAIL_TO = '{{email}}';
     var EMAIL_ENDPOINT = 'https://formsubmit.co/ajax/' + EMAIL_TO;
     var ENDPOINT = '{{formEndpoint}}';
     var status = document.getElementById('t-status');
@@ -432,7 +432,10 @@ ${section({
     }
 
     function rapidoDemais() {
-      return Date.now() - FORM_TS < 2500;
+      // 1,2 s é rápido demais para uma pessoa ler e enviar, mas o autofill
+      // do navegador pode chegar perto — por isso o limite é baixo e, quando
+      // barrado, o formulário pede um novo clique em vez de fingir sucesso.
+      return Date.now() - FORM_TS < 1200;
     }
 
     function envioRecente() {
@@ -594,12 +597,21 @@ ${section({
       if (!validar()) return;
       var d = dados();
 
-      // Camada 1 — robô: honeypot preenchido ou envio em menos de 2,5s.
-      // Responde como sucesso para não ensinar o robô a burlar.
-      if (honeypotPreenchido() || rapidoDemais()) {
+      // Camada 1a — robô: honeypot preenchido. Responde como sucesso para
+      // não ensinar o robô a burlar.
+      if (honeypotPreenchido()) {
         form.reset();
         status.style.color = '#0f7a3d';
         status.textContent = 'Recebemos os seus dados. Vamos entrar em contato para liberar o acesso ao teste.';
+        return;
+      }
+
+      // Camada 1b — envio rápido demais. Pode ser robô, mas também autofill:
+      // nunca mostra sucesso falso nem limpa o formulário. A pessoa clica
+      // em Enviar de novo e o lead não se perde.
+      if (rapidoDemais()) {
+        status.style.color = '';
+        status.textContent = 'Confirme o envio: clique em Enviar novamente.';
         return;
       }
 

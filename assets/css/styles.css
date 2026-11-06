@@ -572,7 +572,9 @@ details.faq[open] summary{border-bottom:1px solid var(--line-2)}
 @media (min-width:1200px){.prose p,.prose li{font-size:1.09rem;line-height:1.72}}
 .prose h2{margin-top:46px;scroll-margin-top:90px}
 .prose h3{margin-top:32px;scroll-margin-top:90px}
-.prose p,.prose li{font-size:1.035rem;line-height:1.78;color:var(--body)}
+/* O container usa a largura da navbar, mas o texto para na medida de leitura
+   (~90 caracteres). Títulos e figuras continuam usando a largura toda. */
+.prose p,.prose li{max-width:72ch;font-size:1.035rem;line-height:1.78;color:var(--body)}
 .prose ul,.prose ol{padding-left:22px}
 .prose blockquote{
   margin:28px 0;padding:20px 26px;border-left:4px solid var(--brand);

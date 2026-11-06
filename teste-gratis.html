@@ -13,7 +13,7 @@
 <link rel="alternate" hreflang="x-default" href="https://beend.tech/teste-gratis">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="assets/css/styles.css?v=21a6270d">
+<link rel="stylesheet" href="assets/css/styles.css?v=edea9b18">
 <link rel="alternate" type="text/plain" href="https://beend.tech/llms.txt" title="Resumo para modelos de linguagem">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="beend.tech">
@@ -442,7 +442,10 @@
     }
 
     function rapidoDemais() {
-      return Date.now() - FORM_TS < 2500;
+      // 1,2 s é rápido demais para uma pessoa ler e enviar, mas o autofill
+      // do navegador pode chegar perto — por isso o limite é baixo e, quando
+      // barrado, o formulário pede um novo clique em vez de fingir sucesso.
+      return Date.now() - FORM_TS < 1200;
     }
 
     function envioRecente() {
@@ -604,12 +607,21 @@
       if (!validar()) return;
       var d = dados();
 
-      // Camada 1 — robô: honeypot preenchido ou envio em menos de 2,5s.
-      // Responde como sucesso para não ensinar o robô a burlar.
-      if (honeypotPreenchido() || rapidoDemais()) {
+      // Camada 1a — robô: honeypot preenchido. Responde como sucesso para
+      // não ensinar o robô a burlar.
+      if (honeypotPreenchido()) {
         form.reset();
         status.style.color = '#0f7a3d';
         status.textContent = 'Recebemos os seus dados. Vamos entrar em contato para liberar o acesso ao teste.';
+        return;
+      }
+
+      // Camada 1b — envio rápido demais. Pode ser robô, mas também autofill:
+      // nunca mostra sucesso falso nem limpa o formulário. A pessoa clica
+      // em Enviar de novo e o lead não se perde.
+      if (rapidoDemais()) {
+        status.style.color = '';
+        status.textContent = 'Confirme o envio: clique em Enviar novamente.';
         return;
       }
 

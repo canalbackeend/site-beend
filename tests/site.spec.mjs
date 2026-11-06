@@ -303,6 +303,33 @@ export default async function siteSuite(h, ctx) {
     h.assert(/data-mask="cep"/.test(html), "CEP sem máscara");
     h.assert(!/\{\{(formEndpoint|waNumber)\}\}/.test(html), "placeholder não resolvido no formulário");
     h.assert(/wa\.me\/\d+/.test(html), "fallback do WhatsApp sem número");
+    h.assert(
+      /var EMAIL_TO = 'beendtech@gmail\.com'/.test(html),
+      "destinatário do formulário não é o e-mail da empresa"
+    );
+    h.assert(
+      /Confirme o envio/.test(html),
+      "formulário mostra sucesso falso em envio rápido (autofill perde o lead)"
+    );
+  });
+
+  await h.test("endereço antigo não volta ao site", () => {
+    const proibidos = [/Quadra 305/i, /Conjunto 08/i, /Recanto das Emas/i];
+    const achados = [];
+    for (const [rel, html] of conteudo) {
+      for (const re of proibidos) {
+        if (re.test(html)) achados.push(`${rel} → ${re}`);
+      }
+    }
+    for (const extra of ["llms.txt", "llms-full.txt", "sitemap.xml", "robots.txt"]) {
+      const p = path.join(dist, extra);
+      if (!fs.existsSync(p)) continue;
+      const txt = fs.readFileSync(p, "utf8");
+      for (const re of proibidos) {
+        if (re.test(txt)) achados.push(`${extra} → ${re}`);
+      }
+    }
+    h.assertEmpty(achados, "endereço removido reapareceu");
   });
 
   await h.test("robots.txt bloqueia a área do cliente e libera bots de IA", () => {
