@@ -3858,10 +3858,10 @@ Quantos pontos de coleta você precisa, se prefere locação ou compra, qual mod
 
 ---
 
-# Conteúdo sobre pesquisa de satisfação
+# Blog sobre pesquisa de satisfação
 URL: https://beend.tech/blog
 
-Índice de conteúdo: métricas (NPS, CSAT, CES, NPS ou CSAT), taxa de resposta, modelos de pergunta, benchmark de NPS, relatórios, preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
+Blog: métricas (NPS, CSAT, CES, NPS ou CSAT), taxa de resposta, modelos de pergunta, benchmark de NPS, relatórios, preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.
 
 Comece pelo guia de pesquisa de satisfação com NPS, CSAT e CES se você ainda está escolhendo a métrica. Se a dúvida é de equipamento, veja o guia do totem de pesquisa .
 

@@ -44,14 +44,14 @@ export const blogIndex = {
   slug: "blog/index.html",
   active: "blog/index.html",
   type: "website",
-  kicker: "Conteúdo",
-  title: "Conteúdo sobre Pesquisa de Satisfação | beend.tech",
+  kicker: "Guias",
+  title: "Blog sobre Pesquisa de Satisfação | beend.tech",
   description:
     "Guias sobre NPS, CSAT e CES, taxa de resposta, modelos de pergunta, benchmark e relatórios, além de totem de pesquisa, QR Code e WhatsApp.",
-  h1: "Conteúdo sobre pesquisa de satisfação",
+  h1: "Blog sobre pesquisa de satisfação",
   lead:
     "Guias curtos e práticos para quem precisa medir a experiência do cliente sem transformar a pesquisa em burocracia.",
-  crumbs: [{ name: "Home", href: "index.html" }, { name: "Conteúdo" }],
+  crumbs: [{ name: "Home", href: "index.html" }, { name: "Blog" }],
   body: `
 <section class="section">
   <div class="wrap">
@@ -263,7 +263,7 @@ export const blogIndex = {
     {
       "@type": "Blog",
       "@id": "https://beend.tech/blog#blog",
-      name: "Conteúdo beend.tech",
+      name: "Blog beend.tech",
       description:
         "Guias sobre totem de pesquisa, NPS, CSAT, CES, QR Code e WhatsApp.",
       publisher: { "@id": "https://beend.tech/#organization" },
@@ -273,7 +273,7 @@ export const blogIndex = {
   llms: {
     section: "conteudo",
     summary:
-      "Índice de conteúdo: métricas (NPS, CSAT, CES, NPS ou CSAT), taxa de resposta, modelos de pergunta, benchmark de NPS, relatórios, preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.",
+      "Blog: métricas (NPS, CSAT, CES, NPS ou CSAT), taxa de resposta, modelos de pergunta, benchmark de NPS, relatórios, preço de totem, modo offline, erros de instalação e pesquisa por WhatsApp.",
   },
   priority: "0.6",
 };
@@ -292,7 +292,7 @@ const postPrice = {
     "O preço não está no equipamento: está na combinação entre hardware, software, personalização e suporte. Veja como comparar.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Quanto custa um totem" },
   ],
   body: `
@@ -418,7 +418,7 @@ const postOffline = {
     "Sim — e esse é um dos detalhes que mais importam em eventos, lojas com Wi-Fi instável e unidades afastadas.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Totem sem internet" },
   ],
   body: `
@@ -537,7 +537,7 @@ const postMistakes = {
     "O equipamento está instalado, mas ninguém responde. Na maioria das vezes, o problema não é o totem: é o contexto em volta dele.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Erros na instalação" },
   ],
   body: `

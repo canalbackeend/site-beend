@@ -44,7 +44,7 @@ const postNps = {
     "O NPS transforma uma única pergunta em um número que acompanha a relação do cliente com a sua empresa ao longo do tempo. Entenda a métrica e como colocá-la para funcionar.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "O que é NPS" },
   ],
   body: `
@@ -223,7 +223,7 @@ const postCsat = {
     "O CSAT mede a satisfação com um atendimento específico. É a métrica que responde mais rápido quando você muda algo na operação.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "O que é CSAT" },
   ],
   body: `
@@ -378,7 +378,7 @@ const postNpsCsat = {
     "As duas métricas respondem a perguntas diferentes. Entender isso evita o erro mais comum: escolher uma e usar no lugar da outra.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "NPS ou CSAT" },
   ],
   body: `
@@ -507,7 +507,7 @@ const postCes = {
     "O CES mede quanto trabalho o cliente teve para resolver o que precisava. Em jornadas com problema, ele aponta o que o NPS e o CSAT não veem.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "O que é CES" },
   ],
   body: `
@@ -635,7 +635,7 @@ const postTaxa = {
     "De nada adianta um bom questionário se ninguém responde. A taxa de resposta é o primeiro indicador a cuidar — e quase sempre dá para melhorá-la sem trocar equipamento.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Taxa de resposta" },
   ],
   body: `
@@ -768,7 +768,7 @@ const postPerguntas = {
     "A pergunta certa depende do que você quer decidir. Separei modelos por métrica e por objetivo, prontos para copiar.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Modelos de pergunta" },
   ],
   body: `
@@ -907,7 +907,7 @@ const postBenchmark = {
     "“NPS 44 é bom?” — a pergunta certa não tem resposta universal. O que orienta decisão é comparar com o referencial certo.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Benchmark de NPS" },
   ],
   body: `
@@ -1032,7 +1032,7 @@ const postRelatorio = {
     "Coletar resposta é metade do trabalho. A outra metade é ler o dado com regularidade e transformar a leitura em uma decisão.",
   crumbs: [
     { name: "Home", href: "index.html" },
-    { name: "Conteúdo", href: "blog/index.html" },
+    { name: "Blog", href: "blog/index.html" },
     { name: "Relatório de satisfação" },
   ],
   body: `

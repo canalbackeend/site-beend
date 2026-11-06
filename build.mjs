@@ -94,7 +94,7 @@ const NAV = [
   ["Locação", "locacao-de-totens.html"],
   ["Venda", "venda-de-totens.html"],
   ["Planos", "planos-e-precos.html"],
-  ["Conteúdo", "blog/index.html"],
+  ["Blog", "blog/index.html"],
   ["Contato", "contato.html"],
 ];
 
@@ -123,7 +123,7 @@ const FOOTER_COLS = [
     title: "Empresa",
     links: [
       ["Sobre a beend.tech", "sobre.html"],
-      ["Conteúdo", "blog/index.html"],
+      ["Blog", "blog/index.html"],
       ["Contato", "contato.html"],
       ["Perguntas frequentes", "totem-de-pesquisa-de-satisfacao.html#faq"],
       ["Acessar o sistema", SITE.login],
