@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { pages } from "./content/index.mjs";
+import { ogImageFor } from "./content/imagens.mjs";
 
 export const SITE = {
   // ── Destino canônico do site ────────────────────────────────────────────
@@ -407,7 +408,14 @@ export function layout(page) {
   // Páginas em subpasta (blog/, lp/) precisam de "../" para assets e links.
   const root = page.slug.includes("/") ? "../" : "";
   const canonical = `${SITE.url}${prettyPath(page.slug)}`;
-  const ogImage = `${SITE.url}/assets/img/og-default.jpg`;
+  // Imagem social própria quando a página tem uma (ver content/imagens.mjs).
+  const og = ogImageFor(page.slug);
+  const ogImage = og ? `${SITE.url}/${og.src}` : `${SITE.url}/assets/img/og-default.jpg`;
+  const ogWidth = og ? og.width : 1200;
+  const ogHeight = og ? og.height : 630;
+  const ogAlt = og
+    ? og.alt
+    : "beend.tech — totens e plataforma de pesquisa de satisfação";
 
   const crumbs = page.crumbs?.length ? crumbsHtml(page.crumbs, root) : "";
   // URL de asset com versão (evita cache de 1 ano servindo imagem antiga)
@@ -471,13 +479,15 @@ export function layout(page) {
 <meta property="og:description" content="${page.description}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${ogImage}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="beend.tech — totens e plataforma de pesquisa de satisfação">
+<meta property="og:image:width" content="${ogWidth}">
+<meta property="og:image:height" content="${ogHeight}">
+<meta property="og:image:alt" content="${ogAlt}">
+<meta property="og:image:type" content="image/jpeg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${page.title}">
 <meta name="twitter:description" content="${page.description}">
 <meta name="twitter:image" content="${ogImage}">
+<meta name="twitter:image:alt" content="${ogAlt}">
 <meta name="theme-color" content="#14161a">
 ${page.preload ? `<link rel="preload" as="image" href="${assetUrl(page.preload)}"${preloadSrcset ? ` imagesrcset="${preloadSrcset}"` : ""}${page.preloadSizes ? ` imagesizes="${page.preloadSizes}"` : ""} fetchpriority="high">` : ""}
 <script type="application/ld+json">
@@ -540,15 +550,69 @@ const built = pages.map(layout);
 const toUrl = (slug) => `${SITE.url}${prettyPath(slug)}`;
 
 const sitemapPages = built.filter((p) => !p.noindex && p.slug !== "404.html");
+
+const xmlEsc = (v = "") =>
+  String(v)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+
+// Imagens de conteúdo de cada página, lidas do HTML já gerado. O sitemap de
+// imagens é o caminho mais curto para as fotos entrarem no Google Imagens,
+// com o próprio alt servindo de título.
+const IMG_EXT = /\.(jpe?g|png|webp)$/i;
+function contentImages(slug) {
+  let html;
+  try {
+    html = fs.readFileSync(path.join(OUT, slug), "utf8");
+  } catch {
+    return [];
+  }
+  const vistos = new Set();
+  const imagens = [];
+  for (const tag of html.match(/<img\b[^>]*>/gi) || []) {
+    const src = (tag.match(/\bsrc="([^"]+)"/i) || [])[1] || "";
+    if (!src || /^(https?:|data:)/i.test(src)) continue;
+    const arquivo = src.split("?")[0].replace(/^\.\.\//, "");
+    if (!IMG_EXT.test(arquivo) || vistos.has(arquivo)) continue;
+    vistos.add(arquivo);
+    const alt = (tag.match(/\balt="([^"]*)"/i) || [])[1] || "";
+    imagens.push({ loc: `${SITE.url}/${arquivo}`, titulo: alt });
+  }
+  return imagens;
+}
+
+const sitemapEntries = sitemapPages.map((p) => ({
+  page: p,
+  imagens: contentImages(p.slug),
+}));
+const temImagens = sitemapEntries.some((e) => e.imagens.length > 0);
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemapPages
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${
+  temImagens ? '\n        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"' : ""
+}>
+${sitemapEntries
   .map(
-    (p) => `  <url>
+    ({ page: p, imagens }) => `  <url>
     <loc>${toUrl(p.slug)}</loc>
     <lastmod>${SITE.updated}</lastmod>
     <changefreq>${p.slug === "index.html" ? "weekly" : "monthly"}</changefreq>
-    <priority>${p.slug === "index.html" ? "1.0" : p.priority || "0.7"}</priority>
+    <priority>${p.slug === "index.html" ? "1.0" : p.priority || "0.7"}</priority>${
+      imagens.length
+        ? "\n" +
+          imagens
+            .map(
+              (i) => `    <image:image>
+      <image:loc>${xmlEsc(i.loc)}</image:loc>${
+        i.titulo ? `\n      <image:title>${xmlEsc(i.titulo)}</image:title>` : ""
+      }
+    </image:image>`
+            )
+            .join("\n")
+        : ""
+    }
   </url>`
   )
   .join("\n")}

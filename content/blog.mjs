@@ -1,4 +1,5 @@
 import { section, answer } from "./_ui.mjs";
+import { ogImages } from "./imagens.mjs";
 
 const articleSchema = (slug, headline, description) => ({
   "@type": "Article",
@@ -11,7 +12,9 @@ const articleSchema = (slug, headline, description) => ({
   dateModified: "2026-11-04",
   inLanguage: "pt-BR",
   mainEntityOfPage: `https://beend.tech/${slug.replace(/\.html$/, "")}`,
-  image: "https://beend.tech/assets/img/og-default.jpg",
+  image: `https://beend.tech/${
+    ogImages[slug]?.src || "assets/img/og-default.jpg"
+  }`,
 });
 
 

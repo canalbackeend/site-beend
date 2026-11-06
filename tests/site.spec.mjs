@@ -16,6 +16,27 @@ import {
   jsonLdDe,
 } from "./_shared.mjs";
 
+/** Largura e altura reais de um JPEG (lê o marcador SOF). */
+function dimensoesJpeg(buf) {
+  let i = 2;
+  while (i < buf.length - 9) {
+    if (buf[i] !== 0xff) {
+      i++;
+      continue;
+    }
+    const marcador = buf[i + 1];
+    const ehSof =
+      marcador >= 0xc0 &&
+      marcador <= 0xcf &&
+      ![0xc4, 0xc8, 0xcc].includes(marcador);
+    if (ehSof) {
+      return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+    }
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return { w: 0, h: 0 };
+}
+
 const PAGINAS_ESPERADAS = [
   "404.html",
   "index.html",
@@ -330,6 +351,70 @@ export default async function siteSuite(h, ctx) {
       }
     }
     h.assertEmpty(achados, "endereço removido reapareceu");
+  });
+
+  await h.test("páginas de conteúdo têm og:image própria em JPEG 1200x630", () => {
+    // Toda página com imagem conceitual precisa de uma imagem social própria:
+    // a mesma foto do card, mas em JPEG 1200x630 (formato que WhatsApp,
+    // LinkedIn e X aceitam sem risco).
+    const comImagem = [
+      ...PAGINAS_ESPERADAS.filter(
+        (p) => p.startsWith("blog/") && p !== "blog/index.html"
+      ),
+      "pesquisa-de-satisfacao-whatsapp.html",
+      ...PAGINAS_ESPERADAS.filter((p) => p.includes("-para-")),
+    ];
+    const problemas = [];
+    for (const rel of comImagem) {
+      const html = ler(rel);
+      const og = (html.match(/<meta property="og:image" content="([^"]+)"/) || [])[1] || "";
+      const tw = (html.match(/<meta name="twitter:image" content="([^"]+)"/) || [])[1] || "";
+      if (!og.startsWith(`${DOMINIO}/assets/img/og/`)) {
+        problemas.push(`${rel}: og:image não é própria (${og})`);
+        continue;
+      }
+      if (og !== tw) problemas.push(`${rel}: twitter:image difere do og:image`);
+      const arquivo = path.join(dist, og.replace(`${DOMINIO}/`, ""));
+      if (!fs.existsSync(arquivo)) {
+        problemas.push(`${rel}: arquivo ${og} não existe`);
+        continue;
+      }
+      const buf = fs.readFileSync(arquivo);
+      if (buf[0] !== 0xff || buf[1] !== 0xd8) {
+        problemas.push(`${rel}: ${og} não é JPEG`);
+        continue;
+      }
+      const { w, h: hh } = dimensoesJpeg(buf);
+      if (w !== 1200 || hh !== 630) {
+        problemas.push(`${rel}: imagem ${w}x${hh} (esperado 1200x630)`);
+      }
+      const alt = (html.match(/<meta property="og:image:alt" content="([^"]*)"/) || [])[1] || "";
+      if (alt.length < 15) problemas.push(`${rel}: og:image:alt curto demais`);
+    }
+    h.assertEmpty(problemas, "imagem social");
+  });
+
+  await h.test("sitemap de imagens lista as fotos, com título e arquivo real", () => {
+    const xml = ler("sitemap.xml");
+    h.assert(
+      xml.includes('xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"'),
+      "namespace de imagens ausente"
+    );
+    const locs = [...xml.matchAll(/<image:loc>([^<]+)<\/image:loc>/g)].map((m) => m[1]);
+    h.assert(locs.length >= 40, `apenas ${locs.length} imagens no sitemap`);
+    const semTitulo = xml
+      .split("<image:image>")
+      .slice(1)
+      .filter((b) => !b.includes("<image:title>"));
+    h.assertEmpty(semTitulo, "imagem sem <image:title>");
+    const ausentes = locs.filter(
+      (u) => !fs.existsSync(path.join(dist, u.replace(`${DOMINIO}/`, "")))
+    );
+    h.assertEmpty(ausentes, "imagens do sitemap sem arquivo no build");
+    // O índice precisa entregar as 21 fotos dos cards (12 posts + 9 segmentos).
+    const blocoBlog = xml.split("<loc>https://beend.tech/blog</loc>")[1]?.split("</url>")[0] || "";
+    const noBlog = (blocoBlog.match(/<image:image>/g) || []).length;
+    h.eq(noBlog, 21, "imagens declaradas para /blog");
   });
 
   await h.test("robots.txt bloqueia a área do cliente e libera bots de IA", () => {

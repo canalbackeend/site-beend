@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://beend.tech/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/painel-900.webp</image:loc>
+      <image:title>Painel do sistema beend.tech com a nota de NPS do período, detratores, neutros e promotores</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/campanhas-900.webp</image:loc>
+      <image:title>Editor de campanha em node do sistema beend.tech, com perguntas ramificadas e tela de agradecimento</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totem-mesa.webp</image:loc>
+      <image:title>Totem de mesa branco exibindo a pergunta como você avalia a qualidade do atendimento prestado</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens-900.webp</image:loc>
+      <image:title>Três totens de piso personalizados para pesquisa de satisfação, nas cores amarelo, branco e laranja</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/totem-de-pesquisa-de-satisfacao</loc>
@@ -23,24 +40,44 @@
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens-900.webp</image:loc>
+      <image:title>Três totens de piso personalizados com a identidade visual do cliente</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/painel-900.webp</image:loc>
+      <image:title>Painel do sistema beend.tech com NPS, evolução do período e exportação</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/venda-de-totens</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso e de mesa fabricados para pesquisa de satisfação, com personalização visual</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/totem-de-mesa</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totem-mesa.webp</image:loc>
+      <image:title>Totem de mesa branco para pesquisa de satisfação em balcão de atendimento</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/totem-de-piso</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso personalizados instalados em área de circulação</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-whatsapp</loc>
@@ -77,60 +114,100 @@
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totem-mesa.webp</image:loc>
+      <image:title>Totem de mesa branco com pesquisa de satisfação ao lado do caixa de uma farmácia</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-clinicas</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totem-mesa.webp</image:loc>
+      <image:title>Totem de mesa com pesquisa de satisfação na recepção de uma clínica</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-restaurantes</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totem-mesa.webp</image:loc>
+      <image:title>Totem de mesa com pesquisa de satisfação na saída de um restaurante</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-varejo</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totem-mesa.webp</image:loc>
+      <image:title>Totem de mesa com pesquisa de satisfação no caixa de uma loja</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-academias</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso com pesquisa de satisfação em área de circulação de academia</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-concessionarias</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso com pesquisa de satisfação em showroom de concessionária</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-shoppings</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso com pesquisa de satisfação em corredor de shopping</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-eventos</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso com pesquisa de satisfação na saída de um evento</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/pesquisa-de-satisfacao-para-orgaos-publicos</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/totens.webp</image:loc>
+      <image:title>Totens de piso com pesquisa de satisfação no saguão de um órgão público</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/planos-e-precos</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/painel-900.webp</image:loc>
+      <image:title>Painel do sistema beend.tech com NPS do mês, evolução por período e indicadores de CSAT e CES</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/teste-gratis</loc>
@@ -161,6 +238,90 @@
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/o-que-e-nps.webp</image:loc>
+      <image:title>Painel com gráfico de barras e anotações sobre uma mesa de trabalho</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/o-que-e-csat.webp</image:loc>
+      <image:title>Atendente sorrindo com headset em um escritório</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/nps-ou-csat-qual-escolher.webp</image:loc>
+      <image:title>Duas pessoas fechando um acordo com aperto de mão</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/o-que-e-ces-customer-effort-score.webp</image:loc>
+      <image:title>Pessoa com headset de atendimento em primeiro plano</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/como-aumentar-taxa-de-resposta.webp</image:loc>
+      <image:title>Atendente conversando com cliente no caixa de uma loja</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/perguntas-para-pesquisa-de-satisfacao.webp</image:loc>
+      <image:title>Mãos escrevendo perguntas em formulários de papel sobre a mesa</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/benchmark-de-nps.webp</image:loc>
+      <image:title>Equipe analisando gráficos impressos em uma reunião</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/relatorio-de-pesquisa-de-satisfacao.webp</image:loc>
+      <image:title>Pessoa apontando caneta para um relatório com gráficos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/quanto-custa-totem-de-pesquisa-de-satisfacao.webp</image:loc>
+      <image:title>Pessoas usando calculadora e notebook em uma mesa de trabalho</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/totem-de-pesquisa-funciona-sem-internet.webp</image:loc>
+      <image:title>Pessoa usando um tablet apoiado no colo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/erros-ao-instalar-totem-de-pesquisa.webp</image:loc>
+      <image:title>Interior de loja de roupas com araras organizadas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/blog/pesquisa-de-satisfacao-whatsapp.webp</image:loc>
+      <image:title>Pessoa usando o celular para navegar em redes sociais</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/farmacias.webp</image:loc>
+      <image:title>Entrada de uma farmácia de rua vista da calçada</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/clinicas.webp</image:loc>
+      <image:title>Dentista conversando com a paciente na sala de atendimento</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/restaurantes.webp</image:loc>
+      <image:title>Salão de restaurante com balcão e mesas ao fundo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/varejo.webp</image:loc>
+      <image:title>Cliente escolhendo roupas em uma loja</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/academias.webp</image:loc>
+      <image:title>Pessoa levantando barra de peso na academia</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/concessionarias.webp</image:loc>
+      <image:title>Carro azul antigo à venda em um pátio</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/shoppings.webp</image:loc>
+      <image:title>Corredor de shopping com escadas rolantes e lojas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/eventos.webp</image:loc>
+      <image:title>Plateia de um evento com as mãos levantadas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/segmentos/orgaos-publicos.webp</image:loc>
+      <image:title>Salão amplo de biblioteca pública com mesas e pessoas estudando</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/blog/quanto-custa-totem-de-pesquisa-de-satisfacao</loc>

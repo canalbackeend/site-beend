@@ -1,4 +1,5 @@
 import { section, answer } from "./_ui.mjs";
+import { ogImages } from "./imagens.mjs";
 
 /* =========================================================================
    Blog — métricas de satisfação (NPS, CSAT, CES) e conteúdo semântico.
@@ -18,7 +19,9 @@ const articleSchema = (slug, headline, description) => ({
   dateModified: "2026-11-04",
   inLanguage: "pt-BR",
   mainEntityOfPage: pretty(slug),
-  image: "https://beend.tech/assets/img/og-default.jpg",
+  image: `https://beend.tech/${
+    ogImages[slug]?.src || "assets/img/og-default.jpg"
+  }`,
 });
 
 const fig = (file, w, h, alt, caption, lazy = true) => `
