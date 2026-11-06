@@ -18,18 +18,19 @@ const articleSchema = (slug, headline, description) => ({
 // Card do índice de conteúdo: imagem conceitual + etiqueta + título + resumo.
 const postCard = ({
   href,
-  tag,
+  tag = "",
   title,
   text,
   img,
   alt,
+  dir = "blog",
   more = "Ler artigo",
   brand = false,
 }) => `
       <a class="card card--link card--post" href="{{root}}${href}">
-        <img class="card__img" src="{{root}}assets/img/blog/${img}.webp" width="640" height="400" alt="${alt}" loading="lazy" decoding="async">
+        <img class="card__img" src="{{root}}assets/img/${dir}/${img}.webp" width="640" height="400" alt="${alt}" loading="lazy" decoding="async">
         <div class="card__body">
-          <p class="pill${brand ? " pill--brand" : ""}">${tag}</p>
+          ${tag ? `<p class="pill${brand ? " pill--brand" : ""}">${tag}</p>` : ""}
           <h3>${title}</h3>
           <p>${text}</p>
           <span class="card__more">${more}</span>
@@ -170,42 +171,87 @@ export const blogIndex = {
       <p>Se o seu negócio tem atendimento presencial, veja onde instalar o totem, qual pergunta usar e como medir no seu setor.</p>
     </div>
     <div class="grid grid--3">
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-farmacias.html">
-        <h3>Farmácias</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-clinicas.html">
-        <h3>Clínicas</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-restaurantes.html">
-        <h3>Restaurantes</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-varejo.html">
-        <h3>Varejo</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-academias.html">
-        <h3>Academias</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-concessionarias.html">
-        <h3>Concessionárias</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-shoppings.html">
-        <h3>Shoppings</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-eventos.html">
-        <h3>Eventos</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
-      <a class="card card--link" href="{{root}}pesquisa-de-satisfacao-para-orgaos-publicos.html">
-        <h3>Órgãos públicos</h3>
-        <span class="card__more">Ver aplicação</span>
-      </a>
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-farmacias.html",
+        title: "Farmácias",
+        text: "Orientação do farmacêutico, espera no balcão e atendimento no caixa.",
+        img: "farmacias",
+        dir: "segmentos",
+        alt: "Entrada de uma farmácia de rua vista da calçada",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-clinicas.html",
+        title: "Clínicas",
+        text: "Recepção, tempo de espera e clareza das orientações na saída da consulta.",
+        img: "clinicas",
+        dir: "segmentos",
+        alt: "Dentista conversando com a paciente na sala de atendimento",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-restaurantes.html",
+        title: "Restaurantes",
+        text: "Atendimento no salão, tempo de espera e a experiência até a conta.",
+        img: "restaurantes",
+        dir: "segmentos",
+        alt: "Salão de restaurante com balcão e mesas ao fundo",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-varejo.html",
+        title: "Varejo",
+        text: "Atendimento na loja, facilidade de achar o produto e o caixa.",
+        img: "varejo",
+        dir: "segmentos",
+        alt: "Cliente escolhendo roupas em uma loja",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-academias.html",
+        title: "Academias",
+        text: "Estrutura, limpeza e a experiência do aluno na saída do treino.",
+        img: "academias",
+        dir: "segmentos",
+        alt: "Pessoa levantando barra de peso na academia",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-concessionarias.html",
+        title: "Concessionárias",
+        text: "Recepção no showroom, test-drive e entrega do veículo.",
+        img: "concessionarias",
+        dir: "segmentos",
+        alt: "Carro azul antigo à venda em um pátio",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-shoppings.html",
+        title: "Shoppings",
+        text: "Circulação, limpeza e comparação de áreas e horários de pico.",
+        img: "shoppings",
+        dir: "segmentos",
+        alt: "Corredor de shopping com escadas rolantes e lojas",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-eventos.html",
+        title: "Eventos",
+        text: "Credenciamento, estrutura e a saída do público presente.",
+        img: "eventos",
+        dir: "segmentos",
+        alt: "Plateia de um evento com as mãos levantadas",
+        more: "Ver aplicação",
+      })}
+      ${postCard({
+        href: "pesquisa-de-satisfacao-para-orgaos-publicos.html",
+        title: "Órgãos públicos",
+        text: "Tempo de espera no atendimento, clareza das informações e retorno.",
+        img: "orgaos-publicos",
+        dir: "segmentos",
+        alt: "Salão amplo de biblioteca pública com mesas e pessoas estudando",
+        more: "Ver aplicação",
+      })}
     </div>
   </div>
 </section>
