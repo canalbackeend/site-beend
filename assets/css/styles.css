@@ -827,3 +827,7 @@ details.faq[open] summary{border-bottom:1px solid var(--line-2)}
   html{scroll-behavior:auto}
   *,*::before,*::after{transition-duration:.001ms!important;animation-duration:.001ms!important}
 }
+
+/* ---------- card de texto com rodapé alinhado (bloco de comparativos) ---------- */
+.card--stack{display:flex;flex-direction:column}
+.card--stack .card__more{margin-top:auto;padding-top:16px}

@@ -256,6 +256,29 @@ export const blogIndex = {
         more: "Ver aplicação",
       })}
     </div>
+
+    <div class="section__head" style="margin-top:52px">
+      <p class="kicker">Decisão</p>
+      <h2>Comparativos</h2>
+      <p>Para quem já está comparando modelos, canais e fornecedores antes de contratar.</p>
+    </div>
+    <div class="grid grid--3">
+      <a class="card card--link card--stack" href="{{root}}melhor-totem-de-pesquisa-de-satisfacao.html">
+        <h3>Melhor totem: como escolher</h3>
+        <p>Sete critérios objetivos para comparar modelos, evitar armadilha de contrato e acertar no tamanho da tela.</p>
+        <span class="card__more">Ler comparativo</span>
+      </a>
+      <a class="card card--link card--stack" href="{{root}}alternativas-de-pesquisa-de-satisfacao.html">
+        <h3>Alternativas no ponto de venda</h3>
+        <p>Totem, tablet próprio, QR Code ou link: custo, atrito e taxa de resposta de cada formato.</p>
+        <span class="card__more">Ler comparativo</span>
+      </a>
+      <a class="card card--link card--stack" href="{{root}}totem-de-pesquisa-vs-pesquisa-por-email.html">
+        <h3>Totem ou pesquisa por e-mail?</h3>
+        <p>O que cada canal captura, onde o e-mail distorce a leitura e por que usar os dois juntos.</p>
+        <span class="card__more">Ler comparativo</span>
+      </a>
+    </div>
   </div>
 </section>
 `,
