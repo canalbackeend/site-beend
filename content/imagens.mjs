@@ -17,6 +17,11 @@ const img = (arquivo, alt) => ({
 });
 
 export const ogImages = {
+  // ── Beend Fila ─────────────────────────────────────────────────────────
+  "controle-de-fila.html": img(
+    "controle-de-fila",
+    "Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila"
+  ),
   // ── artigos do blog ────────────────────────────────────────────────────
   "blog/o-que-e-nps.html": img(
     "o-que-e-nps",

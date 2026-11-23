@@ -831,3 +831,14 @@ details.faq[open] summary{border-bottom:1px solid var(--line-2)}
 /* ---------- card de texto com rodapé alinhado (bloco de comparativos) ---------- */
 .card--stack{display:flex;flex-direction:column}
 .card--stack .card__more{margin-top:auto;padding-top:16px}
+
+/* ---------- menu "Acessar plataforma" (pesquisa + Beend Fila) ---------- */
+.access{position:relative}
+.access>summary{list-style:none;cursor:pointer}
+.access>summary::-webkit-details-marker{display:none}
+.access>summary::after{content:"";display:inline-block;width:6px;height:6px;margin-left:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.access[open]>summary::after{transform:translateY(1px) rotate(-135deg)}
+.access__menu{position:absolute;right:0;top:calc(100% + 8px);z-index:60;min-width:250px;padding:6px;background:var(--bg);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-lg)}
+.access__menu a{display:block;padding:10px 12px;border-radius:10px;color:var(--ink);font-weight:600;text-decoration:none}
+.access__menu a:hover,.access__menu a:focus-visible{background:var(--brand-soft);color:var(--brand-deep)}
+.access__menu small{display:block;margin-top:2px;font-weight:400;font-size:.82rem;color:var(--muted)}

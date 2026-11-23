@@ -336,7 +336,44 @@ Por que importa
 
  Investimento inicial menor: você paga pelo uso do totem junto com a plataforma. Indicado para testes, redes com várias unidades e eventos.
 
- Locação de totens →
+ Locação de totens → 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Também da beend.tech
+
+ Controle de fila e senhas com o Beend Fila
+
+ Além da pesquisa de satisfação, a beend.tech tem um sistema completo de senhas para recepções e balcões com espera.
+
+ 
+
+ 
+ 
+ 
+ Beend Fila: totem de senha, painel de TV e acompanhamento no celular. 
+ 
+ 
+ 
+ Totem de senha: senha impressa com QR Code, nos tipos normal, preferencial e 80+.
+
+ Painel de TV: chamada em destaque com alerta sonoro, avisos, notícias e clima.
+
+ No celular: o cliente acompanha a fila sem baixar aplicativo.
+
+ Relatórios: tempo de espera, tempo de atendimento e movimento por hora.
+
+ 
+ Com a pesquisa na saída do atendimento, você vê o tempo de espera e a satisfação lado a lado.
+
+ Conhecer o Beend Fila →
 
 
 ## Perguntas frequentes
@@ -1660,6 +1697,245 @@ Sim. Recibos, embalagens, cartazes, displays de mesa e materiais de PDV funciona
 
 ---
 
+# Sistema de controle de fila e senhas
+URL: https://beend.tech/controle-de-fila
+
+Beend Fila: sistema de controle de fila e senhas com totem (senha impressa e QR Code), painel de TV com chamada, acompanhamento no celular, prioridades legais, atendimento em etapas e relatórios de espera. Preço sob consulta.
+
+O Beend Fila organiza o atendimento ao público do começo ao fim: o cliente retira a senha no totem (impressa e com QR Code), acompanha a fila pelo celular e é chamado no painel de TV, com alerta sonoro. O atendente chama, encaminha e finaliza cada senha em um painel no navegador.
+
+ É indicado para clínicas, laboratórios, cartórios, balcões de atendimento e qualquer recepção com espera. Funciona em totem touch, TV com TV box ou mini PC, e no computador da recepção, sem instalar programas.
+
+ 
+
+ 
+ 
+ Painel de TV, totem de senha e acompanhamento no celular, todos ligados ao mesmo sistema em tempo real. 
+ 
+ 
+
+ 
+ 
+ 
+ Como funciona
+
+ Da retirada da senha ao fim do atendimento
+
+ 
+ 
+
+ 
+ O cliente retira a senha
+ No totem, escolhe o serviço e o tipo de atendimento (normal, preferencial ou 80+). A senha sai impressa com QR Code. No balcão, o atendente também pode emitir a senha.
+
+ Acompanha a fila pelo celular
+ Pelo QR Code, vê quantas pessoas estão à frente, sem baixar aplicativo. O navegador avisa quando a vez se aproxima e quando a senha é chamada.
+
+ É chamado no painel de TV
+ A senha aparece em destaque na TV, com o guichê ou sala e um alerta sonoro. Entre as chamadas, a TV exibe avisos da unidade, notícias e clima.
+
+ O atendente conduz o atendimento
+ Chama o próximo, rechama, inicia, encaminha para outra etapa (recepção → triagem → consultório) e finaliza. A prioridade legal é respeitada automaticamente.
+
+ O gestor acompanha os números
+ Relatórios por período, serviço e atendente: volume, tempo médio de espera e de atendimento, não comparecimento e distribuição por hora, com exportação em CSV.
+
+ 
+ 
+
+ 
+ 
+ 
+ Por dentro do sistema
+
+ Totem, TV e celular falando a mesma língua
+
+ As telas abaixo são do sistema em funcionamento, com dados de uma clínica de demonstração.
+
+ 
+
+ 
+ 
+ 
+ Totem: o cliente escolhe o serviço em um toque. 
+ 
+ 
+ 
+ Senha emitida com QR Code para acompanhar pelo celular. 
+ 
+ 
+ 
+ Chamada em destaque na TV, com alerta sonoro. 
+ 
+ 
+ 
+ Acompanhamento no celular, sem aplicativo. 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Recursos
+
+ O que o Beend Fila faz
+
+ 
+ 
+
+ 
+ Senha impressa e digital
+ Impressão em impressora térmica de 80 mm e QR Code para acompanhar a fila no celular.
+
+ Prioridades da lei
+ Normal, preferencial e 80+, com intercalação configurável. O 80+ tem precedência, como determina o Estatuto da Pessoa Idosa.
+
+ Atendimento em etapas
+ Encaminhe a mesma senha de uma fila para outra, como recepção, triagem e consultório, sem emitir senha nova.
+
+ Painel de TV configurável
+ Senha em destaque, últimas chamadas, logotipo, relógio, letreiro e carrossel de avisos, notícias e clima.
+
+ Chamada por senha ou por nome
+ Na chamada por nome, a TV mostra só o primeiro nome e a inicial do sobrenome, em linha com a LGPD.
+
+ Painel do atendente
+ Filas do guichê com o tempo de espera, chamar senha específica, rechamar e registrar não comparecimento.
+
+ Relatórios de atendimento
+ Espera média, tempo de atendimento, não comparecimento e movimento por hora, com exportação em CSV.
+
+ Modelos prontos
+ Serviços e guichês pré-configurados para clínica, cartório e balcão. A implantação leva minutos.
+
+ Vários guichês e equipes
+ Usuários com permissões, guichês, salas e consultórios, com cada atendente escolhendo o que atende no turno.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ Onde usar
+
+ Para quem atende público e tem espera
+
+ 
+ 
+
+ 
+ Clínicas e consultórios
+
+ Laboratórios e centros de exame
+
+ Hospitais e pronto atendimento privados
+
+ Cartórios e despachantes
+
+ Farmácias
+
+ Açougues, padarias e balcões
+
+ Lojas e assistências técnicas
+
+ Pet shops e clínicas veterinárias
+
+ Concessionárias (pós-venda)
+
+ Órgãos públicos
+
+ 
+ Na clínica, o fluxo típico é recepção → triagem → consultório, com a mesma senha. No cartório e no balcão, cada serviço tem sua fila e seu prefixo de senha, e o painel mostra para qual guichê a pessoa deve ir.
+
+ 
+
+ 
+ 
+ 
+ Equipamentos
+
+ O que é preciso para funcionar
+
+ 
+ 
+
+ 
+ Totem de senha
+ Totem touch com impressora térmica de 80 mm. A beend.tech fornece o totem, ou você usa um equipamento compatível.
+
+ TV de chamada
+ Qualquer TV com TV box Android ou mini PC com navegador. A TV continua exibindo o conteúdo mesmo se a internet oscilar.
+
+ Recepção e guichês
+ Um computador ou tablet com navegador para cada atendente. Não há programa para instalar.
+
+ 
+
+ O sistema fica na nuvem: o gestor acessa de qualquer lugar e várias unidades podem ser acompanhadas no mesmo painel.
+
+ 
+
+ 
+ 
+ 
+ Senha + pesquisa
+
+ Organize a chegada e meça a experiência na saída
+
+ 
+ 
+
+ 
+ 
+ O Beend Fila mostra quanto tempo o cliente esperou . A pesquisa de satisfação beend.tech mostra como ele se sentiu . Juntos, ligam o número ao motivo: se a nota cai no fim da tarde, o relatório de espera mostra se foi a fila.
+
+ 
+ Uma única proposta, um único fornecedor e o mesmo suporte.
+
+ Totem de senha na entrada e totem de pesquisa na saída do atendimento.
+
+ Relatórios de espera e de satisfação lado a lado na reunião de gestão.
+
+ 
+ Pedir orçamento do combo → 
+
+ 
+
+ 
+ 
+ Painel da pesquisa de satisfação, que complementa os relatórios de espera do Beend Fila.
+
+
+## Perguntas frequentes
+
+## O que é um sistema de controle de fila?
+É um sistema que organiza a ordem de atendimento com senhas. O cliente retira a senha no totem ou no balcão, aguarda e é chamado em um painel de TV. O atendente chama a próxima senha pelo computador, e o gestor acompanha tempos de espera e de atendimento.
+
+## Precisa instalar algum programa?
+Não. O Beend Fila funciona no navegador: o totem e a TV abrem o endereço do sistema em tela cheia, e os atendentes usam o computador ou tablet que já têm. O sistema fica na nuvem, com acesso de qualquer lugar.
+
+## O cliente precisa baixar aplicativo para acompanhar a fila?
+Não. O QR Code impresso na senha abre uma página no celular com a posição na fila, atualizada em tempo real. Se o cliente permitir, o navegador avisa quando a vez estiver próxima e quando a senha for chamada.
+
+## Como funcionam as prioridades?
+O sistema tem senhas normal, preferencial (Lei 10.048/2000) e 80+ (Estatuto da Pessoa Idosa). A intercalação é configurável, por exemplo uma preferencial a cada duas normais, e a senha 80+ tem precedência sobre as demais preferenciais.
+
+## Dá para usar na TV que já tenho na recepção?
+Sim. Basta uma TV com TV box Android ou um mini PC com navegador. O painel mostra a senha chamada com alerta sonoro e, entre as chamadas, exibe avisos da unidade, notícias e clima.
+
+## Quanto custa o sistema de senhas?
+O valor depende do número de totens, TVs e guichês e de quem fornece o equipamento. Peça uma proposta pelo WhatsApp para receber o orçamento com o fluxo da sua unidade.
+
+## Funciona junto com a pesquisa de satisfação?
+Sim. Muitas operações usam o totem de senha na chegada e o totem de pesquisa de satisfação na saída, com a mesma empresa responsável pela implantação e pelo suporte.
+
+
+---
+
 # Melhor totem de pesquisa de satisfação: como escolher
 URL: https://beend.tech/melhor-totem-de-pesquisa-de-satisfacao
 
@@ -2088,6 +2364,10 @@ Na farmácia, a pesquisa de satisfação precisa acontecer no caixa, logo depois
  As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
  
 
+ Senha e pesquisa no mesmo atendimento
+
+ Em farmácias com balcão de manipulação, entrega de receitas ou aplicação de vacinas, o tempo de espera pesa na nota. O Beend Fila , sistema de controle de fila e senhas da beend.tech, organiza a chegada com totem de senha, painel de TV e acompanhamento no celular, e mostra quanto tempo cada cliente esperou. Com a pesquisa na saída, você liga a nota ao tempo de espera em um único fornecedor.
+
  Quanto custa
 
  O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
@@ -2197,6 +2477,10 @@ Em clínicas, a pesquisa deve ser feita na saída, antes de o paciente deixar o 
  O cliente responde no ponto de atendimento, em poucos toques.
  As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
  
+
+ Senha e pesquisa no mesmo atendimento
+
+ Em clínicas, a espera na recepção é a reclamação mais comum, e o fluxo costuma passar por recepção, triagem e consultório. O Beend Fila , sistema de controle de fila e senhas da beend.tech, organiza a chegada com totem de senha, painel de TV e acompanhamento no celular, e mostra quanto tempo cada cliente esperou. Com a pesquisa na saída, você liga a nota ao tempo de espera em um único fornecedor.
 
  Quanto custa
 
@@ -2638,6 +2922,10 @@ Em concessionárias, a pesquisa precisa acompanhar cada etapa da jornada, não s
  As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
  
 
+ Senha e pesquisa no mesmo atendimento
+
+ No pós-venda, a recepção de veículos concentra a espera, principalmente no início da manhã. O Beend Fila , sistema de controle de fila e senhas da beend.tech, organiza a chegada com totem de senha, painel de TV e acompanhamento no celular, e mostra quanto tempo cada cliente esperou. Com a pesquisa na saída, você liga a nota ao tempo de espera em um único fornecedor.
+
  Quanto custa
 
  O sistema começa em R$ 69,90 por mês , com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por locação ou venda — os quatro planos estão publicados em planos e preços .
@@ -2967,6 +3255,10 @@ Pesquisa de satisfação para órgãos públicos no atendimento presencial: aval
  O cliente responde no ponto de atendimento, em poucos toques.
  As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.
  
+
+ Senha e pesquisa no mesmo atendimento
+
+ Em órgãos públicos, a fila por senha e a prioridade legal fazem parte do atendimento diário. O Beend Fila , sistema de controle de fila e senhas da beend.tech, organiza a chegada com totem de senha, painel de TV e acompanhamento no celular, e mostra quanto tempo cada cliente esperou. Com a pesquisa na saída, você liga a nota ao tempo de espera em um único fornecedor.
 
  Quanto custa
 

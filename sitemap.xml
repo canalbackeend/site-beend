@@ -22,6 +22,10 @@
       <image:loc>https://beend.tech/assets/img/opt/totens-900.webp</image:loc>
       <image:title>Três totens de piso personalizados para pesquisa de satisfação, nas cores amarelo, branco e laranja</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-conjunto-900.webp</image:loc>
+      <image:title>Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila no Beend Fila</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/totem-de-pesquisa-de-satisfacao</loc>
@@ -90,6 +94,36 @@
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://beend.tech/controle-de-fila</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-conjunto-900.webp</image:loc>
+      <image:title>Painel de TV chamando a senha R001, totem com a senha emitida e QR Code, e celular acompanhando a senha T002</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-totem.webp</image:loc>
+      <image:title>Tela do totem de senha com os botões Recepção, Triagem e Consultório</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-comprovante.webp</image:loc>
+      <image:title>Comprovante de senha emitida com código R001, pessoas à frente e QR Code de acompanhamento</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-tv-chamada.webp</image:loc>
+      <image:title>Painel de TV exibindo em destaque a senha chamada R001 para a Recepção</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-celular.webp</image:loc>
+      <image:title>Página de acompanhamento no celular mostrando a senha T002 e pessoas à frente</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/painel-900.webp</image:loc>
+      <image:title>Painel da pesquisa de satisfação beend.tech com NPS e evolução do período</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://beend.tech/melhor-totem-de-pesquisa-de-satisfacao</loc>

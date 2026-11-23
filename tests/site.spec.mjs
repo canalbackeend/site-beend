@@ -38,6 +38,7 @@ function dimensoesJpeg(buf) {
 }
 
 const PAGINAS_ESPERADAS = [
+  "controle-de-fila.html",
   "404.html",
   "index.html",
   "contato.html",
@@ -362,6 +363,7 @@ export default async function siteSuite(h, ctx) {
         (p) => p.startsWith("blog/") && p !== "blog/index.html"
       ),
       "pesquisa-de-satisfacao-whatsapp.html",
+      "controle-de-fila.html",
       ...PAGINAS_ESPERADAS.filter((p) => p.includes("-para-")),
     ];
     const problemas = [];

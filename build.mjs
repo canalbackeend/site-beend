@@ -3,6 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 import { pages } from "./content/index.mjs";
 import { ogImageFor } from "./content/imagens.mjs";
+import { FILA_APP } from "./content/fila.mjs";
 
 export const SITE = {
   // ── Destino canônico do site ────────────────────────────────────────────
@@ -91,6 +92,7 @@ const isExternal = (href = "") => /^(https?:|mailto:|tel:|#)/.test(href);
 
 const NAV = [
   ["Totem de pesquisa", "totem-de-pesquisa-de-satisfacao.html"],
+  ["Controle de fila", "controle-de-fila.html"],
   ["Locação", "locacao-de-totens.html"],
   ["Venda", "venda-de-totens.html"],
   ["Planos", "planos-e-precos.html"],
@@ -107,6 +109,7 @@ const FOOTER_COLS = [
       ["Venda de totens", "venda-de-totens.html"],
       ["Totem de mesa", "totem-de-mesa.html"],
       ["Totem de piso", "totem-de-piso.html"],
+      ["Controle de fila e senhas", "controle-de-fila.html"],
     ],
   },
   {
@@ -126,7 +129,8 @@ const FOOTER_COLS = [
       ["Blog", "blog/index.html"],
       ["Contato", "contato.html"],
       ["Perguntas frequentes", "totem-de-pesquisa-de-satisfacao.html#faq"],
-      ["Acessar o sistema", SITE.login],
+      ["Acessar a pesquisa", SITE.login],
+      ["Acessar o Beend Fila", FILA_APP],
     ],
   },
 ];
@@ -287,7 +291,13 @@ function header(active, root) {
   <div class="wrap header__in">
     ${logoMarkup(root)}
     <div class="header__actions">
-      <a class="btn btn--ghost btn--sm only-desktop" href="${SITE.login}" rel="noopener">Acessar plataforma</a>
+      <details class="access only-desktop">
+        <summary class="btn btn--ghost btn--sm">Acessar plataforma</summary>
+        <div class="access__menu">
+          <a href="${SITE.login}" rel="noopener">Pesquisa de satisfação<small>Painel de NPS, campanhas e terminais</small></a>
+          <a href="${FILA_APP}" rel="noopener">Beend Fila<small>Controle de fila e senhas</small></a>
+        </div>
+      </details>
       <a class="btn btn--primary btn--sm" href="${prettyPath("teste-gratis.html")}">Teste grátis</a>
     </div>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
@@ -301,7 +311,8 @@ function header(active, root) {
         ).join("\n        ")}
       </ul>
       <div class="nav__foot">
-        <a class="btn btn--ghost btn--sm only-mobile" href="${SITE.login}" rel="noopener">Acessar plataforma</a>
+        <a class="btn btn--ghost btn--sm only-mobile" href="${SITE.login}" rel="noopener">Acessar a pesquisa</a>
+        <a class="btn btn--ghost btn--sm only-mobile" href="${FILA_APP}" rel="noopener" style="margin-top:8px">Acessar o Beend Fila</a>
       </div>
     </nav>
   </div>
@@ -314,7 +325,7 @@ function footer(root) {
     <div class="footer__grid">
       <div>
         ${logoMarkup(root)}
-        <p>Totens e plataforma de pesquisa de satisfação do cliente. Coleta por totem, QR Code e WhatsApp, com NPS, CSAT e CES em tempo real.</p>
+        <p>Totens e plataforma de pesquisa de satisfação do cliente, com NPS, CSAT e CES em tempo real, e o Beend Fila, sistema de controle de fila e senhas.</p>
         <p><strong style="color:#fff">${SITE.legalName}</strong><br>CNPJ ${SITE.cnpj}<br>${SITE.city} — ${SITE.region}</p>
       </div>
       ${FOOTER_COLS.map(
@@ -500,7 +511,7 @@ ${isLp ? lpHeader(root) : header(page.active, root)}
 <main id="conteudo">
 ${bodyHtml}
 </main>
-${isLp ? "" : ctaBand(root)}
+${isLp ? "" : page.ctaBand ? resolve(page.ctaBand, root) : ctaBand(root)}
 ${isLp ? lpFooter(root) : footer(root)}
 <noscript><style>.nav{display:block!important}.nav__foot{display:block!important}</style></noscript>
 <script>
@@ -705,6 +716,7 @@ const llms = `# beend.tech (Beend.tech Smart Solution)
 - Funcionamento offline: o aplicativo armazena as respostas e sincroniza quando a conexão retorna
 - Personalização: identidade visual da empresa no totem e nas telas
 - Acesso do cliente: ${SITE.login} (painel administrativo, campanhas, terminais, relatórios)
+- Outro produto: Beend Fila, sistema de controle de fila e senhas (totem de senha, painel de TV, acompanhamento no celular, prioridades legais e relatórios de espera). Página: ${SITE.url}/controle-de-fila. Acesso: ${FILA_APP}. Preço sob consulta
 - Perfil no Google: https://maps.google.com/?cid=12703534258198116818
 
 ## Recursos do sistema

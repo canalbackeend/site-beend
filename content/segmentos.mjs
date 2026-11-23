@@ -28,6 +28,25 @@ const STEPS = [
   "As respostas aparecem no painel e podem ser exportadas em PDF, Excel ou CSV.",
 ];
 
+// Segmentos com fila de espera: oferecem o combo senha + pesquisa (Beend Fila).
+const FILA_COMBO = {
+  farmacias:
+    "Em farmácias com balcão de manipulação, entrega de receitas ou aplicação de vacinas, o tempo de espera pesa na nota.",
+  clinicas:
+    "Em clínicas, a espera na recepção é a reclamação mais comum, e o fluxo costuma passar por recepção, triagem e consultório.",
+  concessionarias:
+    "No pós-venda, a recepção de veículos concentra a espera, principalmente no início da manhã.",
+  "orgaos-publicos":
+    "Em órgãos públicos, a fila por senha e a prioridade legal fazem parte do atendimento diário.",
+};
+
+const filaCombo = (d) =>
+  FILA_COMBO[d.id]
+    ? `
+      <h2>Senha e pesquisa no mesmo atendimento</h2>
+      <p>${FILA_COMBO[d.id]} O <a href="{{root}}controle-de-fila.html">Beend Fila</a>, sistema de controle de fila e senhas da beend.tech, organiza a chegada com totem de senha, painel de TV e acompanhamento no celular, e mostra quanto tempo cada cliente esperou. Com a pesquisa na saída, você liga a nota ao tempo de espera em um único fornecedor.</p>`
+    : "";
+
 const buildBody = (d) => `
 <section class="section">
   <div class="wrap">
@@ -66,6 +85,7 @@ const buildBody = (d) => `
 
       <h2>Como funciona na prática</h2>
       <ol>${STEPS.map((s) => `<li>${s}</li>`).join("")}</ol>
+${filaCombo(d)}
 
       <h2>Quanto custa</h2>
       <p>O sistema começa em <strong>R$ 69,90 por mês</strong>, com NPS, CSAT e CES no mesmo painel, e o teste grátis dura 7 dias, sem cartão de crédito. O totem é contratado à parte, por <a href="{{root}}locacao-de-totens.html">locação</a> ou <a href="{{root}}venda-de-totens.html">venda</a> — os quatro planos estão publicados em <a href="{{root}}planos-e-precos.html">planos e preços</a>.</p>

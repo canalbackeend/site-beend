@@ -2,6 +2,7 @@ import { home } from "./home.mjs";
 import { pillar } from "./pillar.mjs";
 import { guide } from "./guide.mjs";
 import { services } from "./services.mjs";
+import { fila } from "./fila.mjs";
 import { segmentPageObjects } from "./segmentos.mjs";
 import { comparativos } from "./comparativos.mjs";
 import {
@@ -22,6 +23,7 @@ export const pages = [
   pillar,
   guide,
   ...services,
+  fila,
   ...comparativos,
   ...segmentPageObjects,
   pricing,

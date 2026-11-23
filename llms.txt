@@ -20,6 +20,7 @@
 - Funcionamento offline: o aplicativo armazena as respostas e sincroniza quando a conexão retorna
 - Personalização: identidade visual da empresa no totem e nas telas
 - Acesso do cliente: https://www.backeend.com.br/cliente/index.php (painel administrativo, campanhas, terminais, relatórios)
+- Outro produto: Beend Fila, sistema de controle de fila e senhas (totem de senha, painel de TV, acompanhamento no celular, prioridades legais e relatórios de espera). Página: https://beend.tech/controle-de-fila. Acesso: https://fila.beend.tech/entrar. Preço sob consulta
 - Perfil no Google: https://maps.google.com/?cid=12703534258198116818
 
 ## Recursos do sistema
@@ -56,6 +57,7 @@
 - [Totem de piso para pesquisa de satisfação](https://beend.tech/totem-de-piso): Totem de piso para pesquisa de satisfação: maior visibilidade, touch, personalização e modo offline; indicado para shoppings, lojas, restaurantes e eventos.
 - [Pesquisa de satisfação pelo WhatsApp: como fazer](https://beend.tech/pesquisa-de-satisfacao-whatsapp): Como fazer pesquisa de satisfação pelo WhatsApp: passo a passo, modelo de mensagem pronto, boas práticas, LGPD e integração com o totem.
 - [Pesquisa de satisfação por QR Code: como criar e onde usar](https://beend.tech/pesquisa-de-satisfacao-qrcode): Como criar pesquisa de satisfação por QR Code: passo a passo, onde posicionar, vantagens, limitações e integração com o painel.
+- [Sistema de controle de fila e senhas](https://beend.tech/controle-de-fila): Beend Fila: sistema de controle de fila e senhas com totem (senha impressa e QR Code), painel de TV com chamada, acompanhamento no celular, prioridades legais, atendimento em etapas e relatórios de espera. Preço sob consulta.
 - [Pesquisa de satisfação para farmácias e drogarias](https://beend.tech/pesquisa-de-satisfacao-para-farmacias): Pesquisa de satisfação para farmácias e drogarias com totem no caixa: avaliação da orientação farmacêutica, tempo de espera e atendimento, com NPS, CSAT e CES a partir de R$ 69,90/mês.
 - [Pesquisa de satisfação para clínicas e consultórios](https://beend.tech/pesquisa-de-satisfacao-para-clinicas): Pesquisa de satisfação para clínicas e consultórios na saída do paciente: avaliação de recepção, tempo de espera e clareza das orientações, com NPS, CSAT e CES a partir de R$ 69,90/mês.
 - [Pesquisa de satisfação para restaurantes e cafeterias](https://beend.tech/pesquisa-de-satisfacao-para-restaurantes): Pesquisa de satisfação para restaurantes e cafeterias na saída: avaliação de atendimento, tempo de preparo e ambiente, com NPS, CSAT e CES a partir de R$ 69,90/mês.

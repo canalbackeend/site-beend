@@ -289,6 +289,30 @@ const recursos = section({
   </figure>`,
 });
 
+const filaHome = section({
+  kicker: "Também da beend.tech",
+  title: "Controle de fila e senhas com o Beend Fila",
+  intro:
+    "Além da pesquisa de satisfação, a beend.tech tem um sistema completo de senhas para recepções e balcões com espera.",
+  body: `<div class="grid grid--2" style="align-items:center;gap:40px">
+    <figure class="figure" style="margin:0">
+      <img src="{{root}}assets/img/opt/fila-conjunto-900.webp" srcset="{{root}}assets/img/opt/fila-conjunto-900.webp 900w, {{root}}assets/img/opt/fila-conjunto.webp 1600w" sizes="(max-width:900px) 100vw, 520px" width="1600" height="1000" loading="lazy" decoding="async"
+           alt="Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila no Beend Fila">
+      <figcaption>Beend Fila: totem de senha, painel de TV e acompanhamento no celular.</figcaption>
+    </figure>
+    <div>
+      <ul>
+        <li><strong>Totem de senha:</strong> senha impressa com QR Code, nos tipos normal, preferencial e 80+.</li>
+        <li><strong>Painel de TV:</strong> chamada em destaque com alerta sonoro, avisos, notícias e clima.</li>
+        <li><strong>No celular:</strong> o cliente acompanha a fila sem baixar aplicativo.</li>
+        <li><strong>Relatórios:</strong> tempo de espera, tempo de atendimento e movimento por hora.</li>
+      </ul>
+      <p>Com a pesquisa na saída do atendimento, você vê o tempo de espera e a satisfação lado a lado.</p>
+      <p class="mb-0"><a href="{{root}}controle-de-fila.html"><strong>Conhecer o Beend Fila →</strong></a></p>
+    </div>
+  </div>`,
+});
+
 export const home = {
   slug: "index.html",
   active: "index.html",
@@ -298,7 +322,7 @@ export const home = {
     "Totem de pesquisa de satisfação para locação ou venda, a partir de R$ 69,90/mês. NPS, CSAT e CES no ponto de atendimento. Teste grátis de 7 dias.",
   h1: "Totem de pesquisa de satisfação para ouvir o cliente na hora certa",
   customHero: hero,
-  body: why + solution + recursos + how + metrics + models + channels + segments + pricing,
+  body: why + solution + recursos + how + metrics + models + channels + segments + pricing + filaHome,
   faqTitle: "Perguntas frequentes sobre totem de pesquisa",
   faq: [
     {
