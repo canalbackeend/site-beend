@@ -22,6 +22,7 @@ const hero = `
   </div>
   <div class="wrap hero__in">
     <div class="hero__copy">
+      <a class="hero-news" href="{{root}}controle-de-fila.html"><b>Novo</b> Beend Fila: controle de fila e senhas <span aria-hidden="true">→</span></a>
       <p class="kicker">Totens + plataforma de pesquisa de satisfação</p>
       <h1>Totem de pesquisa de satisfação para ouvir o cliente na hora certa</h1>
       <p class="lead">O cliente avalia o atendimento em poucos toques, no ponto de venda. A beend.tech entrega o totem, o aplicativo e o painel que transformam as respostas em NPS, CSAT e CES.</p>
@@ -57,6 +58,18 @@ const hero = `
   </div>
 
   <div class="wrap">
+    <a class="fila-banner" href="{{root}}controle-de-fila.html">
+      <span class="fila-banner__img">
+        <img src="{{root}}assets/img/opt/fila-conjunto-900.webp" width="1600" height="1000" loading="lazy" decoding="async"
+             alt="Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila no Beend Fila">
+      </span>
+      <span class="fila-banner__txt">
+        <span class="fila-banner__tag">Novo produto</span>
+        <strong class="fila-banner__title">Beend Fila: controle de fila e senhas</strong>
+        <span class="fila-banner__desc">Totem de senha, painel de TV com chamada e acompanhamento da fila no celular para recepções, clínicas e balcões.</span>
+      </span>
+      <span class="btn btn--primary fila-banner__cta">Conhecer o Beend Fila →</span>
+    </a>
     <ul class="hero__features">
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Coleta por totem, QR Code e WhatsApp</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NPS, CSAT, CES, SMILE e QUIZ</li>

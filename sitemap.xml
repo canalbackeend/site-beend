@@ -11,6 +11,10 @@
       <image:title>Painel do sistema beend.tech com a nota de NPS do período, detratores, neutros e promotores</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://beend.tech/assets/img/opt/fila-conjunto-900.webp</image:loc>
+      <image:title>Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila no Beend Fila</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://beend.tech/assets/img/opt/campanhas-900.webp</image:loc>
       <image:title>Editor de campanha em node do sistema beend.tech, com perguntas ramificadas e tela de agradecimento</image:title>
     </image:image>
@@ -21,10 +25,6 @@
     <image:image>
       <image:loc>https://beend.tech/assets/img/opt/totens-900.webp</image:loc>
       <image:title>Três totens de piso personalizados para pesquisa de satisfação, nas cores amarelo, branco e laranja</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://beend.tech/assets/img/opt/fila-conjunto-900.webp</image:loc>
-      <image:title>Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila no Beend Fila</image:title>
     </image:image>
   </url>
   <url>

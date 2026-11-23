@@ -91,14 +91,36 @@ export const prettyPath = (slug = "") => {
 const isExternal = (href = "") => /^(https?:|mailto:|tel:|#)/.test(href);
 
 const NAV = [
-  ["Totem de pesquisa", "totem-de-pesquisa-de-satisfacao.html"],
-  ["Controle de fila", "controle-de-fila.html"],
-  ["Locação", "locacao-de-totens.html"],
-  ["Venda", "venda-de-totens.html"],
+  // Grupo com submenu no computador; no celular os itens aparecem em lista.
+  // Terceiro item opcional de cada link: selo exibido ao lado do nome.
+  {
+    label: "Soluções",
+    badge: "Novo",
+    children: [
+      ["Totem de pesquisa", "totem-de-pesquisa-de-satisfacao.html"],
+      ["Controle de fila", "controle-de-fila.html", "Novo"],
+      ["Locação", "locacao-de-totens.html", "Novo"],
+      ["Venda", "venda-de-totens.html", "Novo"],
+    ],
+  },
   ["Planos", "planos-e-precos.html"],
   ["Blog", "blog/index.html"],
   ["Contato", "contato.html"],
 ];
+
+const navBadge = (badge) => (badge ? ` <span class="nav-badge">${badge}</span>` : "");
+const navLink = ([label, href, badge], active) =>
+  `<a href="${prettyPath(href)}"${active === href ? ' aria-current="page"' : ""}>${label}${navBadge(badge)}</a>`;
+const navItem = (item, active) => {
+  if (!item.children) return `<li>${navLink(item, active)}</li>`;
+  const current = item.children.some(([, href]) => href === active);
+  return `<li class="nav-group">
+          <button class="nav-group__btn" type="button" aria-expanded="false" aria-controls="submenu-solucoes"${current ? ' data-current="true"' : ""}>${item.label}${navBadge(item.badge)}</button>
+          <ul class="nav-group__menu" id="submenu-solucoes">
+            ${item.children.map((c) => `<li>${navLink(c, active)}</li>`).join("\n            ")}
+          </ul>
+        </li>`;
+};
 
 const FOOTER_COLS = [
   {
@@ -292,7 +314,7 @@ function header(active, root) {
     ${logoMarkup(root)}
     <div class="header__actions">
       <details class="access only-desktop">
-        <summary class="btn btn--ghost btn--sm">Acessar plataforma</summary>
+        <summary class="btn btn--ghost btn--sm" aria-label="Entrar: acessar uma das plataformas">Entrar</summary>
         <div class="access__menu">
           <a href="${SITE.login}" rel="noopener">Pesquisa de satisfação<small>Painel de NPS, campanhas e terminais</small></a>
           <a href="${FILA_APP}" rel="noopener">Beend Fila<small>Controle de fila e senhas</small></a>
@@ -305,10 +327,7 @@ function header(active, root) {
     </button>
     <nav class="nav" id="menu-principal" aria-label="Navegação principal">
       <ul>
-        ${NAV.map(
-          ([label, href]) =>
-            `<li><a href="${prettyPath(href)}"${active === href ? ' aria-current="page"' : ""}>${label}</a></li>`
-        ).join("\n        ")}
+        ${NAV.map((item) => navItem(item, active)).join("\n        ")}
       </ul>
       <div class="nav__foot">
         <a class="btn btn--ghost btn--sm only-mobile" href="${SITE.login}" rel="noopener">Acessar a pesquisa</a>
@@ -523,6 +542,14 @@ ${isLp ? lpFooter(root) : footer(root)}
     header.setAttribute('data-menu', open ? 'open' : 'closed');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     btn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  }
+  // submenu "Soluções" (computador): abre no clique, fecha fora ou com Esc
+  var group = document.querySelector('.nav-group__btn');
+  function setGroup(open) { if (group) group.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  if (group) {
+    group.addEventListener('click', function (e) { e.stopPropagation(); setGroup(group.getAttribute('aria-expanded') !== 'true'); });
+    document.addEventListener('click', function (e) { if (!e.target.closest('.nav-group')) setGroup(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && group.getAttribute('aria-expanded') === 'true') { setGroup(false); group.focus(); } });
   }
   function onScroll() {
     header.classList.toggle('is-scrolled', window.scrollY > 8);

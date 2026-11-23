@@ -13,7 +13,7 @@
 <link rel="alternate" hreflang="x-default" href="https://beend.tech/">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="assets/css/styles.css?v=3dfeb2f4">
+<link rel="stylesheet" href="assets/css/styles.css?v=c4baf1d2">
 <link rel="alternate" type="text/plain" href="https://beend.tech/llms.txt" title="Resumo para modelos de linguagem">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="beend.tech">
@@ -202,7 +202,7 @@
     </a>
     <div class="header__actions">
       <details class="access only-desktop">
-        <summary class="btn btn--ghost btn--sm">Acessar plataforma</summary>
+        <summary class="btn btn--ghost btn--sm" aria-label="Entrar: acessar uma das plataformas">Entrar</summary>
         <div class="access__menu">
           <a href="https://www.backeend.com.br/cliente/index.php" rel="noopener">Pesquisa de satisfação<small>Painel de NPS, campanhas e terminais</small></a>
           <a href="https://fila.beend.tech/entrar" rel="noopener">Beend Fila<small>Controle de fila e senhas</small></a>
@@ -215,10 +215,15 @@
     </button>
     <nav class="nav" id="menu-principal" aria-label="Navegação principal">
       <ul>
-        <li><a href="/totem-de-pesquisa-de-satisfacao">Totem de pesquisa</a></li>
-        <li><a href="/controle-de-fila">Controle de fila</a></li>
-        <li><a href="/locacao-de-totens">Locação</a></li>
-        <li><a href="/venda-de-totens">Venda</a></li>
+        <li class="nav-group">
+          <button class="nav-group__btn" type="button" aria-expanded="false" aria-controls="submenu-solucoes">Soluções <span class="nav-badge">Novo</span></button>
+          <ul class="nav-group__menu" id="submenu-solucoes">
+            <li><a href="/totem-de-pesquisa-de-satisfacao">Totem de pesquisa</a></li>
+            <li><a href="/controle-de-fila">Controle de fila <span class="nav-badge">Novo</span></a></li>
+            <li><a href="/locacao-de-totens">Locação <span class="nav-badge">Novo</span></a></li>
+            <li><a href="/venda-de-totens">Venda <span class="nav-badge">Novo</span></a></li>
+          </ul>
+        </li>
         <li><a href="/planos-e-precos">Planos</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/contato">Contato</a></li>
@@ -253,6 +258,7 @@
   </div>
   <div class="wrap hero__in">
     <div class="hero__copy">
+      <a class="hero-news" href="/controle-de-fila"><b>Novo</b> Beend Fila: controle de fila e senhas <span aria-hidden="true">→</span></a>
       <p class="kicker">Totens + plataforma de pesquisa de satisfação</p>
       <h1>Totem de pesquisa de satisfação para ouvir o cliente na hora certa</h1>
       <p class="lead">O cliente avalia o atendimento em poucos toques, no ponto de venda. A beend.tech entrega o totem, o aplicativo e o painel que transformam as respostas em NPS, CSAT e CES.</p>
@@ -288,6 +294,18 @@
   </div>
 
   <div class="wrap">
+    <a class="fila-banner" href="/controle-de-fila">
+      <span class="fila-banner__img">
+        <img src="assets/img/opt/fila-conjunto-900.webp?v=1bfbd0c2" width="1600" height="1000" loading="lazy" decoding="async"
+             alt="Painel de TV chamando senha, totem com senha emitida e celular acompanhando a fila no Beend Fila">
+      </span>
+      <span class="fila-banner__txt">
+        <span class="fila-banner__tag">Novo produto</span>
+        <strong class="fila-banner__title">Beend Fila: controle de fila e senhas</strong>
+        <span class="fila-banner__desc">Totem de senha, painel de TV com chamada e acompanhamento da fila no celular para recepções, clínicas e balcões.</span>
+      </span>
+      <span class="btn btn--primary fila-banner__cta">Conhecer o Beend Fila →</span>
+    </a>
     <ul class="hero__features">
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Coleta por totem, QR Code e WhatsApp</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>NPS, CSAT, CES, SMILE e QUIZ</li>
@@ -653,6 +671,14 @@
     header.setAttribute('data-menu', open ? 'open' : 'closed');
     btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     btn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+  }
+  // submenu "Soluções" (computador): abre no clique, fecha fora ou com Esc
+  var group = document.querySelector('.nav-group__btn');
+  function setGroup(open) { if (group) group.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  if (group) {
+    group.addEventListener('click', function (e) { e.stopPropagation(); setGroup(group.getAttribute('aria-expanded') !== 'true'); });
+    document.addEventListener('click', function (e) { if (!e.target.closest('.nav-group')) setGroup(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && group.getAttribute('aria-expanded') === 'true') { setGroup(false); group.focus(); } });
   }
   function onScroll() {
     header.classList.toggle('is-scrolled', window.scrollY > 8);
